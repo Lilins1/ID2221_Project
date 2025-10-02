@@ -1,0 +1,886 @@
+<!DOCTYPE article
+PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.3 20210610//EN" "JATS-archivearticle1-3-mathml3.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="research-article"><?properties open_access?><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Sci Adv</journal-id><journal-id journal-id-type="iso-abbrev">Sci Adv</journal-id><journal-id journal-id-type="publisher-id">sciadv</journal-id><journal-id journal-id-type="hwp">advances</journal-id><journal-title-group><journal-title>Science Advances</journal-title></journal-title-group><issn pub-type="epub">2375-2548</issn><publisher><publisher-name>American Association for the Advancement of Science</publisher-name></publisher></journal-meta>
+<article-meta><article-id pub-id-type="pmid">39018409</article-id><article-id pub-id-type="pmc">PMC466955</article-id><article-id pub-id-type="publisher-id">ado5645</article-id><article-id pub-id-type="doi">10.1126/sciadv.ado5645</article-id><article-categories><subj-group subj-group-type="article-type"><subject>Research Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Physical and Materials Sciences</subject></subj-group><subj-group subj-group-type="legacy-article-type"><subject>SciAdv r-articles</subject></subj-group><subj-group subj-group-type="field"><subject>Materials Science</subject><subject>Optics</subject></subj-group><subj-group subj-group-type="overline"><subject>Optics</subject></subj-group></article-categories><title-group><article-title>Highly efficient blue light-emitting diodes based on mixed-halide perovskites with reduced chlorine defects</article-title><alt-title alt-title-type="short">High-efficiency blue PeLEDs</alt-title></title-group><contrib-group><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0009-0002-7194-4044</contrib-id><name><surname>Gao</surname><given-names>Yun</given-names></name><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Conceptualization" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-conceptualization/">Conceptualization</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Formal analysis" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-formal-analysis/">Formal analysis</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-investigation/">Investigation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Methodology" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-methodology/">Methodology</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Project administration" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-project-administration/">Project administration</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Resources" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-resources/">Resources</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Software" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-software/">Software</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Supervision" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-supervision/">Supervision</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Validation" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-validation/">Validation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Visualization" vocab-term-identifier="https://web.archive.org/web/20180313224017/http://dictionary.credit.niso.org/Contributor_Roles/Visualization">Visualization</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Writing - original draft" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-writing-original-draft/">Writing - original draft</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Writing - review &#x00026; editing" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-writing-review-editing/">Writing - review &#x00026; editing</role><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="aff2" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="afn1" ref-type="author-notes">&#x02020;</xref></contrib><contrib contrib-type="author"><name><surname>Cai</surname><given-names>Qiuting</given-names></name><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Conceptualization" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-conceptualization/">Conceptualization</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Formal analysis" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-formal-analysis/">Formal analysis</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Methodology" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-methodology/">Methodology</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Validation" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-validation/">Validation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Visualization" vocab-term-identifier="https://web.archive.org/web/20180313224017/http://dictionary.credit.niso.org/Contributor_Roles/Visualization">Visualization</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Writing - review &#x00026; editing" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-writing-review-editing/">Writing - review &#x00026; editing</role><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="aff3" ref-type="aff">
+<sup>3</sup>
+</xref><xref rid="afn1" ref-type="author-notes">&#x02020;</xref></contrib><contrib contrib-type="author"><name><surname>He</surname><given-names>Yifan</given-names></name><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Data curation" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-data-curation/">Data curation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-investigation/">Investigation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Validation" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-validation/">Validation</role><xref rid="aff4" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0009-0005-4019-9207</contrib-id><name><surname>Zhang</surname><given-names>Dingshuo</given-names></name><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Methodology" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-methodology/">Methodology</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Writing - review &#x00026; editing" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-writing-review-editing/">Writing - review &#x00026; editing</role><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="aff2" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Cao</surname><given-names>Qingli</given-names></name><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Formal analysis" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-formal-analysis/">Formal analysis</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-investigation/">Investigation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Methodology" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-methodology/">Methodology</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Resources" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-resources/">Resources</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Validation" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-validation/">Validation</role><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="aff2" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Zhu</surname><given-names>Meiyi</given-names></name><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-investigation/">Investigation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Methodology" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-methodology/">Methodology</role><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="aff2" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Ma</surname><given-names>Zichao</given-names></name><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Data curation" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-data-curation/">Data curation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Formal analysis" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-formal-analysis/">Formal analysis</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-investigation/">Investigation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Resources" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-resources/">Resources</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Software" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-software/">Software</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Validation" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-validation/">Validation</role><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="aff2" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-4006-7061</contrib-id><name><surname>Zhao</surname><given-names>Baodan</given-names></name><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Project administration" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-project-administration/">Project administration</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Writing - review &#x00026; editing" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-writing-review-editing/">Writing - review &#x00026; editing</role><xref rid="aff3" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0001-8246-0286</contrib-id><name><surname>He</surname><given-names>Haiping</given-names></name><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Formal analysis" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-formal-analysis/">Formal analysis</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Funding acquisition" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-funding-acquisition/">Funding acquisition</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Resources" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-resources/">Resources</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Writing - review &#x00026; editing" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-writing-review-editing/">Writing - review &#x00026; editing</role><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="aff2" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="aff5" ref-type="aff">
+<sup>5</sup>
+</xref><xref rid="award1559699" ref-type="award"/><xref rid="award1559691" ref-type="award"/></contrib><contrib contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0003-0703-2809</contrib-id><name><surname>Di</surname><given-names>Dawei</given-names></name><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Funding acquisition" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-funding-acquisition/">Funding acquisition</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Project administration" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-project-administration/">Project administration</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Supervision" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-supervision/">Supervision</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Writing - review &#x00026; editing" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-writing-review-editing/">Writing - review &#x00026; editing</role><xref rid="aff3" ref-type="aff">
+<sup>3</sup>
+</xref><xref rid="cor1" ref-type="corresp">*</xref><xref rid="award1559692" ref-type="award"/><xref rid="award1559693" ref-type="award"/><xref rid="award1559694" ref-type="award"/><xref rid="award1559704" ref-type="award"/></contrib><contrib contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-0886-0115</contrib-id><name><surname>Ye</surname><given-names>Zhizhen</given-names></name><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Funding acquisition" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-funding-acquisition/">Funding acquisition</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Project administration" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-project-administration/">Project administration</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Supervision" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-supervision/">Supervision</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Visualization" vocab-term-identifier="https://web.archive.org/web/20180313224017/http://dictionary.credit.niso.org/Contributor_Roles/Visualization">Visualization</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Writing - review &#x00026; editing" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-writing-review-editing/">Writing - review &#x00026; editing</role><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="aff2" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="aff5" ref-type="aff">
+<sup>5</sup>
+</xref><xref rid="cor1" ref-type="corresp">*</xref><xref rid="award1559698" ref-type="award"/></contrib><contrib contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0001-5288-9700</contrib-id><name><surname>Dai</surname><given-names>Xingliang</given-names></name><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Conceptualization" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-conceptualization/">Conceptualization</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Data curation" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-data-curation/">Data curation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Funding acquisition" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-funding-acquisition/">Funding acquisition</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Methodology" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-methodology/">Methodology</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Project administration" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-project-administration/">Project administration</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Supervision" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-supervision/">Supervision</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Visualization" vocab-term-identifier="https://web.archive.org/web/20180313224017/http://dictionary.credit.niso.org/Contributor_Roles/Visualization">Visualization</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Writing - review &#x00026; editing" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-writing-review-editing/">Writing - review &#x00026; editing</role><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="aff2" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="aff5" ref-type="aff">
+<sup>5</sup>
+</xref><xref rid="cor1" ref-type="corresp">*</xref><xref rid="award1559690" ref-type="award"/><xref rid="award1559703" ref-type="award"/><xref rid="award1559697" ref-type="award"/><xref rid="award1559700" ref-type="award"/></contrib><aff id="aff1"><label><sup>1</sup></label>School of Materials Science and Engineering, State Key Laboratory of Silicon and Advanced Semiconductor Materials, Zhejiang University, Hangzhou 310027, China.</aff><aff id="aff2"><label><sup>2</sup></label>Wenzhou Key Laboratory of Novel Optoelectronic and Nano Materials and Engineering Research Center of Zhejiang Province, Institute of Wenzhou, Zhejiang University, Wenzhou 325006, China.</aff><aff id="aff3"><label><sup>3</sup></label>State Key Laboratory of Modern Optical Instrumentation, College of Optical Science and Engineering; International Research Center for Advanced Photonics, Zhejiang University, Hangzhou 310027, China.</aff><aff id="aff4"><label><sup>4</sup></label>Wenzhou XINXINTAIJING Tech. Co. Ltd., Wenzhou 325006, China.</aff><aff id="aff5"><label><sup>5</sup></label>Shanxi-Zheda Institute of Advanced Materials and Chemical Engineering, Taiyuan 030002, China.</aff></contrib-group><author-notes><corresp id="cor1"><label>*</label>Corresponding author. Email: <email xlink:href="shanfeng@zju.edu.cn">shanfeng@zju.edu.cn</email> (X.D.); <email xlink:href="daweidi@zju.edu.cn">daweidi@zju.edu.cn</email> (D.D.); <email xlink:href="yezz@zju.edu.cn">yezz@zju.edu.cn</email> (Z.Y.)</corresp><fn id="afn1" fn-type="equal"><label>&#x02020;</label><p>These authors contributed equally to this work.</p></fn></author-notes><pub-date pub-type="collection"><day>19</day><month>7</month><year>2024</year></pub-date><pub-date publication-format="electronic" date-type="pub"><day>17</day><month>7</month><year>2024</year></pub-date><volume>10</volume><issue>29</issue><elocation-id>eado5645</elocation-id><history>
+<date date-type="received"><day>08</day><month>2</month><year>2024</year></date>
+<date date-type="accepted"><day>14</day><month>6</month><year>2024</year></date>
+</history><permissions><copyright-statement>Copyright &#x000a9; 2024 The Authors, some rights reserved; exclusive licensee American Association for the Advancement of Science. No claim to original U.S. Government Works. Distributed under a Creative Commons Attribution NonCommercial License 4.0 (CC BY-NC).</copyright-statement><copyright-year>2024</copyright-year><copyright-holder>The Authors</copyright-holder><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbynclicense" start_date="2024-07-17">https://creativecommons.org/licenses/by-nc/4.0/</ali:license_ref><license-p>This is an open-access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial license</ext-link>, which permits use, distribution, and reproduction in any medium, so long as the resultant use is <bold>not</bold> for commercial advantage and provided the original work is properly cited.</license-p></license></permissions><self-uri content-type="pdf" xlink:href="sciadv.ado5645.pdf"/><abstract><p>Perovskite light-emitting diodes (PeLEDs) provide excellent opportunities for low-cost, color-saturated, and large-area displays. However, the performance of blue PeLEDs lags far behind that of their green and red counterparts. Here, we show that the external quantum efficiencies (EQEs) of blue PeLEDs scale linearly with the photoluminescence quantum yields (PL QYs) of CsPb(Br<italic toggle="yes"><sub>x</sub></italic>Cl<sub>1&#x02212;<italic toggle="yes">x</italic></sub>)<sub>3</sub> nanocrystals emitting at 460 to 480 nm. The recombination efficiency of carriers is highly sensitive to the chlorine content and the related deep-level defects in nanocrystals, causing notable EQE drops even with minor increases in chlorine defects. Minor adjustments of chlorine content through rubidium compensation on the A-site effectively suppress the formation of nonradiative defects, improving PL QYs while retaining desirable bandgaps for blue-emitting nanocrystals. Our PeLEDs with record-high efficiencies span the blue spectrum, achieving peak EQEs of 12.0% (460 nm), 16.7% (465 nm), 21.3% (470 nm), 24.3% (475 nm), and 26.4% (480 nm). This work exemplifies chlorine-defect control as a key design principle for high-efficiency blue PeLEDs.</p></abstract><abstract abstract-type="teaser"><p>Blue PeLEDs achieve record-high efficiencies through a minor regulation of chlorine defects, showcasing a key design principle.</p></abstract><funding-group><award-group id="award1559699"><funding-source>
+<institution-wrap><institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/100022805</institution-id><institution>Shanxi-Zheda Institute of Advanced Materials and Chemical Engineering</institution></institution-wrap>
+</funding-source><award-id>2022SZ-TD004</award-id></award-group><award-group id="award1559690"><funding-source>
+<institution-wrap><institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/501100001809</institution-id><institution>National Natural Science Foundation of China</institution></institution-wrap>
+</funding-source><award-id>52102188</award-id></award-group><award-group id="award1559691"><funding-source>
+<institution-wrap><institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/501100001809</institution-id><institution>National Natural Science Foundation of China</institution></institution-wrap>
+</funding-source><award-id>52072337</award-id></award-group><award-group id="award1559692"><funding-source>
+<institution-wrap><institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/501100001809</institution-id><institution>National Natural Science Foundation of China</institution></institution-wrap>
+</funding-source><award-id>61975180</award-id></award-group><award-group id="award1559693"><funding-source>
+<institution-wrap><institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/501100001809</institution-id><institution>National Natural Science Foundation of China</institution></institution-wrap>
+</funding-source><award-id>62274144</award-id></award-group><award-group id="award1559694"><funding-source>
+<institution-wrap><institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/501100001809</institution-id><institution>National Natural Science Foundation of China</institution></institution-wrap>
+</funding-source><award-id>62005243</award-id></award-group><award-group id="award1559703"><funding-source>
+<institution-wrap><institution>The National Key Research and Development Program of China</institution></institution-wrap>
+</funding-source><award-id>2023YFB3608900</award-id></award-group><award-group id="award1559704"><funding-source>
+<institution-wrap><institution>The National Key Research and Development Program of China</institution></institution-wrap>
+</funding-source><award-id>2022YFA1204800</award-id></award-group><award-group id="award1559697"><funding-source>
+<institution-wrap><institution>the &#x0201c;Pioneer&#x0201c; and &#x0201c;Leading Goose&#x0201c; R&#x00026;D Program of Zhejiang</institution></institution-wrap>
+</funding-source><award-id>2024C01191</award-id></award-group><award-group id="award1559700"><funding-source>
+<institution-wrap><institution>Science and technology projects of the Institute of Wenzhou, Zhejiang University</institution></institution-wrap>
+</funding-source><award-id>XMGL-KJZX-202302</award-id></award-group><award-group id="award1559698"><funding-source>
+<institution-wrap><institution>Wenzhou key scientific and technological innovation research projects</institution></institution-wrap>
+</funding-source><award-id>ZG2023039</award-id></award-group></funding-group><custom-meta-group><custom-meta><meta-name>License Option</meta-name><meta-value>CC BY-NC</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec sec-type="introduction" disp-level="1"><title>INTRODUCTION</title><p>Metal halide perovskite light-emitting diodes (PeLEDs) have outstanding optoelectronic properties such as excellent color purity and broadly tunable emission wavelengths spanning from blue to near-infrared, and are compatible with solution processing for large-area devices, representing a next generation of high-color gamut display and cost-effective lighting (<xref rid="R1" ref-type="bibr"><italic toggle="yes">1</italic></xref>&#x02013;<xref rid="R5" ref-type="bibr"><italic toggle="yes">5</italic></xref>). The external quantum efficiencies (EQEs) of near-infrared, red, and green PeLEDs are high (20 to 30%) (<xref rid="R6" ref-type="bibr"><italic toggle="yes">6</italic></xref>&#x02013;<xref rid="R13" ref-type="bibr"><italic toggle="yes">13</italic></xref>), as they approach the limits set by the optical outcoupling efficiencies (<xref rid="R5" ref-type="bibr"><italic toggle="yes">5</italic></xref>). However, the performance of blue PeLEDs, especially for those of standard blue colors required by display applications, lags far behind. The maximum EQEs of blue PeLEDs reach 21% at 483 nm, but they drop to around 10% at peak wavelengths of 470 nm or shorter, which are relevant to display applications (<xref rid="R14" ref-type="bibr"><italic toggle="yes">14</italic></xref>&#x02013;<xref rid="R18" ref-type="bibr"><italic toggle="yes">18</italic></xref>). Bromide (Br)&#x02013;chloride (Cl) mixing in the perovskite composition provides an effective way of bandgap engineering for widely tunable blue emission. Nevertheless, the ratio of Cl to Br increases as the emission peak shifts to deeper blue, reaching ~0.5 and ~0.8 for blue perovskite emitters with luminescence peaks of 470 and 460 nm, respectively (<xref rid="R17" ref-type="bibr"><italic toggle="yes">17</italic></xref>, <xref rid="R19" ref-type="bibr"><italic toggle="yes">19</italic></xref>). Substantial Cl inclusion may be detrimental to the structural stability of the perovskite materials through halide separation, and the radiative recombination efficiencies through the formation of deep-level defects (<xref rid="R20" ref-type="bibr"><italic toggle="yes">20</italic></xref>&#x02013;<xref rid="R22" ref-type="bibr"><italic toggle="yes">22</italic></xref>). The operational stability of PeLEDs is also sensitive to Cl inclusion (<xref rid="R23" ref-type="bibr"><italic toggle="yes">23</italic></xref>). Besides, higher Cl inclusions could deepen the valence band maximum of CsPb(Br<italic toggle="yes"><sub>x</sub></italic>/Cl<sub>1&#x02212;<italic toggle="yes">x</italic></sub>)<sub>3</sub> relative to that of CsPbBr<sub>3</sub>, as it is typically formed by the 6s orbitals of lead and the outermost p orbitals of halides (<xref rid="R24" ref-type="bibr"><italic toggle="yes">24</italic></xref>, <xref rid="R25" ref-type="bibr"><italic toggle="yes">25</italic></xref>). Besides this general understanding of Cl inclusion in the perovskite, it should be noticed that the performance of PeLEDs emitting at various wavelengths has a great difference, of which chlorine (Cl) content also differs. Therefore, the intrinsic impact of Cl content on the performance of PeLEDs is worthy to be systematically studied.</p><p>Presynthesized perovskite nanocrystals were used to form emissive layers for PeLEDs. The halide separation-induced spectral instability in blue PeLEDs can be overcome by using ultrathin, monolayered nanocrystals (<xref rid="R26" ref-type="bibr"><italic toggle="yes">26</italic></xref>, <xref rid="R27" ref-type="bibr"><italic toggle="yes">27</italic></xref>). Besides, the use of nanocrystal films expands the range of options of the underlying hole-transporting layers for optimum charge injection, enabled by the excellent surface-wetting property of the colloidal solution. In addition, the presynthesized nanocrystal approach decouples crystallization from the film-deposition processes, providing deeper degrees of control for the optoelectronic properties of the perovskite emitters.</p><p>Here, we first comprehensively investigate the role of Cl content on the performance of blue PeLEDs by constructing a series of CsPb(Br<italic toggle="yes"><sub>x</sub></italic>/Cl<sub>1&#x02212;<italic toggle="yes">x</italic></sub>)<sub>3</sub> nanocrystals. The EQE of blue PeLEDs based on the CsPb(Br<italic toggle="yes"><sub>x</sub></italic>/Cl<sub>1&#x02212;<italic toggle="yes">x</italic></sub>)<sub>3</sub> nanocrystals with emission peaks of 460, 465, 470, 475, and 480 nm scale linearly with the photoluminescence quantum yields (PL QYs). The PL QYs of nanocrystals are extremely sensitive to the changes in the Cl content, which is related to the formation of deep-lying trap states. To verify the critical role of Cl defects on the radiative recombination of excitons, one feasible strategy of rubidium (Rb) compensation in the A-site of the perovskite is adopted, which slightly reduces the Cl content and effectively improves the PL QYs while retaining the identical emission wavelengths for display applications. This strategy leads to blue PeLEDs with record-high efficiencies for emission peaks ranging from 460 to 480 nm. In particular, peak EQEs of over 20% are achieved for blue PeLEDs with electroluminescence (EL) peak wavelengths &#x02265;470 nm.</p></sec><sec sec-type="results" disp-level="1"><title>RESULTS</title><p>A series of CsPb(Br<italic toggle="yes"><sub>x</sub></italic>/Cl<sub>1&#x02212;<italic toggle="yes">x</italic></sub>)<sub>3</sub> nanocrystals with emission colors spanning from deep blue to sky blue were synthesized by supersaturated recrystallization with some modifications (<xref rid="R28" ref-type="bibr"><italic toggle="yes">28</italic></xref>, <xref rid="R29" ref-type="bibr"><italic toggle="yes">29</italic></xref>). Briefly, the lead stock solution in toluene consists of lead bromide (PbBr<sub>2</sub>), tetraoctylammonium bromide, lead chloride (PbCl<sub>2</sub>), and didodecyldimethylammonium chloride (DDAC) (see table S1 for details), in which the amounts of PbBr<sub>2</sub> and PbCl<sub>2</sub> were fixed with a total molar of 0.5 mmol for lead. The amounts of DDAC and tetraoctylammonium bromide, namely, the ratio of Cl to Br, were finely adjusted to achieve the tunable blue emission ranging from 460 to 480 nm. The ultraviolet-visible (UV-Vis) absorption spectra of the nanocrystals blue shift as the Cl inclusion increases (<xref rid="F1" ref-type="fig">Fig. 1A</xref>). Correspondingly, the PL spectra of the samples show peaks at 460, 465, 470, 475, and 480 nm, with a full width at half-maximum of around 17 nm for each PL spectrum. The CsPb(Br<italic toggle="yes"><sub>x</sub></italic>/Cl<sub>1&#x02212;<italic toggle="yes">x</italic></sub>)<sub>3</sub> nanocrystals have monodisperse and uniform size distribution of 7 to 10 nm (fig. S1). The small exciton binding energy obtained from temperature-dependent PL intensities (fig. S2) indicates that the emission regulation of CsPb(Br<italic toggle="yes"><sub>x</sub></italic>/Cl<sub>1&#x02212;<italic toggle="yes">x</italic></sub>)<sub>3</sub> nanocrystals is achieved through Cl inclusion rather than quantum confinement. X-ray diffraction (XRD) measurements (fig. S3) indicate that the nanocrystals are in the cubic phase (JSPDS card 18-0364 for CsPbBr<sub>3</sub> and 18-0366 for CsPbCl<sub>3</sub>). A ~0.3&#x000b0; shift of the (200) peak toward higher angles is observed for samples with blue-shifted emission, indicating the occurrence of lattice contraction in these materials. Dodecylbenzene sulfonic acid is used in synthesis to effectively inhibit phase separation and maintain the colloidal stability of mixed-halide perovskite nanocrystals. Without this, the synthesis products would be weak luminous CsPbCl<sub>3</sub> nanocrystals and unreacted byproducts along with the turbid solution, as suggested by the PL spectra and XRD patterns (fig. S4). Besides, the CsPb(Br<italic toggle="yes"><sub>x</sub></italic>/Cl<sub>1&#x02212;<italic toggle="yes">x</italic></sub>)<sub>3</sub> nanocrystals capped by dodecylbenzene sulfonic acid have outstanding phase stability when exposed to illumination, heat, and humid air (fig. S5).</p><fig position="float" id="F1" fig-type="image" specific-use="distribute"><label>Fig. 1.</label><caption><title>The performance of blue PeLEDs with various chlorine contents.</title><p>(<bold>A</bold>) Absorption (dotted dashed line) and PL (solid line) spectra of CsPb(Br<italic toggle="yes"><sub>x</sub></italic>Cl<sub>1&#x02212;<italic toggle="yes">x</italic></sub>)<sub>3</sub> nanocrystals with emission centered at 460, 465, 470, 475, and 480 nm from bottom to top. The insets are corresponding digital photographs of nanocrystal solutions under a 365-nm UV lamp. (<bold>B</bold>) Device structure of typical blue PeLEDs. The left is a schematic diagram, and the right is a cross-sectional TEM image with a scale bar of 50 nm. (<bold>C</bold> and <bold>D</bold>) Typical current density&#x02013;voltage (C) and luminance-voltage (D) curves of the PeLEDs based on five CsPb(Br<italic toggle="yes"><sub>x</sub></italic>Cl<sub>1&#x02212;<italic toggle="yes">x</italic></sub>)<sub>3</sub> nanocrystals. The relatively small current density of our PeLEDs is induced by the insulating PFI in the hole-injection layer. (<bold>E</bold>) EQE&#x02013;current density curves of these PeLEDs. (<bold>F</bold>) Statistical distributions of EQEs and average PL QYs varying with emission wavelength. The number of devices used for statistics under each wavelength is 16. The box plots present the interquartile range. The upper whiskers extend to largest value &#x02264; 1.5 &#x000d7; interquartile range from the 75 percentile, and the lower whiskers extend to the smallest values &#x02264; 1.5 &#x000d7; interquartile range from the 25 percentile. The arrows in (A) and (F) represent the trends of reduced Cl content.</p></caption><graphic xlink:href="sciadv.ado5645-f1" position="float"/></fig><p>We fabricated PeLEDs based on the aforementioned CsPb(Br<italic toggle="yes"><sub>x</sub></italic>/Cl<sub>1&#x02212;<italic toggle="yes">x</italic></sub>)<sub>3</sub> nanocrystals with five different bandgaps. An optimized device architecture, indium tin oxide (ITO) anode/poly(3,4-ethylenedioxythiophene) polystyrene sulfonate/perfluorinated resin (PEDOT:PSS:PFI; ~50 nm)/poly((9,9-dioctylfluorenyl-2,7-diyl)-alt-(9-(2-ethylhexyl)-carbazole-3,6-diyl)) (PF8Cz; ~35 nm)/CsPb(Br<italic toggle="yes"><sub>x</sub></italic>/Cl<sub>1&#x02212;<italic toggle="yes">x</italic></sub>)<sub>3</sub> nanocrystal film (~10 nm)/1,3,5-tris(1-phenyl-1<italic toggle="yes">H</italic>-benzimidazol-2-yl)benzene (TPBi; ~5 nm)/2,4,6-tris[3-(diphenylphosphinyl)phenyl]-1,3,5-triazine (PO-T2T; ~30 nm)/lithium fluoride (LiF; &#x0223c;1.5 nm)/aluminum cathode (Al; ~80 nm), was used (<xref rid="F1" ref-type="fig">Fig. 1B</xref>). The cross-sectional transmission electron microscopy (TEM) shows a single monolayer of nanocrystal film sandwiched between the PF8Cz hole-transporting layer and the TPBi/PO-T2T electron-transporting layer. The typical current density&#x02013;luminance&#x02013;voltage curves of the PeLEDs are shown in <xref rid="F1" ref-type="fig">Fig. 1 (C and D)</xref>. All devices show nearly identical current density&#x02013;voltage curves, suggesting analogous carrier injection and transport behaviors. The luminance of the devices increases monotonically with the red shift of the emitters during the driving voltages. Considering that the luminance is calculated based on the human visual function that changes substantially with the emission wavelength in the blue region, the absolute radiance shows the same trend as the luminance (fig. S6). In consequence, the maximum EQEs reach 7.2%, 11.0%, 15.2%, 17.0%, and 20.2% of the PeLEDs with EL peaks of 460, 465, 470, 475, and 480 nm (<xref rid="F1" ref-type="fig">Fig. 1E</xref>), representing the state-of-the-art blue devices at the identical wavelength.</p><p>Notably, the PeLED average peak EQEs and the emissive-layer PL QYs follow very similar trends as the peak emission wavelengths are varied. The average peak EQEs of these PeLEDs are 6.9% (460 nm), 10.3% (465 nm), 14.6% (470 nm), 16.3% (475 nm), and 19.1% (480 nm) (<xref rid="F1" ref-type="fig">Fig. 1F</xref>). Histograms of peak EQEs for these PeLEDs show a small relative SD of less than 4%. The average PL QYs of the corresponding CsPb(Br<italic toggle="yes"><sub>x</sub></italic>/Cl<sub>1&#x02212;<italic toggle="yes">x</italic></sub>)<sub>3</sub> nanocrystals are 30% (460 nm), 45% (465 nm), 62% (470 nm), 71% (475 nm), and 80% (480 nm) (<xref rid="F1" ref-type="fig">Fig. 1F</xref>). The average EQE scales almost linearly with the PL QYs, with an EQE to PL QY ratio of around 0.23 to 0.24. The PL QYs are largely dependent on the Cl content, leading to our hypothesis that a substantial Cl content limits the EQEs of PeLEDs.</p><p>The efficiency of PeLEDs is optimized by tailoring the properties of the nanocrystal films and device structures. All the sulfonate anchored CsPb(Br<italic toggle="yes"><sub>x</sub></italic>/Cl<sub>1&#x02212;<italic toggle="yes">x</italic></sub>)<sub>3</sub> nanocrystals emitting at 460 to 480 nm exhibit a comparable work function of ~4.0 eV with a deviation of ~0.1 eV and a nearly identical energetic offset of ~1.8 eV from the Fermi level to the valance band (<xref rid="F2" ref-type="fig">Fig. 2A</xref>). The valance band maximum of these nanocrystals is found to be 5.7 to 5.8 eV (<xref rid="F2" ref-type="fig">Fig. 2B</xref> and fig. S7), much shallower than typical blue emissive perovskite films (<xref rid="R30" ref-type="bibr"><italic toggle="yes">30</italic></xref>, <xref rid="R31" ref-type="bibr"><italic toggle="yes">31</italic></xref>). Compared with the primitive ligands, the sulfonate ligand upshifts the energy level of nanocrystals by up to 0.4 eV as in the case of CsPbBr<sub>3</sub> (fig. S8). In perspective of energy-level alignment, the optimized hole-injection layer of PEDOT:PSS:PFI and hole-transporting layer of PF8Cz with deep highest occupied molecule level lead to a minimum hole injection barrier (<xref rid="R32" ref-type="bibr"><italic toggle="yes">32</italic></xref>, <xref rid="R33" ref-type="bibr"><italic toggle="yes">33</italic></xref>), facilitating hole injection into the nanocrystal films (<xref rid="F2" ref-type="fig">Fig. 2B</xref>). Besides, the nanocrystal films retain excellent optical properties when deposited on PF8Cz films in contrast to other hole-transporting layers (fig. S9). The PeLEDs based on other hole-transporting layers exhibit inferior device performance (fig. S10). Because of the close valance band maximum positions of the nanocrystals with different bandgaps, hole-only devices (fig. S11) present nearly identical current densities above 1.5 V, indicating that the different Cl contents have limited effects on the hole injection and transport processes. Nevertheless, charge balance is disturbed by the increasing difference in electron and hole transport capabilities under high voltages, leading to the obvious EQE roll-off in PeLEDs.</p><fig position="float" id="F2" fig-type="image" specific-use="distribute"><label>Fig. 2.</label><caption><title>Spectroscopic characterizations of the mixed-Br/Cl perovskite nanocrystals.</title><p>(<bold>A</bold>) UPS spectra of the nanocrystals. (<bold>B</bold>) Schematic diagram of the energy level, showing PEDOT:PSS:PFI, PF8Cz, and the nanocrystals. (<bold>C</bold>) Time-resolved PL decay spectra of the nanocrystals. (<bold>D</bold>) The lifetimes (&#x003c4;) and corresponding proportions (<italic toggle="yes">A</italic>) extracted through biexponential fitting of curves in (C). The solid lines represent the tendencies of &#x003c4; and <italic toggle="yes">A</italic>. (<bold>E</bold>) Normalized picosecond-resolution transient PL decay dynamics pumped with 405-nm laser. (<bold>F</bold>) Normalized ground-state bleach kinetics for nanocrystals with minor differences in the Cl content. Laser excitation: 405 nm, 100 kHz, 3.36 &#x003bc;J cm<sup>&#x02212;2</sup>.</p></caption><graphic xlink:href="sciadv.ado5645-f2" position="float"/></fig><p>Optical measurements were carried out to study the carrier dynamics in the CsPb(Br<italic toggle="yes"><sub>x</sub></italic>/Cl<sub>1&#x02212;<italic toggle="yes">x</italic></sub>)<sub>3</sub> nanocrystals with minor differences in Cl content. The transient PL data of the samples on the nanosecond timescale can be well fitted by a biexponential decay (rather than by single-exponential decays) (<xref rid="F2" ref-type="fig">Fig. 2C</xref> and table S2). The extracted PL decay lifetimes (&#x003c4;<sub>1</sub>, &#x003c4;<sub>2</sub>) and their proportionality coefficients (<italic toggle="yes">A</italic><sub>1</sub>, <italic toggle="yes">A</italic><sub>2</sub>) are presented in <xref rid="F2" ref-type="fig">Fig. 2D</xref>. For nanocrystals that emit at 460 to 480 nm, &#x003c4;<sub>1</sub> is found to be 12.0 &#x000b1; 1.0 ns and is nearly independent of the Cl content, while &#x003c4;<sub>2</sub> exhibits a distinct decrease from 48.4 to 35.1 ns as the emission peak shifts from 460 to 480 nm. A decrease of &#x003c4;<sub>2</sub> is accompanied by an increase of PL QY for these nanocrystals. This differs from the observations of bulk perovskite films in which higher PL QYs are normally associated with longer PL lifetimes for the same (or a similar) material composition and excitation conditions (<xref rid="R34" ref-type="bibr"><italic toggle="yes">34</italic></xref>, <xref rid="R35" ref-type="bibr"><italic toggle="yes">35</italic></xref>). The proportionality coefficients (<italic toggle="yes">A</italic><sub>1</sub>, <italic toggle="yes">A</italic><sub>2</sub>) show an opposite trend, in which <italic toggle="yes">A</italic><sub>1</sub> increases and <italic toggle="yes">A</italic><sub>2</sub> decreases with the reduced Cl content. Because of the small diameter of the nanocrystals (around 10 nm) and the linear relationship between PL intensity and excitation power (fig. S12), the radiative recombination of carriers resembles excitonic emission (<xref rid="R36" ref-type="bibr"><italic toggle="yes">36</italic></xref>&#x02013;<xref rid="R38" ref-type="bibr"><italic toggle="yes">38</italic></xref>). In the typical colloidal nanocrystals, the fast process (&#x003c4;<sub>1</sub>) is usually considered to be the lifetime of excitonic emission, and the slow process is commonly assigned to recombination related to traps (<xref rid="R39" ref-type="bibr"><italic toggle="yes">39</italic></xref>, <xref rid="R40" ref-type="bibr"><italic toggle="yes">40</italic></xref>). The shorter &#x003c4;<sub>2</sub> and decreased <italic toggle="yes">A</italic><sub>2</sub> for the nanocrystals with reduced Cl content suggest weaker carrier trapping and de-trapping processes.</p><p>To study the carrier trapping process, transient PL experiments with picosecond resolution were carried out. The nanocrystals with reduced Cl content show a smaller contribution from the fast components on the hundred picosecond timescale (<xref rid="F2" ref-type="fig">Fig. 2E</xref>), consistent with weaker carrier trapping. The transient absorption (TA) decay kinetics of the samples (<xref rid="F2" ref-type="fig">Fig. 2F</xref>) are extracted from the corresponding ground-state bleach peaks (fig. S13). Following the reduced Cl content, the ground-state bleach signal decays more slowly within a 500-ps timescale, indicating that more carriers remain at the band edge instead of being trapped in the mid-gap states, in agreement with the transient PL results. Theoretical calculations for nanocrystals with different Cl contents reveal the much lower formation energy of Cl vacancies than that of Br vacancies (fig. S14), leading us to consider that the dominant trap states in the mixed-halide CsPb(Br<italic toggle="yes"><sub>x</sub></italic>/Cl<sub>1&#x02212;<italic toggle="yes">x</italic></sub>)<sub>3</sub> nanocrystals are closely related to the Cl vacancies. Considering the formation of deep-level defects in the presence of the Cl vacancies (<xref rid="R20" ref-type="bibr"><italic toggle="yes">20</italic></xref>), even a small reduction of Cl content is expected to improve the PL QYs of the nanocrystals and the EQEs of the devices.</p><p>To verify the critical role of Cl content in reducing the deep-level defects, we intended to slightly adjust the Cl content in CsPb(Br<italic toggle="yes"><sub>x</sub></italic>/Cl<sub>1&#x02212;<italic toggle="yes">x</italic></sub>)<sub>3</sub> nanocrystals. One feasible way of substituting Cs<sup>+</sup> on the A-site of the perovskite crystal lattice by Rb<sup>+</sup> ions with smaller ionic radii was adopted (<xref rid="R41" ref-type="bibr"><italic toggle="yes">41</italic></xref>). Generally, the band edges of perovskites are primarily composed of orbital states from the lead and halogens, while the A-site cations are mainly responsible for the stabilization of the crystal structure and do not directly contribute to the band edges (<xref rid="R42" ref-type="bibr"><italic toggle="yes">42</italic></xref>). Nevertheless, it should be noted that the interactions between A-site cations and the surrounding PbX<sub>6</sub><sup>4&#x02212;</sup> octahedra will affect the bond length and angle between the lead and halogen atoms (<xref rid="R43" ref-type="bibr"><italic toggle="yes">43</italic></xref>). Such geometry tilting of octahedra changes the orbital overlap, finely regulating the bandgap of the perovskite. A-site compositional engineering through the use of cations with a smaller ionic radius (e.g. Rb<sup>+</sup>) is expected to lead to a wider bandgap emitter without having to increase the Cl content.</p><p>We synthesized the Rb-containing perovskite nanocrystals by replacing the Cs precursor with Rb/Cs mixed precursors. An optimized Rb to Cs feeding molar ratio is 10% (<xref rid="F3" ref-type="fig">Fig. 3A</xref> and fig. S15), enabling a blue-shifted PL. For simplicity, hereafter, the CsPb(Br<italic toggle="yes"><sub>x</sub></italic>/Cl<sub>1&#x02212;<italic toggle="yes">x</italic></sub>)<sub>3</sub> and Rb:CsPb(Br<italic toggle="yes"><sub>x</sub></italic>/Cl<sub>1&#x02212;<italic toggle="yes">x</italic></sub>)<sub>3</sub> nanocrystals are labeled as control-NCs and Rb-NCs, respectively. Rb-NCs exhibit uniform and tetragonal morphology with approximately 7 to 10 nm in size (fig. S16), consistent with control-NCs. Clear lattice fringes are observed in the corresponding high-resolution TEM (HRTEM) images (<xref rid="F3" ref-type="fig">Fig. 3B</xref>). The interplanar distances of the (200) planes in control-NCs are 2.97 &#x000c5; (480 nm), 2.91 &#x000c5; (475 nm), 2.85 &#x000c5; (470 nm), 2.75 &#x000c5; (465 nm), and 2.70 &#x000c5; (460 nm), which shrink to 2.91 &#x000c5; (480 nm), 2.83 &#x000c5; (475 nm), 2.75 &#x000c5; (470 nm), 2.70 &#x000c5; (465 nm), and 2.64 &#x000c5; (460 nm) in the corresponding Rb-NCs. The smaller interplanar distances of Rb-NCs indicate the successful incorporation of Rb in the perovskite crystal lattice.</p><fig position="float" id="F3" fig-type="image" specific-use="distribute"><label>Fig. 3.</label><caption><title>Rubidium incorporation for the reduction of Cl content.</title><p>(<bold>A</bold>) The finely tunable emission peak of CsPb(Br<italic toggle="yes"><sub>x</sub></italic>Cl<sub>1&#x02212;<italic toggle="yes">x</italic></sub>)<sub>3</sub> nanocrystals with increasing levels of Rb incorporation. The PL spectra remain identical after a 10% feeding molar ratio of Rb to Cs. (<bold>B</bold>) Crystal lattice fringes of control-NCs (above row) and Rb-NCs (bottom row). Scale bar, 5 nm. (<bold>C</bold>) Actual molar ratios of Cl to Br in control-NCs and Rb-NCs. All the data are calculated from the raw results of ICP-MS and IC. (<bold>D</bold>) Normalized picosecond-resolution (left) and nanosecond-resolution (right) transient PL decay of control-NCs and Rb-NCs emitting at 460 nm. (<bold>E</bold>) Normalized ground-state bleach kinetics extracted from TA spectra. Laser excitation: 405 nm, 100 kHz, 3.36 &#x003bc;J cm<sup>&#x02212;2</sup>. (<bold>F</bold>) PL QYs of control-NCs and Rb-NCs with minor differences in the Cl content. There are five data under the same condition used to derive statistics. All the error bars are presented as average values &#x000b1; SD.</p></caption><graphic xlink:href="sciadv.ado5645-f3" position="float"/></fig><p>To identify the actual composition of the nanocrystals, inductively coupled plasma mass spectrometry (ICP-MS) and ion chromatography (IC) were conducted to detect the precise content of metal elements (Rb, Cs, and Pb) and halogens (Cl and Br), respectively. As summarized in <xref rid="F3" ref-type="fig">Fig. 3C</xref> and table S3, the actual Cl content (i.e., the molar ratios of Cl/Br) in Rb-NCs reaches 0.32 (480 nm), 0.39 (475 nm), 0.44 (470 nm), 0.52 (465 nm), and 0.62 (460 nm), respectively. In comparison, the Cl content in control-NCs is higher [0.33 (480 nm), 0.41 (475 nm), 0.48 (470 nm), 0.56 (465 nm), and 0.73 (460 nm)]. Besides, the ratios of (Cl + Br)/Pb are kept at ~3 for both Rb-NCs and control-NCs, and the ratios of Rb/Cs remain constant at ~0.057 for all Rb-NCs (fig. S17). The compositional analysis demonstrates the effective reduction of Cl content through Rb compensation, especially for the deep-blue CsPb(Br<italic toggle="yes"><sub>x</sub></italic>/Cl<sub>1&#x02212;<italic toggle="yes">x</italic></sub>)<sub>3</sub> nanocrystals with a relatively high molar ratio of Cl/Br.</p><p>Optical and electrical characterizations show that the reduced Cl content by Rb incorporation suppresses the formation of defects. Through picosecond transient PL decay experiments, Rb-NCs are found to show a smaller fraction of fast components, revealing a weaker carrier trapping process (<xref rid="F3" ref-type="fig">Fig. 3D</xref>). At the nanosecond timescale, Rb-NCs show a &#x003c4;<sub>2</sub> of 45.8 ns with a proportionality coefficient of 46%, which increases to 48.4 ns with a higher proportion of 50% for control-NCs. Besides, the TA decay kinetics of Rb-NCs show a slower relaxation of photogenerated carriers compared to that of control-NCs (<xref rid="F3" ref-type="fig">Fig. 3E</xref> and fig. S18). Through trap-filled space charge limited current measurements (fig. S19), the trap-filled limited voltages are found to decrease for Rb-NCs (relative to control-NCs), indicating a lower trap density in Rb-NCs. These results are consistent with the improved PL QYs of Rb-NCs 48% (460 nm), 64% (465 nm), 76% (470 nm), 85% (475 nm), and 92% (480 nm) (<xref rid="F3" ref-type="fig">Fig. 3F</xref>).</p><p>We prepared the PeLEDs based on Rb-NCs. The photographs of PeLEDs based on Rb-NCs are presented in <xref rid="F4" ref-type="fig">Fig. 4A</xref>, showing the emission wavelengths covering the blue region for display. The corresponding EL spectra match closely with their PL spectra, and the narrowband emissions exhibit excellent color purity with CIE (Commission Internationale de l'&#x000c9;clairage) chromatic coordinates of (0.085,0.205) for 480 nm, (0.105,0.128) for 475 nm, (0.115,0.103) for 470 nm, (0.127,0.069) for 465 nm, and (0.138,0.045) for 460 nm (<xref rid="F4" ref-type="fig">Fig. 4B</xref>). The devices exhibit spectrally stable EL across a range of driving voltages from 3.0 to 10.0 V, with a narrow full width at half-maximum of ~17 nm (<xref rid="F4" ref-type="fig">Fig. 4C</xref> and fig. S20). The EL spectra of PeLEDs driven at voltages up to 7.0 V also remain identical over time (fig. S21). The outstanding spectral stability can be attributed to the use of monolayered nanocrystals as the device emissive layer (fig. S22), which may restrict the halide ions mostly within the individual nanocrystals (<xref rid="R26" ref-type="bibr"><italic toggle="yes">26</italic></xref>, <xref rid="R27" ref-type="bibr"><italic toggle="yes">27</italic></xref>).</p><fig position="float" id="F4" fig-type="image" specific-use="distribute"><label>Fig. 4.</label><caption><title>Blue PeLEDs with record-high efficiencies.</title><p>(<bold>A</bold>) Photographs of working blue PeLEDs and the corresponding EL spectra with the emission peaks at 460, 465, 470, 475, and 480 nm (from left to right). (<bold>B</bold>) Chromaticity coordinates of PeLEDs in (A). (<bold>C</bold>) EL spectra of PeLED with an emission peak at 460 nm under the driving voltage of 3 to 10 V. (<bold>D</bold> and <bold>E</bold>) Typical current density&#x02013;voltage (D) and luminance-voltage (E) curves of PeLEDs covering the blue emission. (<bold>F</bold>) EQE&#x02013;current density curves of the PeLEDs based on Rb-NCs. (<bold>G</bold>) EQE statistics and the reported data in the literature. The number of devices used for statistics under each wavelength is 16. The box plots present the interquartile range. The upper whiskers extend to largest value &#x02264; 1.5 &#x000d7; interquartile range from the 75 percentile, and the lower whiskers extend to the smallest values &#x02264; 1.5 &#x000d7; interquartile range from the 25 percentile. The dotted line represents the EQE benchmark of 20%.</p></caption><graphic xlink:href="sciadv.ado5645-f4" position="float"/></fig><p>The performance of the champion blue PeLEDs based on Rb-NCs is shown in <xref rid="F4" ref-type="fig">Fig. 4 (D to F)</xref>. The current densities rise sharply after 2.0 V, exhibiting very similar current-voltage characteristics for the devices tested. The onset of the luminance curves is ~2.0 to 2.1 V. The maximum luminance reaches 1601, 1175, 635, 430, and 255 cd m<sup>&#x02212;2</sup> for PeLEDs with EL peaks of 480, 475, 470, 465, and 460 nm, respectively. Remarkably, the peak EQEs of PeLEDs reach 26.4% (480 nm), 24.3% (475 nm), 21.3% (470 nm), 16.7% (465 nm), and 12.0% (460 nm). The impressive efficiency of 26.4% is approaching the optical outcoupling efficiency of the devices (fig. S23). Besides, the EQEs of devices of each wavelength show narrow SDs (2.5 to 3.6%), suggesting good reproducibility of our Rb-NCs and devices. The device stability also improves with reduced Cl content in the emitter (fig. S24). Therefore, the EL performance of PeLEDs based on Rb-NCs is greatly improved over that of PeLEDs based on control-NCs. Notably, the champion PeLEDs show EQEs surpassing all reported blue PeLEDs to date (<xref rid="F4" ref-type="fig">Fig. 4G</xref> and <xref rid="T1" ref-type="table">Table 1</xref>) (<xref rid="R16" ref-type="bibr"><italic toggle="yes">16</italic></xref>, <xref rid="R44" ref-type="bibr"><italic toggle="yes">44</italic></xref>&#x02013;<xref rid="R51" ref-type="bibr"><italic toggle="yes">51</italic></xref>) and comparable with the state-of-the-art organic LED and quantum dot LEDs, reaching 20% to 26.4% for devices with EL peaks at 470 to 480 nm. Our results demonstrate the critical importance of reducing Cl content in blue-emitting perovskite nanocrystals for highly efficient EL.</p><table-wrap position="float" id="T1"><label>Table 1.</label><caption><title>The device performance of PeLEDs emitting from 460 to 490 nm.</title></caption><table frame="hsides" rules="groups"><col width="%" span="1"/><col width="%" span="1"/><col width="%" span="1"/><col width="%" span="1"/><col width="%" span="1"/><col width="%" span="1"/><thead><tr><th valign="top" align="left" scope="col" rowspan="1" colspan="1">Emission peak (nm)</th><th valign="top" align="center" scope="col" rowspan="1" colspan="1">Emitter</th><th valign="top" align="center" scope="col" rowspan="1" colspan="1">Device structure</th><th valign="top" align="center" scope="col" rowspan="1" colspan="1">EQE (%)</th><th valign="top" align="center" scope="col" rowspan="1" colspan="1">CIE (<italic toggle="yes">x</italic>,<italic toggle="yes">y</italic>)</th><th valign="top" align="center" scope="col" rowspan="1" colspan="1">Reference</th></tr></thead><tbody><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">463</td><td valign="top" align="center" rowspan="1" colspan="1">CsPbBr<sub>3</sub> NC</td><td valign="top" align="center" rowspan="1" colspan="1">ITO/NiO<italic toggle="yes"><sub>x</sub></italic>/PVK/emitter/TPBi/LiF/Al</td><td valign="top" align="center" rowspan="1" colspan="1">10.3</td><td valign="top" align="center" rowspan="1" colspan="1">(0.13,0.06)</td><td valign="top" align="center" rowspan="1" colspan="1">(<xref rid="R16" ref-type="bibr"><italic toggle="yes">16</italic></xref>)</td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">465</td><td valign="top" align="center" rowspan="1" colspan="1">CsPbBr<sub>3</sub> NC</td><td valign="top" align="center" rowspan="1" colspan="1">ITO/PEDOT:PSS:PFI/PVK/emitter/CNT2T/LiF/Al</td><td valign="top" align="center" rowspan="1" colspan="1">11.9</td><td valign="top" align="center" rowspan="1" colspan="1">(0.132,0.069)</td><td valign="top" align="center" rowspan="1" colspan="1">(<xref rid="R45" ref-type="bibr"><italic toggle="yes">45</italic></xref>)</td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">467</td><td valign="top" align="center" rowspan="1" colspan="1">FARbCsPbCl<italic toggle="yes"><sub>x</sub></italic>Br<sub>3&#x02212;<italic toggle="yes">x</italic></sub> film</td><td valign="top" align="center" rowspan="1" colspan="1">ITO/NiO<italic toggle="yes"><sub>x</sub></italic>/PVK:PVP/emitter/TPBi/LiF/Al</td><td valign="top" align="center" rowspan="1" colspan="1">5.5</td><td valign="top" align="center" rowspan="1" colspan="1">(0.130,0.059)</td><td valign="top" align="center" rowspan="1" colspan="1">(<xref rid="R46" ref-type="bibr"><italic toggle="yes">46</italic></xref>)</td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">468</td><td valign="top" align="center" rowspan="1" colspan="1">CsPbCl<italic toggle="yes"><sub>x</sub></italic>Br<sub>3&#x02212;<italic toggle="yes">x</italic></sub> film</td><td valign="top" align="center" rowspan="1" colspan="1">ITO/PEDOT:PSS/emitter/TPBi/LiF/Al</td><td valign="top" align="center" rowspan="1" colspan="1">4.6</td><td valign="top" align="center" rowspan="1" colspan="1">(0.131,0.055)</td><td valign="top" align="center" rowspan="1" colspan="1">(<xref rid="R47" ref-type="bibr"><italic toggle="yes">47</italic></xref>)</td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">468</td><td valign="top" align="center" rowspan="1" colspan="1">PEA<sub>2</sub>-Cs<sub><italic toggle="yes">n</italic>&#x02212;1</sub>Pb<italic toggle="yes"><sub>n</sub></italic>(Br, Cl)<sub>3<italic toggle="yes">n</italic>+1</sub> film</td><td valign="top" align="center" rowspan="1" colspan="1">ITO/TFB&#x00026;PVK/emitter/TPBi/LiF/Al</td><td valign="top" align="center" rowspan="1" colspan="1">11.9</td><td valign="top" align="center" rowspan="1" colspan="1">(0.141,0.051)</td><td valign="top" align="center" rowspan="1" colspan="1">(<xref rid="R17" ref-type="bibr"><italic toggle="yes">17</italic></xref>)</td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">469</td><td valign="top" align="center" rowspan="1" colspan="1">CsPbBr<sub>3</sub> NC</td><td valign="top" align="center" rowspan="1" colspan="1">ITO/PEDOT:PSS/PVK/emitter/Zno/Ag</td><td valign="top" align="center" rowspan="1" colspan="1">10.3</td><td valign="top" align="center" rowspan="1" colspan="1">(0.13,0.08)</td><td valign="top" align="center" rowspan="1" colspan="1">(<xref rid="R44" ref-type="bibr"><italic toggle="yes">44</italic></xref>)</td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">475</td><td valign="top" align="center" rowspan="1" colspan="1">PEA-Rb<italic toggle="yes"><sub>x</sub></italic>Cs<sub>1&#x02212;<italic toggle="yes">x</italic></sub>PbBr<sub>3&#x02212;<italic toggle="yes">y</italic></sub>Cl<italic toggle="yes"><sub>y</sub></italic> film</td><td valign="top" align="center" rowspan="1" colspan="1">ITO/PEDOT:PSS/emitter/TPBi/LiF/Al</td><td valign="top" align="center" rowspan="1" colspan="1">10.1</td><td valign="top" align="center" rowspan="1" colspan="1">(0.113,0.115)</td><td valign="top" align="center" rowspan="1" colspan="1">(<xref rid="R48" ref-type="bibr"><italic toggle="yes">48</italic></xref>)</td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">475</td><td valign="top" align="center" rowspan="1" colspan="1">Cs<sub>0.75</sub>MDA<sub>0.125</sub>Pb(Br/Cl)<sub>3</sub> film</td><td valign="top" align="center" rowspan="1" colspan="1">ITO/NiO<italic toggle="yes"><sub>x</sub></italic>/PVK:PVP/emitter/TPBi/LiF/Al</td><td valign="top" align="center" rowspan="1" colspan="1">14.2</td><td valign="top" align="center" rowspan="1" colspan="1">(0.11,0.13)</td><td valign="top" align="center" rowspan="1" colspan="1">(<xref rid="R51" ref-type="bibr"><italic toggle="yes">51</italic></xref>)</td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">477</td><td valign="top" align="center" rowspan="1" colspan="1">FARbCsPbCl<italic toggle="yes"><sub>x</sub></italic>Br<sub>3&#x02212;<italic toggle="yes">x</italic></sub> film</td><td valign="top" align="center" rowspan="1" colspan="1">ITO/PEDOT:PSS/PVK:PVP/emitter/TPBi/LiF/Al</td><td valign="top" align="center" rowspan="1" colspan="1">11.0</td><td valign="top" align="center" rowspan="1" colspan="1">(0.107,0.115)</td><td valign="top" align="center" rowspan="1" colspan="1">(<xref rid="R46" ref-type="bibr"><italic toggle="yes">46</italic></xref>)</td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">478</td><td valign="top" align="center" rowspan="1" colspan="1">CsPbBr<sub>3</sub> NC</td><td valign="top" align="center" rowspan="1" colspan="1">ITO/NiO<italic toggle="yes"><sub>x</sub></italic>/PVK/emitter/TPBi/LiF/Al</td><td valign="top" align="center" rowspan="1" colspan="1">17.9</td><td valign="top" align="center" rowspan="1" colspan="1">(0.11,0.13)</td><td valign="top" align="center" rowspan="1" colspan="1">(<xref rid="R16" ref-type="bibr"><italic toggle="yes">16</italic></xref>)</td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">480</td><td valign="top" align="center" rowspan="1" colspan="1">CsPbCl<italic toggle="yes"><sub>x</sub></italic>Br<sub>3&#x02212;<italic toggle="yes">x</italic></sub> film</td><td valign="top" align="center" rowspan="1" colspan="1">ITO/PEDOT:PSS/emitter/TPBi/LiF/Al</td><td valign="top" align="center" rowspan="1" colspan="1">11.3</td><td valign="top" align="center" rowspan="1" colspan="1">(0.095,0.160)</td><td valign="top" align="center" rowspan="1" colspan="1">(<xref rid="R47" ref-type="bibr"><italic toggle="yes">47</italic></xref>)</td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">483</td><td valign="top" align="center" rowspan="1" colspan="1">CsPbCl<italic toggle="yes"><sub>x</sub></italic>Br<sub>3&#x02212;<italic toggle="yes">x</italic></sub> film</td><td valign="top" align="center" rowspan="1" colspan="1">ITO/PVK:PVP/emitter/TPBi/LiF/Al</td><td valign="top" align="center" rowspan="1" colspan="1">21.4</td><td valign="top" align="center" rowspan="1" colspan="1">(0.090,0.180)</td><td valign="top" align="center" rowspan="1" colspan="1">(<xref rid="R18" ref-type="bibr"><italic toggle="yes">18</italic></xref>)</td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">486</td><td valign="top" align="center" rowspan="1" colspan="1">Quasi-2D film</td><td valign="top" align="center" rowspan="1" colspan="1">ITO/PEDOT:PSS/emitter/TPBi/LiF/Al</td><td valign="top" align="center" rowspan="1" colspan="1">16.1</td><td valign="top" align="center" rowspan="1" colspan="1">(0.078,0.240)</td><td valign="top" align="center" rowspan="1" colspan="1">(<xref rid="R49" ref-type="bibr"><italic toggle="yes">49</italic></xref>)</td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">490</td><td valign="top" align="center" rowspan="1" colspan="1">PEA<sub>2</sub>Cs<sub>2&#x02212;<italic toggle="yes">x</italic></sub>EA<italic toggle="yes"><sub>x</sub></italic>Pb<sub>3</sub>Br<sub>10</sub> film</td><td valign="top" align="center" rowspan="1" colspan="1">ITO/m-PEDOT:PSS/emitter/TPBi/LiF/Al</td><td valign="top" align="center" rowspan="1" colspan="1">15.6</td><td valign="top" align="center" rowspan="1" colspan="1">(0.07,0.29)</td><td valign="top" align="center" rowspan="1" colspan="1">(<xref rid="R50" ref-type="bibr"><italic toggle="yes">50</italic></xref>)</td></tr></tbody></table></table-wrap></sec><sec sec-type="discussion" disp-level="1"><title>DISCUSSION</title><p>In summary, this work shows the reduction of Cl content as a key design principle for high-efficiency blue PeLEDs. Comprehensive analyses of the optoelectronic properties of the CsPb(Br<italic toggle="yes"><sub>x</sub></italic>/Cl<sub>1&#x02212;<italic toggle="yes">x</italic></sub>)<sub>3</sub> nanocrystals illustrate the pivotal role of Cl-related nonradiative defects on the performance of blue PeLEDs, leading to large EQE deficiencies even with a small increase in the Cl content. Rb inclusion on the A-site of the perovskite crystal lattice is used to reduce the Cl content and suppress the formation of nonradiative defects, yielding blue PeLEDs with record-high EQEs of up to 26.4%. Future investigation, such as the optimization of precursor synthesis procedures, capping ligands, and crystal orientation, may further reduce the formation of Cl-related defects, paving a promising way toward highly efficient blue PeLEDs. We anticipate that the performance of optoelectronic devices could be improved based on the blue perovskites with reduced Cl defects.</p></sec><sec sec-type="materials|methods" disp-level="1"><title>MATERIALS AND METHODS</title><sec disp-level="2"><title>Materials</title><p>PbBr<sub>2</sub> (99.99%), PbCl<sub>2</sub> (99.99%), TPBi, and PO-T2T were purchased from Xi'an Yuri Solar Co. Ltd. Cesium carbonate (Cs<sub>2</sub>CO<sub>3</sub>; 99.9%) and dodecylbenzenesulfonic acid (DBSA; &#x02265;95%) were purchased from Sigma-Aldrich. Rubidium carbonate (Rb<sub>2</sub>CO<sub>3</sub>; 99.9%), formamidine acetate [FA(Ac); 99%], didodecyldimethylammonium chloride (DDAC; 98%), didodecyldimethylammonium bromide (DDAB; 98%), and tetra-<italic toggle="yes">n</italic>-octylammonium bromide (TOAB; 98%) were purchased from Shanghai Macklin Biochemical Co. Ltd. <italic toggle="yes">n</italic>-Octanoic acid (OTAc; 99%) was purchased from Aladdin Industrial Corporation. Ultradry toluene (&#x02265;99.5%) was purchased from Chengdu Chron Chemical Co. Ltd. Ultradry octane (97%) was purchased from J&#x00026;K Scientific Ltd. Nafion PFI (5 wt % in mixture of lower aliphatic alcohols and water, containing 45% water) was purchased from Shanghai Adamasi Reagents Co. Ltd. PF8Cz was purchased from Dongguan Volt-Amp Optoelectronics Technology Co. Ltd. PEDOT:PSS (Clevios P VP Al 4083) was purchased from Heraeus. All chemicals were used directly without further purification.</p></sec><sec disp-level="2"><title>Synthesis of CsPb(Br<italic toggle="yes"><sub>x</sub></italic>/Cl<sub>1&#x02212;<italic toggle="yes">x</italic></sub>)<sub>3</sub> nanocrystals</title><p>Certain amounts of PbBr<sub>2</sub>, PbCl<sub>2</sub>, TOAB, and DDAC were added to 5 ml of toluene and were vigorously stirred for 4.5 hours to be fully dissolved. For CsPb(Br<italic toggle="yes"><sub>x</sub></italic>/Cl<sub>1&#x02212;<italic toggle="yes">x</italic></sub>)<sub>3</sub> nanocrystals emitting at 460, 465, 470, 475, and 480 nm, the precise amounts of TOAB and DDAC are listed in table S1. DBSA (0.2 g, diluted in 200 &#x003bc;l of toluene) was first added into a 5-ml precursor. After 2 to 3 min of stirring, Cs and FA precursor [500 &#x003bc;l, 0.1 M Cs<sub>2</sub>CO<sub>3</sub> and FA(Ac) in OTAc, <italic toggle="yes">V</italic><sub>Cs</sub>:<italic toggle="yes">V</italic><sub>FA</sub> = 0.85:0.15] was injected swiftly. DDAC solution (1.5 ml, 10 mg ml<sup>&#x02212;1</sup> in toluene) was added after reacting for 2.5 min and kept stirring for another 2 min. The reaction was conducted at room temperature in the glove box. The crude solution was transferred to air and centrifuged at 4000 rpm for 3 min. Ethyl acetate was then added to the supernatant at a volume ratio of 2:1 and then centrifuged at 9000 rpm for 3 min. The precipitate was collected and dispersed in octane. The purification process was repeated two times to obtain a clean nanocrystal solution for device fabrication and characterization. For Rb-compensated CsPb(Br<italic toggle="yes"><sub>x</sub></italic>/Cl<sub>1&#x02212;<italic toggle="yes">x</italic></sub>)<sub>3</sub> nanocrystals, the amounts of TOAB and DDAC are finely tuned to achieve the identical emission wavelength as control-NCs. The three-cation (Cs, FA, and Rb) precursor consists of 0.1 M Cs<sub>2</sub>CO<sub>3</sub>, FA(Ac), and Rb<sub>2</sub>CO<sub>3</sub> in OTAc, with <italic toggle="yes">V</italic><sub>Cs</sub>:<italic toggle="yes">V</italic><sub>FA</sub>:<italic toggle="yes">V</italic><sub>Rb</sub> = 0.85:0.15:0.085. FA is also used in the Rb-compensated nanocrystals to balance the lattice stress and enhance the lattice stability from the perspective of the tolerant factor.</p></sec><sec disp-level="2"><title>PeLED fabrication</title><p>ITO substrates were sonicated in acetone, deionized water, and ethyl alcohol for 15 min consecutively and then treated with oxygen plasma for 15 min. Then, the mixed PEDOT:PSS/PFI solution (volume ratio of 1:1) was spin-coated at 4000 rpm for 50 s and annealed at 150&#x000b0;C for 15 min. The PEDOT:PSS/PFI-coated substrates were transferred into a glove box with N<sub>2</sub> conditions for further film fabrication. PF8Cz (8 mg ml<sup>&#x02212;1</sup> in chlorobenzene) was then spin-coated at 2000 rpm for 50 s and annealed at 150&#x000b0;C for 30 min. Subsequently, the blue perovskite nanocrystals were spin-coated at 2000 rpm for 50 s. Later, under a vacuum of ~4 &#x000d7; 10<sup>&#x02212;4</sup> Pa, TPBi (5 nm), PO-T2T (30 nm), and LiF/Al electrodes (1.5 nm/80 nm) were deposited sequentially in a thermal evaporator.</p></sec><sec disp-level="2"><title>Device characterizations</title><p>The current density&#x02013;luminance&#x02013;voltage characterizations were measured by a Keithley 2400 electrometer and an integration sphere coupled with a QE Pro spectrometer (<xref rid="R52" ref-type="bibr"><italic toggle="yes">52</italic></xref>). The devices were swept from zero bias to forward bias. The voltage step was 0.1 V, and the swept speed was 0.1 V per 100 ms with an additional integration time of spectral acquisition of 50 ms. The operational stability was conducted by applying a constant current density on the devices, and the luminance was recorded. The performance of the devices was measured in the glove box filled with nitrogen at room temperature. The accuracy of characterizations was cross-checked by measuring the same LEDs at Nanjing Tech University (fig. S25).</p></sec><sec disp-level="2"><title>Optical characterizations</title><p>The UV-Vis absorption spectra of the nanocrystals were measured using an Agilent Cary 60. The PL spectra were obtained by an Agilent Cary Eclipse. Time-corrected single-photon counting (TCSPC) measurements were performed using OmniFluo900 with a 405-nm pulsed laser diode (EPL405, 58.6-ps pulse width). The absolute PL QYs were measured using a xenon lamp that filtered to 405 nm as excitation wavelength and a home-designed integrating sphere coupled with a QE Pro spectrometer (<xref rid="R53" ref-type="bibr"><italic toggle="yes">53</italic></xref>). For femtosecond-resolved TA measurements, the output light from a Light Conversion Pharos Yb:KGW laser (1030 nm, 200 fs, 200 &#x003bc;J/pulse, 100 kHz) was separated into two light beams. One passed through an OptoSigma OSMS26-300 optical delay line and then focused onto a barium borate oxide (BBO) crystal to generate a probe beam; the other was introduced to a Light Conversion Orpheus-HP optical parameter amplifier to generate a pump beam at a desired wavelength of 405 nm, passed through a round continuously variable metallic neutral density filter and a chopper working at 40 kHz. During the measurements, the perovskite nanocrystal solution was irradiated by the pump beam. The optical power density of the pump light was attenuated to 3.36 &#x003bc;J cm<sup>&#x02212;2</sup>. The picosecond-resolved transient fluorescence (TrPL) dynamics were obtained through the low-frequency mode of a streak camera (ST-10, Zolix). A femtosecond laser was used as the excitation source with a repetition rate of 1 kHz and an excitation wavelength of 405 nm. The excitation light intensity is 0.35 &#x003bc;J cm<sup>&#x02212;2</sup> focused on the sample. The perovskite nanocrystal solutions were filled into quartz cuvettes with a 1-mm light path, and the sample solutions were under continuous stirring during TA and TrPL measurements.</p></sec><sec disp-level="2"><title>Composition and crystal structure characterizations</title><p>The temperature-dependent PL measurements were conducted with a Zolix Instruments OmniFluo900 spectrometer equipped with a picosecond pulsed laser diode (405 nm, 58.6 ps) and liquid nitrogen cooling instrument. Crystal structures were analyzed by XRD (Rigaku D/MAX 2500). HRTEM observations of perovskite nanocrystals were conducted using a JOEL JEM-F200 operated at 80 kV. Ultraviolet photoelectron spectroscopy (UPS) was measured on PHI5000 VersaProbe III (Scanning ESCA Microprobe) SCA (Spherical Analyzer) using He I (21.2 eV) as the UV resource. The actual contents of mental elements and halogens were detected using ICP-MS (NexION 300X, PerkinElmer) and IC (AQUION, DIONEX), respectively. The perovskite nanocrystal solution was dried by nitrogen, and obtained solid was dissolved in 3% nitric acid and deionized water for ICP-MS and IC, respectively. The sample solution was diluted 10,000 times for ICP-MS measurements and 1000 times for IC measurements.</p></sec><sec disp-level="2"><title>Theoretical calculation</title><p>All the calculations are performed in the framework of the density functional theory with the projector-augmented plane-wave method, as implemented in the Vienna ab initio simulation package (<xref rid="R54" ref-type="bibr"><italic toggle="yes">54</italic></xref>). The generalized gradient approximation proposed by Perdew, Burke, and Ernzerhof is selected for the exchange-correlation potential (<xref rid="R55" ref-type="bibr"><italic toggle="yes">55</italic></xref>). The cutoff energy for the plane wave is set to 500 eV. The energy criterion is set to 10<sup>&#x02212;5</sup> eV in the iterative solution of the Kohn-Sham equation. The Brillouin zone integration is performed using a 1 &#x000d7; 1 &#x000d7; 2 <italic toggle="yes">k</italic>-mesh. All the structures are relaxed until the residual forces on the atoms have declined to less than &#x02212;0.02 eV/&#x000c5;.</p></sec></sec></body><back><ack><title>Acknowledgments</title><p>We thank Y. Ke at Nanjing Tech University for assistance in the performance crosscheck of LEDs.</p><sec><p><bold>Funding:</bold> This work was supported by the National Key Research and Development Program of China (2023YFB3608902 and 2022YFA1204800), National Natural Science Foundation of China (52102188, 52072337, 61975180, 62274144, and 62005243), The &#x0201c;Pioneer&#x0201d; and &#x0201c;Leading Goose&#x0201d; R&#x00026;D Program of Zhejiang (2024C01191), Wenzhou key scientific and technological innovation research projects (ZG2023039), Shanxi-Zheda Institute of Advanced Materials and Chemical Engineering (2022SZ-TD004), Science and technology projects of the Institute of Wenzhou, Zhejiang University (XMGL-KJZX-202302), and Zhejiang University Education Foundation Qizhen Scholar Foundation.</p></sec><sec><p><bold>Author contributions:</bold> Idea conception and experimental design: X.D. and Y.G. Nanocrystal synthesis: Y.G., Q. Cai, Q. Cao, and Z.M. Device fabrication: Y.G., Y.H., and D.Z. Optical and device characterization: Y.G., Q. Cai, and M.Z. Writing&#x02014;original draft: Y.G. Writing&#x02014;review and editing: X.D., D.D., and Z.Y. Recommendations: B.Z. and H.H. Supervision: X.D.</p></sec><sec><p><bold>Competing interests:</bold> The authors declare that they have no competing interests.</p></sec><sec><p><bold>Data and materials availability:</bold> All data needed to evaluate the conclusions in the paper are present in the paper and/or the Supplementary Materials.</p></sec></ack><sec sec-type="supplementary-material"><title>Supplementary Materials</title><sec><title>This PDF file includes:</title><supplementary-material position="float" content-type="local-data"><caption><p>Figs. S1 to S25</p><p>Tables S1 to S3</p></caption><media xlink:href="sciadv.ado5645_sm.pdf"/></supplementary-material></sec></sec><ref-list><title>REFERENCES AND NOTES</title><ref id="R1"><label>1</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>S. D.</given-names>
+<surname>Stranks</surname></string-name>, <string-name><given-names>H. J.</given-names>
+<surname>Snaith</surname></string-name></person-group>, 
+<article-title>Metal-halide perovskites for photovoltaic and light-emitting devices</article-title>. <source>Nat. Nanotechnol.</source>
+<volume>10</volume>, 
+<fpage>391</fpage>&#x02013;<lpage>402</lpage> (<year>2015</year>).<pub-id pub-id-type="pmid">25947963</pub-id>
+</mixed-citation></ref><ref id="R2"><label>2</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>X.-K.</given-names>
+<surname>Liu</surname></string-name>, <string-name><given-names>W.</given-names>
+<surname>Xu</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Bai</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Jin</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Wang</surname></string-name>, <string-name><given-names>R. H.</given-names>
+<surname>Friend</surname></string-name>, <string-name><given-names>F.</given-names>
+<surname>Gao</surname></string-name></person-group>, 
+<article-title>Metal halide perovskites for light-emitting diodes</article-title>. <source>Nat. Mater.</source>
+<volume>20</volume>, 
+<fpage>10</fpage>&#x02013;<lpage>21</lpage> (<year>2021</year>).<pub-id pub-id-type="pmid">32929252</pub-id>
+</mixed-citation></ref><ref id="R3"><label>3</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>A.</given-names>
+<surname>Fakharuddin</surname></string-name>, <string-name><given-names>M. K.</given-names>
+<surname>Gangishetty</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Abdi-Jalebi</surname></string-name>, <string-name><given-names>S.-H.</given-names>
+<surname>Chin</surname></string-name>, <string-name><given-names>A. R.</given-names>
+<surname>bin Mohd Yusoff</surname></string-name>, <string-name><given-names>D. N.</given-names>
+<surname>Congreve</surname></string-name>, <string-name><given-names>W.</given-names>
+<surname>Tress</surname></string-name>, <string-name><given-names>F.</given-names>
+<surname>Deschler</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Vasilopoulou</surname></string-name>, <string-name><given-names>H. J.</given-names>
+<surname>Bolink</surname></string-name></person-group>, 
+<article-title>Perovskite light-emitting diodes</article-title>. <source>Nat. Electron.</source>
+<volume>5</volume>, 
+<fpage>203</fpage>&#x02013;<lpage>216</lpage> (<year>2022</year>).</mixed-citation></ref><ref id="R4"><label>4</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>T.-H.</given-names>
+<surname>Han</surname></string-name>, <string-name><given-names>K. Y.</given-names>
+<surname>Jang</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Dong</surname></string-name>, <string-name><given-names>R. H.</given-names>
+<surname>Friend</surname></string-name>, <string-name><given-names>E. H.</given-names>
+<surname>Sargent</surname></string-name>, <string-name><given-names>T.-W.</given-names>
+<surname>Lee</surname></string-name></person-group>, 
+<article-title>A roadmap for the commercialization of perovskite light emitters</article-title>. <source>Nat. Rev. Mater.</source>
+<volume>7</volume>, 
+<fpage>757</fpage>&#x02013;<lpage>777</lpage> (<year>2022</year>).</mixed-citation></ref><ref id="R5"><label>5</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>B.</given-names>
+<surname>Zhao</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Vasilopoulou</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Fakharuddin</surname></string-name>, <string-name><given-names>F.</given-names>
+<surname>Gao</surname></string-name>, <string-name><given-names>A. R.</given-names>
+<surname>bin Mohd Yusoff</surname></string-name>, <string-name><given-names>R. H.</given-names>
+<surname>Friend</surname></string-name>, <string-name><given-names>D.</given-names>
+<surname>Di</surname></string-name></person-group>, 
+<article-title>Light management for perovskite light-emitting diodes</article-title>. <source>Nat. Nanotechnol.</source>
+<volume>18</volume>, 
+<fpage>981</fpage>&#x02013;<lpage>992</lpage> (<year>2023</year>).<pub-id pub-id-type="pmid">37653050</pub-id>
+</mixed-citation></ref><ref id="R6"><label>6</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>Y.</given-names>
+<surname>Hassan</surname></string-name>, <string-name><given-names>J. H.</given-names>
+<surname>Park</surname></string-name>, <string-name><given-names>M. L.</given-names>
+<surname>Crawford</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Sadhanala</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Lee</surname></string-name>, <string-name><given-names>J. C.</given-names>
+<surname>Sadighian</surname></string-name>, <string-name><given-names>E.</given-names>
+<surname>Mosconi</surname></string-name>, <string-name><given-names>R.</given-names>
+<surname>Shivanna</surname></string-name>, <string-name><given-names>E.</given-names>
+<surname>Radicchi</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Jeong</surname></string-name>, <string-name><given-names>C.</given-names>
+<surname>Yang</surname></string-name>, <string-name><given-names>H.</given-names>
+<surname>Choi</surname></string-name>, <string-name><given-names>S. H.</given-names>
+<surname>Park</surname></string-name>, <string-name><given-names>M. H.</given-names>
+<surname>Song</surname></string-name>, <string-name><given-names>F.</given-names>
+<surname>De Angelis</surname></string-name>, <string-name><given-names>C. Y.</given-names>
+<surname>Wong</surname></string-name>, <string-name><given-names>R. H.</given-names>
+<surname>Friend</surname></string-name>, <string-name><given-names>B. R.</given-names>
+<surname>Lee</surname></string-name>, <string-name><given-names>H. J.</given-names>
+<surname>Snaith</surname></string-name></person-group>, 
+<article-title>Ligand-engineered bandgap stability in mixed-halide perovskite LEDs</article-title>. <source>Nature</source>
+<volume>591</volume>, 
+<fpage>72</fpage>&#x02013;<lpage>77</lpage> (<year>2021</year>).<pub-id pub-id-type="pmid">33658694</pub-id>
+</mixed-citation></ref><ref id="R7"><label>7</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>D.</given-names>
+<surname>Ma</surname></string-name>, <string-name><given-names>K.</given-names>
+<surname>Lin</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Dong</surname></string-name>, <string-name><given-names>H.</given-names>
+<surname>Choubisa</surname></string-name>, <string-name><given-names>A. H.</given-names>
+<surname>Proppe</surname></string-name>, <string-name><given-names>D.</given-names>
+<surname>Wu</surname></string-name>, <string-name><given-names>Y.-K.</given-names>
+<surname>Wang</surname></string-name>, <string-name><given-names>B.</given-names>
+<surname>Chen</surname></string-name>, <string-name><given-names>P.</given-names>
+<surname>Li</surname></string-name>, <string-name><given-names>J. Z.</given-names>
+<surname>Fan</surname></string-name>, <string-name><given-names>F.</given-names>
+<surname>Yuan</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Johnston</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Liu</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Kang</surname></string-name>, <string-name><given-names>Z.-H.</given-names>
+<surname>Lu</surname></string-name>, <string-name><given-names>Z.</given-names>
+<surname>Wei</surname></string-name>, <string-name><given-names>E. H.</given-names>
+<surname>Sargent</surname></string-name></person-group>, 
+<article-title>Distribution control enables efficient reduced-dimensional perovskite LEDs</article-title>. <source>Nature</source>
+<volume>599</volume>, 
+<fpage>594</fpage>&#x02013;<lpage>598</lpage> (<year>2021</year>).<pub-id pub-id-type="pmid">34819678</pub-id>
+</mixed-citation></ref><ref id="R8"><label>8</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>B.</given-names>
+<surname>Guo</surname></string-name>, <string-name><given-names>R.</given-names>
+<surname>Lai</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Jiang</surname></string-name>, <string-name><given-names>L.</given-names>
+<surname>Zhou</surname></string-name>, <string-name><given-names>Z.</given-names>
+<surname>Ren</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Lian</surname></string-name>, <string-name><given-names>P.</given-names>
+<surname>Li</surname></string-name>, <string-name><given-names>X.</given-names>
+<surname>Cao</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Xing</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Wang</surname></string-name>, <string-name><given-names>W.</given-names>
+<surname>Li</surname></string-name>, <string-name><given-names>C.</given-names>
+<surname>Zou</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Chen</surname></string-name>, <string-name><given-names>Z.</given-names>
+<surname>Hong</surname></string-name>, <string-name><given-names>C.</given-names>
+<surname>Li</surname></string-name>, <string-name><given-names>B.</given-names>
+<surname>Zhao</surname></string-name>, <string-name><given-names>D.</given-names>
+<surname>Di</surname></string-name></person-group>, 
+<article-title>Ultrastable near-infrared perovskite light-emitting diodes</article-title>. <source>Nat. Photon.</source>
+<volume>16</volume>, 
+<fpage>637</fpage>&#x02013;<lpage>643</lpage> (<year>2022</year>).</mixed-citation></ref><ref id="R9"><label>9</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>Y.</given-names>
+<surname>Liu</surname></string-name>, <string-name><given-names>C.</given-names>
+<surname>Tao</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Cao</surname></string-name>, <string-name><given-names>L.</given-names>
+<surname>Chen</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Wang</surname></string-name>, <string-name><given-names>P.</given-names>
+<surname>Li</surname></string-name>, <string-name><given-names>C.</given-names>
+<surname>Wang</surname></string-name>, <string-name><given-names>C.</given-names>
+<surname>Liu</surname></string-name>, <string-name><given-names>F.</given-names>
+<surname>Ye</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Hu</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Xiao</surname></string-name>, <string-name><given-names>Z.</given-names>
+<surname>Gao</surname></string-name>, <string-name><given-names>P.</given-names>
+<surname>Gui</surname></string-name>, <string-name><given-names>F.</given-names>
+<surname>Yao</surname></string-name>, <string-name><given-names>K.</given-names>
+<surname>Dong</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Li</surname></string-name>, <string-name><given-names>X.</given-names>
+<surname>Hu</surname></string-name>, <string-name><given-names>H.</given-names>
+<surname>Cong</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Jia</surname></string-name>, <string-name><given-names>T.</given-names>
+<surname>Wang</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Wang</surname></string-name>, <string-name><given-names>G.</given-names>
+<surname>Li</surname></string-name>, <string-name><given-names>W.</given-names>
+<surname>Huang</surname></string-name>, <string-name><given-names>W.</given-names>
+<surname>Ke</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Wang</surname></string-name>, <string-name><given-names>G.</given-names>
+<surname>Fang</surname></string-name></person-group>, 
+<article-title>Synergistic passivation and stepped-dimensional perovskite analogs enable high-efficiency near-infrared light-emitting diodes</article-title>. <source>Nat. Commun.</source>
+<volume>13</volume>, 
+<fpage>7425</fpage> (<year>2022</year>).<pub-id pub-id-type="pmid">36460647</pub-id>
+</mixed-citation></ref><ref id="R10"><label>10</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>J.</given-names>
+<surname>Jiang</surname></string-name>, <string-name><given-names>Z.</given-names>
+<surname>Chu</surname></string-name>, <string-name><given-names>Z.</given-names>
+<surname>Yin</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Li</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Yang</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Chen</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Wu</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>You</surname></string-name>, <string-name><given-names>X.</given-names>
+<surname>Zhang</surname></string-name></person-group>, 
+<article-title>Red perovskite light-emitting diodes with efficiency exceeding 25% realized by co-spacer cations</article-title>. <source>Adv. Mater.</source>
+<volume>34</volume>, 
+<fpage>e2204460</fpage> (<year>2022</year>).<pub-id pub-id-type="pmid">35855612</pub-id>
+</mixed-citation></ref><ref id="R11"><label>11</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>Y.</given-names>
+<surname>Sun</surname></string-name>, <string-name><given-names>L.</given-names>
+<surname>Ge</surname></string-name>, <string-name><given-names>L.</given-names>
+<surname>Dai</surname></string-name>, <string-name><given-names>C.</given-names>
+<surname>Cho</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Ferrer Orri</surname></string-name>, <string-name><given-names>K.</given-names>
+<surname>Ji</surname></string-name>, <string-name><given-names>S. J.</given-names>
+<surname>Zelewski</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Liu</surname></string-name>, <string-name><given-names>A. J.</given-names>
+<surname>Mirabelli</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Zhang</surname></string-name>, <string-name><given-names>J.-Y.</given-names>
+<surname>Huang</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Wang</surname></string-name>, <string-name><given-names>K.</given-names>
+<surname>Gong</surname></string-name>, <string-name><given-names>M. C.</given-names>
+<surname>Lai</surname></string-name>, <string-name><given-names>L.</given-names>
+<surname>Zhang</surname></string-name>, <string-name><given-names>D.</given-names>
+<surname>Yang</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Lin</surname></string-name>, <string-name><given-names>E. M.</given-names>
+<surname>Tennyson</surname></string-name>, <string-name><given-names>C.</given-names>
+<surname>Ducati</surname></string-name>, <string-name><given-names>S. D.</given-names>
+<surname>Stranks</surname></string-name>, <string-name><given-names>L.-S.</given-names>
+<surname>Cui</surname></string-name>, <string-name><given-names>N. C.</given-names>
+<surname>Greenham</surname></string-name></person-group>, 
+<article-title>Bright and stable perovskite light-emitting diodes in the near-infrared range</article-title>. <source>Nature</source>
+<volume>615</volume>, 
+<fpage>830</fpage>&#x02013;<lpage>835</lpage> (<year>2023</year>).<pub-id pub-id-type="pmid">36922588</pub-id>
+</mixed-citation></ref><ref id="R12"><label>12</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>Y. B.</given-names>
+<surname>Cao</surname></string-name>, <string-name><given-names>D.</given-names>
+<surname>Zhang</surname></string-name>, <string-name><given-names>Q.</given-names>
+<surname>Zhang</surname></string-name>, <string-name><given-names>X.</given-names>
+<surname>Qiu</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Zhou</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Poddar</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Fu</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Zhu</surname></string-name>, <string-name><given-names>J.-F.</given-names>
+<surname>Liao</surname></string-name>, <string-name><given-names>L.</given-names>
+<surname>Shu</surname></string-name>, <string-name><given-names>B.</given-names>
+<surname>Ren</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Ding</surname></string-name>, <string-name><given-names>B.</given-names>
+<surname>Han</surname></string-name>, <string-name><given-names>Z.</given-names>
+<surname>He</surname></string-name>, <string-name><given-names>D.-B.</given-names>
+<surname>Kuang</surname></string-name>, <string-name><given-names>K.</given-names>
+<surname>Wang</surname></string-name>, <string-name><given-names>H.</given-names>
+<surname>Zeng</surname></string-name>, <string-name><given-names>Z.</given-names>
+<surname>Fan</surname></string-name></person-group>, 
+<article-title>High-efficiency, flexible and large-area red/green/blue all-inorganic metal halide perovskite quantum wires-based light-emitting diodes</article-title>. <source>Nat. Commun.</source>
+<volume>14</volume>, 
+<fpage>4611</fpage> (<year>2023</year>).<pub-id pub-id-type="pmid">37528109</pub-id>
+</mixed-citation></ref><ref id="R13"><label>13</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>W.</given-names>
+<surname>Bai</surname></string-name>, <string-name><given-names>T.</given-names>
+<surname>Xuan</surname></string-name>, <string-name><given-names>H.</given-names>
+<surname>Zhao</surname></string-name>, <string-name><given-names>H.</given-names>
+<surname>Dong</surname></string-name>, <string-name><given-names>X.</given-names>
+<surname>Cheng</surname></string-name>, <string-name><given-names>L.</given-names>
+<surname>Wang</surname></string-name>, <string-name><given-names>R.-J.</given-names>
+<surname>Xie</surname></string-name></person-group>, 
+<article-title>Perovskite light-emitting diodes with an external quantum efficiency exceeding 30%</article-title>. <source>Adv. Mater.</source>
+<volume>35</volume>, 
+<fpage>e2302283</fpage> (<year>2023</year>).<pub-id pub-id-type="pmid">37246938</pub-id>
+</mixed-citation></ref><ref id="R14"><label>14</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>Y.</given-names>
+<surname>Jiang</surname></string-name>, <string-name><given-names>C.</given-names>
+<surname>Qin</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Cui</surname></string-name>, <string-name><given-names>T.</given-names>
+<surname>He</surname></string-name>, <string-name><given-names>K.</given-names>
+<surname>Liu</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Huang</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Luo</surname></string-name>, <string-name><given-names>L.</given-names>
+<surname>Zhang</surname></string-name>, <string-name><given-names>H.</given-names>
+<surname>Xu</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Li</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Wei</surname></string-name>, <string-name><given-names>Z.</given-names>
+<surname>Liu</surname></string-name>, <string-name><given-names>H.</given-names>
+<surname>Wang</surname></string-name>, <string-name><given-names>G.-H.</given-names>
+<surname>Kim</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Yuan</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Chen</surname></string-name></person-group>, 
+<article-title>Spectra stable blue perovskite light-emitting diodes</article-title>. <source>Nat. Commun.</source>
+<volume>10</volume>, 
+<fpage>1868</fpage> (<year>2019</year>).<pub-id pub-id-type="pmid">31015430</pub-id>
+</mixed-citation></ref><ref id="R15"><label>15</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>X.</given-names>
+<surname>Zheng</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Yuan</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Liu</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Yin</surname></string-name>, <string-name><given-names>F.</given-names>
+<surname>Yuan</surname></string-name>, <string-name><given-names>W.-S.</given-names>
+<surname>Shen</surname></string-name>, <string-name><given-names>K.</given-names>
+<surname>Yao</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Wei</surname></string-name>, <string-name><given-names>C.</given-names>
+<surname>Zhou</surname></string-name>, <string-name><given-names>K.</given-names>
+<surname>Song</surname></string-name>, <string-name><given-names>B.-B.</given-names>
+<surname>Zhang</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Lin</surname></string-name>, <string-name><given-names>M. N.</given-names>
+<surname>Hedhili</surname></string-name>, <string-name><given-names>N.</given-names>
+<surname>Wehbe</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Han</surname></string-name>, <string-name><given-names>H.-T.</given-names>
+<surname>Sun</surname></string-name>, <string-name><given-names>Z.-H.</given-names>
+<surname>Lu</surname></string-name>, <string-name><given-names>T. D.</given-names>
+<surname>Anthopoulos</surname></string-name>, <string-name><given-names>O. F.</given-names>
+<surname>Mohammed</surname></string-name>, <string-name><given-names>E. H.</given-names>
+<surname>Sargent</surname></string-name>, <string-name><given-names>L.-S.</given-names>
+<surname>Liao</surname></string-name>, <string-name><given-names>O. M.</given-names>
+<surname>Bakr</surname></string-name></person-group>, 
+<article-title>Chlorine vacancy passivation in mixed halide perovskite quantum dots by organic pseudohalides enables efficient Rec. 2020 blue light-emitting diodes</article-title>. <source>ACS Energy Lett.</source>
+<volume>5</volume>, 
+<fpage>793</fpage>&#x02013;<lpage>798</lpage> (<year>2020</year>).</mixed-citation></ref><ref id="R16"><label>16</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>Y.</given-names>
+<surname>Jiang</surname></string-name>, <string-name><given-names>C.</given-names>
+<surname>Sun</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Xu</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Li</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Cui</surname></string-name>, <string-name><given-names>X.</given-names>
+<surname>Fu</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Liu</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Liu</surname></string-name>, <string-name><given-names>H.</given-names>
+<surname>Wan</surname></string-name>, <string-name><given-names>K.</given-names>
+<surname>Wei</surname></string-name>, <string-name><given-names>T.</given-names>
+<surname>Zhou</surname></string-name>, <string-name><given-names>W.</given-names>
+<surname>Zhang</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Yang</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Yang</surname></string-name>, <string-name><given-names>C.</given-names>
+<surname>Qin</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Gao</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Pan</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Liu</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Hoogland</surname></string-name>, <string-name><given-names>E. H.</given-names>
+<surname>Sargent</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Chen</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Yuan</surname></string-name></person-group>, 
+<article-title>Synthesis-on-substrate of quantum dot solids</article-title>. <source>Nature</source>
+<volume>612</volume>, 
+<fpage>679</fpage>&#x02013;<lpage>684</lpage> (<year>2022</year>).<pub-id pub-id-type="pmid">36543955</pub-id>
+</mixed-citation></ref><ref id="R17"><label>17</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>Y.</given-names>
+<surname>Liu</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Wang</surname></string-name>, <string-name><given-names>Z.</given-names>
+<surname>Yu</surname></string-name>, <string-name><given-names>G.</given-names>
+<surname>Chen</surname></string-name>, <string-name><given-names>C.</given-names>
+<surname>Wang</surname></string-name>, <string-name><given-names>T.</given-names>
+<surname>Wang</surname></string-name>, <string-name><given-names>W.</given-names>
+<surname>Ke</surname></string-name>, <string-name><given-names>G.</given-names>
+<surname>Fang</surname></string-name></person-group>, 
+<article-title>A multifunctional additive strategy enables efficient pure-blue perovskite light-emitting diodes</article-title>. <source>Adv. Mater.</source>
+<volume>35</volume>, 
+<fpage>e2302161</fpage> (<year>2023</year>).<pub-id pub-id-type="pmid">37168009</pub-id>
+</mixed-citation></ref><ref id="R18"><label>18</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>S.</given-names>
+<surname>Yuan</surname></string-name>, <string-name><given-names>L.</given-names>
+<surname>Dai</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Sun</surname></string-name>, <string-name><given-names>F.</given-names>
+<surname>Auras</surname></string-name>, <string-name><given-names>Y.-H.</given-names>
+<surname>Zhou</surname></string-name>, <string-name><given-names>R.-Z.</given-names>
+<surname>An</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Liu</surname></string-name>, <string-name><given-names>C.</given-names>
+<surname>Ding</surname></string-name>, <string-name><given-names>C.</given-names>
+<surname>Cassidy</surname></string-name>, <string-name><given-names>X.</given-names>
+<surname>Tang</surname></string-name>, <string-name><given-names>S.-C.</given-names>
+<surname>Dong</surname></string-name>, <string-name><given-names>H.-B.</given-names>
+<surname>Kang</surname></string-name>, <string-name><given-names>K.</given-names>
+<surname>Chen</surname></string-name>, <string-name><given-names>X.</given-names>
+<surname>Liu</surname></string-name>, <string-name><given-names>Z.-F.</given-names>
+<surname>Ye</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Zhao</surname></string-name>, <string-name><given-names>C.</given-names>
+<surname>Adachi</surname></string-name>, <string-name><given-names>L.-S.</given-names>
+<surname>Liao</surname></string-name>, <string-name><given-names>N. C.</given-names>
+<surname>Greenham</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Qi</surname></string-name>, <string-name><given-names>S. D.</given-names>
+<surname>Stranks</surname></string-name>, <string-name><given-names>L.-S.</given-names>
+<surname>Cui</surname></string-name>, <string-name><given-names>R. H.</given-names>
+<surname>Friend</surname></string-name></person-group>, 
+<article-title>Efficient blue electroluminescence from reduced-dimensional perovskites</article-title>. <source>Nat. Photon.</source>
+<volume>18</volume>, 
+<fpage>425</fpage>&#x02013;<lpage>431</lpage> (<year>2024</year>).</mixed-citation></ref><ref id="R19"><label>19</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>G.</given-names>
+<surname>Zou</surname></string-name>, <string-name><given-names>Z.</given-names>
+<surname>Li</surname></string-name>, <string-name><given-names>Z.</given-names>
+<surname>Chen</surname></string-name>, <string-name><given-names>L.</given-names>
+<surname>Chu</surname></string-name>, <string-name><given-names>H.</given-names>
+<surname>Yip</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Cao</surname></string-name></person-group>, 
+<article-title>Color-stable deep-blue perovskite light-emitting diodes based on organotrichlorosilane post-treatment</article-title>. <source>Adv. Funct. Mater.</source>
+<volume>31</volume>, 
+<fpage>2103219</fpage> (<year>2021</year>).</mixed-citation></ref><ref id="R20"><label>20</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>D. P.</given-names>
+<surname>Nenon</surname></string-name>, <string-name><given-names>K.</given-names>
+<surname>Pressler</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Kang</surname></string-name>, <string-name><given-names>B. A.</given-names>
+<surname>Koscher</surname></string-name>, <string-name><given-names>J. H.</given-names>
+<surname>Olshansky</surname></string-name>, <string-name><given-names>W. T.</given-names>
+<surname>Osowiecki</surname></string-name>, <string-name><given-names>M. A.</given-names>
+<surname>Koc</surname></string-name>, <string-name><given-names>L.-W.</given-names>
+<surname>Wang</surname></string-name>, <string-name><given-names>A. P.</given-names>
+<surname>Alivisatos</surname></string-name></person-group>, 
+<article-title>Design principles for trap-free CsPbX<sub>3</sub> nanocrystals: Enumerating and eliminating surface halide vacancies with softer Lewis bases</article-title>. <source>J. Am. Chem. Soc.</source>
+<volume>140</volume>, 
+<fpage>17760</fpage>&#x02013;<lpage>17772</lpage> (<year>2018</year>).<pub-id pub-id-type="pmid">30501174</pub-id>
+</mixed-citation></ref><ref id="R21"><label>21</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>L.</given-names>
+<surname>Cheng</surname></string-name>, <string-name><given-names>C.</given-names>
+<surname>Yi</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Tong</surname></string-name>, <string-name><given-names>L.</given-names>
+<surname>Zhu</surname></string-name>, <string-name><given-names>G.</given-names>
+<surname>Kusch</surname></string-name>, <string-name><given-names>X.</given-names>
+<surname>Wang</surname></string-name>, <string-name><given-names>X.</given-names>
+<surname>Wang</surname></string-name>, <string-name><given-names>T.</given-names>
+<surname>Jiang</surname></string-name>, <string-name><given-names>H.</given-names>
+<surname>Zhang</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Zhang</surname></string-name>, <string-name><given-names>C.</given-names>
+<surname>Xue</surname></string-name>, <string-name><given-names>H.</given-names>
+<surname>Chen</surname></string-name>, <string-name><given-names>W.</given-names>
+<surname>Xu</surname></string-name>, <string-name><given-names>D.</given-names>
+<surname>Liu</surname></string-name>, <string-name><given-names>R. A.</given-names>
+<surname>Oliver</surname></string-name>, <string-name><given-names>R. H.</given-names>
+<surname>Friend</surname></string-name>, <string-name><given-names>L.</given-names>
+<surname>Zhang</surname></string-name>, <string-name><given-names>N.</given-names>
+<surname>Wang</surname></string-name>, <string-name><given-names>W.</given-names>
+<surname>Huang</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Wang</surname></string-name></person-group>, 
+<article-title>Halide homogenization for high-performance blue perovskite electroluminescence</article-title>. <source>Research</source>
+<volume>2020</volume>, 
+<fpage>9017871</fpage> (<year>2020</year>).<pub-id pub-id-type="pmid">33623912</pub-id>
+</mixed-citation></ref><ref id="R22"><label>22</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>J.-N.</given-names>
+<surname>Yang</surname></string-name>, <string-name><given-names>J.-J.</given-names>
+<surname>Wang</surname></string-name>, <string-name><given-names>Y.-C.</given-names>
+<surname>Yin</surname></string-name>, <string-name><given-names>H.-B.</given-names>
+<surname>Yao</surname></string-name></person-group>, 
+<article-title>Mitigating halide ion migration by resurfacing lead halide perovskite nanocrystals for stable light-emitting diodes</article-title>. <source>Chem. Soc. Rev.</source>
+<volume>52</volume>, 
+<fpage>5516</fpage>&#x02013;<lpage>5540</lpage> (<year>2023</year>).<pub-id pub-id-type="pmid">37482807</pub-id>
+</mixed-citation></ref><ref id="R23"><label>23</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>M.</given-names>
+<surname>Karlsson</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Qin</surname></string-name>, <string-name><given-names>K.</given-names>
+<surname>Niu</surname></string-name>, <string-name><given-names>X.</given-names>
+<surname>Luo</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Rosen</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Bj&#x000f6;rk</surname></string-name>, <string-name><given-names>L.</given-names>
+<surname>Duan</surname></string-name>, <string-name><given-names>W.</given-names>
+<surname>Xu</surname></string-name>, <string-name><given-names>F.</given-names>
+<surname>Gao</surname></string-name></person-group>, 
+<article-title>Role of chloride on the instability of blue emitting mixed-halide perovskites</article-title>. <source>Front. Optoelectron.</source>
+<volume>16</volume>, 
+<fpage>37</fpage> (<year>2023</year>).<pub-id pub-id-type="pmid">37975944</pub-id>
+</mixed-citation></ref><ref id="R24"><label>24</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>K. T.</given-names>
+<surname>Butler</surname></string-name>, <string-name><given-names>J. M.</given-names>
+<surname>Frost</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Walsh</surname></string-name></person-group>, 
+<article-title>Band alignment of the hybrid halide perovskites CH3NH3PbCl3, CH3NH3PbBr3and CH3NH3PbI3</article-title>. <source>Mater. Horiz.</source>
+<volume>2</volume>, 
+<fpage>228</fpage>&#x02013;<lpage>231</lpage> (<year>2015</year>).</mixed-citation></ref><ref id="R25"><label>25</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>A.</given-names>
+<surname>Buin</surname></string-name>, <string-name><given-names>R.</given-names>
+<surname>Comin</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Xu</surname></string-name>, <string-name><given-names>A.-H.</given-names>
+<surname>Ip</surname></string-name>, <string-name><given-names>E.</given-names>
+<surname>Sargent</surname></string-name></person-group>, 
+<article-title>Halide-dependent electronic structure of organolead perovskite materials</article-title>. <source>Chem. Mater.</source>
+<volume>27</volume>, 
+<fpage>4405</fpage>&#x02013;<lpage>4412</lpage> (<year>2015</year>).</mixed-citation></ref><ref id="R26"><label>26</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>S.</given-names>
+<surname>Yuan</surname></string-name>, <string-name><given-names>X.</given-names>
+<surname>Zheng</surname></string-name>, <string-name><given-names>W.-S.</given-names>
+<surname>Shen</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Liu</surname></string-name>, <string-name><given-names>L.-S.</given-names>
+<surname>Cui</surname></string-name>, <string-name><given-names>C.</given-names>
+<surname>Zhang</surname></string-name>, <string-name><given-names>Q.-S.</given-names>
+<surname>Tian</surname></string-name>, <string-name><given-names>J.-J.</given-names>
+<surname>Wu</surname></string-name>, <string-name><given-names>Y.-H.</given-names>
+<surname>Zhou</surname></string-name>, <string-name><given-names>X.-D.</given-names>
+<surname>Wang</surname></string-name>, <string-name><given-names>Z.-K.</given-names>
+<surname>Wang</surname></string-name>, <string-name><given-names>P.</given-names>
+<surname>Han</surname></string-name>, <string-name><given-names>J. M.</given-names>
+<surname>Luther</surname></string-name>, <string-name><given-names>O. M.</given-names>
+<surname>Bakr</surname></string-name>, <string-name><given-names>L.-S.</given-names>
+<surname>Liao</surname></string-name></person-group>, 
+<article-title>Overcoming degradation pathways to achieve stable blue perovskite light-emitting diodes</article-title>. <source>ACS Energy Lett.</source>
+<volume>7</volume>, 
+<fpage>1348</fpage>&#x02013;<lpage>1354</lpage> (<year>2022</year>).</mixed-citation></ref><ref id="R27"><label>27</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>F.</given-names>
+<surname>Chen</surname></string-name>, <string-name><given-names>W.</given-names>
+<surname>Ming</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Li</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Gao</surname></string-name>, <string-name><given-names>L.</given-names>
+<surname>Pasquale</surname></string-name>, <string-name><given-names>K.</given-names>
+<surname>Yao</surname></string-name>, <string-name><given-names>B.</given-names>
+<surname>Huang</surname></string-name>, <string-name><given-names>Q.</given-names>
+<surname>Cai</surname></string-name>, <string-name><given-names>G.</given-names>
+<surname>Lu</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Song</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Prato</surname></string-name>, <string-name><given-names>X.</given-names>
+<surname>Dai</surname></string-name>, <string-name><given-names>H.</given-names>
+<surname>He</surname></string-name>, <string-name><given-names>Z.</given-names>
+<surname>Ye</surname></string-name></person-group>, 
+<article-title>Highly spectra-stable pure blue perovskite light-emitting diodes based on copper and potassium co-doped quantum dots</article-title>. <source>Nano Res.</source>
+<volume>16</volume>, 
+<fpage>7654</fpage>&#x02013;<lpage>7660</lpage> (<year>2023</year>).</mixed-citation></ref><ref id="R28"><label>28</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>J.</given-names>
+<surname>Song</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Li</surname></string-name>, <string-name><given-names>L.</given-names>
+<surname>Xu</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Li</surname></string-name>, <string-name><given-names>F.</given-names>
+<surname>Zhang</surname></string-name>, <string-name><given-names>B.</given-names>
+<surname>Han</surname></string-name>, <string-name><given-names>Q.</given-names>
+<surname>Shan</surname></string-name>, <string-name><given-names>H.</given-names>
+<surname>Zeng</surname></string-name></person-group>, 
+<article-title>Room-temperature triple-ligand surface engineering synergistically boosts ink stability, recombination dynamics, and charge injection toward EQE-11.6% perovskite QLEDs</article-title>. <source>Adv. Mater.</source>
+<volume>30</volume>, 
+<fpage>e1800764</fpage> (<year>2018</year>).<pub-id pub-id-type="pmid">29888521</pub-id>
+</mixed-citation></ref><ref id="R29"><label>29</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>T.</given-names>
+<surname>Fang</surname></string-name>, <string-name><given-names>T.</given-names>
+<surname>Wang</surname></string-name>, <string-name><given-names>X.</given-names>
+<surname>Li</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Dong</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Bai</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Song</surname></string-name></person-group>, 
+<article-title>Perovskite QLED with an external quantum efficiency of over 21% by modulating electronic transport</article-title>. <source>Sci. Bull.</source>
+<volume>66</volume>, 
+<fpage>36</fpage>&#x02013;<lpage>43</lpage> (<year>2021</year>).</mixed-citation></ref><ref id="R30"><label>30</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>H.</given-names>
+<surname>Zhao</surname></string-name>, <string-name><given-names>T.</given-names>
+<surname>Xuan</surname></string-name>, <string-name><given-names>W.</given-names>
+<surname>Bai</surname></string-name>, <string-name><given-names>H.</given-names>
+<surname>Dong</surname></string-name>, <string-name><given-names>G.</given-names>
+<surname>Dong</surname></string-name>, <string-name><given-names>R.-J.</given-names>
+<surname>Xie</surname></string-name></person-group>, 
+<article-title>Fluorine polymer-modified Dion-Jacobson perovskites enabling sky-blue perovskite light-emitting diodes with an efficiency of 16.55%</article-title>. <source>Laser Photonics Rev.</source>
+<volume>17</volume>, 
+<fpage>2300430</fpage> (<year>2023</year>).</mixed-citation></ref><ref id="R31"><label>31</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>W.</given-names>
+<surname>Xiong</surname></string-name>, <string-name><given-names>C.</given-names>
+<surname>Zou</surname></string-name>, <string-name><given-names>W.</given-names>
+<surname>Tang</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Xing</surname></string-name>, <string-name><given-names>Z.</given-names>
+<surname>Wang</surname></string-name>, <string-name><given-names>B.</given-names>
+<surname>Zhao</surname></string-name>, <string-name><given-names>D.</given-names>
+<surname>Di</surname></string-name></person-group>, 
+<article-title>Efficient and bright blue perovskite LEDs enabled by a carbazole-phosphonic acid interface</article-title>. <source>ACS Energy Lett.</source>
+<volume>8</volume>, 
+<fpage>2897</fpage>&#x02013;<lpage>2903</lpage> (<year>2023</year>).</mixed-citation></ref><ref id="R32"><label>32</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>Y.-H.</given-names>
+<surname>Kim</surname></string-name>, <string-name><given-names>H.</given-names>
+<surname>Cho</surname></string-name>, <string-name><given-names>J. H.</given-names>
+<surname>Heo</surname></string-name>, <string-name><given-names>T.-S.</given-names>
+<surname>Kim</surname></string-name>, <string-name><given-names>N.</given-names>
+<surname>Myoung</surname></string-name>, <string-name><given-names>C.-L.</given-names>
+<surname>Lee</surname></string-name>, <string-name><given-names>S. H.</given-names>
+<surname>Im</surname></string-name>, <string-name><given-names>T.-W.</given-names>
+<surname>Lee</surname></string-name></person-group>, 
+<article-title>Multicolored organic/inorganic hybrid perovskite light-emitting diodes</article-title>. <source>Adv. Mater.</source>
+<volume>27</volume>, 
+<fpage>1248</fpage>&#x02013;<lpage>1254</lpage> (<year>2015</year>).<pub-id pub-id-type="pmid">25420784</pub-id>
+</mixed-citation></ref><ref id="R33"><label>33</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>Y.</given-names>
+<surname>Deng</surname></string-name>, <string-name><given-names>F.</given-names>
+<surname>Peng</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Lu</surname></string-name>, <string-name><given-names>X.</given-names>
+<surname>Zhu</surname></string-name>, <string-name><given-names>W.</given-names>
+<surname>Jin</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Qiu</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Dong</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Hao</surname></string-name>, <string-name><given-names>D.</given-names>
+<surname>Di</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Gao</surname></string-name>, <string-name><given-names>T.</given-names>
+<surname>Sun</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Zhang</surname></string-name>, <string-name><given-names>F.</given-names>
+<surname>Liu</surname></string-name>, <string-name><given-names>L.</given-names>
+<surname>Wang</surname></string-name>, <string-name><given-names>L.</given-names>
+<surname>Ying</surname></string-name>, <string-name><given-names>F.</given-names>
+<surname>Huang</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Jin</surname></string-name></person-group>, 
+<article-title>Solution-processed green and blue quantum-dot light-emitting diodes with eliminated charge leakage</article-title>. <source>Nat. Photon.</source>
+<volume>16</volume>, 
+<fpage>505</fpage>&#x02013;<lpage>511</lpage> (<year>2022</year>).</mixed-citation></ref><ref id="R34"><label>34</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>H.</given-names>
+<surname>Cho</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Kim</surname></string-name>, <string-name><given-names>C.</given-names>
+<surname>Wolf</surname></string-name>, <string-name><given-names>Y.-H.</given-names>
+<surname>Kim</surname></string-name>, <string-name><given-names>H.</given-names>
+<surname>Yun</surname></string-name>, <string-name><given-names>S.-H.</given-names>
+<surname>Jeong</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Sadhanala</surname></string-name>, <string-name><given-names>V.</given-names>
+<surname>Venugopalan</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Choi</surname></string-name>, <string-name><given-names>C.-L.</given-names>
+<surname>Lee</surname></string-name>, <string-name><given-names>R.</given-names>
+<surname>Friend</surname></string-name>, <string-name><given-names>T.-W.</given-names>
+<surname>Lee</surname></string-name></person-group>, 
+<article-title>High-efficiency polycrystalline perovskite light-emitting diodes based on mixed cations</article-title>. <source>ACS Nano</source>
+<volume>12</volume>, 
+<fpage>2883</fpage>&#x02013;<lpage>2892</lpage> (<year>2018</year>).<pub-id pub-id-type="pmid">29494128</pub-id>
+</mixed-citation></ref><ref id="R35"><label>35</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>Y.</given-names>
+<surname>Miao</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Ke</surname></string-name>, <string-name><given-names>N.</given-names>
+<surname>Wang</surname></string-name>, <string-name><given-names>W.</given-names>
+<surname>Zou</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Xu</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Cao</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Sun</surname></string-name>, <string-name><given-names>R.</given-names>
+<surname>Yang</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Wang</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Tong</surname></string-name>, <string-name><given-names>W.</given-names>
+<surname>Xu</surname></string-name>, <string-name><given-names>L.</given-names>
+<surname>Zhang</surname></string-name>, <string-name><given-names>R.</given-names>
+<surname>Li</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Li</surname></string-name>, <string-name><given-names>H.</given-names>
+<surname>He</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Jin</surname></string-name>, <string-name><given-names>F.</given-names>
+<surname>Gao</surname></string-name>, <string-name><given-names>W.</given-names>
+<surname>Huang</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Wang</surname></string-name></person-group>, 
+<article-title>Stable and bright formamidinium-based perovskite light-emitting diodes with high energy conversion efficiency</article-title>. <source>Nat. Commun.</source>
+<volume>10</volume>, 
+<fpage>3624</fpage> (<year>2019</year>).<pub-id pub-id-type="pmid">31399580</pub-id>
+</mixed-citation></ref><ref id="R36"><label>36</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>J.</given-names>
+<surname>Qin</surname></string-name>, <string-name><given-names>X.-K.</given-names>
+<surname>Liu</surname></string-name>, <string-name><given-names>C.</given-names>
+<surname>Yin</surname></string-name>, <string-name><given-names>F.</given-names>
+<surname>Gao</surname></string-name></person-group>, 
+<article-title>Carrier dynamics and evaluation of lasing actions in halide perovskites</article-title>. <source>Trends Chem.</source>
+<volume>3</volume>, 
+<fpage>34</fpage>&#x02013;<lpage>46</lpage> (<year>2021</year>).</mixed-citation></ref><ref id="R37"><label>37</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>P.</given-names>
+<surname>Du</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Li</surname></string-name>, <string-name><given-names>L.</given-names>
+<surname>Wang</surname></string-name>, <string-name><given-names>L.</given-names>
+<surname>Sun</surname></string-name>, <string-name><given-names>X.</given-names>
+<surname>Wang</surname></string-name>, <string-name><given-names>X.</given-names>
+<surname>Xu</surname></string-name>, <string-name><given-names>L.</given-names>
+<surname>Yang</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Pang</surname></string-name>, <string-name><given-names>W.</given-names>
+<surname>Liang</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Luo</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Ma</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Tang</surname></string-name></person-group>, 
+<article-title>Efficient and large-area all vacuum-deposited perovskite light-emitting diodes via spatial confinement</article-title>. <source>Nat. Commun.</source>
+<volume>12</volume>, 
+<fpage>4751</fpage> (<year>2021</year>).<pub-id pub-id-type="pmid">34362915</pub-id>
+</mixed-citation></ref><ref id="R38"><label>38</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>J.</given-names>
+<surname>Li</surname></string-name>, <string-name><given-names>P.</given-names>
+<surname>Du</surname></string-name>, <string-name><given-names>Q.</given-names>
+<surname>Guo</surname></string-name>, <string-name><given-names>L.</given-names>
+<surname>Sun</surname></string-name>, <string-name><given-names>Z.</given-names>
+<surname>Shen</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Zhu</surname></string-name>, <string-name><given-names>C.</given-names>
+<surname>Dong</surname></string-name>, <string-name><given-names>L.</given-names>
+<surname>Wang</surname></string-name>, <string-name><given-names>X.</given-names>
+<surname>Zhang</surname></string-name>, <string-name><given-names>L.</given-names>
+<surname>Li</surname></string-name>, <string-name><given-names>C.</given-names>
+<surname>Yang</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Pan</surname></string-name>, <string-name><given-names>Z.</given-names>
+<surname>Liu</surname></string-name>, <string-name><given-names>B.</given-names>
+<surname>Xia</surname></string-name>, <string-name><given-names>Z.</given-names>
+<surname>Xiao</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Du</surname></string-name>, <string-name><given-names>B.</given-names>
+<surname>Song</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Luo</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Tang</surname></string-name></person-group>, 
+<article-title>Efficient all-thermally evaporated perovskite light-emitting diodes for active-matrix displays</article-title>. <source>Nat. Photon.</source>
+<volume>17</volume>, 
+<fpage>435</fpage>&#x02013;<lpage>441</lpage> (<year>2023</year>).</mixed-citation></ref><ref id="R39"><label>39</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>Y.</given-names>
+<surname>Gao</surname></string-name>, <string-name><given-names>X.</given-names>
+<surname>Peng</surname></string-name></person-group>, 
+<article-title>Photogenerated excitons in plain core CdSe nanocrystals with unity radiative decay in single channel: The effects of surface and ligands</article-title>. <source>J. Am. Chem. Soc.</source>
+<volume>137</volume>, 
+<fpage>4230</fpage>&#x02013;<lpage>4235</lpage> (<year>2015</year>).<pub-id pub-id-type="pmid">25785631</pub-id>
+</mixed-citation></ref><ref id="R40"><label>40</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>X.</given-names>
+<surname>Zhang</surname></string-name>, <string-name><given-names>H.</given-names>
+<surname>Huang</surname></string-name>, <string-name><given-names>L.</given-names>
+<surname>Jin</surname></string-name>, <string-name><given-names>C.</given-names>
+<surname>Wen</surname></string-name>, <string-name><given-names>Q.</given-names>
+<surname>Zhao</surname></string-name>, <string-name><given-names>C.</given-names>
+<surname>Zhao</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Guo</surname></string-name>, <string-name><given-names>C.</given-names>
+<surname>Cheng</surname></string-name>, <string-name><given-names>H.</given-names>
+<surname>Wang</surname></string-name>, <string-name><given-names>L.</given-names>
+<surname>Zhang</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Li</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Maung Maung</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Yuan</surname></string-name>, <string-name><given-names>W.</given-names>
+<surname>Ma</surname></string-name></person-group>, 
+<article-title>Ligand-assisted coupling manipulation for efficient and stable FAPbI<sub>3</sub> colloidal quantum dot solar cells</article-title>. <source>Angew. Chem. Int. Ed.</source>
+<volume>62</volume>, 
+<fpage>e202214241</fpage> (<year>2023</year>).</mixed-citation></ref><ref id="R41"><label>41</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>J.-W.</given-names>
+<surname>Lee</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Tan</surname></string-name>, <string-name><given-names>S. I.</given-names>
+<surname>Seok</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Yang</surname></string-name>, <string-name><given-names>N.-G.</given-names>
+<surname>Park</surname></string-name></person-group>, 
+<article-title>Rethinking the A cation in halide perovskites</article-title>. <source>Science</source>
+<volume>375</volume>, 
+<fpage>eabj1186</fpage> (<year>2022</year>).<pub-id pub-id-type="pmid">35201885</pub-id>
+</mixed-citation></ref><ref id="R42"><label>42</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>M. M.</given-names>
+<surname>Byranvand</surname></string-name>, <string-name><given-names>C.</given-names>
+<surname>Otero-Mart&#x000ed;nez</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Ye</surname></string-name>, <string-name><given-names>W.</given-names>
+<surname>Zuo</surname></string-name>, <string-name><given-names>L.</given-names>
+<surname>Manna</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Saliba</surname></string-name>, <string-name><given-names>R. L. Z.</given-names>
+<surname>Hoye</surname></string-name>, <string-name><given-names>L.</given-names>
+<surname>Polavarapu</surname></string-name></person-group>, 
+<article-title>Recent progress in mixed A-site cation halide perovskite thin-films and nanocrystals for solar cells and light-emitting diodes</article-title>. <source>Adv. Opt. Mater.</source>
+<volume>10</volume>, 
+<fpage>2200423</fpage> (<year>2022</year>).</mixed-citation></ref><ref id="R43"><label>43</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>C. C.</given-names>
+<surname>Stoumpos</surname></string-name>, <string-name><given-names>M. G.</given-names>
+<surname>Kanatzidis</surname></string-name></person-group>, 
+<article-title>The renaissance of halide perovskites and their evolution as emerging semiconductors</article-title>. <source>Acc. Chem. Res.</source>
+<volume>48</volume>, 
+<fpage>2791</fpage>&#x02013;<lpage>2802</lpage> (<year>2015</year>).<pub-id pub-id-type="pmid">26350149</pub-id>
+</mixed-citation></ref><ref id="R44"><label>44</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>C.</given-names>
+<surname>Bi</surname></string-name>, <string-name><given-names>Z.</given-names>
+<surname>Yao</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Hu</surname></string-name>, <string-name><given-names>X.</given-names>
+<surname>Wang</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Zhang</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Tian</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Liu</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Lu</surname></string-name>, <string-name><given-names>N. H.</given-names>
+<surname>De Leeuw</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Sui</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Tian</surname></string-name></person-group>, 
+<article-title>Suppressing auger recombination of perovskite quantum dots for efficient pure-blue-light-emitting diodes</article-title>. <source>ACS Energy Lett.</source>
+<volume>8</volume>, 
+<fpage>731</fpage>&#x02013;<lpage>739</lpage> (<year>2023</year>).</mixed-citation></ref><ref id="R45"><label>45</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>Y.-K.</given-names>
+<surname>Wang</surname></string-name>, <string-name><given-names>F.</given-names>
+<surname>Jia</surname></string-name>, <string-name><given-names>X.</given-names>
+<surname>Li</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Teale</surname></string-name>, <string-name><given-names>P.</given-names>
+<surname>Xia</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Liu</surname></string-name>, <string-name><given-names>P. T.</given-names>
+<surname>Chan</surname></string-name>, <string-name><given-names>H.</given-names>
+<surname>Wan</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Hassan</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Imran</surname></string-name>, <string-name><given-names>H.</given-names>
+<surname>Chen</surname></string-name>, <string-name><given-names>L.</given-names>
+<surname>Grater</surname></string-name>, <string-name><given-names>L.-D.</given-names>
+<surname>Sun</surname></string-name>, <string-name><given-names>G. C.</given-names>
+<surname>Walker</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Hoogland</surname></string-name>, <string-name><given-names>Z.-H.</given-names>
+<surname>Lu</surname></string-name>, <string-name><given-names>C.-H.</given-names>
+<surname>Yan</surname></string-name>, <string-name><given-names>L.-S.</given-names>
+<surname>Liao</surname></string-name>, <string-name><given-names>E. H.</given-names>
+<surname>Sargent</surname></string-name></person-group>, 
+<article-title>Self-assembled monolayer&#x02013;based blue perovskite LEDs</article-title>. <source>Sci. Adv.</source>
+<volume>9</volume>, 
+<fpage>eadh2140</fpage> (<year>2023</year>).<pub-id pub-id-type="pmid">37683007</pub-id>
+</mixed-citation></ref><ref id="R46"><label>46</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>M.</given-names>
+<surname>Karlsson</surname></string-name>, <string-name><given-names>Z.</given-names>
+<surname>Yi</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Reichert</surname></string-name>, <string-name><given-names>X.</given-names>
+<surname>Luo</surname></string-name>, <string-name><given-names>W.</given-names>
+<surname>Lin</surname></string-name>, <string-name><given-names>Z.</given-names>
+<surname>Zhang</surname></string-name>, <string-name><given-names>C.</given-names>
+<surname>Bao</surname></string-name>, <string-name><given-names>R.</given-names>
+<surname>Zhang</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Bai</surname></string-name>, <string-name><given-names>G.</given-names>
+<surname>Zheng</surname></string-name>, <string-name><given-names>P.</given-names>
+<surname>Teng</surname></string-name>, <string-name><given-names>L.</given-names>
+<surname>Duan</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Lu</surname></string-name>, <string-name><given-names>K.</given-names>
+<surname>Zheng</surname></string-name>, <string-name><given-names>T.</given-names>
+<surname>Pullerits</surname></string-name>, <string-name><given-names>C.</given-names>
+<surname>Deibel</surname></string-name>, <string-name><given-names>W.</given-names>
+<surname>Xu</surname></string-name>, <string-name><given-names>R.</given-names>
+<surname>Friend</surname></string-name>, <string-name><given-names>F.</given-names>
+<surname>Gao</surname></string-name></person-group>, 
+<article-title>Mixed halide perovskites for spectrally stable and high-efficiency blue light-emitting diodes</article-title>. <source>Nat. Commun.</source>
+<volume>12</volume>, 
+<fpage>361</fpage> (<year>2021</year>).<pub-id pub-id-type="pmid">33441549</pub-id>
+</mixed-citation></ref><ref id="R47"><label>47</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>Y.</given-names>
+<surname>Tong</surname></string-name>, <string-name><given-names>X.</given-names>
+<surname>Bi</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Xu</surname></string-name>, <string-name><given-names>H.</given-names>
+<surname>Min</surname></string-name>, <string-name><given-names>L.</given-names>
+<surname>Cheng</surname></string-name>, <string-name><given-names>Z.</given-names>
+<surname>Kuang</surname></string-name>, <string-name><given-names>L.</given-names>
+<surname>Yuan</surname></string-name>, <string-name><given-names>F.</given-names>
+<surname>Zhou</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Chu</surname></string-name>, <string-name><given-names>L.</given-names>
+<surname>Xu</surname></string-name>, <string-name><given-names>L.</given-names>
+<surname>Zhu</surname></string-name>, <string-name><given-names>N.</given-names>
+<surname>Zhao</surname></string-name>, <string-name><given-names>N.</given-names>
+<surname>Wang</surname></string-name>, <string-name><given-names>W.</given-names>
+<surname>Huang</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Wang</surname></string-name></person-group>, 
+<article-title>In situ halide exchange of cesium lead halide perovskites for blue light-emitting diodes</article-title>. <source>Adv. Mater.</source>
+<volume>35</volume>, 
+<fpage>e2207111</fpage> (<year>2023</year>).<pub-id pub-id-type="pmid">36305014</pub-id>
+</mixed-citation></ref><ref id="R48"><label>48</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>Y.</given-names>
+<surname>Yang</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Xu</surname></string-name>, <string-name><given-names>Z.</given-names>
+<surname>Ni</surname></string-name>, <string-name><given-names>C. H.</given-names>
+<surname>Van Brackle</surname></string-name>, <string-name><given-names>L.</given-names>
+<surname>Zhao</surname></string-name>, <string-name><given-names>X.</given-names>
+<surname>Xiao</surname></string-name>, <string-name><given-names>X.</given-names>
+<surname>Dai</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Huang</surname></string-name></person-group>, 
+<article-title>Highly efficient pure-blue light-emitting diodes based on rubidium and chlorine alloyed metal halide perovskite</article-title>. <source>Adv. Mater.</source>
+<volume>33</volume>, 
+<fpage>e2100783</fpage> (<year>2021</year>).<pub-id pub-id-type="pmid">34260771</pub-id>
+</mixed-citation></ref><ref id="R49"><label>49</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>Z.</given-names>
+<surname>Chu</surname></string-name>, <string-name><given-names>W.</given-names>
+<surname>Zhang</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Jiang</surname></string-name>, <string-name><given-names>Z.</given-names>
+<surname>Qu</surname></string-name>, <string-name><given-names>F.</given-names>
+<surname>Ma</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Zhao</surname></string-name>, <string-name><given-names>X.</given-names>
+<surname>Chu</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Shen</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Li</surname></string-name>, <string-name><given-names>Z.</given-names>
+<surname>Yin</surname></string-name>, <string-name><given-names>X.</given-names>
+<surname>Zhang</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>You</surname></string-name></person-group>, 
+<article-title>Blue light-emitting diodes based on quasi-two-dimensional perovskite with efficient charge injection and optimized phase distribution via an alkali metal salt</article-title>. <source>Nat. Electron.</source>
+<volume>6</volume>, 
+<fpage>360</fpage>&#x02013;<lpage>369</lpage> (<year>2023</year>).</mixed-citation></ref><ref id="R50"><label>50</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>S.</given-names>
+<surname>Liu</surname></string-name>, <string-name><given-names>Z.</given-names>
+<surname>Guo</surname></string-name>, <string-name><given-names>X.</given-names>
+<surname>Wu</surname></string-name>, <string-name><given-names>X.</given-names>
+<surname>Liu</surname></string-name>, <string-name><given-names>Z.</given-names>
+<surname>Huang</surname></string-name>, <string-name><given-names>L.</given-names>
+<surname>Li</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Zhang</surname></string-name>, <string-name><given-names>H.</given-names>
+<surname>Zhou</surname></string-name>, <string-name><given-names>L.</given-names>
+<surname>Sun</surname></string-name>, <string-name><given-names>C.</given-names>
+<surname>Yan</surname></string-name></person-group>, 
+<article-title>Zwitterions narrow distribution of perovskite quantum wells for blue light-emitting diodes with efficiency exceeding 15%</article-title>. <source>Adv. Mater.</source>
+<volume>35</volume>, 
+<fpage>e2208078</fpage> (<year>2023</year>).<pub-id pub-id-type="pmid">36398427</pub-id>
+</mixed-citation></ref><ref id="R51"><label>51</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>L.</given-names>
+<surname>Zhang</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Jiang</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Feng</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Cui</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Li</surname></string-name>, <string-name><given-names>X.</given-names>
+<surname>Fu</surname></string-name>, <string-name><given-names>H.</given-names>
+<surname>Hsu</surname></string-name>, <string-name><given-names>C.</given-names>
+<surname>Qin</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Yuan</surname></string-name></person-group>, 
+<article-title>Manipulating local lattice distortion for spectrally stable and efficient mixed-halide blue perovskite LEDs</article-title>. <source>Angew. Chem. Int. Ed.</source>
+<volume>62</volume>, 
+<fpage>e202302184</fpage> (<year>2023</year>).</mixed-citation></ref><ref id="R52"><label>52</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>X.</given-names>
+<surname>Dai</surname></string-name>, <string-name><given-names>Z.</given-names>
+<surname>Zhang</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Jin</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Niu</surname></string-name>, <string-name><given-names>H.</given-names>
+<surname>Cao</surname></string-name>, <string-name><given-names>X.</given-names>
+<surname>Liang</surname></string-name>, <string-name><given-names>L.</given-names>
+<surname>Chen</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Wang</surname></string-name>, <string-name><given-names>X.</given-names>
+<surname>Peng</surname></string-name></person-group>, 
+<article-title>Solution-processed, high-performance light-emitting diodes based on quantum dots</article-title>. <source>Nature</source>
+<volume>515</volume>, 
+<fpage>96</fpage>&#x02013;<lpage>99</lpage> (<year>2014</year>).<pub-id pub-id-type="pmid">25363773</pub-id>
+</mixed-citation></ref><ref id="R53"><label>53</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>J. C.</given-names>
+<surname>de Mello</surname></string-name>, <string-name><given-names>H. F.</given-names>
+<surname>Wittmann</surname></string-name>, <string-name><given-names>R. H.</given-names>
+<surname>Friend</surname></string-name></person-group>, 
+<article-title>An improved experimental determination of external photoluminescence quantum efficiency</article-title>. <source>Adv. Mater.</source>
+<volume>9</volume>, 
+<fpage>230</fpage>&#x02013;<lpage>232</lpage> (<year>1997</year>).</mixed-citation></ref><ref id="R54"><label>54</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>G.</given-names>
+<surname>Kresse</surname></string-name>, <string-name><given-names>D.</given-names>
+<surname>Joubert</surname></string-name></person-group>, 
+<article-title>From ultrasoft pseudopotentials to the projector augmented-wave method</article-title>. <source>Phys. Rev. B</source>
+<volume>59</volume>, 
+<fpage>1758</fpage>&#x02013;<lpage>1775</lpage> (<year>1999</year>).</mixed-citation></ref><ref id="R55"><label>55</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>J. P.</given-names>
+<surname>Perdew</surname></string-name>, <string-name><given-names>K.</given-names>
+<surname>Burke</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Ernzerhof</surname></string-name></person-group>, 
+<article-title>Generalized gradient approximation made simple</article-title>. <source>Phys. Rev. Lett.</source>
+<volume>77</volume>, 
+<fpage>3865</fpage>&#x02013;<lpage>3868</lpage> (<year>1996</year>).<pub-id pub-id-type="pmid">10062328</pub-id>
+</mixed-citation></ref></ref-list></back></article>

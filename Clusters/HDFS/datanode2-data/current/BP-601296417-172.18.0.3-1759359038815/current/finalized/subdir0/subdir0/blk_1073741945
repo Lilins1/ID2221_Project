@@ -1,0 +1,550 @@
+<!DOCTYPE article
+PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.3 20210610//EN" "JATS-archivearticle1-3-mathml3.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="research-article"><?properties open_access?><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Transl Vis Sci Technol</journal-id><journal-id journal-id-type="iso-abbrev">Transl Vis Sci Technol</journal-id><journal-id journal-id-type="publisher-id">TVST</journal-id><journal-title-group><journal-title>Translational Vision Science &#x00026; Technology</journal-title></journal-title-group><issn pub-type="epub">2164-2591</issn><publisher><publisher-name>The Association for Research in Vision and Ophthalmology</publisher-name></publisher></journal-meta>
+<article-meta><article-id pub-id-type="pmid">39007833</article-id><article-id pub-id-type="pmc">PMC467108</article-id>
+<article-id pub-id-type="doi">10.1167/tvst.13.7.12</article-id><article-id pub-id-type="publisher-id">TVST-24-6609</article-id><article-categories><subj-group subj-group-type="heading"><subject>Retina</subject></subj-group><subj-group subj-group-type="category"><subject>Retina</subject></subj-group></article-categories><title-group><article-title>Colorimetric Analyses of the Optic Nerve Head and Retina Indicate Increased Blood Flow After Vitrectomy</article-title><alt-title alt-title-type="runhead">Colorimetric Analyses of the Optic Nerve Head</alt-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>&#x00130;nam</surname><given-names>Onur</given-names></name><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="aff2" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>El-Baz</surname><given-names>Ayman</given-names></name><xref rid="aff3" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Kaplan</surname><given-names>Henry J.</given-names></name><xref rid="aff4" ref-type="aff">
+<sup>4</sup>
+</xref><xref rid="aff5" ref-type="aff">
+<sup>5</sup>
+</xref></contrib><contrib contrib-type="author" corresp="yes"><name><surname>Tezel</surname><given-names>Tongalp H.</given-names></name><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="aff4" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><aff id="aff1"><label>1</label>Department of Ophthalmology, Edward S. Harkness Eye Institute, Vagelos College of Physicians and Surgeons, Columbia University Irving Medical Center, New York, NY, USA</aff><aff id="aff2"><label>2</label>Department of Biophysics, Faculty of Medicine, Gazi University, Ankara, Turkey</aff><aff id="aff3"><label>3</label>Bioengineering Department, University of Louisville, Louisville, KY, USA</aff><aff id="aff4"><label>4</label>Department of Ophthalmology &#x00026; Visual Sciences, Kentucky Lions Eye Center, University of Louisville School of Medicine, Louisville, KY, USA</aff><aff id="aff5"><label>5</label>Department of Ophthalmology, Saint Louis University, School of Medicine, St. Louis, MO, USA</aff></contrib-group><author-notes><corresp id="cor1">
+<label>*</label>
+<bold>Correspondence:</bold> Tongalp H. Tezel, Department of Ophthalmology, Edward S. Harkness Eye Institute, Vagelos College of Physicians and Surgeons, Columbia University Irving Medical Center, 622 West 168th Street, 18th Floor, Suite 18201B, Mail Box 200, New York, NY 10032, USA. e-mail: <email>tht2115@cumc.columbia.edu</email></corresp></author-notes><pub-date pub-type="epub"><day>15</day><month>7</month><year>2024</year></pub-date><pub-date pub-type="collection"><month>7</month><year>2024</year></pub-date><volume>13</volume><issue>7</issue><elocation-id>12</elocation-id><history><date date-type="accepted"><day>03</day><month>6</month><year>2024</year></date><date date-type="received"><day>22</day><month>1</month><year>2024</year></date></history><permissions><copyright-statement>Copyright 2024 The Authors</copyright-statement><copyright-year>2024</copyright-year><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbyncndlicense">https://creativecommons.org/licenses/by-nc-nd/4.0/</ali:license_ref><license-p>This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.</license-p></license></permissions><self-uri xlink:title="pdf" xlink:href="tvst-13-7-12.pdf"/><abstract><sec><title>Purpose</title><p>The purpose of this study was to evaluate the impact of vitrectomy and posterior hyaloid (PH) peeling on color alteration of optic nerve head (ONH) and retina as a surrogate biomarker of induced perfusion changes.</p></sec><sec><title>Methods</title><p>Masked morphometric and colorimetric analyses were conducted on preoperative (&#x0003c;1&#x000a0;month) and postoperative (&#x0003c;18&#x000a0;months) color fundus photographs of 54 patients undergoing vitrectomy, either with (44) or without (10) PH peeling and 31 years of age and gender-matched control eyes. Images were calibrated according to the hue and saturation values of the parapapillary venous blood column. Chromatic spectra of the retinal pigment epithelium and choroid were subtracted to avoid color aberrations. Red, green, and blue (RGB) bit values over the ONH and retina were plotted within the constructed RGB color space to analyze vitrectomy-induced color shift. Vitrectomy-induced parapapillary vein caliber changes were also computed morphometrically.</p></sec><sec><title>Results</title><p>A significant post-vitrectomy red hue shift was noted on the ONH (37.1&#x000a0;degrees &#x000b1; 10.9&#x000a0;degrees vs. 4.1&#x000a0;degrees &#x000b1; 17.7&#x000a0;degrees, <italic toggle="yes">P</italic> &#x0003c; 0.001), which indicates a 2.8-fold increase in blood perfusion compared to control (2.6 &#x000b1; 1.9 vs. 0.9 &#x000b1; 1.8, <italic toggle="yes">P</italic> &#x0003c; 0.001). A significant post-vitrectomy increase in the retinal vein diameter was also noticed (6.8 &#x000b1; 6.4% vs. 0.1 &#x000b1; 0.3%, <italic toggle="yes">P</italic> &#x0003c; 0.001), which was more pronounced with PH peeling (7.9 &#x000b1; 6.6% vs. 3.1 &#x000b1; 4.2%, <italic toggle="yes">P</italic> = 0.002).</p></sec><sec><title>Conclusions</title><p>Vitrectomy and PH peeling increase ONH and retinal blood flow. Colorimetric and morphometric analyses offer valuable insights for future artificial intelligence and deep learning applications in this field.</p></sec><sec><title>Translational Relevance</title><p>The methodology described herein can easily be applied in different clinical settings and may enlighten the beneficial effects of vitrectomy in several retinal vascular diseases.</p></sec></abstract><kwd-group><kwd>optic nerve head (ONH) perfusion</kwd><kwd>retinal perfusion</kwd><kwd>vitrectomy</kwd><kwd>colorimetric analysis</kwd><kwd>morphometric image analysis</kwd></kwd-group><counts><page-count count="10"/></counts></article-meta></front><body><sec sec-type="intro" id="sec1"><title>Introduction</title><p>Impaired hemodynamics affecting optic nerve head (ONH) and retinal perfusion constitutes a primary pathological process in various sight-threatening conditions, including diabetic retinopathy, papillopathy, retinal vein occlusions, retinopathy of prematurity, and non-arteritic anterior ischemic optic neuropathy.<xref rid="bib1" ref-type="bibr"><sup>1</sup></xref><sup>&#x02013;</sup><xref rid="bib8" ref-type="bibr"><sup>8</sup></xref> Furthermore, disrupted vascular supply significantly contributes to the pathogenesis of several notable pathologies, such as glaucoma and hereditary retinal degenerations.<xref rid="bib9" ref-type="bibr"><sup>9</sup></xref><sup>&#x02013;</sup><xref rid="bib11" ref-type="bibr"><sup>11</sup></xref> These abnormalities can lead to capillary dropout, angiogenesis, and tissue hypoxia, ultimately affecting retinal and ONH perfusion.<xref rid="bib12" ref-type="bibr"><sup>12</sup></xref> Often, ONH and retinal perfusion impairment may remain occult and act as an underlying risk factor for major vascular events. For instance, a study utilizing optical coherence tomography angiography (OCTA) discovered lower peripapillary vessel and perfusion densities in the fellow eyes of patients with unilateral retinal vein occlusion compared to those in healthy control subjects.<xref rid="bib6" ref-type="bibr"><sup>6</sup></xref> Thus, apart from a local effect that leads to retinal vein occlusion in one eye, there is underlying impaired blood perfusion involving both eyes in these patients. Epidemiological studies point out that systemic hypertension, atherosclerosis, and diabetes are the main pathologies leading to occult perfusion defects in the retina.<xref rid="bib13" ref-type="bibr"><sup>13</sup></xref><sup>,</sup><xref rid="bib14" ref-type="bibr"><sup>14</sup></xref></p><p>Several studies indicate a higher rate of involvement of the retinal vasculature compared with vascular beds during systemic vascular diseases. For example, clinical signs of retinal vessel involvement precede and can be a predictor for clinical participation of kidney vasculature<xref rid="bib15" ref-type="bibr"><sup>15</sup></xref><sup>,</sup><xref rid="bib16" ref-type="bibr"><sup>16</sup></xref> in diabetes, and retinal veins suffer from thromboembolic events 420 times more than cerebral vessels.<xref rid="bib17" ref-type="bibr"><sup>17</sup></xref><sup>,</sup><xref rid="bib18" ref-type="bibr"><sup>18</sup></xref> The higher vulnerability of retinal vasculature indicates a role of local factors on the retinal and ONH blood flood.</p><p>The role of mechanical forces exerted by vitreoretinal solid attachments on the disruption of blood flow was suggested in clinical studies.<xref rid="bib19" ref-type="bibr"><sup>19</sup></xref><sup>,</sup><xref rid="bib20" ref-type="bibr"><sup>20</sup></xref> In the case of retinal vein obstruction, vitrectomy and posterior hyaloid peeling have been shown to restore blood flow in an occluded retinal vein by relieving traction.<xref rid="bib21" ref-type="bibr"><sup>21</sup></xref><sup>&#x02013;</sup><xref rid="bib23" ref-type="bibr"><sup>23</sup></xref> Similarly, vitrectomy in diabetic retinopathy restores the perifoveolar perfusion,<xref rid="bib20" ref-type="bibr"><sup>20</sup></xref> and improves retinal venous oxygenation in macular holes and puckers by increasing the retinal blood flow.<xref rid="bib24" ref-type="bibr"><sup>24</sup></xref></p><p>Retinal perfusion changes have classically been assessed by either observing changes in clinical features, that is, the disappearance of macular edema, or by estimating the ocular blood flow rate with color Doppler imaging,<xref rid="bib25" ref-type="bibr"><sup>25</sup></xref> assessing tissue oxygenation with retinal oximetry,<xref rid="bib26" ref-type="bibr"><sup>26</sup></xref> and imaging ocular vascular structure with OCTA<xref rid="bib27" ref-type="bibr"><sup>27</sup></xref> or fluorescein fundus angiogram. However, most of these studies extract information from retinal macrovessels, which do not reflect the perfusion in the retinal microvascular bed. In addition, these techniques require costly instruments, a limited field of view, and possible artifacts that can interfere with the accuracy and reliability of assessments and fail to show the whole tissue perfusion.</p><p>Herein, we aimed to test the impact of vitrectomy and posterior hyaloid removal on ONH and retinal perfusion. We used a novel mathematical method based on colorimetric and morphometric analysis of the ONH and retinal vasculature using pre- and postoperative color fundus photographs. The inspiration for these analyses was our intraoperative observation of retinal vessel engorgement and red color shift of the ONH as soon as we peeled the posterior hyaloid, all indicating improved perfusion.</p></sec><sec sec-type="methods" id="sec2"><title>Materials and Methods</title><p>This study is a retrospective case-control study approved and monitored by the Institutional Review Board of the University of Louisville's School of Medicine and conducted per the ethical standards outlined in the Declaration of Helsinki for research activities.</p><sec id="sec2-1"><title>Study Groups and Inclusion Criteria</title><p>The study includes two surgical groups and an age- and gender-matched control group. The surgery groups underwent vitrectomy and were further divided into two subgroups: those with posterior hyaloid peeled (PHP(+)) and those without (PHP(&#x02212;)). Subjects in the experimental group were selected from patients who had undergone vitrectomy for conditions such as diabetic retinopathy, vitreomacular traction, or a macular hole. Data for the control group were obtained from unoperated patients with diabetic retinopathy, macular pucker, vitreal opacities, or patients who presented for refractive eye examinations who served as a baseline for temporal variations in retinal vessel diameter and colorimetric parameters. Attention was paid to match the systemic co-morbidities, that is, diabetes, hypertension, hyperlipidemia, obstructive sleep apnea, and cardiac morbidities among experimental and control groups. Patients with high myopia, significant lenticular or visual axis opacities, and reported postoperative complications, such as intraocular hemorrhage, were excluded from the study. All relevant information, such as age, gender, visual acuity, intraocular pressure (IOP), preoperative and postoperative fundus photograph time lapses, and surgical history of the patients were gathered and standardized from conventional and digital archives.</p></sec><sec id="sec2-2"><title>Colorimetric and Morphometric Analyses Optic Nerve Head and Retina</title><p>Morphometric and colorimetric analyses were conducted on preoperative (&#x0003c;1&#x000a0;month) and postoperative (&#x0003c;18&#x000a0;months) fundus photographs of patients who had undergone vitrectomy, as well as on the control group within the same time intervals, all in a masked fashion. The 24-bit red, green, and blue (RGB) coded-color fundus images were obtained using a non-mydriatic fundus camera (Topcon TRC-NW8; Topcon Corporation, Tokyo, Japan). The hue and saturation of the parapapillary venous blood column and macula were calculated and utilized to calibrate the corresponding 24-bit images. The foveal retinal pigment epithelium and choroid chromatic spectra were subtracted to minimize color aberrations. Bit values for the red (R), green (G), and blue (B) channels (ImageJ, National Institutes of Health [NIH])<xref rid="bib28" ref-type="bibr"><sup>28</sup></xref> over the ONH and retina were plotted within the RGB color space (<xref rid="fig1" ref-type="fig">Fig. 1</xref>) to assess the color shift induced by vitrectomy and the fold difference in blood perfusion. RGB color space is a cartesian system in which axes were red, green, and blue values are plotted on the X, Y, and Z axes (see <xref rid="fig1" ref-type="fig">Fig. 1</xref>A). Each color is assigned an 8-bit value between 0 and 255. A numerical value can be assigned to more than 16&#x000a0;million colors (24-bit RGB = 2<sup>8</sup> &#x000d7; 2<sup>8</sup> &#x000d7; 2<sup>8</sup> = 16.7&#x000a0;million). This allows the calculation of color changes as a vectorial shift between preoperative and postoperative values, as is seen in&#x000a0;<xref rid="fig1" ref-type="fig">Figure 1</xref>B. RGB color space has been used for image analyses in different disciplines<xref rid="bib29" ref-type="bibr"><sup>29</sup></xref><sup>,</sup><xref rid="bib30" ref-type="bibr"><sup>30</sup></xref> and retinal image analyses<xref rid="bib31" ref-type="bibr"><sup>31</sup></xref><sup>,</sup><xref rid="bib32" ref-type="bibr"><sup>32</sup></xref> because of its reliability and simplicity.</p><fig position="float" id="fig1"><label>Figure 1.</label><caption><p>(<bold>A</bold>) The RGB color space diagram shows three axes representing the red, green, and blue scales. <italic toggle="yes">Dots</italic> on the diagram represent possible color combinations within this Cartesian coordinate system, which can be as high as 256<sup>3</sup> combinations. (<bold>B</bold>) C<sub>pre</sub> demonstrates the preoperative color value, and C<sub>post</sub> demonstrates the postoperative color value within the RGB color space. The <italic toggle="yes">arrow</italic> indicates the shift in color postoperatively. The directional change of the vector was calculated from the RGB values of two points.</p></caption><graphic xlink:href="tvst-13-7-12-f001" position="float"/></fig><p>Another key measure was the variation in retinal vessel diameter before and after vitrectomy. Morphometric analysis of changes in the diameter of parapapillary veins was performed using pre- and postoperative measurements. Calipers were used to measure color fundus photographs for determining the blood vessel diameter pre- and postoperatively in all patients, and the ratio of this change in diameter was recorded for superior temporal (ST), inferior temporal (IT), and average of both (ST + IT).</p></sec><sec id="sec2-3"><title>Calculations</title><p>Two corrections were made to the raw RGB values of the ONH and retina. Initially, the RGB bit value of the parapapillary venous blood column was extracted from the ONH and retinal color spectra to eliminate any hue and saturation artifacts. In addition, the color values of 5 areas within the macula, each 0.5 &#x000d7; 0.5&#x000a0;mm in size, were selected from the preoperative fundus images to determine the color spectra of the RPE and choroid. These values were used to eliminate the confounding effects of the choroidal and RPE pigment on calculations. Attention was paid not to include the visible retinal arterioles and venules within the frame while selecting the images for this purpose. Correcting the ONH and retinal images, RGB values resulted in adjusted values of the images in RGB bits. Pre and postoperative RGB bit values were then plotted on a Cartesian coordinate system constructed within a 3-dimensional RGB environment, as described before.<xref rid="bib33" ref-type="bibr"><sup>33</sup></xref> Plotting the RGB values on the color space yielded a vectorial representation of the preoperative and postoperative color values (see <xref rid="fig1" ref-type="fig">Fig. 1</xref>). The center of the 3D color space environment (point X<sub>0</sub>Y<sub>0</sub>Z<sub>0</sub>) represents black color, and each axis had 256 saturation levels (see <xref rid="fig1" ref-type="fig">Fig. 1</xref>). The vectorial shift induced by vitrectomy was calculated using the following formula:
+<disp-formula id="ueq1"><mml:math id="math-ueq1" overflow="scroll"><mml:mtable displaystyle="true"><mml:mtr><mml:mtd/><mml:mtd/><mml:mtd columnalign="left"><mml:mrow><mml:mspace width="-24.0pt"/><mml:mi>D</mml:mi><mml:mi>i</mml:mi><mml:mi>r</mml:mi><mml:mi>e</mml:mi><mml:mi>c</mml:mi><mml:mi>t</mml:mi><mml:mi>i</mml:mi><mml:mi>o</mml:mi><mml:mi>n</mml:mi><mml:mspace width="4pt"/><mml:mi>o</mml:mi><mml:mi>f</mml:mi><mml:mspace width="4pt"/><mml:mi>t</mml:mi><mml:mi>h</mml:mi><mml:mi>e</mml:mi><mml:mspace width="4pt"/><mml:mi>C</mml:mi><mml:mi>o</mml:mi><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:mi>r</mml:mi><mml:mspace width="4pt"/><mml:mi>V</mml:mi><mml:mi>e</mml:mi><mml:mi>c</mml:mi><mml:mi>t</mml:mi><mml:mi>o</mml:mi><mml:mi>r</mml:mi><mml:mspace width="4pt"/><mml:mi>C</mml:mi><mml:mi>h</mml:mi><mml:mi>a</mml:mi><mml:mi>n</mml:mi><mml:mi>g</mml:mi><mml:mi>e</mml:mi></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd/><mml:mtd/><mml:mtd columnalign="left"><mml:mrow><mml:mspace width="-14.0pt"/><mml:mo>=</mml:mo><mml:mi>P</mml:mi><mml:mi>o</mml:mi><mml:mi>s</mml:mi><mml:mi>t</mml:mi><mml:mi>o</mml:mi><mml:mi>p</mml:mi><mml:mi>e</mml:mi><mml:mi>r</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi><mml:mi>i</mml:mi><mml:mi>v</mml:mi><mml:mi>e</mml:mi><mml:mspace width="4pt"/><mml:mi>C</mml:mi><mml:mi>S</mml:mi><mml:mi>V</mml:mi><mml:mo>-</mml:mo><mml:mi>P</mml:mi><mml:mi>r</mml:mi><mml:mi>e</mml:mi><mml:mi>o</mml:mi><mml:mi>p</mml:mi><mml:mi>e</mml:mi><mml:mi>r</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi><mml:mi>i</mml:mi><mml:mi>v</mml:mi><mml:mi>e</mml:mi><mml:mspace width="4pt"/><mml:mi>C</mml:mi><mml:mi>S</mml:mi><mml:mi>V</mml:mi></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:math></disp-formula><disp-formula id="ueq2"><mml:math id="math-ueq2" overflow="scroll"><mml:mtable displaystyle="true"><mml:mtr><mml:mtd/><mml:mtd/><mml:mtd columnalign="left"><mml:mrow><mml:mi>D</mml:mi><mml:mi>i</mml:mi><mml:mi>r</mml:mi><mml:mi>e</mml:mi><mml:mi>c</mml:mi><mml:mi>t</mml:mi><mml:mi>i</mml:mi><mml:mi>o</mml:mi><mml:mi>n</mml:mi><mml:mspace width="4pt"/><mml:mi>o</mml:mi><mml:mi>f</mml:mi><mml:mspace width="4pt"/><mml:mi>t</mml:mi><mml:mi>h</mml:mi><mml:mi>e</mml:mi><mml:mspace width="4pt"/><mml:mi>C</mml:mi><mml:mi>o</mml:mi><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:mi>r</mml:mi><mml:mspace width="4pt"/><mml:mi>V</mml:mi><mml:mi>e</mml:mi><mml:mi>c</mml:mi><mml:mi>t</mml:mi><mml:mi>o</mml:mi><mml:mi>r</mml:mi><mml:mspace width="4pt"/><mml:mi>C</mml:mi><mml:mi>h</mml:mi><mml:mi>a</mml:mi><mml:mi>n</mml:mi><mml:mi>g</mml:mi><mml:mi>e</mml:mi></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd/><mml:mtd/><mml:mtd columnalign="left"><mml:mrow><mml:mo>=</mml:mo><mml:mfenced close="]" open="[" separators=""><mml:mrow><mml:msup><mml:mrow><mml:mo form="prefix">tan</mml:mo></mml:mrow><mml:mrow><mml:mo>-</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msup><mml:mfenced close="]" open="[" separators=""><mml:mfrac><mml:mfenced close="]" open="[" separators=""><mml:mrow><mml:msub><mml:mi>R</mml:mi><mml:mrow><mml:mi>P</mml:mi><mml:mi>o</mml:mi><mml:mi>s</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>-</mml:mo><mml:mfenced close="]" open="[" separators=""><mml:mrow><mml:mfenced close="]" open="[" separators=""><mml:mrow><mml:mo form="prefix">sin</mml:mo><mml:mfenced close=")" open="(" separators=""><mml:mrow><mml:mn>30</mml:mn><mml:mo>*</mml:mo><mml:mfrac><mml:mi>&#x003c0;</mml:mi><mml:mn>180</mml:mn></mml:mfrac></mml:mrow></mml:mfenced></mml:mrow></mml:mfenced><mml:mo>*</mml:mo><mml:mfenced close=")" open="(" separators=""><mml:mrow><mml:msub><mml:mi>G</mml:mi><mml:mrow><mml:mi>P</mml:mi><mml:mi>o</mml:mi><mml:mi>s</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>B</mml:mi><mml:mrow><mml:mi>P</mml:mi><mml:mi>o</mml:mi><mml:mi>s</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfenced></mml:mrow></mml:mfenced></mml:mrow></mml:mfenced><mml:mfenced close="]" open="[" separators=""><mml:mrow><mml:mfenced close="]" open="[" separators=""><mml:mrow><mml:mo form="prefix">cos</mml:mo><mml:mfenced close=")" open="(" separators=""><mml:mrow><mml:mn>30</mml:mn><mml:mo>*</mml:mo><mml:mfrac><mml:mi>&#x003c0;</mml:mi><mml:mn>180</mml:mn></mml:mfrac></mml:mrow></mml:mfenced></mml:mrow></mml:mfenced><mml:mo>*</mml:mo><mml:mfenced close=")" open="(" separators=""><mml:mrow><mml:msub><mml:mi>G</mml:mi><mml:mrow><mml:mi>P</mml:mi><mml:mi>o</mml:mi><mml:mi>s</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>-</mml:mo><mml:msub><mml:mi>B</mml:mi><mml:mrow><mml:mi>P</mml:mi><mml:mi>o</mml:mi><mml:mi>s</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfenced></mml:mrow></mml:mfenced></mml:mfrac></mml:mfenced></mml:mrow></mml:mfenced></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd/><mml:mtd/><mml:mtd columnalign="left"><mml:mrow><mml:mspace width="2.em"/><mml:mo>-</mml:mo><mml:mfenced close="]" open="[" separators=""><mml:msup><mml:mrow><mml:mo form="prefix">tan</mml:mo></mml:mrow><mml:mrow><mml:mo>-</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msup><mml:mfenced close="]" open="[" separators=""><mml:mfrac><mml:mfenced close="]" open="[" separators=""><mml:mrow><mml:msub><mml:mi>R</mml:mi><mml:mrow><mml:mi>P</mml:mi><mml:mi>r</mml:mi><mml:mi>e</mml:mi></mml:mrow></mml:msub><mml:mo>-</mml:mo><mml:mfenced close="]" open="[" separators=""><mml:mrow><mml:mfenced close="]" open="[" separators=""><mml:mrow><mml:mo form="prefix">sin</mml:mo><mml:mfenced close=")" open="(" separators=""><mml:mrow><mml:mn>30</mml:mn><mml:mo>*</mml:mo><mml:mfrac><mml:mi>&#x003c0;</mml:mi><mml:mn>180</mml:mn></mml:mfrac></mml:mrow></mml:mfenced></mml:mrow></mml:mfenced><mml:mo>*</mml:mo><mml:mfenced close=")" open="(" separators=""><mml:mrow><mml:msub><mml:mi>G</mml:mi><mml:mrow><mml:mi>P</mml:mi><mml:mi>r</mml:mi><mml:mi>e</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>B</mml:mi><mml:mrow><mml:mi>P</mml:mi><mml:mi>r</mml:mi><mml:mi>e</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfenced></mml:mrow></mml:mfenced></mml:mrow></mml:mfenced><mml:mfenced close="]" open="[" separators=""><mml:mrow><mml:mfenced close="]" open="[" separators=""><mml:mrow><mml:mo form="prefix">cos</mml:mo><mml:mfenced close=")" open="(" separators=""><mml:mrow><mml:mn>30</mml:mn><mml:mo>*</mml:mo><mml:mfrac><mml:mi>&#x003c0;</mml:mi><mml:mn>180</mml:mn></mml:mfrac></mml:mrow></mml:mfenced></mml:mrow></mml:mfenced><mml:mo>*</mml:mo><mml:mfenced close=")" open="(" separators=""><mml:mrow><mml:msub><mml:mi>G</mml:mi><mml:mrow><mml:mi>P</mml:mi><mml:mi>r</mml:mi><mml:mi>e</mml:mi></mml:mrow></mml:msub><mml:mo>-</mml:mo><mml:msub><mml:mi>B</mml:mi><mml:mrow><mml:mi>P</mml:mi><mml:mi>r</mml:mi><mml:mi>e</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfenced></mml:mrow></mml:mfenced></mml:mfrac></mml:mfenced></mml:mfenced></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:math></disp-formula></p><p>Pre: preoperative; Post: postoperative; R: red; b: Blue; g: Green; CSV: color spectrum value.</p><p>The equivalent blood flow changes required to create the same color axis shift were calculated similarly to estimating optic nerve perfusion changes based on color value changes.<xref rid="bib34" ref-type="bibr"><sup>34</sup></xref><sup>,</sup><xref rid="bib35" ref-type="bibr"><sup>35</sup></xref> For this purpose, the following formula was used:
+<disp-formula id="ueq3"><mml:math id="math-ueq3" overflow="scroll"><mml:mtable displaystyle="true"><mml:mtr><mml:mtd/><mml:mtd/><mml:mtd columnalign="left"><mml:mrow><mml:mi>E</mml:mi><mml:mi>q</mml:mi><mml:mi>u</mml:mi><mml:mi>i</mml:mi><mml:mi>v</mml:mi><mml:mi>a</mml:mi><mml:mi>l</mml:mi><mml:mi>e</mml:mi><mml:mi>n</mml:mi><mml:mi>t</mml:mi><mml:mspace width="4pt"/><mml:mi>B</mml:mi><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:mi>o</mml:mi><mml:mi>d</mml:mi><mml:mspace width="4pt"/><mml:mi>F</mml:mi><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:mi>w</mml:mi><mml:mspace width="4pt"/><mml:mi>C</mml:mi><mml:mi>h</mml:mi><mml:mi>a</mml:mi><mml:mi>n</mml:mi><mml:mi>g</mml:mi><mml:mi>e</mml:mi><mml:mo>=</mml:mo></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd/><mml:mtd/><mml:mtd columnalign="left"><mml:mfrac><mml:mfenced close="]" open="[" separators=""><mml:mrow><mml:msub><mml:mi>R</mml:mi><mml:mrow><mml:mi>P</mml:mi><mml:mi>r</mml:mi><mml:mi>e</mml:mi></mml:mrow></mml:msub><mml:mo>-</mml:mo><mml:mfenced close="]" open="[" separators=""><mml:mrow><mml:mn>0</mml:mn><mml:mo>.</mml:mo><mml:mn>5</mml:mn><mml:mo>*</mml:mo><mml:mfenced close=")" open="(" separators=""><mml:mrow><mml:msub><mml:mi>G</mml:mi><mml:mrow><mml:mi>P</mml:mi><mml:mi>r</mml:mi><mml:mi>e</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>B</mml:mi><mml:mrow><mml:mi>P</mml:mi><mml:mi>r</mml:mi><mml:mi>e</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfenced></mml:mrow></mml:mfenced><mml:mo>-</mml:mo><mml:mfenced close="]" open="[" separators=""><mml:mrow><mml:mfenced close="]" open="[" separators=""><mml:mrow><mml:mo form="prefix">tan</mml:mo><mml:mfenced close="]" open="[" separators=""><mml:mrow><mml:mi>C</mml:mi><mml:mi>S</mml:mi><mml:msub><mml:mi>V</mml:mi><mml:mrow><mml:mi>P</mml:mi><mml:mi>o</mml:mi><mml:mi>s</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>*</mml:mo><mml:mfenced close=")" open="(" separators=""><mml:mfrac><mml:mi>&#x003c0;</mml:mi><mml:mn>180</mml:mn></mml:mfrac></mml:mfenced></mml:mrow></mml:mfenced></mml:mrow></mml:mfenced><mml:mo>*</mml:mo><mml:mfenced close=")" open="(" separators=""><mml:mfrac><mml:msqrt><mml:mn>3</mml:mn></mml:msqrt><mml:mn>2</mml:mn></mml:mfrac></mml:mfenced><mml:mo>*</mml:mo><mml:mfenced close="|" open="|" separators=""><mml:mrow><mml:msub><mml:mi>G</mml:mi><mml:mrow><mml:mi>P</mml:mi><mml:mi>r</mml:mi><mml:mi>e</mml:mi></mml:mrow></mml:msub><mml:mo>-</mml:mo><mml:msub><mml:mi>B</mml:mi><mml:mrow><mml:mi>P</mml:mi><mml:mi>r</mml:mi><mml:mi>e</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfenced></mml:mrow></mml:mfenced></mml:mrow></mml:mfenced><mml:mfenced close="]" open="[" separators=""><mml:mrow><mml:mfenced close="]" open="[" separators=""><mml:mrow><mml:mfenced close="]" open="[" separators=""><mml:mrow><mml:mo form="prefix">tan</mml:mo><mml:mfenced close="]" open="[" separators=""><mml:mrow><mml:mi>C</mml:mi><mml:mi>S</mml:mi><mml:msub><mml:mi>V</mml:mi><mml:mrow><mml:mi>P</mml:mi><mml:mi>o</mml:mi><mml:mi>s</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>*</mml:mo><mml:mfenced close=")" open="(" separators=""><mml:mfrac><mml:mi>&#x003c0;</mml:mi><mml:mn>180</mml:mn></mml:mfrac></mml:mfenced></mml:mrow></mml:mfenced></mml:mrow></mml:mfenced><mml:mo>*</mml:mo><mml:mfenced close=")" open="(" separators=""><mml:mfrac><mml:msqrt><mml:mn>3</mml:mn></mml:msqrt><mml:mn>2</mml:mn></mml:mfrac></mml:mfenced><mml:mo>*</mml:mo><mml:mfenced close=")" open="(" separators=""><mml:mrow><mml:msub><mml:mi>G</mml:mi><mml:mi>V</mml:mi></mml:msub><mml:mo>-</mml:mo><mml:msub><mml:mi>B</mml:mi><mml:mi>V</mml:mi></mml:msub></mml:mrow></mml:mfenced></mml:mrow></mml:mfenced><mml:mo>+</mml:mo><mml:mfenced close="]" open="[" separators=""><mml:mrow><mml:mn>0</mml:mn><mml:mo>.</mml:mo><mml:mn>5</mml:mn><mml:mo>*</mml:mo><mml:mfenced close=")" open="(" separators=""><mml:mrow><mml:msub><mml:mi>G</mml:mi><mml:mi>V</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>B</mml:mi><mml:mi>V</mml:mi></mml:msub></mml:mrow></mml:mfenced></mml:mrow></mml:mfenced><mml:mo>-</mml:mo><mml:msub><mml:mi>R</mml:mi><mml:mi>V</mml:mi></mml:msub></mml:mrow></mml:mfenced></mml:mfrac></mml:mtd></mml:mtr></mml:mtable></mml:math></disp-formula></p><p>Pre: preoperative; Post: postoperative; R: red; B: blue; G: green; CSV: color spectrum value; V: parapapillary vein.</p></sec><sec id="sec2-4"><title>Statistical Evaluation</title><p>Data were collected and presented as mean &#x000b1; standard deviation, 95% upper and lower limits of the confidence interval for continuous variables, and percentages and numbers for categorical variables. The normality of the data was assessed using the Shapiro-Wilk Normality test. Student&#x02019;s <italic toggle="yes">t</italic>-test was used for normally distributed variables, whereas the Mann-Whitney <italic toggle="yes">U</italic> test was employed for variables not normally distributed. A <italic toggle="yes">P</italic> value of &#x0003c; 0.05 was considered to indicate a statistically significant difference. All analyses were conducted using various statistical software programs (SigmaStat; SPSS Inc, Chicago, IL, USA; IBM SPSS V28.0, Armonk, NY, USA: IBM Corp; MATLAB version: R2023b; Natick, Massachusetts: The MathWorks Inc.).</p></sec></sec><sec sec-type="results" id="sec3"><title>Results</title><p>The cohort consisted of 54 eyes that underwent vitrectomy, 44 of which had posterior hyaloid peeling and 10 without, along with 31 non-vitrectomized control eyes. There were no significant differences in average patient age (63 &#x000b1; 17 vs. 65 &#x000b1; 12), gender distribution, or the time interval between two fundus photographs (8 &#x000b1; 11 vs. 8 &#x000b1; 7&#x000a0;months) between the surgical and control groups (<italic toggle="yes">P</italic> &#x0003e; 0.05).</p><sec id="sec3-1"><title>Colorimetric Analyses of the ONH</title><p>
+<xref rid="tbl1" ref-type="table">Table&#x000a0;1</xref> provides the mean, standard deviation, and confidence interval values for the direction of color vector change and the equivalent blood flow change in the ONH. The surgical group showed significantly higher values in both the direction of color vector change (37.06 &#x000b1; 10.94 vs. 4.12 &#x000b1; 17.65, <italic toggle="yes">P</italic> &#x0003c; 0.001) and equivalent blood flow change (2.58 &#x000b1; 1.94 vs. 0.94 &#x000b1; 1.78, <italic toggle="yes">P</italic> &#x0003c; 0.001) compared to the control group. Similarly, both the PHP(+) group (direction of color vector change = 36.70 &#x000b1; 10.85 vs. 4.12 &#x000b1; 17.65, <italic toggle="yes">P</italic> &#x0003c; 0.001; equivalent blood flow change = 2.44 &#x000b1; 1.84 vs. 0.94 &#x000b1; 1.78, <italic toggle="yes">P</italic> &#x0003c; 0.001); and the PHP(&#x02212;) group (direction of color vector change = 38.63 &#x000b1; 11.81 vs. 4.12 &#x000b1; 17.65, <italic toggle="yes">P</italic> &#x0003c; 0.001; equivalent blood flow change = 3.19 &#x000b1; 2.33 vs. 0.94 &#x000b1; 1.78, <italic toggle="yes">P</italic> = 0.001) exhibited significantly higher values than the control group (see <xref rid="tbl1" ref-type="table">Table&#x000a0;1</xref>, <xref rid="fig2" ref-type="fig">Fig. 2</xref>).</p><table-wrap position="float" content-type="6col" id="tbl1"><label>Table 1.</label><caption><p>Optic Nerve Head Metrics</p></caption><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/></colgroup><thead><tr><th rowspan="1" colspan="1">Metric</th><th rowspan="1" colspan="1">Group</th><th align="center" rowspan="1" colspan="1">Mean</th><th align="center" rowspan="1" colspan="1">Std</th><th align="center" rowspan="1" colspan="1">95% CI Lower</th><th align="center" rowspan="1" colspan="1">95% CI Upper</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">Direction of the color vector change</td><td rowspan="1" colspan="1">PHP(+)</td><td rowspan="1" colspan="1">36.70</td><td rowspan="1" colspan="1">10.85</td><td rowspan="1" colspan="1">33.40</td><td rowspan="1" colspan="1">40.00</td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">PHP(&#x02212;)</td><td rowspan="1" colspan="1">38.63</td><td rowspan="1" colspan="1">11.81</td><td rowspan="1" colspan="1">30.18</td><td rowspan="1" colspan="1">47.08</td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">Surgical</td><td rowspan="1" colspan="1">37.06</td><td rowspan="1" colspan="1">10.94</td><td rowspan="1" colspan="1">34.07</td><td rowspan="1" colspan="1">40.04</td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">Control</td><td rowspan="1" colspan="1">4.12</td><td rowspan="1" colspan="1">17.65</td><td rowspan="1" colspan="1">&#x02212;2.35</td><td rowspan="1" colspan="1">10.60</td></tr><tr><td rowspan="1" colspan="1">Equivalent blood flow change</td><td rowspan="1" colspan="1">PHP(+)</td><td rowspan="1" colspan="1">2.44</td><td rowspan="1" colspan="1">1.84</td><td rowspan="1" colspan="1">1.88</td><td rowspan="1" colspan="1">3.01</td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">PHP(&#x02212;)</td><td rowspan="1" colspan="1">3.19</td><td rowspan="1" colspan="1">2.33</td><td rowspan="1" colspan="1">1.52</td><td rowspan="1" colspan="1">4.86</td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">Surgical</td><td rowspan="1" colspan="1">2.58</td><td rowspan="1" colspan="1">1.94</td><td rowspan="1" colspan="1">2.05</td><td rowspan="1" colspan="1">3.12</td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">Control</td><td rowspan="1" colspan="1">0.94</td><td rowspan="1" colspan="1">1.78</td><td rowspan="1" colspan="1">0.29</td><td rowspan="1" colspan="1">1.59</td></tr></tbody></table><table-wrap-foot><fn id="tb1fn1"><p>PHP(+) <italic toggle="yes">N</italic> = 44, PHP(&#x02212;) <italic toggle="yes">N</italic> = 10, Control <italic toggle="yes">N</italic> = 31, PHP(+): posterior hyaloid peeling group, PHP(&#x02212;): posterior hyaloid non-peeling group, Std: standard deviation, CI: confidence interval.</p></fn></table-wrap-foot></table-wrap><fig position="float" id="fig2"><label>Figure 2.</label><caption><p>(<bold>A</bold>) Preoperative and (<bold>B</bold>) postoperative surface plots for RGB values of the optic nerve head. Preoperative and postoperative RGB values of patients who underwent vitrectomy were plotted on the 3D mesh. The smoothened surface plot changes after vitrectomy demonstrate a shift toward the red color due to increased optic nerve perfusion. (<bold>C</bold>) Preoperative and Postoperative color shift in a color triangle. Each red, green, and blue intensity was transformed into a scale of 1 to 100, and each point represents an RGB value in a triangular coordinate framework. The <italic toggle="yes">blue points</italic> denote preoperative values, whereas the <italic toggle="yes">red points</italic> represent postoperative values. Change in ONH blood perfusion after vitrectomy in the surgical group can be seen. PREOP: preoperative; POSTOP: postoperative.</p></caption><graphic xlink:href="tvst-13-7-12-f002" position="float"/></fig></sec><sec id="sec3-2"><title>Colorimetric Analyses of the Retina</title><p>
+<xref rid="tbl2" ref-type="table">Table&#x000a0;2</xref> presents retinal metrics for different groups. For the direction of color vector change, the surgical group did not significantly differ from the control group (15.79 &#x000b1; 24.22 vs. 5.28 &#x000b1; 7.99, <italic toggle="yes">P</italic> = 0.069). In contrast, the PHP(+) group exhibited a higher value compared to the control group (15.26 &#x000b1; 21.81 vs. 5.28 &#x000b1; 7.99, <italic toggle="yes">P</italic> = 0.013), whereas the PHP(&#x02212;) group showed no significant difference (17.27 &#x000b1; 31.33 vs. 5.28 &#x000b1; 7.99, <italic toggle="yes">P</italic> = 0.724).</p><table-wrap position="float" content-type="6col" id="tbl2"><label>Table 2.</label><caption><p>Retina Metrics</p></caption><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/></colgroup><thead><tr><th rowspan="1" colspan="1">Metric</th><th rowspan="1" colspan="1">Group</th><th align="center" rowspan="1" colspan="1">Mean</th><th align="center" rowspan="1" colspan="1">Std</th><th align="center" rowspan="1" colspan="1">95% CI Lower</th><th align="center" rowspan="1" colspan="1">95% CI Upper</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">Direction of the color vector change</td><td rowspan="1" colspan="1">PHP(+)</td><td rowspan="1" colspan="1">15.26</td><td rowspan="1" colspan="1">21.81</td><td rowspan="1" colspan="1">6.80</td><td rowspan="1" colspan="1">23.71</td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">PHP(&#x02212;)</td><td rowspan="1" colspan="1">17.27</td><td rowspan="1" colspan="1">31.33</td><td rowspan="1" colspan="1">&#x02212;5.14</td><td rowspan="1" colspan="1">39.68</td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">Surgical</td><td rowspan="1" colspan="1">15.79</td><td rowspan="1" colspan="1">24.22</td><td rowspan="1" colspan="1">7.83</td><td rowspan="1" colspan="1">23.75</td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">Control</td><td rowspan="1" colspan="1">5.28</td><td rowspan="1" colspan="1">7.99</td><td rowspan="1" colspan="1">2.30</td><td rowspan="1" colspan="1">8.27</td></tr><tr><td rowspan="1" colspan="1">Equivalent blood flow change</td><td rowspan="1" colspan="1">PHP(+)</td><td rowspan="1" colspan="1">2.22</td><td rowspan="1" colspan="1">2.35</td><td rowspan="1" colspan="1">1.31</td><td rowspan="1" colspan="1">3.13</td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">PHP(&#x02212;)</td><td rowspan="1" colspan="1">1.23</td><td rowspan="1" colspan="1">2.06</td><td rowspan="1" colspan="1">&#x02212;0.24</td><td rowspan="1" colspan="1">2.70</td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">Surgical</td><td rowspan="1" colspan="1">1.96</td><td rowspan="1" colspan="1">2.29</td><td rowspan="1" colspan="1">1.20</td><td rowspan="1" colspan="1">2.71</td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">Control</td><td rowspan="1" colspan="1">0.98</td><td rowspan="1" colspan="1">2.03</td><td rowspan="1" colspan="1">0.22</td><td rowspan="1" colspan="1">1.74</td></tr></tbody></table><table-wrap-foot><fn id="tb2fn1"><p>PHP(+) <italic toggle="yes">N</italic> = 28, PHP(&#x02212;) <italic toggle="yes">N</italic> = 10, Control <italic toggle="yes">N</italic> = 30, PHP(+): posterior hyaloid peeling group, PHP(&#x02212;): posterior hyaloid non-peeling group, Std: standard deviation, CI: confidence interval.</p></fn></table-wrap-foot></table-wrap><p>Similarly, for equivalent blood flow change, the surgical group&#x02019;s values were not significantly different than those of the control group (1.96 &#x000b1; 2.29 vs. 0.98 &#x000b1; 2.03, <italic toggle="yes">P</italic> = 0.093). However, the PHP(+) group had significantly higher values compared to the control group (2.22 &#x000b1; 2.35 vs. 0.98 &#x000b1; 2.03, <italic toggle="yes">P</italic> = 0.029), whereas the PHP(&#x02212;) group demonstrated no significant difference (1.23 &#x000b1; 2.06 vs. 0.98 &#x000b1; 2.03, <italic toggle="yes">P</italic> = 0.914; see <xref rid="tbl2" ref-type="table">Table&#x000a0;2</xref>).</p></sec><sec sec-type="results" id="sec3-3"><title>Vein Diameter Percentage Ratio Results</title><p>There is a significant increase in ST (7.50 &#x000b1; 7.57 vs. 0.11 &#x000b1; 0.31, <italic toggle="yes">P</italic> &#x0003c; 0.001), IT (6.15 &#x000b1; 6.19 vs. 0.09 &#x000b1; 0.31, <italic toggle="yes">P</italic> &#x0003c; 0.001), and ST + IT (6.82 &#x000b1; 6.42 vs. 0.10 &#x000b1; 0.28, <italic toggle="yes">P</italic> &#x0003c; 0.001) measurements in the surgical group compared to the control group. Similarly the PHP(+) group has significantly higher ST (8.68 &#x000b1; 7.97 vs. 0.11 &#x000b1; 0.31, <italic toggle="yes">P</italic> &#x0003c; 0.001), IT (7.18 &#x000b1; 6.29 vs. 0.09 &#x000b1; 0.31, <italic toggle="yes">P</italic> &#x0003c; 0.001), and ST + IT (7.93 &#x000b1; 6.59 vs. 0.10 &#x000b1; 0.28, <italic toggle="yes">P</italic> &#x0003c; 0.001) values compared to the control groups, as well as the PHP(&#x02212;) group ST (3.51 &#x000b1; 4.21 vs. 0.11 &#x000b1; 0.31, <italic toggle="yes">P</italic> &#x0003c; 0.001), IT (2.63 &#x000b1; 4.48 vs. 0.09 &#x000b1; 0.31, <italic toggle="yes">P</italic> = 0.001), and ST + IT (3.07 &#x000b1; 4.17 vs. 0.10 &#x000b1; 0.28, <italic toggle="yes">P</italic> &#x0003c; 0.001) values. A significant difference exists between the PHP(+) and PHP(&#x02212;) groups for ST (8.68 &#x000b1; 7.97 vs. 3.51 &#x000b1; 4.21, <italic toggle="yes">P</italic> = 0.005), IT (7.18 &#x000b1; 6.29 vs. 2.63 &#x000b1; 4.48, <italic toggle="yes">P</italic> = 0.001), and ST + IT measurements (7.93 &#x000b1; 6.59 vs. 3.07 &#x000b1; 4.17, <italic toggle="yes">P</italic> = 0.002; <xref rid="tbl3" ref-type="table">Table&#x000a0;3</xref>, <xref rid="fig3" ref-type="fig">Fig. 3</xref>)</p><table-wrap position="float" content-type="6col" id="tbl3"><label>Table 3.</label><caption><p>Vein Diameter Percentage Ratio Results</p></caption><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/></colgroup><thead><tr><th rowspan="1" colspan="1">Vein Region</th><th rowspan="1" colspan="1">Group</th><th align="center" rowspan="1" colspan="1">Mean</th><th align="center" rowspan="1" colspan="1">Std</th><th align="center" rowspan="1" colspan="1">95% CI Lower</th><th align="center" rowspan="1" colspan="1">95% CI Upper</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">ST</td><td rowspan="1" colspan="1">PHP(+)</td><td rowspan="1" colspan="1">8.68</td><td rowspan="1" colspan="1">7.97</td><td rowspan="1" colspan="1">5.89</td><td rowspan="1" colspan="1">11.46</td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">PHP(&#x02212;)</td><td rowspan="1" colspan="1">3.51</td><td rowspan="1" colspan="1">4.21</td><td rowspan="1" colspan="1">0.50</td><td rowspan="1" colspan="1">6.52</td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">Surgical</td><td rowspan="1" colspan="1">7.50</td><td rowspan="1" colspan="1">7.57</td><td rowspan="1" colspan="1">5.20</td><td rowspan="1" colspan="1">9.80</td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">Control</td><td rowspan="1" colspan="1">0.11</td><td rowspan="1" colspan="1">0.31</td><td rowspan="1" colspan="1">&#x02212;0.03</td><td rowspan="1" colspan="1">0.25</td></tr><tr><td rowspan="1" colspan="1">IT</td><td rowspan="1" colspan="1">PHP(+)</td><td rowspan="1" colspan="1">7.18</td><td rowspan="1" colspan="1">6.29</td><td rowspan="1" colspan="1">4.98</td><td rowspan="1" colspan="1">9.37</td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">PHP(&#x02212;)</td><td rowspan="1" colspan="1">2.63</td><td rowspan="1" colspan="1">4.48</td><td rowspan="1" colspan="1">&#x02212;0.57</td><td rowspan="1" colspan="1">5.84</td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">Surgical</td><td rowspan="1" colspan="1">6.15</td><td rowspan="1" colspan="1">6.19</td><td rowspan="1" colspan="1">4.27</td><td rowspan="1" colspan="1">8.03</td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">Control</td><td rowspan="1" colspan="1">0.09</td><td rowspan="1" colspan="1">0.31</td><td rowspan="1" colspan="1">&#x02212;0.05</td><td rowspan="1" colspan="1">0.23</td></tr><tr><td rowspan="1" colspan="1">ST + IT</td><td rowspan="1" colspan="1">PHP(+)</td><td rowspan="1" colspan="1">7.93</td><td rowspan="1" colspan="1">6.59</td><td rowspan="1" colspan="1">5.63</td><td rowspan="1" colspan="1">10.22</td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">PHP(&#x02212;)</td><td rowspan="1" colspan="1">3.07</td><td rowspan="1" colspan="1">4.17</td><td rowspan="1" colspan="1">0.09</td><td rowspan="1" colspan="1">6.06</td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">Surgical</td><td rowspan="1" colspan="1">6.82</td><td rowspan="1" colspan="1">6.42</td><td rowspan="1" colspan="1">4.87</td><td rowspan="1" colspan="1">8.77</td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">Control</td><td rowspan="1" colspan="1">0.10</td><td rowspan="1" colspan="1">0.28</td><td rowspan="1" colspan="1">&#x02212;0.03</td><td rowspan="1" colspan="1">0.22</td></tr></tbody></table><table-wrap-foot><fn id="tb3fn1"><p>PHP(+) <italic toggle="yes">N</italic> = 34, PHP(&#x02212;) <italic toggle="yes">N</italic> = 10, Control <italic toggle="yes">N</italic> = 21, ST: superior temporal, IT: inferior temporal, ST + IT: average of superior temporal and inferior temporal, PHP(+): posterior hyaloid peeling group, PHP(&#x02212;): posterior hyaloid non-peeling group, Std: standard deviation, CI: confidence interval.</p></fn></table-wrap-foot></table-wrap><fig position="float" id="fig3"><label>Figure 3.</label><caption><p>(<bold>A</bold>) Three examples of preoperative and postoperative optic disc images for the surgical group. After vitrectomy, improved optic nerve head and retinal blood flow manifests with the disappearance of optic nerve pallor and dilation of retinal vessels (<italic toggle="yes">arrows</italic>). (<bold>B</bold>) Vein diameter percentage ratio boxplot graph for groups. PHP(+): posterior hyaloid peeling group; PHP(&#x02212;): posterior hyaloid non-peeling group; PREOP: preoperative; POSTOP: postoperative; %: percent.</p></caption><graphic xlink:href="tvst-13-7-12-f003" position="float"/></fig></sec></sec><sec sec-type="discussion" id="sec4"><title>Discussion</title><p>We observed a red shift in the ONH color and an increase in retinal vein diameter after vitrectomy, indicating an increase in ONH and retinal perfusion. Because the colorimetric data were corrected to all known confounding pigments in the eye and the illuminance differences induced by photography, we attribute this change to increased hemoglobin flux into the tissue. We found that this shift can be translated to an approximately 2.8-fold increase in ONH blood perfusion compared to controls. Studies using a different methodology confirmed our findings in various clinical settings.<xref rid="bib20" ref-type="bibr"><sup>20</sup></xref><sup>&#x02013;</sup><xref rid="bib24" ref-type="bibr"><sup>24</sup></xref><sup>,</sup><xref rid="bib36" ref-type="bibr"><sup>36</sup></xref></p><p>The beneficial impact of vitrectomy on several ischemic diseases has classically been attributed to the increased diffusion of ionic oxygen into the vitreous cavity.<xref rid="bib37" ref-type="bibr"><sup>37</sup></xref> Herein, we revealed another mechanism of how vitrectomy can improve retinal oxygenation. Retinal vessels have autonomic control and constrict upon exposure to increased oxygen.<xref rid="bib38" ref-type="bibr"><sup>38</sup></xref> Contrastingly, we observed a colorimetric shift, indicating an increased blood flow. Because all patients&#x02019; post-vitrectomy fundus photographs were obtained &#x0003e;3&#x000a0;months after the surgery, our observation cannot be explained by the short-term effects of the surgery, such as low postoperative intraocular pressure or the use of postoperative medications. Indeed, intraoperative manipulations, such as increased IOP, were shown to reduce retinal perfusion.<xref rid="bib39" ref-type="bibr"><sup>39</sup></xref><sup>,</sup><xref rid="bib40" ref-type="bibr"><sup>40</sup></xref> Thus, the observed improvement in blood flow after vitrectomy may bring a new perspective to explain the impact of vitrectomy and PH peeling in diabetic macular edema cases that remained unresponsive to anti-VEGF treatment<xref rid="bib41" ref-type="bibr"><sup>41</sup></xref> or in retinal vein occlusion.<xref rid="bib42" ref-type="bibr"><sup>42</sup></xref></p><p>Results of our study indicate that vitrectomy can modulate the optic disc and retinal blood flow. Retinal vascular pathologies that undergo vitrectomy often suffer from morphological cellular alterations that impede retinal perfusion, such as thickened retinal basal membranes and chronic activation of the retinal glia.<xref rid="bib43" ref-type="bibr"><sup>43</sup></xref> Cellular proliferation in and around the posterior hyaloid and its age-related thickening and stiffening<xref rid="bib44" ref-type="bibr"><sup>44</sup></xref> exerts mechanical traction on the superficial retina and the neighboring retinal vasculature, resulting in an altered retinal flow. The cases included in this study all had vitreoretinal interface problems, such as vitreomacular traction (VMT), macular hole, or diabetic retinopathy, characterized by thickening of the posterior hyaloid.<xref rid="bib45" ref-type="bibr"><sup>45</sup></xref> Thus, it is reasonable to assume that removing the posterior hyaloid in these cases will relieve the mechanical stress on the retinal vessels and improve retinal blood flow. A similar effect on retinal microcirculation was reported in patients who had undergone vitrectomy and membrane peeling surgery for epiretinal membranes.<xref rid="bib46" ref-type="bibr"><sup>46</sup></xref> Thus, a possible explanation of our observation may be the relief of vitreoretinal traction on retinal vessels and subsequent facilitation of the retinal blood flow.<xref rid="bib24" ref-type="bibr"><sup>24</sup></xref> This view is also supported by our finding that the beneficial effect of vitrectomy on retinal perfusion is only seen if the posterior hyaloid is peeled. Such a differential effect was not observed for ONH, where there is no hyaloid membrane and cellular proliferation is rare.</p><p>Our findings may also explain the overlooked impact of vitrectomy and posterior hyaloid peeling in radial optic neurotomy and adventitial sheathotomy. These techniques were more effective in cases where the posterior was peeled intraoperatively,<xref rid="bib22" ref-type="bibr"><sup>22</sup></xref> indicating that the benefit obtained from these surgeries was mainly due to the improvement of retinal blood flow induced by vitrectomy and posterior hyaloid peeling.<xref rid="bib47" ref-type="bibr"><sup>47</sup></xref></p><p>Retinal perfusion changes have classically been assessed by observing changes in clinical features, that is, the disappearance of macular edema, or by estimating the ocular blood flow rate with color Doppler imaging.<xref rid="bib48" ref-type="bibr"><sup>48</sup></xref> However, Doppler measurements can be affected by artifacts, impacting their accuracy and reliability, and may not fully represent tissue perfusion. We observed rapid improvement of retinal and ONH blood following the removal of the posterior hyaloid during vitrectomy (see <xref rid="fig3" ref-type="fig">Fig. 3</xref>A). Our method offers an easier and more comprehensive reflection of whole retinal blood perfusion changes than traditional methods.</p><p>Although colorimetric analysis offers a significant opportunity to track changes in ONH blood perfusion metrics, it has some limitations, primarily due to subject background and technical aspects. One limitation of colorimetric analysis is the impact of age and refractive errors on color changes in the ONH.<xref rid="bib49" ref-type="bibr"><sup>49</sup></xref> Previous research has shown that age and myopia can significantly affect ONH blood flow, indicating that these factors must be carefully considered when establishing the control group and interpreting the results.<xref rid="bib49" ref-type="bibr"><sup>49</sup></xref> Although using vein caliber to indicate blood flow dynamics has practical value in the clinic, it is prone to age- and co-morbidity-related alterations due to vessel wall thickening, which undoubtedly decreases blood flow within the blood vessel.<xref rid="bib50" ref-type="bibr"><sup>50</sup></xref></p><p>There are reports about using deep learning approaches for colorimetric analyses of the ONH. These studies highlight the potential future direction in the search for new algorithms and formulas to evaluate retinal and ONH perfusion metrics.<xref rid="bib51" ref-type="bibr"><sup>51</sup></xref> Artificial intelligence has recently been used in assessing the blood in various organs<xref rid="bib52" ref-type="bibr"><sup>52</sup></xref><sup>,</sup><xref rid="bib53" ref-type="bibr"><sup>53</sup></xref> Similar to other ophthalmic imaging methods used to determine retinal blood flow changes with artificial intelligence and deep learning techniques,<xref rid="bib54" ref-type="bibr"><sup>54</sup></xref> our colorimetric analysis may establish the groundwork for assessing the blood flow changes in the ONH and the retina.</p></sec></body><back><ack><title>Acknowledgments</title><p>Supported in part by an unrestricted grant from Research to Prevent Blindness, Inc., NYC, NY., Foley Research Fund, New York, NY (T.H.T.).</p><p content-type="COI-statement">Disclosure: <bold>O. &#x00130;nam</bold>, None; <bold>A. El-Baz</bold>, None; <bold>H.J. Kaplan</bold>, None; <bold>T.H. Tezel</bold>, None</p></ack><ref-list><title>References</title><ref id="bib1"><label>1.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Cruz</surname>
+<given-names>NFS</given-names></string-name>, <string-name><surname>Santos</surname>
+<given-names>KS</given-names></string-name>, <string-name><surname>Matuoka</surname>
+<given-names>ML</given-names></string-name>, <string-name><surname>Kasahara</surname>
+<given-names>N.</given-names></string-name></person-group>
+<article-title>Translaminar pressure difference and ocular perfusion pressure in glaucomatous eyes with different optic disc sizes</article-title>. <source><italic toggle="yes">J Ophthalmic Vis Res</italic></source><italic toggle="yes">.</italic>
+<year>2021</year>; <volume>16</volume>(<issue>2</issue>): <fpage>171</fpage>&#x02013;<lpage>177</lpage>.<pub-id pub-id-type="pmid">34055254</pub-id>
+</mixed-citation></ref><ref id="bib2"><label>2.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Cao</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Yang</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Yu</surname>
+<given-names>H</given-names></string-name>, <etal>et al</etal>.</person-group>
+<article-title>Optic nerve head perfusion changes preceding peripapillary retinal nerve fibre layer thinning in preclinical diabetic retinopathy</article-title>. <source><italic toggle="yes">Clin Exp Ophthalmol</italic></source><italic toggle="yes">.</italic>
+<year>2019</year>; <volume>47</volume>(<issue>2</issue>): <fpage>219</fpage>&#x02013;<lpage>225</lpage>.<pub-id pub-id-type="pmid">30203562</pub-id>
+</mixed-citation></ref><ref id="bib3"><label>3.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Ghassemi</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Berijani</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Roohipoor</surname>
+<given-names>R</given-names></string-name>, <etal>et al</etal>.</person-group>
+<article-title>Vascular density of optic nerve head in diabetic retinopathy using optical coherence tomography angiography</article-title>. <source><italic toggle="yes">Int J Retina Vitreous</italic></source><italic toggle="yes">.</italic>
+<year>2020</year>; <volume>6</volume>(<issue>1</issue>): <fpage>62</fpage>.<pub-id pub-id-type="pmid">33292768</pub-id>
+</mixed-citation></ref><ref id="bib4"><label>4.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Lee</surname>
+<given-names>G-I</given-names></string-name>, <string-name><surname>Park</surname>
+<given-names>K-A</given-names></string-name>, <string-name><surname>Oh</surname>
+<given-names>SY</given-names></string-name>, <string-name><surname>Kim</surname>
+<given-names>SJ.</given-names></string-name></person-group>
+<article-title>Retinal and peripapillary vascular deformations in prematurely born children aged 4&#x02013;12&#x000a0;years with a history of retinopathy of prematurity</article-title>. <source><italic toggle="yes">Sci Rep</italic></source><italic toggle="yes">.</italic>
+<year>2023</year>; <volume>13</volume>(<issue>1</issue>): <fpage>3130</fpage>.<pub-id pub-id-type="pmid">36813874</pub-id>
+</mixed-citation></ref><ref id="bib5"><label>5.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Matsumoto</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Itokawa</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Shiba</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Hine</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Hori</surname>
+<given-names>Y.</given-names></string-name></person-group>
+<article-title>A change in ocular circulation after photocoagulation for retinopathy of prematurity in a neonate</article-title>. <source><italic toggle="yes">Case Rep Ophthalmol</italic></source><italic toggle="yes">.</italic>
+<year>2017</year>; <volume>8</volume>(<issue>1</issue>): <fpage>91</fpage>&#x02013;<lpage>98</lpage>.<pub-id pub-id-type="pmid">28413406</pub-id>
+</mixed-citation></ref><ref id="bib6"><label>6.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Shin</surname>
+<given-names>Y-I</given-names></string-name>, <string-name><surname>Nam</surname>
+<given-names>KY</given-names></string-name>, <string-name><surname>Lee</surname>
+<given-names>SE</given-names></string-name>, <etal>et al</etal>.</person-group>
+<article-title>Changes in peripapillary microvasculature and retinal thickness in the fellow eyes of patients with unilateral retinal vein occlusion: an octa study</article-title>. <source><italic toggle="yes">Invest Ophthalmol Vis Sci</italic></source><italic toggle="yes">.</italic>
+<year>2019</year>; <volume>60</volume>(<issue>2</issue>): <fpage>823</fpage>&#x02013;<lpage>829</lpage>.<pub-id pub-id-type="pmid">30807638</pub-id>
+</mixed-citation></ref><ref id="bib7"><label>7.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Kim</surname>
+<given-names>J-A</given-names></string-name>, <string-name><surname>Lee</surname>
+<given-names>EJ</given-names></string-name>, <string-name><surname>Kim</surname>
+<given-names>T-W</given-names></string-name>, <string-name><surname>Yang</surname>
+<given-names>HK</given-names></string-name>, <string-name><surname>Hwang</surname>
+<given-names>J-M.</given-names></string-name></person-group>
+<article-title>Comparison of optic nerve head microvasculature between normal-tension glaucoma and nonarteritic anterior ischemic optic neuropathy</article-title>. <source><italic toggle="yes">Invest Ophthalmol Vis Sci</italic></source><italic toggle="yes">.</italic>
+<year>2021</year>; <volume>62</volume>(<issue>10</issue>): <fpage>15</fpage>.</mixed-citation></ref><ref id="bib8"><label>8.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Dhiman</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Chawla</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Azad</surname>
+<given-names>SV</given-names></string-name>, <etal>et al</etal>.</person-group>
+<article-title>Peripapillary retinal and choroidal perfusion in nonarteritic ischemic optic neuropathy using optical coherence tomography angiography</article-title>. <source><italic toggle="yes">Optom Vis Sci</italic></source><italic toggle="yes">.</italic>
+<year>2020</year>; <volume>97</volume>(<issue>8</issue>): <fpage>583</fpage>&#x02013;<lpage>590</lpage>.<pub-id pub-id-type="pmid">32833402</pub-id>
+</mixed-citation></ref><ref id="bib9"><label>9.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Chen</surname>
+<given-names>CL</given-names></string-name>, <string-name><surname>Bojikian</surname>
+<given-names>KD</given-names></string-name>, <string-name><surname>Gupta</surname>
+<given-names>D</given-names></string-name>, <etal>et al</etal>.</person-group>
+<article-title>Optic nerve head perfusion in normal eyes and eyes with glaucoma using optical coherence tomography-based microangiography</article-title>. <source><italic toggle="yes">Quant Imaging Med Surg</italic></source><italic toggle="yes">.</italic>
+<year>2016</year>; <volume>6</volume>(<issue>2</issue>): <fpage>125</fpage>&#x02013;<lpage>133</lpage>.<pub-id pub-id-type="pmid">27190764</pub-id>
+</mixed-citation></ref><ref id="bib10"><label>10.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Kim</surname>
+<given-names>J-A</given-names></string-name>, <string-name><surname>Kim</surname>
+<given-names>T-W</given-names></string-name>, <string-name><surname>Lee</surname>
+<given-names>EJ</given-names></string-name>, <string-name><surname>Girard</surname>
+<given-names>MJA</given-names></string-name>, <string-name><surname>Mari</surname>
+<given-names>JM.</given-names></string-name></person-group>
+<article-title>Microvascular changes in peripapillary and optic nerve head tissues after trabeculectomy in primary open-angle glaucoma</article-title>. <source><italic toggle="yes">Invest Ophthalmol Vis Sci</italic></source><italic toggle="yes">.</italic>
+<year>2018</year>; <volume>59</volume>(<issue>11</issue>): <fpage>4614</fpage>&#x02013;<lpage>4621</lpage>.<pub-id pub-id-type="pmid">30242362</pub-id>
+</mixed-citation></ref><ref id="bib11"><label>11.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Yu</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Xu</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Huang</surname>
+<given-names>Y</given-names></string-name>, <etal>et al</etal>.</person-group>
+<article-title>Changes in retinal perfusion in leber's hereditary optic neuropathy: An optical coherence tomography-angiography study</article-title>. <source><italic toggle="yes">Ophthalmic Res</italic></source><italic toggle="yes">.</italic>
+<year>2021</year>; <volume>64</volume>(<issue>5</issue>): <fpage>863</fpage>&#x02013;<lpage>870</lpage>.<pub-id pub-id-type="pmid">34247170</pub-id>
+</mixed-citation></ref><ref id="bib12"><label>12.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Ciulla</surname>
+<given-names>TA</given-names></string-name>, <string-name><surname>Harris</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Latkany</surname>
+<given-names>P</given-names></string-name>, <etal>et al</etal>.</person-group>
+<article-title>Ocular perfusion abnormalities in diabetes</article-title>. <source><italic toggle="yes">Acta Ophthalmol Scand</italic></source><italic toggle="yes">.</italic>
+<year>2002</year>; <volume>80</volume>(<issue>5</issue>): <fpage>468</fpage>&#x02013;<lpage>477</lpage>.<pub-id pub-id-type="pmid">12390156</pub-id>
+</mixed-citation></ref><ref id="bib13"><label>13.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Bertelsen</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Linneberg</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Rosenberg</surname>
+<given-names>T</given-names></string-name>, <etal>et al</etal>.</person-group>
+<article-title>Comorbidity in patients with branch retinal vein occlusion: case-control study</article-title>. <source><italic toggle="yes">BMJ</italic></source><italic toggle="yes">.</italic>
+<year>2012</year>; <volume>345</volume>: <fpage>e7885</fpage>.<pub-id pub-id-type="pmid">23204001</pub-id>
+</mixed-citation></ref><ref id="bib14"><label>14.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>O'Mahoney</surname>
+<given-names>PR</given-names></string-name>, <string-name><surname>Wong</surname>
+<given-names>DT</given-names></string-name>, <string-name><surname>Ray</surname>
+<given-names>JG.</given-names></string-name></person-group>
+<article-title>Retinal vein occlusion and traditional risk factors for atherosclerosis</article-title>. <source><italic toggle="yes">Arch Ophthalmol</italic></source><italic toggle="yes">.</italic>
+<year>2008</year>; <volume>126</volume>(<issue>5</issue>): <fpage>692</fpage>&#x02013;<lpage>699</lpage>.<pub-id pub-id-type="pmid">18474782</pub-id>
+</mixed-citation></ref><ref id="bib15"><label>15.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Lee</surname>
+<given-names>WJ</given-names></string-name>, <string-name><surname>Sobrin</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Lee</surname>
+<given-names>MJ</given-names></string-name>, <string-name><surname>Kang</surname>
+<given-names>MH</given-names></string-name>, <string-name><surname>Seong</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Cho</surname>
+<given-names>H.</given-names></string-name></person-group>
+<article-title>The relationship between diabetic retinopathy and diabetic nephropathy in a population-based study in Korea (Knhanes v-2, 3)</article-title>. <source><italic toggle="yes">Invest Ophthalmol Vis Sci</italic></source><italic toggle="yes">.</italic>
+<year>2014</year>; <volume>55</volume>(<issue>10</issue>): <fpage>6547</fpage>&#x02013;<lpage>6553</lpage>.<pub-id pub-id-type="pmid">25205863</pub-id>
+</mixed-citation></ref><ref id="bib16"><label>16.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>El-Asrar</surname>
+<given-names>AM</given-names></string-name>, <string-name><surname>Al-Rubeaan</surname>
+<given-names>KA</given-names></string-name>, <string-name><surname>Al-Amro</surname>
+<given-names>SA</given-names></string-name>, <string-name><surname>Moharram</surname>
+<given-names>OA</given-names></string-name>, <string-name><surname>Kangave</surname>
+<given-names>D.</given-names></string-name></person-group>
+<article-title>Retinopathy as a predictor of other diabetic complications</article-title>. <source><italic toggle="yes">Int Ophthalmol</italic></source><italic toggle="yes">.</italic>
+<year>2001</year>; <volume>24</volume>(<issue>1</issue>): <fpage>1</fpage>&#x02013;<lpage>11</lpage>.<pub-id pub-id-type="pmid">11998880</pub-id>
+</mixed-citation></ref><ref id="bib17"><label>17.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Song</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Xu</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Zha</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Zhang</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Rudan</surname>
+<given-names>I.</given-names></string-name></person-group>
+<article-title>Global epidemiology of retinal vein occlusion: a systematic review and meta-analysis of prevalence, incidence, and risk factors</article-title>. <source><italic toggle="yes">J Glob Health</italic></source><italic toggle="yes">.</italic>
+<year>2019</year>; <volume>9</volume>(<issue>1</issue>): <fpage>010427</fpage>.<pub-id pub-id-type="pmid">31131101</pub-id>
+</mixed-citation></ref><ref id="bib18"><label>18.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Laouri</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Chen</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Looman</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Gallagher</surname>
+<given-names>M.</given-names></string-name></person-group>
+<article-title>The burden of disease of retinal vein occlusion: review of the literature</article-title>. <source><italic toggle="yes">Eye (Lond)</italic></source><italic toggle="yes">.</italic>
+<year>2011</year>; <volume>25</volume>(<issue>8</issue>): <fpage>981</fpage>&#x02013;<lpage>988</lpage>.<pub-id pub-id-type="pmid">21546916</pub-id>
+</mixed-citation></ref><ref id="bib19"><label>19.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Shinoda</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Kimura</surname>
+<given-names>I</given-names></string-name>, <string-name><surname>Eshita</surname>
+<given-names>T</given-names></string-name>, <etal>et al</etal>.</person-group>
+<article-title>Microcirculation in the macular area of eyes with an idiopathic epiretinal membrane</article-title>. <source><italic toggle="yes">Graefes Arch Clin Exp Ophthalmol</italic></source><italic toggle="yes">.</italic>
+<year>2001</year>; <volume>239</volume>(<issue>12</issue>): <fpage>941</fpage>&#x02013;<lpage>945</lpage>.<pub-id pub-id-type="pmid">11820700</pub-id>
+</mixed-citation></ref><ref id="bib20"><label>20.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Kadonosono</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Itoh</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Ohno</surname>
+<given-names>S.</given-names></string-name></person-group>
+<article-title>Perifoveal microcirculation before and after vitrectomy for diabetic cystoid macular edema</article-title>. <source><italic toggle="yes">Am J Ophthalmol</italic></source><italic toggle="yes">.</italic>
+<year>2000</year>; <volume>130</volume>(<issue>6</issue>): <fpage>740</fpage>&#x02013;<lpage>744</lpage>.<pub-id pub-id-type="pmid">11124292</pub-id>
+</mixed-citation></ref><ref id="bib21"><label>21.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Figueroa</surname>
+<given-names>MS</given-names></string-name>, <string-name><surname>Torres</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Alvarez</surname>
+<given-names>MT.</given-names></string-name></person-group>
+<article-title>Comparative study of vitrectomy with and without vein decompression for branch retinal vein occlusion: a pilot study</article-title>. <source><italic toggle="yes">Eur J Ophthalmol</italic></source><italic toggle="yes">.</italic>
+<year>2004</year>; <volume>14</volume>(<issue>1</issue>): <fpage>40</fpage>&#x02013;<lpage>47</lpage>.<pub-id pub-id-type="pmid">15005584</pub-id>
+</mixed-citation></ref><ref id="bib22"><label>22.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Charbonnel</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Glacet-Bernard</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Korobelnik</surname>
+<given-names>JF</given-names></string-name>, <etal>et al</etal>.</person-group>
+<article-title>Management of branch retinal vein occlusion with vitrectomy and arteriovenous adventitial sheathotomy, the possible role of surgical posterior vitreous detachment</article-title>. <source><italic toggle="yes">Graefes Arch Clin Exp Ophthalmol</italic></source><italic toggle="yes">.</italic>
+<year>2004</year>; <volume>242</volume>(<issue>3</issue>): <fpage>223</fpage>&#x02013;<lpage>228</lpage>.<pub-id pub-id-type="pmid">14685873</pub-id>
+</mixed-citation></ref><ref id="bib23"><label>23.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Leizaola-Fern&#x000e1;ndez</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Su&#x000e1;rez-Tat&#x000e1;</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Quiroz-Mercado</surname>
+<given-names>H</given-names></string-name>, <etal>et al</etal>.</person-group>
+<article-title>Vitrectomy with complete posterior hyaloid removal for ischemic central retinal vein occlusion: series of cases</article-title>. <source><italic toggle="yes">BMC Ophthalmol</italic></source><italic toggle="yes">.</italic>
+<year>2005</year>; <volume>5</volume>: <fpage>10</fpage>.<pub-id pub-id-type="pmid">15943889</pub-id>
+</mixed-citation></ref><ref id="bib24"><label>24.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>S&#x000ed;n</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>S&#x000ed;nov&#x000e1;</surname>
+<given-names>I</given-names></string-name>, <string-name><surname>Chrapek</surname>
+<given-names>O</given-names></string-name>, <etal>et al</etal>.</person-group>
+<article-title>The effect of pars plan vitrectomy on oxygen saturation in retinal vessels&#x02013;a pilot study</article-title>. <source><italic toggle="yes">Acta Ophthalmol</italic></source><italic toggle="yes">.</italic>
+<year>2014</year>; <volume>92</volume>(<issue>4</issue>): <fpage>328</fpage>&#x02013;<lpage>331</lpage>.<pub-id pub-id-type="pmid">23848230</pub-id>
+</mixed-citation></ref><ref id="bib25"><label>25.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Stalmans</surname>
+<given-names>I</given-names></string-name>, <string-name><surname>Vandewalle</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Anderson</surname>
+<given-names>DR</given-names></string-name>, <etal>et al</etal>.</person-group>
+<article-title>Use of colour Doppler imaging in ocular blood flow research</article-title>. <source><italic toggle="yes">Acta Ophthalmol</italic></source><italic toggle="yes">.</italic>
+<year>2011</year>; <volume>89</volume>(<issue>8</issue>): <fpage>e609</fpage>&#x02013;<lpage>630</lpage>.<pub-id pub-id-type="pmid">21989301</pub-id>
+</mixed-citation></ref><ref id="bib26"><label>26.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Garg</surname>
+<given-names>AK</given-names></string-name>, <string-name><surname>Knight</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Lando</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Chao</surname>
+<given-names>DL.</given-names></string-name></person-group>
+<article-title>Advances in retinal oximetry</article-title>. <source><italic toggle="yes">Transl Vis Sci Technol</italic></source><italic toggle="yes">.</italic>
+<year>2021</year>; <volume>10</volume>(<issue>2</issue>): <fpage>5</fpage>.</mixed-citation></ref><ref id="bib27"><label>27.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>de Carlo</surname>
+<given-names>TE</given-names></string-name>, <string-name><surname>Romano</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Waheed</surname>
+<given-names>NK</given-names></string-name>, <string-name><surname>Duker</surname>
+<given-names>JS.</given-names></string-name></person-group>
+<article-title>A review of optical coherence tomography angiography (OCTA)</article-title>. <source><italic toggle="yes">Int J Retina Vitreous</italic></source><italic toggle="yes">.</italic>
+<year>2015</year>; <volume>1</volume>: <fpage>5</fpage>.<pub-id pub-id-type="pmid">27847598</pub-id>
+</mixed-citation></ref><ref id="bib28"><label>28.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Schneider</surname>
+<given-names>CA</given-names></string-name>, <string-name><surname>Rasband</surname>
+<given-names>WS</given-names></string-name>, <string-name><surname>Eliceiri</surname>
+<given-names>KW.</given-names></string-name></person-group>
+<article-title>NIH image to ImageJ: 25&#x000a0;years of image analysis</article-title>. <source><italic toggle="yes">Nat Methods</italic></source><italic toggle="yes">.</italic>
+<year>2012</year>; <volume>9</volume>(<issue>7</issue>): <fpage>671</fpage>&#x02013;<lpage>675</lpage>.<pub-id pub-id-type="pmid">22930834</pub-id>
+</mixed-citation></ref><ref id="bib29"><label>29.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Ortega</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Halicek</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Fabelo</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Callico</surname>
+<given-names>GM</given-names></string-name>, <string-name><surname>Fei</surname>
+<given-names>B.</given-names></string-name></person-group>
+<article-title>Hyperspectral and multispectral imaging in digital and computational pathology: a systematic review [invited]</article-title>. <source><italic toggle="yes">Biomed Opt Express</italic></source><italic toggle="yes">.</italic>
+<year>2020</year>; <volume>11</volume>(<issue>6</issue>): <fpage>3195</fpage>&#x02013;<lpage>3233</lpage>.<pub-id pub-id-type="pmid">32637250</pub-id>
+</mixed-citation></ref><ref id="bib30"><label>30.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Nunobiki</surname>
+<given-names>O</given-names></string-name>, <string-name><surname>Sato</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Taniguchi</surname>
+<given-names>E</given-names></string-name>, <etal>et al</etal>.</person-group>
+<article-title>Color image analysis of cervical neoplasia using RGB computer color specification</article-title>. <source><italic toggle="yes">Anal Quant Cytol Histol</italic></source><italic toggle="yes">.</italic>
+<year>2002</year>; <volume>24</volume>(<issue>5</issue>): <fpage>289</fpage>&#x02013;<lpage>294</lpage>.<pub-id pub-id-type="pmid">12408561</pub-id>
+</mixed-citation></ref><ref id="bib31"><label>31.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Shah</surname>
+<given-names>SAA</given-names></string-name>, <string-name><surname>Tang</surname>
+<given-names>TB</given-names></string-name>, <string-name><surname>Faye</surname>
+<given-names>I</given-names></string-name>, <string-name><surname>Laude</surname>
+<given-names>A</given-names></string-name></person-group>. <article-title>Blood vessel segmentation in color fundus images based on regional and Hessian features</article-title>. <source><italic toggle="yes">Graefes Arch Clin Exp Ophthalmol</italic></source><italic toggle="yes">.</italic>
+<year>2017</year>; <volume>255</volume>(<issue>8</issue>): <fpage>1525</fpage>&#x02013;<lpage>1533</lpage>.<pub-id pub-id-type="pmid">28474130</pub-id>
+</mixed-citation></ref><ref id="bib32"><label>32.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Tsikata</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>La&#x000ed;ns</surname>
+<given-names>I</given-names></string-name>, <string-name><surname>Gil</surname>
+<given-names>J</given-names></string-name>, <etal>et al</etal>.</person-group>
+<article-title>Automated brightness and contrast adjustment of color fundus photographs for the grading of age-related macular degeneration</article-title>. <source><italic toggle="yes">Transl Vis Sci Technol</italic></source><italic toggle="yes">.</italic>
+<year>2017</year>; <volume>6</volume>(<issue>2</issue>): <fpage>3</fpage>.</mixed-citation></ref><ref id="bib33"><label>33.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Moreno</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Gra&#x000f1;a</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Ramik</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Madani</surname>
+<given-names>K.</given-names></string-name></person-group>
+<article-title>Image segmentation on spherical coordinate representation of RGB colour space</article-title>. <source><italic toggle="yes">IET Image Processing</italic></source><italic toggle="yes">.</italic>
+<year>2012</year>; <volume>6</volume>(<issue>9</issue>): <fpage>1275</fpage>&#x02013;<lpage>1283</lpage>.</mixed-citation></ref><ref id="bib34"><label>34.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Gonzalez de la Rosa</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Gonzalez-Hernandez</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Sigut</surname>
+<given-names>J</given-names></string-name>, <etal>et al</etal>.</person-group>
+<article-title>Measuring hemoglobin levels in the optic nerve head: Comparisons with other structural and functional parameters of glaucoma</article-title>. <source><italic toggle="yes">Invest Ophthalmol Vis Sci</italic></source><italic toggle="yes">.</italic>
+<year>2013</year>; <volume>54</volume>(<issue>1</issue>): <fpage>482</fpage>&#x02013;<lpage>489</lpage>.<pub-id pub-id-type="pmid">23221075</pub-id>
+</mixed-citation></ref><ref id="bib35"><label>35.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Gonzalez-Hernandez</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Betancor-Caro</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Mesa-Lugo</surname>
+<given-names>F</given-names></string-name>, <etal>et al</etal>.</person-group>
+<article-title>Identification of glaucoma in diabetics using the Laguna-ONhE colourimetric method and OCT Spectralis</article-title>. <source><italic toggle="yes">J Clin Med</italic></source><italic toggle="yes">.</italic>
+<year>2023</year>; <volume>12</volume>(<issue>18</issue>): <fpage>5876</fpage>.<pub-id pub-id-type="pmid">37762816</pub-id>
+</mixed-citation></ref><ref id="bib36"><label>36.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Iwase</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Kobayashi</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Yamamoto</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Yanagida</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Ra</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Terasaki</surname>
+<given-names>H.</given-names></string-name></person-group>
+<article-title>Changes in blood flow on optic nerve head after vitrectomy for rhegmatogenous retinal detachment</article-title>. <source><italic toggle="yes">Invest Ophthalmol Vis Sci</italic></source><italic toggle="yes">.</italic>
+<year>2016</year>; <volume>57</volume>(<issue>14</issue>): <fpage>6223</fpage>&#x02013;<lpage>6233</lpage>.<pub-id pub-id-type="pmid">27842162</pub-id>
+</mixed-citation></ref><ref id="bib37"><label>37.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Siegfried</surname>
+<given-names>CJ</given-names></string-name>, <string-name><surname>Shui</surname>
+<given-names>YB</given-names></string-name>, <string-name><surname>Holekamp</surname>
+<given-names>NM</given-names></string-name>, <string-name><surname>Bai</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Beebe</surname>
+<given-names>DC.</given-names></string-name></person-group>
+<article-title>Oxygen distribution in the human eye: relevance to the etiology of open-angle glaucoma after vitrectomy</article-title>. <source><italic toggle="yes">Invest Ophthalmol Vis Sci</italic></source><italic toggle="yes">.</italic>
+<year>2010</year>; <volume>51</volume>(<issue>11</issue>): <fpage>5731</fpage>&#x02013;<lpage>5738</lpage>.<pub-id pub-id-type="pmid">20720218</pub-id>
+</mixed-citation></ref><ref id="bib38"><label>38.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Vucetic</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Jensen</surname>
+<given-names>PK</given-names></string-name>, <string-name><surname>Jansen</surname>
+<given-names>EC.</given-names></string-name></person-group>
+<article-title>Diameter variations of retinal blood vessels during and after treatment with hyperbaric oxygen</article-title>. <source><italic toggle="yes">Br J Ophthalmol</italic></source><italic toggle="yes">.</italic>
+<year>2004</year>; <volume>88</volume>(<issue>6</issue>): <fpage>771</fpage>&#x02013;<lpage>775</lpage>.<pub-id pub-id-type="pmid">15148210</pub-id>
+</mixed-citation></ref><ref id="bib39"><label>39.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Hashimoto</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Sugiyama</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Ubuka</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Maeno</surname>
+<given-names>T.</given-names></string-name></person-group>
+<article-title>Impairment of autoregulation of optic nerve head blood flow during vitreous surgery in patients with hypertension and hyperlipidemia</article-title>. <source><italic toggle="yes">Graefes Arch Clin Exp Ophthalmol</italic></source><italic toggle="yes">.</italic>
+<year>2017</year>; <volume>255</volume>(<issue>11</issue>): <fpage>2227</fpage>&#x02013;<lpage>2235</lpage>.<pub-id pub-id-type="pmid">28940022</pub-id>
+</mixed-citation></ref><ref id="bib40"><label>40.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Hashimoto</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Sugiyama</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Maeno</surname>
+<given-names>T.</given-names></string-name></person-group>
+<article-title>Comparison of optic nerve head blood flow autoregulation among quadrants induced by decreased ocular perfusion pressure during vitrectomy</article-title>. <source><italic toggle="yes">Biomed Res Int</italic></source><italic toggle="yes">.</italic>
+<year>2017</year>; <volume>2017</volume>: <fpage>6041590</fpage>.<pub-id pub-id-type="pmid">29362713</pub-id>
+</mixed-citation></ref><ref id="bib41"><label>41.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Mukai</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Matsumoto</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Akiyama</surname>
+<given-names>H.</given-names></string-name></person-group>
+<article-title>Surgical outcomes of vitrectomy for intractable diabetic macular edema</article-title>. <source><italic toggle="yes">Graefes Arch Clin Exp Ophthalmol</italic></source><italic toggle="yes">.</italic>
+<year>2021</year>; <volume>259</volume>(<issue>2</issue>): <fpage>363</fpage>&#x02013;<lpage>368</lpage>.<pub-id pub-id-type="pmid">32816100</pub-id>
+</mixed-citation></ref><ref id="bib42"><label>42.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Nishida</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Kojima</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Kameda</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Mandai</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Kurimoto</surname>
+<given-names>Y.</given-names></string-name></person-group>
+<article-title>Five-year outcomes of pars plana vitrectomy for macular edema associated with branch retinal vein occlusion</article-title>. <source><italic toggle="yes">Clin Ophthalmol</italic></source><italic toggle="yes">.</italic>
+<year>2017</year>; <volume>11</volume>: <fpage>369</fpage>&#x02013;<lpage>375</lpage>.<pub-id pub-id-type="pmid">28255227</pub-id>
+</mixed-citation></ref><ref id="bib43"><label>43.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Rezaei Kanavi</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Soheilian</surname>
+<given-names>M</given-names></string-name></person-group>. <article-title>Histopathologic and electron microscopic features of internal limiting membranes in maculopathies of various etiologies</article-title>. <source><italic toggle="yes">J Ophthalmic Vis Res</italic></source><italic toggle="yes">.</italic>
+<year>2014</year>; <volume>9</volume>(<issue>2</issue>): <fpage>215</fpage>&#x02013;<lpage>222</lpage>.<pub-id pub-id-type="pmid">25279124</pub-id>
+</mixed-citation></ref><ref id="bib44"><label>44.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Snead</surname>
+<given-names>MP</given-names></string-name>, <string-name><surname>Snead</surname>
+<given-names>DR</given-names></string-name>, <string-name><surname>Richards</surname>
+<given-names>AJ</given-names></string-name>, <etal>et al</etal>.</person-group>
+<article-title>Clinical, histological and ultrastructural studies of the posterior hyaloid membrane</article-title>. <source><italic toggle="yes">Eye (Lond)</italic></source><italic toggle="yes">.</italic>
+<year>2002</year>; <volume>16</volume>(<issue>4</issue>): <fpage>447</fpage>&#x02013;<lpage>453</lpage>.<pub-id pub-id-type="pmid">12101452</pub-id>
+</mixed-citation></ref><ref id="bib45"><label>45.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Agarwal</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Gelman</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Prospero Ponce</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Stevenson</surname>
+<given-names>W</given-names></string-name>, <string-name><surname>Christoforidis</surname>
+<given-names>JB</given-names></string-name></person-group>. <article-title>The vitreomacular interface in diabetic retinopathy</article-title>. <source><italic toggle="yes">J Ophthalmol</italic></source><italic toggle="yes">.</italic>
+<year>2015</year>; <volume>2015</volume>: <fpage>392983</fpage>.<pub-id pub-id-type="pmid">26425349</pub-id>
+</mixed-citation></ref><ref id="bib46"><label>46.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Yagi</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Sakata</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Funatsu</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Noma</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Yamamoto</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Hori</surname>
+<given-names>S.</given-names></string-name></person-group>
+<article-title>Macular microcirculation in patients with epiretinal membrane before and after surgery</article-title>. <source><italic toggle="yes">Graefes Arch Clin Exp Ophthalmol</italic></source><italic toggle="yes">.</italic>
+<year>2012</year>; <volume>250</volume>(<issue>6</issue>): <fpage>931</fpage>&#x02013;<lpage>934</lpage>.<pub-id pub-id-type="pmid">22002582</pub-id>
+</mixed-citation></ref><ref id="bib47"><label>47.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Kumagai</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Ogino</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Fukami</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Furukawa</surname>
+<given-names>M.</given-names></string-name></person-group>
+<article-title>Vitrectomy for macular edema due to retinal vein occlusion</article-title>. <source><italic toggle="yes">Clin Ophthalmol</italic></source><italic toggle="yes">.</italic>
+<year>2019</year>; <volume>13</volume>: <fpage>969</fpage>&#x02013;<lpage>984</lpage>.<pub-id pub-id-type="pmid">31354231</pub-id>
+</mixed-citation></ref><ref id="bib48"><label>48.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Butt</surname>
+<given-names>Z</given-names></string-name>, <string-name><surname>McKillop</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>O'Brien</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Allan</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Aspinall</surname>
+<given-names>P.</given-names></string-name></person-group>
+<article-title>Measurement of ocular blood flow velocity using colour Doppler imaging in low tension glaucoma</article-title>. <source><italic toggle="yes">Eye</italic></source><italic toggle="yes">.</italic>
+<year>1995</year>; <volume>9</volume>(<issue>1</issue>): <fpage>29</fpage>&#x02013;<lpage>33</lpage>.<pub-id pub-id-type="pmid">7713247</pub-id>
+</mixed-citation></ref><ref id="bib49"><label>49.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Kuroda</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Uji</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Yoshimura</surname>
+<given-names>N.</given-names></string-name></person-group>
+<article-title>Factors associated with optic nerve head blood flow and color tone: a retrospective observational study</article-title>. <source><italic toggle="yes">Graefes Arch Clin Exp Ophthalmol</italic></source><italic toggle="yes">.</italic>
+<year>2016</year>; <volume>254</volume>(<issue>5</issue>): <fpage>963</fpage>&#x02013;<lpage>970</lpage>.<pub-id pub-id-type="pmid">26728756</pub-id>
+</mixed-citation></ref><ref id="bib50"><label>50.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Muraoka</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Tsujikawa</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Kumagai</surname>
+<given-names>K</given-names></string-name>, <etal>et al</etal>.</person-group>
+<article-title>Age- and hypertension-dependent changes in retinal vessel diameter and wall thickness: an optical coherence tomography study</article-title>. <source><italic toggle="yes">Am J Ophthalmol</italic></source><italic toggle="yes">.</italic>
+<year>2013</year>; <volume>156</volume>(<issue>4</issue>): <fpage>706</fpage>&#x02013;<lpage>714</lpage>.<pub-id pub-id-type="pmid">23876868</pub-id>
+</mixed-citation></ref><ref id="bib51"><label>51.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Gonzalez-Hernandez</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Gonzalez-Hernandez</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Perez-Barbudo</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Rodriguez-Esteve</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Betancor-Caro</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Gonzalez de la Rosa</surname>
+<given-names>M</given-names></string-name></person-group>. <article-title>Fully automated colorimetric analysis of the optic nerve aided by deep learning and its association with perimetry and OCT for the study of glaucoma</article-title>. <source><italic toggle="yes">J Clin Med</italic></source><italic toggle="yes">.</italic>
+<year>2021</year>; <volume>10</volume>(<issue>15</issue>): <fpage>3231</fpage>.<pub-id pub-id-type="pmid">34362014</pub-id>
+</mixed-citation></ref><ref id="bib52"><label>52.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Park</surname>
+<given-names>SH</given-names></string-name>, <string-name><surname>Park</surname>
+<given-names>HM</given-names></string-name>, <string-name><surname>Baek</surname>
+<given-names>KR</given-names></string-name>, <string-name><surname>Ahn</surname>
+<given-names>HM</given-names></string-name>, <string-name><surname>Lee</surname>
+<given-names>IY</given-names></string-name>, <string-name><surname>Son</surname>
+<given-names>GM.</given-names></string-name></person-group>
+<article-title>Artificial intelligence based real-time microcirculation analysis system for laparoscopic colorectal surgery</article-title>. <source><italic toggle="yes">World J Gastroenterol</italic></source><italic toggle="yes">.</italic>
+<year>2020</year>; <volume>26</volume>(<issue>44</issue>): <fpage>6945</fpage>&#x02013;<lpage>6962</lpage>.<pub-id pub-id-type="pmid">33311942</pub-id>
+</mixed-citation></ref><ref id="bib53"><label>53.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Chairat</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Chaichulee</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Dissaneewate</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Wangkulangkul</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Kongpanichakul</surname>
+<given-names>L.</given-names></string-name></person-group>
+<article-title>AI-assisted assessment of wound tissue with automatic color and measurement calibration on images taken with a smartphone</article-title>. <source><italic toggle="yes">Healthcare (Basel)</italic></source><italic toggle="yes">.</italic>
+<year>2023</year>; <volume>11</volume>(<issue>2</issue>): <fpage>273</fpage>.<pub-id pub-id-type="pmid">36673641</pub-id>
+</mixed-citation></ref><ref id="bib54"><label>54.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Braaf</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Donner</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Uribe-Patarroyo</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Bouma</surname>
+<given-names>BE</given-names></string-name>, <string-name><surname>Vakoc</surname>
+<given-names>BJ.</given-names></string-name></person-group>
+<article-title>A neural network approach to quantify blood flow from retinal oct intensity time-series measurements</article-title>. <source><italic toggle="yes">Sci Rep</italic></source><italic toggle="yes">.</italic>
+<year>2020</year>; <volume>10</volume>(<issue>1</issue>): <fpage>9611</fpage>.<pub-id pub-id-type="pmid">32541887</pub-id>
+</mixed-citation></ref></ref-list></back></article>

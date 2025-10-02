@@ -1,0 +1,112 @@
+version: '3.8'
+
+services:
+  # =====================
+  # 1. HDFS Distributed Storage
+  # =====================
+  namenode:
+    image: bde2020/hadoop-namenode:2.0.0-hadoop3.2.1-java8
+    container_name: namenode
+    hostname: namenode
+    environment:
+      - CLUSTER_NAME=mycluster
+      # ===== FIX: Force NameNode to listen on port 9000 =====
+      - CORE_CONF_fs_defaultFS=hdfs://namenode:9000
+    volumes:
+      - ./HDFS/namenode-data:/hadoop/dfs/name # Mount to local directory
+    ports:
+      - "9870:9870" # HDFS Web UI
+      - "9000:9000" # HDFS RPC
+    networks:
+      - hadoop
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9870"] # Check if Web UI is accessible
+      interval: 10s   # Check every 10 seconds
+      timeout: 10s    # Timeout for each check
+      retries: 5      # Retry 5 times on failure
+
+  datanode1:
+    image: bde2020/hadoop-datanode:2.0.0-hadoop3.2.1-java8
+    container_name: datanode1
+    hostname: datanode1
+    environment:
+      - CORE_CONF_fs_defaultFS=hdfs://namenode:9000
+    volumes:
+      - ./HDFS/datanode1-data:/hadoop/dfs/data # Mount to local directory
+    networks:
+      - hadoop
+    depends_on:
+      namenode:
+        condition: service_healthy # Wait for namenode's healthcheck to become healthy
+
+  datanode2:
+    image: bde2020/hadoop-datanode:2.0.0-hadoop3.2.1-java8
+    container_name: datanode2
+    hostname: datanode2
+    environment:
+      - CORE_CONF_fs_defaultFS=hdfs://namenode:9000
+    volumes:
+      - ./HDFS/datanode2-data:/hadoop/dfs/data # Mount to local directory
+    networks:
+      - hadoop
+    depends_on:
+      namenode:
+        condition: service_healthy # Wait for namenode's healthcheck to become healthy
+
+  # =====================
+  # 2. Redis Database
+  # =====================
+  redis:
+    image: redis:7-alpine
+    container_name: redis-node
+    ports:
+      - "6379:6379"
+    volumes:
+      - ./redis-data:/data
+    networks:
+      - hadoop
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # =====================
+  # 3. Spark Compute Layer
+  # =====================
+  spark:
+    image: bitnami/spark:4.0.0-debian-12-r12
+    container_name: spark-cluster
+    # user: "1001:1001"
+    environment:
+      - SPARK_MODE=master
+      - SPARK_WORKER_CORES=1
+      - SPARK_WORKER_MEMORY=1G
+      # Note: Your Spark application now needs to connect to Redis at 'redis:6379'
+      - CORE_CONF_fs_defaultFS=hdfs://namenode:9000
+      - HOME=/opt/spark/app
+    ports:
+      - "8080:8080" # Spark Master UI
+      - "4040:4040" # Spark Job UI
+    volumes:
+      - ./app-code:/opt/spark/app
+      - ./spark-ivy:/opt/spark/.ivy_cache
+    networks:
+      - hadoop
+    depends_on:
+      redis:
+        condition: service_healthy
+      namenode:
+        condition: service_healthy
+      datanode1:
+        condition: service_started # Datanodes don't have healthchecks, so wait for start
+      datanode2:
+        condition: service_started
+
+# =====================
+# Network Configuration
+# =====================
+networks:
+  hadoop:
+    driver: bridge
+

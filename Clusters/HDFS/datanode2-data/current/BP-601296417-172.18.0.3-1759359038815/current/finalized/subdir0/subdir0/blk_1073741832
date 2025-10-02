@@ -1,0 +1,844 @@
+<!DOCTYPE article
+PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.3 20210610//EN" "JATS-archivearticle1-3-mathml3.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="research-article"><?properties open_access?><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Sci Adv</journal-id><journal-id journal-id-type="iso-abbrev">Sci Adv</journal-id><journal-id journal-id-type="publisher-id">sciadv</journal-id><journal-id journal-id-type="hwp">advances</journal-id><journal-title-group><journal-title>Science Advances</journal-title></journal-title-group><issn pub-type="epub">2375-2548</issn><publisher><publisher-name>American Association for the Advancement of Science</publisher-name></publisher></journal-meta>
+<article-meta><article-id pub-id-type="pmid">39018395</article-id><article-id pub-id-type="pmc">PMC466949</article-id><article-id pub-id-type="publisher-id">ado6268</article-id><article-id pub-id-type="doi">10.1126/sciadv.ado6268</article-id><article-categories><subj-group subj-group-type="article-type"><subject>Research Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Physical and Materials Sciences</subject></subj-group><subj-group subj-group-type="legacy-article-type"><subject>SciAdv r-articles</subject></subj-group><subj-group subj-group-type="field"><subject>Engineering</subject></subj-group><subj-group subj-group-type="overline"><subject>Engineering</subject></subj-group></article-categories><title-group><article-title>Optical super-resolution nanothermometry via stimulated emission depletion imaging of upconverting nanoparticles</article-title><alt-title alt-title-type="short">Optical super-resolution nanothermometry</alt-title></title-group><contrib-group><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-6035-1748</contrib-id><name><surname>Ye</surname><given-names>Ziyang</given-names></name><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Data curation" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-data-curation/">Data curation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Formal analysis" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-formal-analysis/">Formal analysis</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-investigation/">Investigation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Methodology" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-methodology/">Methodology</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Resources" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-resources/">Resources</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Software" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-software/">Software</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Validation" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-validation/">Validation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Visualization" vocab-term-identifier="https://web.archive.org/web/20180313224017/http://dictionary.credit.niso.org/Contributor_Roles/Visualization">Visualization</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Writing - original draft" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-writing-original-draft/">Writing - original draft</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Writing - review &#x00026; editing" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-writing-review-editing/">Writing - review &#x00026; editing</role><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-9969-8212</contrib-id><name><surname>Harrington</surname><given-names>Benjamin</given-names></name><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Data curation" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-data-curation/">Data curation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Formal analysis" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-formal-analysis/">Formal analysis</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-investigation/">Investigation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Methodology" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-methodology/">Methodology</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Validation" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-validation/">Validation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Visualization" vocab-term-identifier="https://web.archive.org/web/20180313224017/http://dictionary.credit.niso.org/Contributor_Roles/Visualization">Visualization</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Writing - original draft" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-writing-original-draft/">Writing - original draft</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Writing - review &#x00026; editing" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-writing-review-editing/">Writing - review &#x00026; editing</role><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-7869-7587</contrib-id><name><surname>Pickel</surname><given-names>Andrea D.</given-names></name><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Conceptualization" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-conceptualization/">Conceptualization</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Formal analysis" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-formal-analysis/">Formal analysis</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Funding acquisition" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-funding-acquisition/">Funding acquisition</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-investigation/">Investigation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Methodology" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-methodology/">Methodology</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Project administration" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-project-administration/">Project administration</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Resources" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-resources/">Resources</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Supervision" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-supervision/">Supervision</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Validation" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-validation/">Validation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Visualization" vocab-term-identifier="https://web.archive.org/web/20180313224017/http://dictionary.credit.niso.org/Contributor_Roles/Visualization">Visualization</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Writing - original draft" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-writing-original-draft/">Writing - original draft</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Writing - review &#x00026; editing" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-writing-review-editing/">Writing - review &#x00026; editing</role><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="aff2" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="cor1" ref-type="corresp">*</xref><xref rid="award1562306" ref-type="award"/></contrib><aff id="aff1"><label><sup>1</sup></label>Materials Science Program, University of Rochester, Rochester, NY 14627, USA.</aff><aff id="aff2"><label><sup>2</sup></label>Department of Mechanical Engineering, University of Rochester, Rochester, NY 14627, USA.</aff></contrib-group><author-notes><corresp id="cor1"><label>*</label>Corresponding author. Email: <email xlink:href="apickel@ur.rochester.edu">apickel@ur.rochester.edu</email></corresp></author-notes><pub-date pub-type="collection"><day>19</day><month>7</month><year>2024</year></pub-date><pub-date publication-format="electronic" date-type="pub"><day>17</day><month>7</month><year>2024</year></pub-date><volume>10</volume><issue>29</issue><elocation-id>eado6268</elocation-id><history>
+<date date-type="received"><day>12</day><month>2</month><year>2024</year></date>
+<date date-type="accepted"><day>13</day><month>6</month><year>2024</year></date>
+</history><permissions><copyright-statement>Copyright &#x000a9; 2024 The Authors, some rights reserved; exclusive licensee American Association for the Advancement of Science. No claim to original U.S. Government Works. Distributed under a Creative Commons Attribution NonCommercial License 4.0 (CC BY-NC).</copyright-statement><copyright-year>2024</copyright-year><copyright-holder>The Authors</copyright-holder><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbynclicense" start_date="2024-07-17">https://creativecommons.org/licenses/by-nc/4.0/</ali:license_ref><license-p>This is an open-access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial license</ext-link>, which permits use, distribution, and reproduction in any medium, so long as the resultant use is <bold>not</bold> for commercial advantage and provided the original work is properly cited.</license-p></license></permissions><self-uri content-type="pdf" xlink:href="sciadv.ado6268.pdf"/><abstract><p>From engineering improved device performance to unraveling the breakdown of classical heat transfer laws, far-field optical temperature mapping with nanoscale spatial resolution would benefit diverse areas. However, these attributes are traditionally in opposition because conventional far-field optical temperature mapping techniques are inherently diffraction limited. Optical super-resolution imaging techniques revolutionized biological imaging, but such approaches have yet to be applied to thermometry. Here, we demonstrate a super-resolution nanothermometry technique based on highly doped upconverting nanoparticles (UCNPs) that enable stimulated emission depletion (STED) super-resolution imaging. We identify a ratiometric thermometry signal and maintain imaging resolution better than ~120 nm for the relevant spectral bands. We also form self-assembled UCNP monolayers and multilayers and implement a detection scheme with scan times &#x0003e;0.25 &#x003bc;m<sup>2</sup>/min. We further show that STED nanothermometry reveals a temperature gradient across a joule-heated microstructure that is undetectable with diffraction limited thermometry, indicating the potential of this technique to uncover local temperature variation in wide-ranging practical applications.</p></abstract><abstract abstract-type="teaser"><p>Temperature-dependent emission from highly doped upconverting nanoparticles enables optical super-resolution nanothermometry.</p></abstract><funding-group><award-group id="award1562306"><funding-source>
+<institution-wrap><institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/100000001</institution-id><institution>National Science Foundation</institution></institution-wrap>
+</funding-source><award-id>2142140</award-id></award-group><award-group id="award1638650"><funding-source>
+<institution-wrap><institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/100008091</institution-id><institution>University of Rochester</institution></institution-wrap>
+</funding-source><award-id>Furth Fund Award</award-id></award-group></funding-group><custom-meta-group><custom-meta><meta-name>Copyeditor</meta-name><meta-value>SEF RIO</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec sec-type="introduction" disp-level="1"><title>INTRODUCTION</title><p>Modern electronic, optoelectronic, and data storage devices combine nanoscale features, high power densities, and challenging operating environments. Consequently, many devices experience degradation or failure mechanisms that are known to be thermal in nature (<xref rid="R1" ref-type="bibr"><italic toggle="yes">1</italic></xref>&#x02013;<xref rid="R3" ref-type="bibr"><italic toggle="yes">3</italic></xref>), yet pinpointing the precise causes remains very difficult due to the lack of nanoscale thermometry techniques compatible with realistic operating conditions. Materials characterization challenges such as measuring interfacial thermal resistances across individual grains (<xref rid="R4" ref-type="bibr"><italic toggle="yes">4</italic></xref>, <xref rid="R5" ref-type="bibr"><italic toggle="yes">5</italic></xref>) or material phases with nanoscale dimensions would also strongly benefit from broadly compatible nanothermometry approaches. Likewise, nanoscale temperature maps can provide direct evidence to verify longstanding predictions of deviations from classical heat transfer laws at the nanoscale (<xref rid="R6" ref-type="bibr"><italic toggle="yes">6</italic></xref>). Chemical reactions (<xref rid="R7" ref-type="bibr"><italic toggle="yes">7</italic></xref>), biological systems (<xref rid="R8" ref-type="bibr"><italic toggle="yes">8</italic></xref>, <xref rid="R9" ref-type="bibr"><italic toggle="yes">9</italic></xref>), phase transitions (<xref rid="R10" ref-type="bibr"><italic toggle="yes">10</italic></xref>), lithium-ion batteries (<xref rid="R11" ref-type="bibr"><italic toggle="yes">11</italic></xref>), plasmonics (<xref rid="R12" ref-type="bibr"><italic toggle="yes">12</italic></xref>), and quantum devices (<xref rid="R13" ref-type="bibr"><italic toggle="yes">13</italic></xref>, <xref rid="R14" ref-type="bibr"><italic toggle="yes">14</italic></xref>) are several additional examples of numerous areas where nanothermometry could guide improved thermal design or resolve open questions about the role of temperature and heat dissipation.</p><p>Near-field optical (<xref rid="R15" ref-type="bibr"><italic toggle="yes">15</italic></xref>, <xref rid="R16" ref-type="bibr"><italic toggle="yes">16</italic></xref>) and contact-based thermometry methods like scanning thermal microscopy (SThM) (<xref rid="R17" ref-type="bibr"><italic toggle="yes">17</italic></xref>, <xref rid="R18" ref-type="bibr"><italic toggle="yes">18</italic></xref>) can provide sub&#x02013;100 nm spatial resolution, but parasitic heat sinking and unknown thermal resistances between the probe tip and sample complicate accurate extraction of the true temperature profile (<xref rid="R19" ref-type="bibr"><italic toggle="yes">19</italic></xref>&#x02013;<xref rid="R21" ref-type="bibr"><italic toggle="yes">21</italic></xref>). Recent advances, such as simultaneous SThM measurements of the apparent sample temperature and tip-sample thermal contact resistance (<xref rid="R22" ref-type="bibr"><italic toggle="yes">22</italic></xref>), allow mapping of unmodulated temperature fields with sub&#x02013;10 nm spatial resolution, but these measurements must be performed in ultrahigh vacuum and require samples that can tolerate physical contact by the probe. Emerging electron microscopy techniques offer noncontact nanoscale temperature mapping capabilities (<xref rid="R23" ref-type="bibr"><italic toggle="yes">23</italic></xref>); nonetheless, such approaches greatly restrict the sample form factor, material type, and operating environment. In contrast, far-field optical techniques offer exceptional versatility. Existing optical thermometry methods include thermal radiation, thermoreflectance (<xref rid="R24" ref-type="bibr"><italic toggle="yes">24</italic></xref>, <xref rid="R25" ref-type="bibr"><italic toggle="yes">25</italic></xref>), Raman (<xref rid="R26" ref-type="bibr"><italic toggle="yes">26</italic></xref>), and luminescence-based techniques (<xref rid="R27" ref-type="bibr"><italic toggle="yes">27</italic></xref>), but the spatial resolution of temperature maps obtained using these approaches is fundamentally diffraction limited to hundreds of nanometers at best.</p><p>Optical super-resolution imaging techniques, which combine far-field optics with subdiffraction limited spatial resolution, have revolutionized biological imaging by revealing cellular structures unresolvable with conventional imaging (<xref rid="R28" ref-type="bibr"><italic toggle="yes">28</italic></xref>). These methods largely rely on switching fluorescent probes between a bright &#x0201c;on&#x0201d; state and a dark &#x0201c;off&#x0201d; state, either stochastically, as in the case of single-molecule localization-based methods (<xref rid="R29" ref-type="bibr"><italic toggle="yes">29</italic></xref>), or deterministically, with the stimulated emission depletion (STED) approach applied here (<xref rid="R30" ref-type="bibr"><italic toggle="yes">30</italic></xref>&#x02013;<xref rid="R32" ref-type="bibr"><italic toggle="yes">32</italic></xref>) falling into the latter category. Many of the organic dyes and fluorescent proteins traditionally used for STED imaging lack sensitive, reliable temperature-dependent emission signatures and have limited operating temperature ranges since these probes are optimized for biological applications, posing challenges for adapting STED imaging for thermometry. Inorganic probes including quantum dots (<xref rid="R33" ref-type="bibr"><italic toggle="yes">33</italic></xref>) and nitrogen vacancy centers in nanodiamonds (<xref rid="R34" ref-type="bibr"><italic toggle="yes">34</italic></xref>) also enable STED imaging, but like their organic counterparts, these probes require very high laser intensities to deplete their emission. Applying super-resolution concepts to thermometry has been proposed theoretically (<xref rid="R35" ref-type="bibr"><italic toggle="yes">35</italic></xref>, <xref rid="R36" ref-type="bibr"><italic toggle="yes">36</italic></xref>) and initial experimental steps toward this goal have been explored (<xref rid="R37" ref-type="bibr"><italic toggle="yes">37</italic></xref>), but optical super-resolution thermometry has yet to be demonstrated experimentally.</p><p>Recently, NaYF<sub>4</sub> upconverting nanoparticles (UCNPs) doped with 18 to 20% Yb<sup>3+</sup> and a high 8 to 10% Tm<sup>3+</sup> concentration (versus conventional ~1%) were shown to enable STED super-resolution imaging (<xref rid="R38" ref-type="bibr"><italic toggle="yes">38</italic></xref>, <xref rid="R39" ref-type="bibr"><italic toggle="yes">39</italic></xref>), in which a doughnut-shaped laser beam is used to selectively deplete luminescence by returning emitters within the doughnut to the ground state, drastically restricting the effective point spread function. The Yb<sup>3+</sup> ions absorb 975- to 980-nm excitation light and transfer energy to the Tm<sup>3+</sup> ions, which emit visible luminescence that can be suppressed by an 808- to 810-nm depletion laser. These UCNPs have a saturation intensity, defined as the depletion laser intensity that halves the upconversion emission, far lower than other probes [as much as two orders of magnitude (<xref rid="R38" ref-type="bibr"><italic toggle="yes">38</italic></xref>)], substantially reducing the required depletion laser power. This saturation intensity reduction is directly linked to intense cross-relaxation, which originates from the high Tm<sup>3+</sup> doping and establishes the population inversion required for STED (<xref rid="R38" ref-type="bibr"><italic toggle="yes">38</italic></xref>, <xref rid="R39" ref-type="bibr"><italic toggle="yes">39</italic></xref>). The low depletion intensity requirement of STED-compatible UCNPs combined with the fact that conventional lightly doped UCNPs have been used extensively for diffraction limited thermometry (<xref rid="R40" ref-type="bibr"><italic toggle="yes">40</italic></xref>&#x02013;<xref rid="R42" ref-type="bibr"><italic toggle="yes">42</italic></xref>) suggests intriguing possibilities for super-resolution nanothermometry. However, critical scientific unknowns have remained unexplored, including the feasibility of UCNP-based STED imaging and spectroscopy at elevated temperatures and whether a UCNP composition that both enables STED imaging and displays temperature-dependent emission can be identified. Likewise, key engineering challenges must be addressed, such as depositing large-area UCNP coatings that accurately report the temperature profile of the underlying sample and identifying detection schemes that allow for temperature mapping with practical scan times.</p></sec><sec sec-type="results" disp-level="1"><title>RESULTS</title><p>To investigate the performance of UCNP-based STED at elevated temperatures, we built a custom scanning confocal microscopy and spectroscopy system modified to include STED capabilities (Materials and Methods and fig. S1). In contrast with typical STED bioimaging systems that use oil immersion objective lenses with sub&#x02013;1 mm working distances, we use a dry air objective lens with a 10 mm working distance (<xref rid="F1" ref-type="fig">Fig. 1A</xref>), which avoids parasitic heat sinking via an immersion medium or undesirable heating of the immersion medium. To validate the room temperature imaging performance of our STED microscope, we used individual hexagonally faceted UCNPs with an average diameter of ~134 nm (<xref rid="F1" ref-type="fig">Fig. 1B</xref> and fig. S2) doped with approximately 20% Yb<sup>3+</sup> and 8% Tm<sup>3+</sup>. When a continuous-wave (CW) 976-nm Gaussian excitation laser beam and a CW 808-nm doughnut-shaped depletion laser beam (<xref rid="F1" ref-type="fig">Fig. 1C</xref>) are applied simultaneously to image a single UCNP on a borosilicate glass substrate (<xref rid="F1" ref-type="fig">Fig. 1D</xref>) using the 455-nm emission originating from the <sup>1</sup>D<sub>2</sub> &#x02794; <sup>3</sup>F<sub>4</sub> transition of Tm<sup>3+</sup>, the full width at half maximum (FWHM) of a Gaussian fit to the intensity profile from the resulting image is 136 nm, a notable improvement compared to the 461 nm FWHM obtained from imaging the same single UCNP with only the excitation beam (<xref rid="F1" ref-type="fig">Fig. 1E</xref>). Because this STED image is a convolution of the UCNP size and the true imaging resolution, the FWHM value represents only an upper bound on the imaging resolution. While imaging smaller single UCNPs could thus result in lower measured FWHM values, these ~134-nm-diameter UCNPs were selected to facilitate the temperature-dependent single-UCNP STED spectroscopy and single-UCNP STED imaging using lower intensity emission peaks presented in subsequent sections. Larger scans containing multiple individual particles and small aggregates are shown in fig. S3.</p><fig position="float" id="F1" fig-type="image" specific-use="distribute"><label>Fig. 1.</label><caption><title>Custom-built STED microscopy and spectroscopy system.</title><p>(<bold>A</bold>) Super-resolution measurements were performed using a custom STED microscopy and spectroscopy system, which uses a dry air objective lens with a 10 mm working distance to avoid parasitic heat sinking (image not to scale). NA, numerical aperture. (<bold>B</bold>) Transmission electron microscope (TEM) image of hexagonally faceted NaYF<sub>4</sub>:Yb<sup>3+</sup>,Tm<sup>3+</sup> UCNPs with an average diameter of ~134 nm. (<bold>C</bold>) Point spread functions of both the 976-nm excitation laser beam and the 808-nm doughnut-shaped depletion beam visualized by scanning a single 80-nm gold nanoparticle with each beam and recording the backscattered light. (<bold>D</bold>) Scanning electron microscope (SEM) image of a single UCNP on a borosilicate glass substrate. The sample was coated with 5 nm of platinum to minimize charging effects during SEM imaging. (<bold>E</bold>) Confocal and STED luminescence images of the same single UCNP shown in (D) acquired using the 455-nm emission associated with the <sup>1</sup>D<sub>2</sub> &#x02794; <sup>3</sup>F<sub>4</sub> Tm<sup>3+</sup> transition. The 976- and 808-nm laser powers measured at the objective back aperture were 1.9 and 192 mW, corresponding to intensities of 0.13 MW cm<sup>&#x02212;2</sup> (976 nm) and 6.5 MW cm<sup>&#x02212;2</sup> (808 nm), respectively. a.u., arbitrary units.</p></caption><graphic xlink:href="sciadv.ado6268-f1" position="float"/></fig><p><xref rid="F2" ref-type="fig">Figure 2A</xref> shows emission spectra from an individual ~134-nm-diameter NaYF<sub>4</sub>:Yb<sup>3+</sup>,Tm<sup>3+</sup> UCNP on a borosilicate glass substrate under 976-nm excitation at room temperature (293 K), 350 K, and 400 K. We observe peaks near 455, 480, and 515 nm, assigned to the <sup>1</sup>D<sub>2</sub> &#x02794; <sup>3</sup>F<sub>4</sub>, <sup>1</sup>G<sub>4</sub> &#x02794; <sup>3</sup>H<sub>6</sub>, and <sup>1</sup>D<sub>2</sub> &#x02794; <sup>3</sup>H<sub>5</sub> transitions of Tm<sup>3+</sup>, respectively. We also observe a peak near 490 nm that displays clear and measurable temperature dependence. As observed from <xref rid="F2" ref-type="fig">Fig. 2A</xref>, this 490-nm peak shows a sharp increase in intensity between room temperature and 400 K. While this same 490-nm peak has been observed experimentally for other highly Tm<sup>3+</sup>-doped UCNPs excited using comparable excitation laser intensities of ~0.1 to 1 MW cm<sup>&#x02212;2</sup> (<xref rid="R39" ref-type="bibr"><italic toggle="yes">39</italic></xref>, <xref rid="R43" ref-type="bibr"><italic toggle="yes">43</italic></xref>, <xref rid="R44" ref-type="bibr"><italic toggle="yes">44</italic></xref>), the precise origins of this peak have not been identified. To further confirm that this peak originates from a Tm<sup>3+</sup> transition, we performed additional experiments to rule out the possibility that this peak could stem from Er<sup>3+</sup> contamination or a second-harmonic generation artifact related to our 976-nm excitation laser (figs. S4 and S5). The critical temperature dependence provided by this 490-nm peak highlights how transitions that have received minimal attention to date can play central roles in emerging applications and indicates future opportunities for further investigation into the origins of this emission peak.</p><fig position="float" id="F2" fig-type="image" specific-use="distribute"><label>Fig. 2.</label><caption><title>Temperature-dependent single-UCNP spectroscopy and depletion.</title><p>(<bold>A</bold>) Normalized emission spectra from a single ~134-nm-diameter UCNP (representative TEM image shown in the inset) on a borosilicate glass substrate acquired at 293, 350, and 400 K. The integration time for all spectra was 180 s. (<bold>B</bold>) Single-UCNP emission spectra acquired at 293 K when only a 976-nm Gaussian laser beam was applied and when both 976- and 808-nm Gaussian laser beams were applied simultaneously. The 976-nm excitation laser intensity was 0.2 MW cm<sup>&#x02212;2</sup> and the 808-nm depletion laser intensity was 21.6 MW cm<sup>&#x02212;2</sup>. (<bold>C</bold> and <bold>D</bold>) The same measurements as in (B) performed at 350 and 400 K, respectively.</p></caption><graphic xlink:href="sciadv.ado6268-f2" position="float"/></fig><p>When a second, 808-nm CW Gaussian beam is applied together with the 976-nm beam, the emission from all peaks shown is depleted, which is demonstrated at room temperature in <xref rid="F2" ref-type="fig">Fig. 2B</xref>. We obtain depletion efficiencies (defined as the percentage of the integrated emission intensity that remains when both the 976- and 808-nm Gaussian beams are applied relative to that recorded when only the 976-nm beam is applied) of 98 and 76% for the 455- and 480-nm peaks, respectively, in accordance with prior work (<xref rid="R38" ref-type="bibr"><italic toggle="yes">38</italic></xref>, <xref rid="R39" ref-type="bibr"><italic toggle="yes">39</italic></xref>). For the 490- and 515-nm peaks, we achieve sufficiently high depletion efficiencies such that any residual emission is below the noise floor of our measurements. <xref rid="F2" ref-type="fig">Figure 2 (C and D)</xref> shows depletion of single-UCNP spectra at 350 and 400 K. Critically, the depletion efficiencies for all peaks at these elevated temperatures are essentially identical to their respective room temperature values.</p><p>Focusing on the temperature-dependent 490-nm peak and the 515-nm peak that has a similarly high depletion efficiency, we performed STED imaging of individual UCNPs on a borosilicate glass substrate between room temperature and 400 K using bandpass filters with passbands of 492 &#x000b1; 5 nm and 514 &#x000b1; 15 nm. <xref rid="F3" ref-type="fig">Figure 3</xref> compares single-UCNP images recorded using only the 976-nm Gaussian excitation beam and those recorded with the addition of the 808-nm doughnut-shaped depletion beam at 293, 350, and 400 K. Although the 490- and 515-nm peaks have much lower intensities than the 455-nm peak, we demonstrate the ability to maintain notable imaging resolution enhancement when the depletion beam is applied. Specifically, we achieve FWHM values between 171 and 179 nm for all temperatures and both wavelength bands. Using a simple deconvolution based on approximating both the true imaging point spread function and the spatial extent of the UCNP as Gaussians (<xref rid="R38" ref-type="bibr"><italic toggle="yes">38</italic></xref>, <xref rid="R45" ref-type="bibr"><italic toggle="yes">45</italic></xref>), these FWHM values correspond to an estimated imaging resolution of 119 nm or better across all temperatures and both wavelength bands.</p><fig position="float" id="F3" fig-type="image" specific-use="distribute"><label>Fig. 3.</label><caption><title>Temperature-dependent single-UCNP STED imaging.</title><p>Confocal and STED imaging of a single ~134-nm-diameter UCNP on a borosilicate glass substrate performed using two different bandpass filters corresponding to the 490- and 515-nm emission peaks at 293, 350, and 400 K. The 976-nm excitation laser intensity was 0.2 MW cm<sup>&#x02212;2</sup> and the 808-nm depletion laser intensity was 6.5 MW cm<sup>&#x02212;2</sup>. The FWHM values extracted from the STED images range from 171 to 179 nm, which corresponds to imaging resolution better than ~120 nm in all cases, as estimated using a simple deconvolution.</p></caption><graphic xlink:href="sciadv.ado6268-f3" position="float"/></fig><p>We next evaluated whether these NaYF<sub>4</sub>:Yb<sup>3+</sup>,Tm<sup>3+</sup> UCNPs could enable ratiometric thermometry, in which the ratio of the integrated emission intensities from two spectral peaks serves as a temperature-dependent metric. UCNPs, including Yb<sup>3+</sup>/Tm<sup>3+</sup> co-doped compositions with much lower Tm<sup>3+</sup> concentrations than the 8 to 10% Tm<sup>3+</sup> doping we use here, are commonly used for ratiometric thermometry based on the temperature-dependent relative emission intensity from closely spaced, thermally coupled energy levels with Boltzmann-distributed populations (<xref rid="R46" ref-type="bibr"><italic toggle="yes">46</italic></xref>, <xref rid="R47" ref-type="bibr"><italic toggle="yes">47</italic></xref>). This approach has also been extended to non&#x02013;thermally coupled energy levels (<xref rid="R48" ref-type="bibr"><italic toggle="yes">48</italic></xref>, <xref rid="R49" ref-type="bibr"><italic toggle="yes">49</italic></xref>). <xref rid="F4" ref-type="fig">Figure 4A</xref> shows spectra between 485 and 530 nm for single UCNPs on a borosilicate glass substrate at 293, 350, and 400 K acquired with and without the 808-nm doughnut-shaped depletion beam, confirming that the spectra are unaltered over this wavelength range when recorded in a STED modality. <xref rid="F4" ref-type="fig">Figure 4A</xref> also indicates the wavelength bounds &#x003bb;<sub>1</sub>, &#x003bb;<sub>2</sub>, and &#x003bb;<sub>3</sub> used to calculate the integrated intensity ratio of the 490-nm peak versus the 515-nm peak, where the ratio <inline-formula><mml:math id="m1" display="inline" overflow="scroll"><mml:mrow><mml:mi>r</mml:mi><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:msubsup><mml:mo>&#x0222b;</mml:mo><mml:msub><mml:mi mathvariant="normal">&#x003bb;</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:msub><mml:mi mathvariant="normal">&#x003bb;</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:msubsup><mml:mi>I</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi mathvariant="normal">&#x003bb;</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mi mathvariant="normal">d&#x003bb;</mml:mi></mml:mrow><mml:mrow><mml:msubsup><mml:mo>&#x0222b;</mml:mo><mml:msub><mml:mi mathvariant="normal">&#x003bb;</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:msub><mml:mi mathvariant="normal">&#x003bb;</mml:mi><mml:mn>3</mml:mn></mml:msub></mml:msubsup><mml:mi>I</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi mathvariant="normal">&#x003bb;</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mi mathvariant="normal">d&#x003bb;</mml:mi></mml:mrow></mml:mfrac></mml:mrow></mml:math></inline-formula> and <italic toggle="yes">I</italic>(&#x003bb;) is the emission intensity. <xref rid="F4" ref-type="fig">Figure 4B</xref> shows <italic toggle="yes">r</italic> at eight different temperatures between 293 and 400 K for five individual UCNPs under 976-nm excitation only and at 293, 350, and 400 K for three individual UCNPs when both the 976-nm Gaussian beam and the doughnut-shaped 808-nm depletion beam were applied simultaneously. The latter measurements align very well with the former, demonstrating that the addition of the doughnut-shaped depletion beam does not affect the temperature dependence of the ratio. To facilitate estimation of the relative temperature sensitivity, defined as <inline-formula><mml:math id="m2" display="inline" overflow="scroll"><mml:mrow><mml:mfrac><mml:mn>1</mml:mn><mml:mrow><mml:mi>r</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>T</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mrow></mml:mfrac><mml:mfrac><mml:mrow><mml:mi mathvariant="normal">d</mml:mi><mml:mi>r</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">d</mml:mi><mml:mi>T</mml:mi></mml:mrow></mml:mfrac></mml:mrow></mml:math></inline-formula> (<xref rid="R27" ref-type="bibr"><italic toggle="yes">27</italic></xref>), where <italic toggle="yes">T</italic> is temperature, we approximate the measured <italic toggle="yes">r</italic> versus <italic toggle="yes">T</italic> data as linear (fig. S6). We obtain a relative sensitivity that ranges from approximately 0.8% K<sup>&#x02212;1</sup> at 293 K to 0.4% K<sup>&#x02212;1</sup> at 400 K, comparable to many other UCNP thermometry approaches. While the temperature dependence of this ratio is driven by the temperature-dependent intensity of a single peak, the ratiometric approach remains advantageous because it is often insensitive to intensity variations caused by changes in optical alignment, laser intensity fluctuations, particle-to-particle differences, and sample absorption or scattering.</p><fig position="float" id="F4" fig-type="image" specific-use="distribute"><label>Fig. 4.</label><caption><title>Ratiometric thermometry in diffraction limited and STED modalities.</title><p>(<bold>A</bold>) Normalized single-UCNP spectra on a borosilicate glass substrate acquired in diffraction limited and STED modalities at 293, 350, and 400 K. The integration time for all spectra was 180 s. (<bold>B</bold>) Luminescence intensity ratio versus temperature measurements for five individual UCNPs under 976-nm excitation only and for three individual UCNPs when both the 976-nm Gaussian beam and the doughnut-shaped 808-nm depletion beam were applied. Error bars represent the SD of two consecutive measurements. The 976-nm excitation laser intensity was 0.2 MW cm<sup>&#x02212;2</sup> and the 808-nm depletion laser intensity was 6.5 MW cm<sup>&#x02212;2</sup>, the same intensities applied for the single-UCNP imaging shown in <xref rid="F3" ref-type="fig">Fig. 3</xref> performed using the 490- and 515-nm emission peaks.</p></caption><graphic xlink:href="sciadv.ado6268-f4" position="float"/></fig><p>Thus far, all results shown are for isolated single UCNPs, but temperature mapping requires coating the sample surface with a continuous layer of UCNPs. Monolayer coatings minimize the potential for both parasitic heat sinking and UCNP self-heating and can help ensure good thermal contact between the flat hexagonal facets of the UCNPs and the sample surface. The discrete nature of the UCNPs and low thermal conductivity of the UCNP host matrix (<xref rid="R50" ref-type="bibr"><italic toggle="yes">50</italic></xref>) are also beneficial for impeding lateral heat spreading that could distort the measured temperature profile. To form UCNP monolayers, we leveraged a liquid-air interfacial self-assembly method that has previously been used to form monolayers of UCNPs (<xref rid="R51" ref-type="bibr"><italic toggle="yes">51</italic></xref>, <xref rid="R52" ref-type="bibr"><italic toggle="yes">52</italic></xref>) and other types of nanoparticles (<xref rid="R53" ref-type="bibr"><italic toggle="yes">53</italic></xref>). Briefly, a cyclohexane or toluene solution containing UCNPs is dispersed on the surface of ethylene glycol (EG). Cyclohexane or toluene evaporation results in the formation of a UCNP monolayer that we subsequently removed from solution and placed on a silicon substrate (Materials and Methods). <xref rid="F5" ref-type="fig">Figure 5A</xref> shows representative images of continuous monolayers formed using UCNPs ~100 nm in diameter that can span areas &#x0003e;100 &#x003bc;m<sup>2</sup>. While monolayer coatings are advantageous from a thermal perspective, a trade-off is the low emission intensity produced by UCNP monolayers. This low emission intensity can be compensated for by using higher excitation intensities, but doing so reduces the depletion efficiency and, consequently, the spatial resolution (see fig. S7 for ratio maps obtained from a UCNP monolayer). Therefore, we also used the same self-assembly method to form UCNP multilayers that largely consist of double-layer regions. <xref rid="F5" ref-type="fig">Figure 5B</xref> shows an example of a UCNP multilayer placed on a silicon substrate formed using UCNPs ~200 nm in diameter.</p><fig position="float" id="F5" fig-type="image" specific-use="distribute"><label>Fig. 5.</label><caption><title>Temperature-dependent ratio maps of self-assembled UCNP layers.</title><p>(<bold>A</bold>) SEM images of self-assembled UCNP monolayers on silicon substrates formed from UCNPs ~100 nm in diameter. (<bold>B</bold>) SEM image of a self-assembled UCNP multilayer that primarily consists of double-layer regions on a silicon substrate formed using UCNPs ~200 nm in diameter. (<bold>C</bold>) Luminescence intensity ratio maps acquired from a 0.5 &#x000d7; 0.5 &#x003bc;m<sup>2</sup> region of the UCNP multilayer shown in (B) using APD scans in confocal and STED modalities at 293, 350, and 400 K. The 976-nm excitation laser intensity was 0.2 MW cm<sup>&#x02212;2</sup> and the 808-nm depletion laser intensity was 6.5 MW cm<sup>&#x02212;2</sup>, the same as in <xref rid="F3" ref-type="fig">Figs. 3</xref> and <xref rid="F4" ref-type="fig">4</xref>. The total scan time for each ratio map was 52.75 s. (<bold>D</bold>) Mean ratio and SD (represented by the error bars) for each APD scan from (C) overlaid on the analogous spectroscopic data from <xref rid="F4" ref-type="fig">Fig. 4B</xref>. As indicated in the inset, the wavelength bounds used to calculate the temperature-dependent ratio were adjusted to match those of the bandpass filters, and the ratio values for the data from <xref rid="F4" ref-type="fig">Fig. 4B</xref> were recalculated accordingly.</p></caption><graphic xlink:href="sciadv.ado6268-f5" position="float"/></fig><p>Because acquiring a single-UCNP spectrum can require integration times on the order of minutes, raster scanning microscale areas could require hours, prohibitive for many practical applications. Therefore, to reduce the required acquisition time, we used bandpass filters corresponding to the 490- and 515-nm emission peaks and recorded temperature-dependent ratio maps with an avalanche photodiode (APD). We used a motorized filter wheel to rapidly switch between the two bandpass filters at each pixel (switching time of 55 ms). <xref rid="F5" ref-type="fig">Figure 5C</xref> shows ratio maps for the same 0.5 &#x000d7; 0.5 &#x003bc;m<sup>2</sup> area recorded at 293, 350, and 400 K with and without the doughnut-shaped depletion beam using the multilayer sample shown in <xref rid="F5" ref-type="fig">Fig. 5B</xref>. Each ratio map was recorded with a total scan time of 52.75 s. In contrast, if the same area were raster scanned and spectra were recorded with the 180-s integration time used for the spectra shown in <xref rid="F2" ref-type="fig">Figs. 2</xref> and <xref rid="F4" ref-type="fig">4</xref>, the total scan time would be 4500 s, nearly two orders of magnitude longer. <xref rid="F5" ref-type="fig">Figure 5D</xref> shows the mean ratio and SD from each scan in <xref rid="F5" ref-type="fig">Fig. 5B</xref> overlaid on the corresponding spectroscopic ratio versus temperature data from <xref rid="F4" ref-type="fig">Fig. 4B</xref>. As indicated in the inset of <xref rid="F5" ref-type="fig">Fig. 5D</xref>, here we adjusted the wavelength bounds used to calculate the temperature-dependent ratio to match those of the bandpass filters and recalculated the ratio values for the single-UCNP data shown in <xref rid="F4" ref-type="fig">Fig. 4B</xref> accordingly. The temperature-dependent ratios from the APD scans performed both with and without the doughnut-shaped depletion beam are in excellent agreement with our spectroscopic measurements, indicating that this approach can produce high-fidelity temperature measurements while markedly reducing the required scan time. We attribute the spatial variation of the temperature-dependent ratio observed in the nominally uniform temperature scans shown in <xref rid="F5" ref-type="fig">Fig. 5C</xref>, which is equivalent to temperature variation of ~10 K, to particle-to-particle nonuniformity rather than issues related to thermal contact resistance between the UCNPs and substrate or between neighboring UCNPs. This assertion is supported by comparing temperature-dependent ratio measurements performed using single UCNPs, the UCNP multilayer in <xref rid="F5" ref-type="fig">Fig. 5B</xref>, and aggregates of randomly oriented UCNPs, all of which yield very similar ratio values despite substantial differences in the UCNP-substrate thermal contact and thermal contact between UCNPs across these scenarios (fig. S8).</p><p>To demonstrate that STED nanothermometry can detect temperature heterogeneities that are unobservable with analogous diffraction limited measurements, we designed NiCr serpentine heater lines ~1 &#x003bc;m wide and 50 nm thick fabricated on crystalline quartz substrates (Materials and Methods). A scanning electron microscope (SEM) image of a serpentine heater line is shown in <xref rid="F6" ref-type="fig">Fig. 6A</xref>. When an electrical current is applied across the outer two contact pads (see fig. S9 for additional heater line images), the resulting current density concentrates at the inner boundaries of the serpentine structure due to a geometric effect known as &#x0201c;current crowding,&#x0201d; leading to nonuniform joule heating (<xref rid="R16" ref-type="bibr"><italic toggle="yes">16</italic></xref>, <xref rid="R54" ref-type="bibr"><italic toggle="yes">54</italic></xref>). Consequently, the temperature rise at the inner corners of the heater line is higher than that at the outer corners. The low thermal conductivity of NiCr [bulk value of ~11 to 13 W m<sup>&#x02212;1</sup> K<sup>&#x02212;1</sup>, with lower values reported for thin films (<xref rid="R55" ref-type="bibr"><italic toggle="yes">55</italic></xref>)] relative to pure metals helps maintain large temperature gradients between the inner and outer corners. <xref rid="F6" ref-type="fig">Figure 6B</xref> shows finite element simulations of nonuniform current density and temperature profiles resulting from the current crowding effect.</p><fig position="float" id="F6" fig-type="image" specific-use="distribute"><label>Fig. 6.</label><caption><title>STED nanothermometry applied to a joule-heated microstructure.</title><p>(<bold>A</bold>) SEM image of a NiCr serpentine heater line fabricated on a crystalline quartz substrate. (<bold>B</bold>) Finite element simulations of the current density and temperature profiles resulting from applying an electrical current to the serpentine heater line. (<bold>C</bold>) UCNPs drop-cast on the surface of a NiCr serpentine heater line. The blue box encloses a cluster of UCNPs used to perform the measurements shown in (D) and (E). (<bold>D</bold>) <italic toggle="yes">T</italic> &#x02212; <italic toggle="yes">T</italic><sub>mean,outer</sub> measured at three locations when no current <italic toggle="yes">I</italic> is applied, where <italic toggle="yes">T</italic><sub>mean,outer</sub> is the mean temperature corresponding to 12 measurements performed near the outer corner of the heater line. Here, the values for <italic toggle="yes">T</italic><sub>mean,outer</sub> are 302 K (976 nm only) and 349 K (976 nm and 808 nm). The 976-nm excitation laser intensity was 0.064 MW cm<sup>&#x02212;2</sup> and the 808-nm depletion laser intensity was 0.9 MW cm<sup>&#x02212;2</sup>, which provides a similar level of spatial resolution to that from the combination of laser intensities applied in <xref rid="F3" ref-type="fig">Figs. 3</xref> to <xref rid="F5" ref-type="fig">5</xref> (fig. S14). (<bold>E</bold>) The same measurements as in (D) performed under an applied current of <italic toggle="yes">I</italic> = 10.5 mA. Here, the values for <italic toggle="yes">T</italic><sub>mean,outer</sub> are 340 K (976 nm only) and 399 K (976 nm and 808 nm). The STED measurements can detect a temperature rise at the inner corner that is ~40 K higher than that measured at the outer corner.</p></caption><graphic xlink:href="sciadv.ado6268-f6" position="float"/></fig><p>While we can form UCNP monolayers or multilayers with areas &#x0003e;100 &#x003bc;m<sup>2</sup>, which is more than sufficient to cover the approximately 13 &#x003bc;m by 2 &#x003bc;m footprint of a serpentine heater line, we found that aligning self-assembled UCNP monolayers or multilayers to cover the serpentine heater lines was challenging due to the stochastic nature of the layer placement. More specifically, we found that upon removing a self-assembled UCNP layer from solution and placing it on a sample consisting of an array of these heater lines, the odds of the layer landing at a location where it covers a serpentine heater line are very low. This low likelihood results from the fact that the serpentine heater lines themselves cover a very small percentage of the overall sample area (see fig. S9). Figure S10 also shows two unsuccessful attempts to deposit UCNP layers on a serpentine heater line, where the UCNP layers landed on contact pads rather than the serpentine heater lines. In the future, template-assisted self-assembly approaches (<xref rid="R56" ref-type="bibr"><italic toggle="yes">56</italic></xref>) may provide an alternative strategy for directly assembling UCNP monolayers or multilayers at the desired location, while transfer printing approaches (<xref rid="R57" ref-type="bibr"><italic toggle="yes">57</italic></xref>) offer a possible strategy for deterministically placing layers to cover the features of interest. As a current alternative, we instead were able to successfully drop-cast UCNPs onto the heater lines. <xref rid="F6" ref-type="fig">Figure 6C</xref> shows a case in which we were able to deposit a cluster of the ~134-nm-diameter UCNPs that spans the diagonal from the inner corner to the outer corner along one bend of the serpentine.</p><p>Next, we recorded the temperature-dependent ratio at three points along the UCNP-coated region of the heater line indicated in <xref rid="F6" ref-type="fig">Fig. 6C</xref>, first under no applied current and then when a DC electrical current was applied to induce joule heating. We selected points with similar emission intensities to avoid any potential location-to-location variation in the depletion efficiency. The selected points also had comparable emission intensities to the aggregates used for the ratio versus temperature measurements shown in fig. S8. We performed 12 consecutive measurements at each position and used linear fits to the ratio versus temperature calibration data from <xref rid="F5" ref-type="fig">Fig. 5D</xref> (fig. S6) to convert the measured ratio changes into temperature rises. A unique aspect of our approach is that we can directly compare the results of conventional, diffraction limited ratiometric thermometry (that is, measurements taken without the doughnut-shaped depletion beam) and STED measurements performed under otherwise identical conditions on the same sample. Because of the low thermal conductivities of both NiCr and quartz [~10 W m<sup>&#x02212;1</sup> K<sup>&#x02212;1</sup> cross-plane and ~6 W m<sup>&#x02212;1</sup> K<sup>&#x02212;1</sup> in-plane (<xref rid="R58" ref-type="bibr"><italic toggle="yes">58</italic></xref>)] and the moderate near-infrared optical absorptance of NiCr films [typically &#x0003e;0.4 (<xref rid="R59" ref-type="bibr"><italic toggle="yes">59</italic></xref>)], the addition of the doughnut-shaped depletion beam results in laser heating of the NiCr line (figs. S11 and S12). Therefore, to facilitate comparison of the joule heating&#x02013;induced temperature gradient recorded across the heater line using diffraction limited and STED measurements, we plot measured <italic toggle="yes">T</italic> &#x02212; <italic toggle="yes">T</italic><sub>mean,outer</sub> values, where <italic toggle="yes">T</italic><sub>mean,outer</sub> is the mean temperature corresponding to 12 measurements performed near the outer corner of the heater line. This analysis assumes that the laser heating of the NiCr line by the doughnut-shaped depletion beam remains spatially uniform throughout our measurements, which is validated through separate, complementary temperature-dependent ratio measurements using Nd<sup>3+</sup>-sensitized UCNPs excited at 808 nm (fig. S13).</p><p><xref rid="F6" ref-type="fig">Figure 6D</xref> shows measurements recorded in both diffraction limited and STED modalities when no current is applied to the heater line. In this case, there is no meaningful difference between the two datasets. <xref rid="F6" ref-type="fig">Figure 6E</xref> shows diffraction limited and STED measurements performed under an applied current of <italic toggle="yes">I</italic> = 10.5 mA. Here, the diffraction limited measurements show no detectable variation with position across the heater line, meaning that no temperature gradient can be observed. In contrast, for STED measurements performed at the same locations, a temperature gradient can be detected, with a temperature rise measured at the inner corner that is ~40 K higher than that measured at the outer corner, as expected based on the current crowding effect. The calculated temperature uncertainty of approximately &#x000b1;10 K accounts for trial-to-trial variation among 12 consecutive measurements performed at each location and variation in linear fits to the five ratio versus temperature calibration datasets shown in <xref rid="F5" ref-type="fig">Fig. 5D</xref> used to convert the measured ratio values to temperatures (see the Supplementary Materials for details). We attribute the trial-to-trial variation to factors including mechanical drifts, detector noise, and modest fluctuations in the depletion laser output power (see Materials and Methods). For temperature measurements performed at a fixed location or using a given single UCNP, estimating the temperature resolution based on the average slope of these linear fits and the smallest detectable change in the ratio yields a value of &#x000b1;0.8 K (see the Supplementary Materials for details). A comparison of the spatial and temperature resolution of our technique with that of other temperature mapping methods is also shown in fig. S14. The STED measurements in <xref rid="F6" ref-type="fig">Fig. 6E</xref> are in good agreement with the prediction of finite element simulations where the NiCr thermal conductivity and NiCr-quartz thermal interface resistance were varied based on reported literature values to determine the best fit to the experimental data (fig. S15). These results indicate the potential of STED nanothermometry to reveal temperature heterogeneities in microstructures and nanostructures that are undetectable with diffraction limited optical thermometry.</p></sec><sec sec-type="discussion" disp-level="1"><title>DISCUSSION</title><p>In summary, we demonstrate an optical super-resolution nanothermometry technique, which offers a unique combination of nanoscale spatial resolution and far-field optical operation. This method is broadly compatible with different sample form factors and material types and can be readily extended beyond the ambient air environment presented here to liquid or vacuum operating conditions. We uncover temperature-dependent emission signatures compatible with highly doped UCNPs that enable STED imaging, show that the STED performance is maintained at elevated temperatures, and use single-UCNP measurements to demonstrate excellent consistency between the temperature-dependent luminescence intensity ratios measured in diffraction limited and super-resolution modalities. Toward the goal of using STED nanothermometry for practical temperature mapping applications, we form self-assembled UCNP monolayers and multilayers and implement an APD-based detection scheme that reduces the required scan time by over an order of magnitude compared to spectroscopy. The temperature-dependent ratio values obtained from APD scans of a UCNP multilayer in both diffraction limited and super-resolution modalities are likewise consistent with those obtained from single-UCNP spectroscopy. A direct comparison of diffraction limited and STED thermometry on a microfabricated heater line demonstrates a scenario in which only super-resolution measurements can detect a temperature gradient caused by spatially nonuniform joule heating.</p><p>Future efforts to elucidate the physical origins of the temperature-dependent luminescence we observe for highly doped NaYF<sub>4</sub>:Yb<sup>3+</sup>,Tm<sup>3+</sup> UCNPs could inform improved modeling of the temperature dependence and guide the design of UCNPs where the emission peaks with the strongest temperature dependence also have the largest intensities. The latter could allow the use of lower excitation powers that lead to improved depletion efficiencies (<xref rid="R60" ref-type="bibr"><italic toggle="yes">60</italic></xref>), thereby further improving the spatial resolution of UCNP-based STED nanothermometry, or enable similar spatial resolution to be maintained while reducing the required depletion laser power, which would be beneficial in scenarios involving optically absorbing, low thermal conductivity samples where laser-induced sample heating may be a concern. Pursuing design and synthesis strategies that allow for even higher Tm<sup>3+</sup> doping concentrations has also been suggested as a strategy for augmenting the overall emission intensity (<xref rid="R38" ref-type="bibr"><italic toggle="yes">38</italic></xref>). Tuning the maximum phonon energy of the crystalline host matrix to selectively enhance or attenuate multiphonon relaxation and phonon-assisted energy transfer processes is another recently demonstrated strategy for enhancing UCNP emission intensity (<xref rid="R61" ref-type="bibr"><italic toggle="yes">61</italic></xref>). To further assess the viability of strategies that rely on increasing the UCNP emission intensity to decrease the excitation intensity and ultimately the depletion intensity, we experimentally verified a favorable nonlinear scaling of the required depletion intensity with excitation intensity (fig. S17A). In alignment with prior work (<xref rid="R60" ref-type="bibr"><italic toggle="yes">60</italic></xref>), we show that even modest decreases in the excitation intensity can enable comparatively large reductions in the depletion intensity. We also find that this nonlinear scaling is stronger than the competing nonlinear scaling of the upconversion emission intensity with excitation intensity (fig. S17B), indicating that increasing the UCNP brightness by less than a factor of three could ultimately enable a corresponding tenfold reduction in the depletion intensity, for example.</p><p>Beyond the NaYF<sub>4</sub>:Yb<sup>3+</sup>,Tm<sup>3+</sup> UCNPs investigated here, other lanthanide-doped nanoparticle compositions continue to enable emerging super-resolution modalities. Near-infrared downshifting STED has been demonstrated using Nd<sup>3+</sup>-doped nanoparticles with higher quantum yields and a saturation intensity nearly an order of magnitude lower than that reported for UCNP-based STED (<xref rid="R62" ref-type="bibr"><italic toggle="yes">62</italic></xref>), suggesting another potential route to achieving STED nanothermometry with lower depletion laser intensities. The advent of lanthanide-doped photon-avalanching nanoparticles has spurred additional super-resolution imaging concepts, such as photon-avalanche single-beam super-resolution imaging (<xref rid="R63" ref-type="bibr"><italic toggle="yes">63</italic></xref>) and indefinite near-infrared photon avalanching localization microscopy (<xref rid="R64" ref-type="bibr"><italic toggle="yes">64</italic></xref>), and future investigation into the temperature-dependent emission of this nascent class of materials is expected to further advance the adaptation of super-resolution imaging concepts for thermal metrology.</p></sec><sec sec-type="materials|methods" disp-level="1"><title>MATERIALS AND METHODS</title><sec disp-level="2"><title>STED microscopy and spectroscopy system</title><p>A CW 976-nm fiber Bragg grating-stabilized laser diode (BL976-PAG500, Thorlabs) whose output was passed through a clean-up bandpass filter (LD01-975/10-25, Semrock) served as the excitation source. A CW 808-nm single-mode Fabry-Perot laser diode (FPL808S, Thorlabs) whose output was passed through a clean-up bandpass filter (FF01-810/10-25, Semrock) served as the depletion beam. The two laser beams were combined using a longpass dichroic mirror (t850lpxxr-uf3, Chroma). A shortpass dichroic mirror (zt775sp-2p-uf3, Chroma) was used to reflect both beams and also allowed the upconverted luminescence to pass through. Both beams were focused onto the sample surface using a dry air objective lens with a 10 mm working distance and a numerical aperture of 0.7 (Mitutoyo Plan Apo NIR HR 100X). Samples were mounted on and scanned by a piezo-controlled nanopositioning stage (Mad City Labs Nano-T115). A thermal stage (custom version of HCS321Gi, Instec) mounted on the piezo-controlled nanopositioning stage was used to perform temperature calibration measurements. The collected upconverted luminescence was also passed through a shortpass filter (BSP01-785R-25, Semrock) to remove any residual excitation or depletion light. For single-UCNP imaging, the luminescence was sent through a 100-&#x003bc;m pinhole and focused onto an APD (Micro Photon Devices PDM Series). To select various upconversion emission peaks, different bandpass filters were used (FF01-448/20-25, Semrock; 492 CWL 10 nm bandpass filter, #65-148, Edmund Optics; FF01-514/30-25, Semrock). For spectroscopy, the luminescence was sent to an Andor Kymera 193i spectrograph with an iDus 420 charge-coupled device camera. For ratiometric thermometry performed using the APD, a motorized filter wheel (FW103H, Thorlabs) was used to switch between two bandpass filters placed in front of the APD.</p><p>For super-resolution measurements, a half-wave plate (WPH05M-808, Thorlabs) and a quarter-wave plate (WPQ05M-808, Thorlabs) were used to circularly polarize the 808-nm beam, which was then passed through a vortex phase plate (VPP-1a, RPC Photonics) to generate the doughnut shape. The point spread functions of both the excitation and depletion beams were characterized by scanning each beam over a single 80-nm gold nanoparticle (80-nm gold colloid, BBI Solutions) with the confocal pinhole removed and recording the backscattering light using the APD. The positions of both beams were then carefully adjusted until the beams were spatially overlapped.</p><p>The excitation and depletion laser intensities were calculated by dividing the laser power measured at the objective back aperture by the area of the laser spot. In all cases, the area of the laser spot was determined by experimentally characterizing the point spread function using the method described above. For the Gaussian beams, the area of the laser spot was calculated using the 1/<italic toggle="yes">e</italic><sup>2</sup> radius. For the doughnut-shaped beam, the area of the laser spot was taken to be the area where the intensity was larger than 1/<italic toggle="yes">e</italic><sup>2</sup> of the maximum intensity. The 976- and 808-nm lasers have experimentally determined power stabilities of approximately 0.1 and 5%, respectively, and both produce output peaked spectra within 1 nm of their nominal wavelengths with wavelength stability of 0.1 nm or better. This level of wavelength instability is sufficiently small as to have negligible impact on our measurements. While power instability at the 0.1% level as observed for the 976-nm laser likewise has negligible practical impact on our measurements, power instability at the 5% level as observed for the 808-nm laser is likely one contributing factor to the trial-to-trial variation of our ratiometric thermometry measurements performed in a STED modality and the associated error bars.</p></sec><sec disp-level="2"><title>Single-UCNP sample preparation</title><p>NaYF<sub>4</sub> UCNPs with nominal doping concentrations of 18 to 20% Yb<sup>3+</sup> and 8 to 10% Tm<sup>3+</sup> and nominal diameters ranging from 100 to 200 nm dispersed in cyclohexane or toluene were purchased from CD Bioparticles and the Fraunhofer Center for Applied Nanotechnology. To prepare samples primarily consisting of isolated individual UCNPs, UCNPs dispersed in cyclohexane were diluted from an initial concentration of 20 to 2 mg/ml. Twenty-five microliters of the diluted UCNP solution was then spin coated onto borosilicate glass cover slips or silicon substrates with fiducial markers (EM-Tec FG1 Silicon Finder Grid). Before spin coating, the substrates were sonicated for 10 min each in acetone, isopropyl alcohol, and deionized water and then plasma cleaned for 30 s.</p></sec><sec disp-level="2"><title>Self-assembled monolayer and multilayer formation and transfer</title><p>Formation of UCNP monolayers was carried out based on a previously reported liquid-air interfacial self-assembly method. A Teflon beaker (1.7-cm diameter, 5-ml volume) was filled halfway with EG, and the silicon substrate (cleaned using the same procedure described above) was fully submerged within the EG. UCNPs dispersed in cyclohexane (initial concentration 20 mg/ml) were sonicated for 15 min before being diluted to 5 mg/ml in cyclohexane. The same process was also carried out separately for UCNPs dispersed in toluene (initial concentration 50 mg/ml), which were diluted to 5 mg/ml in toluene. A pipette was used to drop-cast the diluted UCNP solution onto the EG surface, and a UCNP solution volume of 40 &#x003bc;l was used to encourage the UCNPs to align with their hexagonal facets facing upward. A glass cover slip was placed on top of the Teflon beaker to slow the cyclohexane or toluene evaporation, and the system was left for 40 min under a fume hood. The substrate was then lifted out of the EG to transfer the monolayer formed on the surface of the EG onto the substrate. Any remaining EG on the substrate was allowed to evaporate under ambient conditions. The UCNP multilayers were formed using an identical process except that the diluted UCNP solution concentration was increased to 13 mg/ml.</p></sec><sec disp-level="2"><title>Serpentine heater lines</title><p>The NiCr serpentine heater lines were fabricated on Z-cut crystalline quartz wafers 100 mm in diameter and 525 &#x003bc;m thick (University Wafer) using the following process. The wafers were first cleaned using RCA-1 and RCA-2 cleans, followed by a dehydration bake for 30 min at 115&#x000b0;C to remove any residual moisture and 60 s of plasma cleaning using an oxygen plasma. A blanket layer of NiCr (80% Ni, 20% chromium, 99.95% purity, Research and PVD Materials Corporation) 50 nm in thickness was then evaporated onto the wafers. Subsequently, the wafers were spin coated with a negative deep-ultraviolet (DUV) photoresist (Micro Resist Technology UVN2300-05), soft baked for 45 min at 115&#x000b0;C, and patterned using an ASML PAS 5500/300C DUV Wafer Stepper. A postexposure bake of 30 min at 115&#x000b0;C was performed. The photoresist was then developed, followed by a hard bake for 30 min at 115&#x000b0;C. Ion beam milling (AJA Kaufman RF-ICP Ion Mill) was used to define the serpentine structures, and the photoresist was subsequently stripped.</p><p>To perform temperature measurements of joule-heated serpentine lines, the heater line sample was placed on a custom printed circuit board (PCB) and wire bonds were formed between the serpentine heater line contact pads and contact pads on the PCB. Larger wires were then soldered on to the PCB contact pads, which were connected to a source measure unit (Keithley 2410) that served as the current source during the joule heating experiments.</p></sec><sec disp-level="2"><title>Finite element simulations</title><p>Finite element simulations of the current density and temperature profiles for the serpentine heater line were performed using COMSOL Multiphysics. The AC/DC module was used to calculate the current density profile resulting from a current applied to the heater line. The heat transfer module was then used to calculate the temperature profile due to joule heating resulting from the previously determined current density profile. The bottom side of the substrate was maintained at a fixed temperature of 293 K, while all other sides of the sample were treated as adiabatic.</p></sec></sec></body><back><ack><title>Acknowledgments</title><p>We thank K. VanDelden and J. VanDelden of EigenPhase Technologies for the assistance in fabricating the NiCr serpentine heater lines. We also thank E. Chan and A. Skripka for helpful discussion on the UCNP emission spectra. This work was performed in part at the Cornell NanoScale Science &#x00026; Technology Facility (CNF), a member of the National Nanotechnology Coordinated Infrastructure (NNCI), which is supported by the National Science Foundation (grant NNCI-2025233).</p><sec><p><bold>Funding:</bold> This material is based upon work supported by the National Science Foundation under grant no. 2142140. We also acknowledge support from a University of Rochester Furth Fund Award.</p></sec><sec><p><bold>Author contributions:</bold> Conceptualization: A.D.P. Funding acquisition: A.D.P. Investigation: Z.Y., B.H., and A.D.P. Methodology: Z.Y., B.H., and A.D.P. Supervision: A.D.P. Visualization: Z.Y., B.H., and A.D.P. Writing&#x02013;original draft: Z.Y., B.H., and A.D.P. Writing&#x02013;review and editing: Z.Y., B.H., and A.D.P.</p></sec><sec><p><bold>Competing interests:</bold> The authors declare that they have no competing interests.</p></sec><sec><p><bold>Data and materials availability:</bold> All data needed to evaluate the conclusions in the paper are present in the paper and/or the Supplementary Materials.</p></sec></ack><sec sec-type="supplementary-material"><title>Supplementary Materials</title><sec><title>This PDF file includes:</title><supplementary-material position="float" content-type="local-data"><caption><p>Supplementary Text</p><p>Figs. S1 to S17</p><p>Table S1</p><p>References</p></caption><media xlink:href="sciadv.ado6268_sm.pdf"/></supplementary-material></sec></sec><ref-list><title>REFERENCES AND NOTES</title><ref id="R1"><label>1</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>R. J.</given-names>
+<surname>Warzoha</surname></string-name>, <string-name><given-names>A. A.</given-names>
+<surname>Wilson</surname></string-name>, <string-name><given-names>B. F.</given-names>
+<surname>Donovan</surname></string-name>, <string-name><given-names>N.</given-names>
+<surname>Donmezer</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Giri</surname></string-name>, <string-name><given-names>P. E.</given-names>
+<surname>Hopkins</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Choi</surname></string-name>, <string-name><given-names>D.</given-names>
+<surname>Pahinkar</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Shi</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Graham</surname></string-name>, <string-name><given-names>Z.</given-names>
+<surname>Tian</surname></string-name>, <string-name><given-names>L.</given-names>
+<surname>Ruppalt</surname></string-name></person-group>, 
+<article-title>Applications and impacts of nanoscale thermal transport in electronics packaging</article-title>. <source>J. Electron. Packag.</source>
+<volume>143</volume>, 
+<fpage>020804</fpage> (<year>2021</year>).</mixed-citation></ref><ref id="R2"><label>2</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>L.</given-names>
+<surname>Wang</surname></string-name>, <string-name><given-names>A. K.</given-names>
+<surname>Jha</surname></string-name>, <string-name><given-names>S. H.</given-names>
+<surname>Baxamusa</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Kotovsky</surname></string-name>, <string-name><given-names>R. J.</given-names>
+<surname>Deri</surname></string-name>, <string-name><given-names>R. B.</given-names>
+<surname>Swertfeger</surname></string-name>, <string-name><given-names>P.</given-names>
+<surname>Thiagarajan</surname></string-name>, <string-name><given-names>M. T.</given-names>
+<surname>Crowley</surname></string-name>, <string-name><given-names>G.</given-names>
+<surname>Thaler</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Song</surname></string-name>, <string-name><given-names>K. P.</given-names>
+<surname>Pipe</surname></string-name></person-group>, 
+<article-title>High-resolution thermal profiling of a high-power diode laser facet during aging</article-title>. <source>IEEE J. Quant. Electron.</source>
+<volume>60</volume>, 
+<fpage>2000111</fpage> (<year>2023</year>).</mixed-citation></ref><ref id="R3"><label>3</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>S.</given-names>
+<surname>Deshmukh</surname></string-name>, <string-name><given-names>M. M.</given-names>
+<surname>Rojo</surname></string-name>, <string-name><given-names>E.</given-names>
+<surname>Yalon</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Vaziri</surname></string-name>, <string-name><given-names>C.</given-names>
+<surname>Koroglu</surname></string-name>, <string-name><given-names>R.</given-names>
+<surname>Islam</surname></string-name>, <string-name><given-names>R. A.</given-names>
+<surname>Iglesias</surname></string-name>, <string-name><given-names>K.</given-names>
+<surname>Saraswat</surname></string-name>, <string-name><given-names>E.</given-names>
+<surname>Pop</surname></string-name></person-group>, 
+<article-title>Direct measurement of nanoscale filamentary hot spots in resistive memory devices</article-title>. <source>Sci. Adv.</source>
+<volume>8</volume>, 
+<fpage>eabk1514</fpage> (<year>2022</year>).<pub-id pub-id-type="pmid">35353574</pub-id>
+</mixed-citation></ref><ref id="R4"><label>4</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>A.</given-names>
+<surname>Sood</surname></string-name>, <string-name><given-names>R.</given-names>
+<surname>Cheaito</surname></string-name>, <string-name><given-names>T.</given-names>
+<surname>Bai</surname></string-name>, <string-name><given-names>H.</given-names>
+<surname>Kwon</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Wang</surname></string-name>, <string-name><given-names>C.</given-names>
+<surname>Li</surname></string-name>, <string-name><given-names>L.</given-names>
+<surname>Yates</surname></string-name>, <string-name><given-names>T.</given-names>
+<surname>Bougher</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Graham</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Asheghi</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Goorsky</surname></string-name>, <string-name><given-names>K. E.</given-names>
+<surname>Goodson</surname></string-name></person-group>, 
+<article-title>Direct visualization of thermal conductivity suppression due to enhanced phonon scattering near individual grain boundaries</article-title>. <source>Nano Lett.</source>
+<volume>18</volume>, 
+<fpage>3466</fpage>&#x02013;<lpage>3472</lpage> (<year>2018</year>).<pub-id pub-id-type="pmid">29631399</pub-id>
+</mixed-citation></ref><ref id="R5"><label>5</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>E.</given-names>
+<surname>Isotta</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Jiang</surname></string-name>, <string-name><given-names>G.</given-names>
+<surname>Moller</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Zevalkink</surname></string-name>, <string-name><given-names>G. J.</given-names>
+<surname>Snyder</surname></string-name>, <string-name><given-names>O.</given-names>
+<surname>Balogun</surname></string-name></person-group>, 
+<article-title>Microscale imaging of thermal conductivity suppression at grain boundaries</article-title>. <source>Adv. Mater.</source>
+<volume>35</volume>, 
+<fpage>e2302777</fpage> (<year>2023</year>).<pub-id pub-id-type="pmid">37310868</pub-id>
+</mixed-citation></ref><ref id="R6"><label>6</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>G.</given-names>
+<surname>Chen</surname></string-name></person-group>, 
+<article-title>Non-Fourier phonon heat conduction at the microscale and nanoscale</article-title>. <source>Nat. Rev. Phys.</source>
+<volume>3</volume>, 
+<fpage>555</fpage>&#x02013;<lpage>569</lpage> (<year>2021</year>).</mixed-citation></ref><ref id="R7"><label>7</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>T.</given-names>
+<surname>Hartman</surname></string-name>, <string-name><given-names>R. G.</given-names>
+<surname>Geitenbeek</surname></string-name>, <string-name><given-names>G. T.</given-names>
+<surname>Whiting</surname></string-name>, <string-name><given-names>B. M.</given-names>
+<surname>Weckhuysen</surname></string-name></person-group>, 
+<article-title>Operando monitoring of temperature and active species at the single catalyst particle level</article-title>. <source>Nat. Catal.</source>
+<volume>2</volume>, 
+<fpage>986</fpage>&#x02013;<lpage>996</lpage> (<year>2019</year>).</mixed-citation></ref><ref id="R8"><label>8</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>M.</given-names>
+<surname>Suzuki</surname></string-name>, <string-name><given-names>T.</given-names>
+<surname>Plakhotnik</surname></string-name></person-group>, 
+<article-title>The challenge of intracellular temperature</article-title>. <source>Biophys. Rev.</source>
+<volume>12</volume>, 
+<fpage>593</fpage>&#x02013;<lpage>600</lpage> (<year>2020</year>).<pub-id pub-id-type="pmid">32172449</pub-id>
+</mixed-citation></ref><ref id="R9"><label>9</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>J.</given-names>
+<surname>Zhou</surname></string-name>, <string-name><given-names>B.</given-names>
+<surname>del Rosal</surname></string-name>, <string-name><given-names>D.</given-names>
+<surname>Jaque</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Uchiyama</surname></string-name>, <string-name><given-names>D.</given-names>
+<surname>Jin</surname></string-name></person-group>, 
+<article-title>Advances and challenges for fluorescence nanothermometry</article-title>. <source>Nat. Methods</source>
+<volume>17</volume>, 
+<fpage>967</fpage>&#x02013;<lpage>980</lpage> (<year>2020</year>).<pub-id pub-id-type="pmid">32989319</pub-id>
+</mixed-citation></ref><ref id="R10"><label>10</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>A.</given-names>
+<surname>Zimmers</surname></string-name>, <string-name><given-names>L.</given-names>
+<surname>Aigouy</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Mortier</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Sharoni</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Wang</surname></string-name>, <string-name><given-names>K. G.</given-names>
+<surname>West</surname></string-name>, <string-name><given-names>J. G.</given-names>
+<surname>Ramirez</surname></string-name>, <string-name><given-names>I. K.</given-names>
+<surname>Schuller</surname></string-name></person-group>, 
+<article-title>Role of thermal heating on the voltage induced insulator-metal transition in VO<sub>2</sub></article-title>. <source>Phys. Rev. Lett.</source>
+<volume>110</volume>, 
+<fpage>056601</fpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23414038</pub-id>
+</mixed-citation></ref><ref id="R11"><label>11</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>Y.</given-names>
+<surname>Zhu</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Xie</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Pei</surname></string-name>, <string-name><given-names>B.</given-names>
+<surname>Liu</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Wu</surname></string-name>, <string-name><given-names>D.</given-names>
+<surname>Lin</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Li</surname></string-name>, <string-name><given-names>H.</given-names>
+<surname>Wang</surname></string-name>, <string-name><given-names>H.</given-names>
+<surname>Chen</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Xu</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Yang</surname></string-name>, <string-name><given-names>C.-L.</given-names>
+<surname>Wu</surname></string-name>, <string-name><given-names>H.</given-names>
+<surname>Wang</surname></string-name>, <string-name><given-names>W.</given-names>
+<surname>Chen</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Cui</surname></string-name></person-group>, 
+<article-title>Fast lithium growth and short circuit induced by localized-temperature hotspots in lithium batteries</article-title>. <source>Nat. Commun.</source>
+<volume>10</volume>, 
+<fpage>2067</fpage> (<year>2019</year>).<pub-id pub-id-type="pmid">31061393</pub-id>
+</mixed-citation></ref><ref id="R12"><label>12</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>G.</given-names>
+<surname>Baffou</surname></string-name></person-group>, 
+<article-title>Anti-Stokes thermometry in nanoplasmonics</article-title>. <source>ACS Nano</source>
+<volume>15</volume>, 
+<fpage>5785</fpage>&#x02013;<lpage>5792</lpage> (<year>2021</year>).<pub-id pub-id-type="pmid">33821619</pub-id>
+</mixed-citation></ref><ref id="R13"><label>13</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>D.</given-names>
+<surname>Halbertal</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Cuppens</surname></string-name>, <string-name><given-names>M. B.</given-names>
+<surname>Shalom</surname></string-name>, <string-name><given-names>L.</given-names>
+<surname>Embon</surname></string-name>, <string-name><given-names>N.</given-names>
+<surname>Shadmi</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Anahory</surname></string-name>, <string-name><given-names>H. R.</given-names>
+<surname>Naren</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Sarkar</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Uri</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Ronen</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Myasoedov</surname></string-name>, <string-name><given-names>L. S.</given-names>
+<surname>Levitov</surname></string-name>, <string-name><given-names>E.</given-names>
+<surname>Joselevich</surname></string-name>, <string-name><given-names>A. K.</given-names>
+<surname>Geim</surname></string-name>, <string-name><given-names>E.</given-names>
+<surname>Zeldov</surname></string-name></person-group>, 
+<article-title>Nanoscale thermal imaging of dissipation in quantum systems</article-title>. <source>Nature</source>
+<volume>539</volume>, 
+<fpage>407</fpage>&#x02013;<lpage>410</lpage> (<year>2016</year>).<pub-id pub-id-type="pmid">27786173</pub-id>
+</mixed-citation></ref><ref id="R14"><label>14</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>A. J.</given-names>
+<surname>Ardizzi</surname></string-name>, <string-name><given-names>A. Y.</given-names>
+<surname>Choi</surname></string-name>, <string-name><given-names>B.</given-names>
+<surname>Gabritchidze</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Kooi</surname></string-name>, <string-name><given-names>K. A.</given-names>
+<surname>Cleary</surname></string-name>, <string-name><given-names>A. C.</given-names>
+<surname>Readhead</surname></string-name>, <string-name><given-names>A. J.</given-names>
+<surname>Minnich</surname></string-name></person-group>, 
+<article-title>Self-heating of cryogenic high electron-mobility transistor amplifiers and the limits of microwave noise performance</article-title>. <source>J. Appl. Phys.</source>
+<volume>132</volume>, 
+<fpage>084501</fpage> (<year>2022</year>).</mixed-citation></ref><ref id="R15"><label>15</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>K. E.</given-names>
+<surname>Goodson</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Asheghi</surname></string-name></person-group>, 
+<article-title>Near-field optical thermometry</article-title>. <source>Microsc. Thermophys. Eng.</source>
+<volume>1</volume>, 
+<fpage>225</fpage>&#x02013;<lpage>235</lpage> (<year>1997</year>).</mixed-citation></ref><ref id="R16"><label>16</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>Q.</given-names>
+<surname>Weng</surname></string-name>, <string-name><given-names>K.-T.</given-names>
+<surname>Lin</surname></string-name>, <string-name><given-names>K.</given-names>
+<surname>Yoshida</surname></string-name>, <string-name><given-names>H.</given-names>
+<surname>Nema</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Komiyama</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Kim</surname></string-name>, <string-name><given-names>K.</given-names>
+<surname>Hirakawa</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Kajihara</surname></string-name></person-group>, 
+<article-title>Near-field radiative nanothermal imaging of nonuniform joule heating in narrow metal wires</article-title>. <source>Nano Lett.</source>
+<volume>18</volume>, 
+<fpage>4220</fpage>&#x02013;<lpage>4225</lpage> (<year>2018</year>).<pub-id pub-id-type="pmid">29879352</pub-id>
+</mixed-citation></ref><ref id="R17"><label>17</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>K.</given-names>
+<surname>Kim</surname></string-name>, <string-name><given-names>W.</given-names>
+<surname>Jeong</surname></string-name>, <string-name><given-names>W.</given-names>
+<surname>Lee</surname></string-name>, <string-name><given-names>P.</given-names>
+<surname>Reddy</surname></string-name></person-group>, 
+<article-title>Ultra-high vacuum scanning thermal microscopy for nanometer resolution quantitative thermometry</article-title>. <source>ACS Nano</source>
+<volume>6</volume>, 
+<fpage>4248</fpage>&#x02013;<lpage>4257</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">22530657</pub-id>
+</mixed-citation></ref><ref id="R18"><label>18</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>F.</given-names>
+<surname>Menges</surname></string-name>, <string-name><given-names>P.</given-names>
+<surname>Mensch</surname></string-name>, <string-name><given-names>H.</given-names>
+<surname>Schmid</surname></string-name>, <string-name><given-names>H.</given-names>
+<surname>Riel</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Stemmer</surname></string-name>, <string-name><given-names>B.</given-names>
+<surname>Gotsmann</surname></string-name></person-group>, 
+<article-title>Temperature mapping of operating nanoscale devices by scanning probe thermometry</article-title>. <source>Nat. Commun.</source>
+<volume>7</volume>, 
+<fpage>10874</fpage> (<year>2016</year>).<pub-id pub-id-type="pmid">26936427</pub-id>
+</mixed-citation></ref><ref id="R19"><label>19</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>S.</given-names>
+<surname>Gom&#x000e8;s</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Assy</surname></string-name>, <string-name><given-names>P.-O.</given-names>
+<surname>Chapius</surname></string-name></person-group>, 
+<article-title>Scanning thermal microscopy: A review</article-title>. <source>Physica Status Solidi</source>
+<volume>212</volume>, 
+<fpage>477</fpage>&#x02013;<lpage>494</lpage> (<year>2015</year>).</mixed-citation></ref><ref id="R20"><label>20</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>W.</given-names>
+<surname>Jeong</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Hur</surname></string-name>, <string-name><given-names>E.</given-names>
+<surname>Meyhofer</surname></string-name>, <string-name><given-names>P.</given-names>
+<surname>Reddy</surname></string-name></person-group>, 
+<article-title>Scanning probe microscopy for thermal transport measurements</article-title>. <source>Nanosc. Microsc. Thermophys. Eng.</source>
+<volume>19</volume>, 
+<fpage>279</fpage>&#x02013;<lpage>302</lpage> (<year>2015</year>).</mixed-citation></ref><ref id="R21"><label>21</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>Y.</given-names>
+<surname>Zhang</surname></string-name>, <string-name><given-names>W.</given-names>
+<surname>Zhu</surname></string-name>, <string-name><given-names>F.</given-names>
+<surname>Hui</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Lanza</surname></string-name>, <string-name><given-names>T.</given-names>
+<surname>Borca-Tasciuc</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Mu&#x000f1;oz Rojo</surname></string-name></person-group>, 
+<article-title>A review on principles and applications of scanning thermal microscopy (SThM)</article-title>. <source>Adv. Funct. Mater.</source>
+<volume>30</volume>, 
+<fpage>1900892</fpage> (<year>2020</year>).</mixed-citation></ref><ref id="R22"><label>22</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>A.</given-names>
+<surname>Reihani</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Luan</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Yan</surname></string-name>, <string-name><given-names>J. W.</given-names>
+<surname>Lim</surname></string-name>, <string-name><given-names>E.</given-names>
+<surname>Meyhofer</surname></string-name>, <string-name><given-names>P.</given-names>
+<surname>Reddy</surname></string-name></person-group>, 
+<article-title>Quantitative mapping of unmodulated temperature fields with nanometer resolution</article-title>. <source>ACS Nano</source>
+<volume>16</volume>, 
+<fpage>939</fpage>&#x02013;<lpage>950</lpage> (<year>2022</year>).<pub-id pub-id-type="pmid">34958551</pub-id>
+</mixed-citation></ref><ref id="R23"><label>23</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>M.</given-names>
+<surname>Mecklenburg</surname></string-name>, <string-name><given-names>W. A.</given-names>
+<surname>Hubbard</surname></string-name>, <string-name><given-names>E. R.</given-names>
+<surname>White</surname></string-name>, <string-name><given-names>R.</given-names>
+<surname>Dhall</surname></string-name>, <string-name><given-names>S. B.</given-names>
+<surname>Cronin</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Aloni</surname></string-name>, <string-name><given-names>B. C.</given-names>
+<surname>Regan</surname></string-name></person-group>, 
+<article-title>Nanoscale temperature mapping in operating microelectronic devices</article-title>. <source>Science</source>
+<volume>347</volume>, 
+<fpage>629</fpage>&#x02013;<lpage>632</lpage> (<year>2015</year>).<pub-id pub-id-type="pmid">25657242</pub-id>
+</mixed-citation></ref><ref id="R24"><label>24</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>P.</given-names>
+<surname>Jiang</surname></string-name>, <string-name><given-names>X.</given-names>
+<surname>Qian</surname></string-name>, <string-name><given-names>R.</given-names>
+<surname>Yang</surname></string-name></person-group>, 
+<article-title>Tutorial: Time-domain thermoreflectance (TDTR) for thermal property characterization of bulk and thin film materials</article-title>. <source>J. Appl. Phys.</source>
+<volume>124</volume>, 
+<fpage>161103</fpage> (<year>2018</year>).</mixed-citation></ref><ref id="R25"><label>25</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>J.</given-names>
+<surname>Yang</surname></string-name>, <string-name><given-names>C.</given-names>
+<surname>Maragliano</surname></string-name>, <string-name><given-names>A. J.</given-names>
+<surname>Schmidt</surname></string-name></person-group>, 
+<article-title>Thermal property microscopy with frequency domain thermoreflectance</article-title>. <source>Rev. Sci. Instrum.</source>
+<volume>84</volume>, 
+<fpage>104904</fpage> (<year>2013</year>).<pub-id pub-id-type="pmid">24182148</pub-id>
+</mixed-citation></ref><ref id="R26"><label>26</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>S.</given-names>
+<surname>Xu</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Fan</surname></string-name>, <string-name><given-names>H.</given-names>
+<surname>Wang</surname></string-name>, <string-name><given-names>X.</given-names>
+<surname>Zhang</surname></string-name>, <string-name><given-names>X.</given-names>
+<surname>Wang</surname></string-name></person-group>, 
+<article-title>Raman-based nanoscale thermal transport characterization: A critical review</article-title>. <source>Int. J. Heat Mass Transf.</source>
+<volume>154</volume>, 
+<fpage>119751</fpage> (<year>2020</year>).</mixed-citation></ref><ref id="R27"><label>27</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>C. D. S.</given-names>
+<surname>Brites</surname></string-name>, <string-name><given-names>R.</given-names>
+<surname>Marin</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Suta</surname></string-name>, <string-name><given-names>A. N.</given-names>
+<surname>Carneiro Neto</surname></string-name>, <string-name><given-names>E.</given-names>
+<surname>Ximendes</surname></string-name>, <string-name><given-names>D.</given-names>
+<surname>Jaque</surname></string-name>, <string-name><given-names>L. D.</given-names>
+<surname>Carlos</surname></string-name></person-group>, 
+<article-title>Spotlight on luminescence thermometry: Basics, challenges, and cutting-edge applications</article-title>. <source>Adv. Mater.</source>
+<volume>35</volume>, 
+<fpage>e2302749</fpage> (<year>2023</year>).<pub-id pub-id-type="pmid">37480170</pub-id>
+</mixed-citation></ref><ref id="R28"><label>28</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>Y. M.</given-names>
+<surname>Sigal</surname></string-name>, <string-name><given-names>R.</given-names>
+<surname>Zhou</surname></string-name>, <string-name><given-names>X.</given-names>
+<surname>Zhuang</surname></string-name></person-group>, 
+<article-title>Visualizing and discovering cellular structures with super-resolution microscopy</article-title>. <source>Science</source>
+<volume>361</volume>, 
+<fpage>880</fpage>&#x02013;<lpage>887</lpage> (<year>2018</year>).<pub-id pub-id-type="pmid">30166485</pub-id>
+</mixed-citation></ref><ref id="R29"><label>29</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>S. J.</given-names>
+<surname>Sahl</surname></string-name>, <string-name><given-names>W. E.</given-names>
+<surname>Moerner</surname></string-name></person-group>, 
+<article-title>Super-resolution fluorescence imaging with single molecules</article-title>. <source>Curr. Opin. Struct. Biol.</source>
+<volume>23</volume>, 
+<fpage>778</fpage>&#x02013;<lpage>787</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23932284</pub-id>
+</mixed-citation></ref><ref id="R30"><label>30</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>T. A.</given-names>
+<surname>Klar</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Jakobs</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Dyba</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Egner</surname></string-name>, <string-name><given-names>S. W.</given-names>
+<surname>Hell</surname></string-name></person-group>, 
+<article-title>Fluorescence microscopy with diffraction resolution barrier broken by stimulated emission</article-title>. <source>Proc. Natl. Acad. Sci. U.S.A.</source>
+<volume>97</volume>, 
+<fpage>8206</fpage>&#x02013;<lpage>8210</lpage> (<year>2000</year>).<pub-id pub-id-type="pmid">10899992</pub-id>
+</mixed-citation></ref><ref id="R31"><label>31</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>H.</given-names>
+<surname>Blom</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Widengren</surname></string-name></person-group>, 
+<article-title>Stimulated emission depletion microscopy</article-title>. <source>Chem. Rev.</source>
+<volume>117</volume>, 
+<fpage>7377</fpage>&#x02013;<lpage>7427</lpage> (<year>2017</year>).<pub-id pub-id-type="pmid">28262022</pub-id>
+</mixed-citation></ref><ref id="R32"><label>32</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>G.</given-names>
+<surname>Vicidomini</surname></string-name>, <string-name><given-names>P.</given-names>
+<surname>Bianchini</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Diaspro</surname></string-name></person-group>, 
+<article-title>STED super-resolved microscopy</article-title>. <source>Nat. Methods</source>
+<volume>15</volume>, 
+<fpage>173</fpage>&#x02013;<lpage>182</lpage> (<year>2018</year>).<pub-id pub-id-type="pmid">29377014</pub-id>
+</mixed-citation></ref><ref id="R33"><label>33</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>J.</given-names>
+<surname>Hanne</surname></string-name>, <string-name><given-names>H. J.</given-names>
+<surname>Falk</surname></string-name>, <string-name><given-names>F.</given-names>
+<surname>G&#x000f6;rlitz</surname></string-name>, <string-name><given-names>P.</given-names>
+<surname>Hoyer</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Engelhardt</surname></string-name>, <string-name><given-names>S. J.</given-names>
+<surname>Sahl</surname></string-name>, <string-name><given-names>S. W.</given-names>
+<surname>Hell</surname></string-name></person-group>, 
+<article-title>STED nanoscopy with fluorescent quantum dots</article-title>. <source>Nat. Commun.</source>
+<volume>6</volume>, 
+<fpage>7127</fpage> (<year>2015</year>).<pub-id pub-id-type="pmid">25980788</pub-id>
+</mixed-citation></ref><ref id="R34"><label>34</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>K. Y.</given-names>
+<surname>Han</surname></string-name>, <string-name><given-names>K. I.</given-names>
+<surname>Willig</surname></string-name>, <string-name><given-names>E.</given-names>
+<surname>Rittweger</surname></string-name>, <string-name><given-names>F.</given-names>
+<surname>Jelezko</surname></string-name>, <string-name><given-names>C.</given-names>
+<surname>Eggeling</surname></string-name>, <string-name><given-names>S. W.</given-names>
+<surname>Hell</surname></string-name></person-group>, 
+<article-title>Three-dimensional stimulated emission depletion microscopy of nitrogen-vacancy centers in diamond using continuous-wave light</article-title>. <source>Nano Lett.</source>
+<volume>9</volume>, 
+<fpage>3323</fpage>&#x02013;<lpage>3329</lpage> (<year>2009</year>).<pub-id pub-id-type="pmid">19634862</pub-id>
+</mixed-citation></ref><ref id="R35"><label>35</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>J.</given-names>
+<surname>Thiem</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Spelthann</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Neumann</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Ruehl</surname></string-name>, <string-name><given-names>D.</given-names>
+<surname>Ristau</surname></string-name></person-group>, 
+<article-title>Three-dimensional nanothermometry below the diffraction limit</article-title>. <source>Opt. Lett.</source>
+<volume>46</volume>, 
+<fpage>3352</fpage>&#x02013;<lpage>3355</lpage> (<year>2021</year>).<pub-id pub-id-type="pmid">34264211</pub-id>
+</mixed-citation></ref><ref id="R36"><label>36</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>Y.</given-names>
+<surname>Yue</surname></string-name>, <string-name><given-names>X.</given-names>
+<surname>Wang</surname></string-name></person-group>, 
+<article-title>Nanoscale thermal probing</article-title>. <source>Nano Rev.</source>
+<volume>3</volume>, 
+<fpage>11586</fpage> (<year>2012</year>).</mixed-citation></ref><ref id="R37"><label>37</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>P. A.</given-names>
+<surname>Reinhardt</surname></string-name>, <string-name><given-names>A. P.</given-names>
+<surname>Crawford</surname></string-name>, <string-name><given-names>C. A.</given-names>
+<surname>West</surname></string-name>, <string-name><given-names>G.</given-names>
+<surname>DeLong</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Link</surname></string-name>, <string-name><given-names>D. J.</given-names>
+<surname>Masiello</surname></string-name>, <string-name><given-names>K. A.</given-names>
+<surname>Willets</surname></string-name></person-group>, 
+<article-title>Toward quantitative nanothermometry using single-molecule counting</article-title>. <source>J. Phys. Chem. B.</source>
+<volume>125</volume>, 
+<fpage>12197</fpage>&#x02013;<lpage>12205</lpage> (<year>2021</year>).<pub-id pub-id-type="pmid">34723520</pub-id>
+</mixed-citation></ref><ref id="R38"><label>38</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>Y.</given-names>
+<surname>Liu</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Lu</surname></string-name>, <string-name><given-names>X.</given-names>
+<surname>Yang</surname></string-name>, <string-name><given-names>X.</given-names>
+<surname>Zheng</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Wen</surname></string-name>, <string-name><given-names>F.</given-names>
+<surname>Wang</surname></string-name>, <string-name><given-names>X.</given-names>
+<surname>Vidal</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Zhao</surname></string-name>, <string-name><given-names>D.</given-names>
+<surname>Liu</surname></string-name>, <string-name><given-names>Z.</given-names>
+<surname>Zhou</surname></string-name>, <string-name><given-names>C.</given-names>
+<surname>Ma</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Zhou</surname></string-name>, <string-name><given-names>J. A.</given-names>
+<surname>Piper</surname></string-name>, <string-name><given-names>P.</given-names>
+<surname>Xi</surname></string-name>, <string-name><given-names>D.</given-names>
+<surname>Jin</surname></string-name></person-group>, 
+<article-title>Amplified stimulated emission in upconversion nanoparticles for super-resolution nanoscopy</article-title>. <source>Nature</source>
+<volume>543</volume>, 
+<fpage>229</fpage>&#x02013;<lpage>233</lpage> (<year>2017</year>).<pub-id pub-id-type="pmid">28225761</pub-id>
+</mixed-citation></ref><ref id="R39"><label>39</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>Q.</given-names>
+<surname>Zhan</surname></string-name>, <string-name><given-names>H.</given-names>
+<surname>Liu</surname></string-name>, <string-name><given-names>B.</given-names>
+<surname>Wang</surname></string-name>, <string-name><given-names>Q.</given-names>
+<surname>Wu</surname></string-name>, <string-name><given-names>R.</given-names>
+<surname>Pu</surname></string-name>, <string-name><given-names>C.</given-names>
+<surname>Zhou</surname></string-name>, <string-name><given-names>B.</given-names>
+<surname>Huang</surname></string-name>, <string-name><given-names>X.</given-names>
+<surname>Peng</surname></string-name>, <string-name><given-names>H.</given-names>
+<surname>&#x000c5;gren</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>He</surname></string-name></person-group>, 
+<article-title>Achieving high-efficiency emission depletion nanoscopy by employing cross relaxation in upconversion nanoparticles</article-title>. <source>Nat. Commun.</source>
+<volume>8</volume>, 
+<fpage>1058</fpage> (<year>2017</year>).<pub-id pub-id-type="pmid">29051497</pub-id>
+</mixed-citation></ref><ref id="R40"><label>40</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>C. D. S.</given-names>
+<surname>Brites</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Balabhadra</surname></string-name>, <string-name><given-names>L. D.</given-names>
+<surname>Carlos</surname></string-name></person-group>, 
+<article-title>Lanthanide-based thermometers: At the cutting-edge of luminescence thermometry</article-title>. <source>Adv. Opt. Mater.</source>
+<volume>7</volume>, 
+<fpage>1801239</fpage> (<year>2019</year>).</mixed-citation></ref><ref id="R41"><label>41</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>Y.</given-names>
+<surname>Zhao</surname></string-name>, <string-name><given-names>X.</given-names>
+<surname>Wang</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Zhang</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Li</surname></string-name>, <string-name><given-names>X.</given-names>
+<surname>Yao</surname></string-name></person-group>, 
+<article-title>Optical temperature sensing of up-conversion luminescent materials: Fundamentals and progress</article-title>. <source>J. Alloys Compd.</source>
+<volume>817</volume>, 
+<fpage>152691</fpage> (<year>2020</year>).</mixed-citation></ref><ref id="R42"><label>42</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>B.</given-names>
+<surname>Zhang</surname></string-name>, <string-name><given-names>X.</given-names>
+<surname>Guo</surname></string-name>, <string-name><given-names>Z.</given-names>
+<surname>Zhang</surname></string-name>, <string-name><given-names>Z.</given-names>
+<surname>Fu</surname></string-name>, <string-name><given-names>H.</given-names>
+<surname>Zheng</surname></string-name></person-group>, 
+<article-title>Luminescence thermometry with rare earth doped nanoparticles: Status and challenges</article-title>. <source>J. Lumin.</source>
+<volume>250</volume>, 
+<fpage>119110</fpage> (<year>2022</year>).</mixed-citation></ref><ref id="R43"><label>43</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>S.</given-names>
+<surname>Lahtinen</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Baldtzer Liisberg</surname></string-name>, <string-name><given-names>K.</given-names>
+<surname>Raiko</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Krause</surname></string-name>, <string-name><given-names>T.</given-names>
+<surname>Soukka</surname></string-name>, <string-name><given-names>T.</given-names>
+<surname>Vosch</surname></string-name></person-group>, 
+<article-title>Thulium- and erbium-doped nanoparticles with poly(acrylic acid) coating for upconversion cross-correlation spectroscopy-based sandwich immunoassays in plasma</article-title>. <source>ACS Appl. Nano Mater.</source>
+<volume>4</volume>, 
+<fpage>432</fpage>&#x02013;<lpage>440</lpage> (<year>2021</year>).</mixed-citation></ref><ref id="R44"><label>44</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>J.</given-names>
+<surname>Zhao</surname></string-name>, <string-name><given-names>D.</given-names>
+<surname>Jin</surname></string-name>, <string-name><given-names>E. P.</given-names>
+<surname>Schartner</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Lu</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Liu</surname></string-name>, <string-name><given-names>A. V.</given-names>
+<surname>Zvyagin</surname></string-name>, <string-name><given-names>L.</given-names>
+<surname>Zhang</surname></string-name>, <string-name><given-names>J. M.</given-names>
+<surname>Dawes</surname></string-name>, <string-name><given-names>P.</given-names>
+<surname>Xi</surname></string-name>, <string-name><given-names>J. A.</given-names>
+<surname>Piper</surname></string-name>, <string-name><given-names>E. M.</given-names>
+<surname>Goldys</surname></string-name>, <string-name><given-names>T. M.</given-names>
+<surname>Monro</surname></string-name></person-group>, 
+<article-title>Single-nanocrystal sensitivity achieved by enhanced upconversion luminescence</article-title>. <source>Nat. Nanotechnol.</source>
+<volume>8</volume>, 
+<fpage>729</fpage>&#x02013;<lpage>734</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23995455</pub-id>
+</mixed-citation></ref><ref id="R45"><label>45</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>G.</given-names>
+<surname>Donnert</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Keller</surname></string-name>, <string-name><given-names>R.</given-names>
+<surname>Medda</surname></string-name>, <string-name><given-names>M. A.</given-names>
+<surname>Andrei</surname></string-name>, <string-name><given-names>S. O.</given-names>
+<surname>Rizzoli</surname></string-name>, <string-name><given-names>R.</given-names>
+<surname>L&#x000fc;hrmann</surname></string-name>, <string-name><given-names>R.</given-names>
+<surname>Jahn</surname></string-name>, <string-name><given-names>C.</given-names>
+<surname>Eggeling</surname></string-name>, <string-name><given-names>S. W.</given-names>
+<surname>Hell</surname></string-name></person-group>, 
+<article-title>Macromolecular-scale resolution in biological fluorescence microscopy</article-title>. <source>Proc. Natl. Acad. Sci. U.S.A.</source>
+<volume>103</volume>, 
+<fpage>11440</fpage>&#x02013;<lpage>11445</lpage> (<year>2006</year>).<pub-id pub-id-type="pmid">16864773</pub-id>
+</mixed-citation></ref><ref id="R46"><label>46</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>A. F.</given-names>
+<surname>Pereira</surname></string-name>, <string-name><given-names>K. U.</given-names>
+<surname>Kumar</surname></string-name>, <string-name><given-names>W. F.</given-names>
+<surname>Silva</surname></string-name>, <string-name><given-names>W. Q.</given-names>
+<surname>Santos</surname></string-name>, <string-name><given-names>D.</given-names>
+<surname>Jaque</surname></string-name>, <string-name><given-names>C.</given-names>
+<surname>Jacinto</surname></string-name></person-group>, 
+<article-title>Yb<sup>3+</sup>/Tm<sup>3+</sup> co-doped NaNbO<sub>3</sub> nanocrystals as three-photon-excited luminescent nanothermometers</article-title>. <source>Sens. Actuators B</source>
+<volume>213</volume>, 
+<fpage>65</fpage>&#x02013;<lpage>71</lpage> (<year>2015</year>).</mixed-citation></ref><ref id="R47"><label>47</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>L.</given-names>
+<surname>Xing</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Xu</surname></string-name>, <string-name><given-names>R.</given-names>
+<surname>Wang</surname></string-name>, <string-name><given-names>W.</given-names>
+<surname>Xu</surname></string-name>, <string-name><given-names>Z.</given-names>
+<surname>Zhang</surname></string-name></person-group>, 
+<article-title>Highly sensitive optical thermometry based on upconversion emissions in Tm<sup>3+</sup>/Yb<sup>3+</sup> codoped LiNbO<sub>3</sub> single crystal</article-title>. <source>Opt. Lett.</source>
+<volume>39</volume>, 
+<fpage>454</fpage>&#x02013;<lpage>457</lpage> (<year>2014</year>).<pub-id pub-id-type="pmid">24487838</pub-id>
+</mixed-citation></ref><ref id="R48"><label>48</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>L.</given-names>
+<surname>Xing</surname></string-name>, <string-name><given-names>R.</given-names>
+<surname>Ao</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Liu</surname></string-name>, <string-name><given-names>W.</given-names>
+<surname>Yang</surname></string-name></person-group>, 
+<article-title>Optical thermometry based on the non-thermally coupled levels of Tm(III) in LiNbO<sub>3</sub> crystals</article-title>. <source>Spectrochim. Acta A Mol. Biomol. Spectrosc.</source>
+<volume>222</volume>, 
+<fpage>117159</fpage> (<year>2019</year>).<pub-id pub-id-type="pmid">31176157</pub-id>
+</mixed-citation></ref><ref id="R49"><label>49</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>C.</given-names>
+<surname>Wang</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Jin</surname></string-name>, <string-name><given-names>R.</given-names>
+<surname>Zhang</surname></string-name>, <string-name><given-names>Q.</given-names>
+<surname>Yao</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Hu</surname></string-name></person-group>, 
+<article-title>A review and outlook of ratiometric optical thermometer based on thermally coupled levels and non-thermally coupled levels</article-title>. <source>J. Alloys Compd.</source>
+<volume>894</volume>, 
+<fpage>162494</fpage> (<year>2022</year>).</mixed-citation></ref><ref id="R50"><label>50</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>L.</given-names>
+<surname>Wang</surname></string-name>, <string-name><given-names>X.</given-names>
+<surname>Li</surname></string-name>, <string-name><given-names>Z.</given-names>
+<surname>Li</surname></string-name>, <string-name><given-names>W.</given-names>
+<surname>Chu</surname></string-name>, <string-name><given-names>R.</given-names>
+<surname>Li</surname></string-name>, <string-name><given-names>K.</given-names>
+<surname>Lin</surname></string-name>, <string-name><given-names>H.</given-names>
+<surname>Qian</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Wang</surname></string-name>, <string-name><given-names>C.</given-names>
+<surname>Wu</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Li</surname></string-name>, <string-name><given-names>D.</given-names>
+<surname>Tu</surname></string-name>, <string-name><given-names>Q.</given-names>
+<surname>Zhang</surname></string-name>, <string-name><given-names>L.</given-names>
+<surname>Song</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Jiang</surname></string-name>, <string-name><given-names>X.</given-names>
+<surname>Chen</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Luo</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Xie</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Xiong</surname></string-name></person-group>, 
+<article-title>A new cubic phase for a NaYF<sub>4</sub> host matrix offering high upconversion luminescence efficiency</article-title>. <source>Adv. Mater.</source>
+<volume>27</volume>, 
+<fpage>5528</fpage>&#x02013;<lpage>5533</lpage> (<year>2015</year>).<pub-id pub-id-type="pmid">26288065</pub-id>
+</mixed-citation></ref><ref id="R51"><label>51</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>X.</given-names>
+<surname>Ye</surname></string-name>, <string-name><given-names>J. E.</given-names>
+<surname>Collins</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Kang</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Chen</surname></string-name>, <string-name><given-names>D. T. N.</given-names>
+<surname>Chen</surname></string-name>, <string-name><given-names>A. G.</given-names>
+<surname>Yodh</surname></string-name>, <string-name><given-names>C. B.</given-names>
+<surname>Murray</surname></string-name></person-group>, 
+<article-title>Morphologically controlled synthesis of colloidal upconversion nanophosphors and their shape-directed self-assembly</article-title>. <source>Proc. Natl. Acad. Sci. U.S.A.</source>
+<volume>107</volume>, 
+<fpage>22430</fpage>&#x02013;<lpage>22435</lpage> (<year>2010</year>).<pub-id pub-id-type="pmid">21148771</pub-id>
+</mixed-citation></ref><ref id="R52"><label>52</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>M.</given-names>
+<surname>Saboktakin</surname></string-name>, <string-name><given-names>X.</given-names>
+<surname>Ye</surname></string-name>, <string-name><given-names>S. J.</given-names>
+<surname>Oh</surname></string-name>, <string-name><given-names>S.-H.</given-names>
+<surname>Hong</surname></string-name>, <string-name><given-names>A. T.</given-names>
+<surname>Fafarman</surname></string-name>, <string-name><given-names>U. K.</given-names>
+<surname>Chettiar</surname></string-name>, <string-name><given-names>N.</given-names>
+<surname>Engheta</surname></string-name>, <string-name><given-names>C. B.</given-names>
+<surname>Murray</surname></string-name>, <string-name><given-names>C. R.</given-names>
+<surname>Kagan</surname></string-name></person-group>, 
+<article-title>Metal-enhanced upconversion luminescence tunable through metal nanoparticle&#x02013;nanophosphor separation</article-title>. <source>ACS Nano</source>
+<volume>6</volume>, 
+<fpage>8758</fpage>&#x02013;<lpage>8766</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">22967489</pub-id>
+</mixed-citation></ref><ref id="R53"><label>53</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>A.</given-names>
+<surname>Dong</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Chen</surname></string-name>, <string-name><given-names>P. M.</given-names>
+<surname>Vora</surname></string-name>, <string-name><given-names>J. M.</given-names>
+<surname>Kikkawa</surname></string-name>, <string-name><given-names>C. B.</given-names>
+<surname>Murray</surname></string-name></person-group>, 
+<article-title>Binary nanocrystal superlattice membranes self-assembled at the liquid&#x02013;air interface</article-title>. <source>Nature</source>
+<volume>466</volume>, 
+<fpage>474</fpage>&#x02013;<lpage>477</lpage> (<year>2010</year>).<pub-id pub-id-type="pmid">20651688</pub-id>
+</mixed-citation></ref><ref id="R54"><label>54</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>J. R.</given-names>
+<surname>Clem</surname></string-name>, <string-name><given-names>K. K.</given-names>
+<surname>Berggren</surname></string-name></person-group>, 
+<article-title>Geometry-dependent critical currents in superconducting nanocircuits</article-title>. <source>Phys. Rev. B</source>
+<volume>84</volume>, 
+<fpage>174510</fpage> (<year>2011</year>).</mixed-citation></ref><ref id="R55"><label>55</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>A.</given-names>
+<surname>Valarezo</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Sampath</surname></string-name></person-group>, 
+<article-title>An integrated assessment of process-microstructure-property relationships for thermal-sprayed NiCr coatings</article-title>. <source>J. Therm. Spray Technol.</source>
+<volume>20</volume>, 
+<fpage>1244</fpage>&#x02013;<lpage>1258</lpage> (<year>2011</year>).</mixed-citation></ref><ref id="R56"><label>56</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>Y.</given-names>
+<surname>Yin</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Lu</surname></string-name>, <string-name><given-names>B.</given-names>
+<surname>Gates</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Xia</surname></string-name></person-group>, 
+<article-title>Template-assisted self-assembly: A practical route to complex aggregates of monodispersed colloids with well-defined sizes, shapes, and structures</article-title>. <source>J. Am. Chem. Soc.</source>
+<volume>123</volume>, 
+<fpage>8718</fpage>&#x02013;<lpage>8729</lpage> (<year>2001</year>).<pub-id pub-id-type="pmid">11535076</pub-id>
+</mixed-citation></ref><ref id="R57"><label>57</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>A.</given-names>
+<surname>Carlson</surname></string-name>, <string-name><given-names>A. M.</given-names>
+<surname>Bowen</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Huang</surname></string-name>, <string-name><given-names>R. G.</given-names>
+<surname>Nuzzo</surname></string-name>, <string-name><given-names>J. A.</given-names>
+<surname>Rogers</surname></string-name></person-group>, 
+<article-title>Transfer printing techniques for materials assembly and micro/nanodevice fabrication</article-title>. <source>Adv. Mater.</source>
+<volume>24</volume>, 
+<fpage>5284</fpage>&#x02013;<lpage>5318</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">22936418</pub-id>
+</mixed-citation></ref><ref id="R58"><label>58</label><mixed-citation publication-type="other">Y. S. Touloukian, R. W. Powell, C. Y. Ho, P. G. Klemens, <italic toggle="yes">Thermophysical Properties of Matter - The TPRC Data Series. Volume 2. Thermal Conductivity - Nonmetallic Solids</italic>. (Purdue University, Lafayette, IN, 1971).</mixed-citation></ref><ref id="R59"><label>59</label><mixed-citation publication-type="thesis">K. C. Liddiard, Infrared Absorption in Thin Metallic Films, thesis, University of Adelaide, Australia (1973).</mixed-citation></ref><ref id="R60"><label>60</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>Y.</given-names>
+<surname>Liu</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Wen</surname></string-name>, <string-name><given-names>F.</given-names>
+<surname>Wang</surname></string-name>, <string-name><given-names>C.</given-names>
+<surname>Zuo</surname></string-name>, <string-name><given-names>C.</given-names>
+<surname>Chen</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Zhou</surname></string-name>, <string-name><given-names>D.</given-names>
+<surname>Jin</surname></string-name></person-group>, 
+<article-title>Population control of upconversion energy transfer for stimulation emission depletion nanoscopy</article-title>. <source>Adv. Sci.</source>
+<volume>10</volume>, 
+<fpage>e2205990</fpage> (<year>2023</year>).</mixed-citation></ref><ref id="R61"><label>61</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>Z.</given-names>
+<surname>Zhang</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Skripka</surname></string-name>, <string-name><given-names>J. C.</given-names>
+<surname>Dahl</surname></string-name>, <string-name><given-names>C.</given-names>
+<surname>Dun</surname></string-name>, <string-name><given-names>J. J.</given-names>
+<surname>Urban</surname></string-name>, <string-name><given-names>D.</given-names>
+<surname>Jaque</surname></string-name>, <string-name><given-names>P. J.</given-names>
+<surname>Schuck</surname></string-name>, <string-name><given-names>B. E.</given-names>
+<surname>Cohen</surname></string-name>, <string-name><given-names>E. M.</given-names>
+<surname>Chan</surname></string-name></person-group>, 
+<article-title>Tuning phonon energies in lanthanide-doped potassium lead halide nanocrystals for enhanced nonlinearity and upconversion</article-title>. <source>Angew. Chem. Int. Ed. Engl.</source>
+<volume>62</volume>, 
+<fpage>e202212549</fpage> (<year>2023</year>).<pub-id pub-id-type="pmid">36377596</pub-id>
+</mixed-citation></ref><ref id="R62"><label>62</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>L.</given-names>
+<surname>Liang</surname></string-name>, <string-name><given-names>Z.</given-names>
+<surname>Feng</surname></string-name>, <string-name><given-names>Q.</given-names>
+<surname>Zhang</surname></string-name>, <string-name><given-names>T. D.</given-names>
+<surname>Cong</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Wang</surname></string-name>, <string-name><given-names>X.</given-names>
+<surname>Qin</surname></string-name>, <string-name><given-names>Z.</given-names>
+<surname>Yi</surname></string-name>, <string-name><given-names>M. J. Y.</given-names>
+<surname>Ang</surname></string-name>, <string-name><given-names>L.</given-names>
+<surname>Zhou</surname></string-name>, <string-name><given-names>H.</given-names>
+<surname>Feng</surname></string-name>, <string-name><given-names>B.</given-names>
+<surname>Xing</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Gu</surname></string-name>, <string-name><given-names>X.</given-names>
+<surname>Li</surname></string-name>, <string-name><given-names>X.</given-names>
+<surname>Liu</surname></string-name></person-group>, 
+<article-title>Continuous-wave near-infrared stimulated-emission depletion microscopy using downshifting lanthanide nanoparticles</article-title>. <source>Nat. Nanotechnol.</source>
+<volume>16</volume>, 
+<fpage>975</fpage>&#x02013;<lpage>980</lpage> (<year>2021</year>).<pub-id pub-id-type="pmid">34127821</pub-id>
+</mixed-citation></ref><ref id="R63"><label>63</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>C.</given-names>
+<surname>Lee</surname></string-name>, <string-name><given-names>E. Z.</given-names>
+<surname>Xu</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Liu</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Teitelboim</surname></string-name>, <string-name><given-names>K.</given-names>
+<surname>Yao</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Fernandez-Bravo</surname></string-name>, <string-name><given-names>A. M.</given-names>
+<surname>Kotulska</surname></string-name>, <string-name><given-names>S. H.</given-names>
+<surname>Nam</surname></string-name>, <string-name><given-names>Y. D.</given-names>
+<surname>Suh</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Bednarkiewicz</surname></string-name>, <string-name><given-names>B. E.</given-names>
+<surname>Cohen</surname></string-name>, <string-name><given-names>E. M.</given-names>
+<surname>Chan</surname></string-name>, <string-name><given-names>P. J.</given-names>
+<surname>Schuck</surname></string-name></person-group>, 
+<article-title>Giant nonlinear optical responses from photon-avalanching nanoparticles</article-title>. <source>Nature</source>
+<volume>589</volume>, 
+<fpage>230</fpage>&#x02013;<lpage>235</lpage> (<year>2021</year>).<pub-id pub-id-type="pmid">33442042</pub-id>
+</mixed-citation></ref><ref id="R64"><label>64</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>C.</given-names>
+<surname>Lee</surname></string-name>, <string-name><given-names>E. Z.</given-names>
+<surname>Xu</surname></string-name>, <string-name><given-names>K. W. C.</given-names>
+<surname>Kwock</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Teitelboim</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Liu</surname></string-name>, <string-name><given-names>H. S.</given-names>
+<surname>Park</surname></string-name>, <string-name><given-names>B.</given-names>
+<surname>Ursprung</surname></string-name>, <string-name><given-names>M. E.</given-names>
+<surname>Ziffer</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Karube</surname></string-name>, <string-name><given-names>N.</given-names>
+<surname>Fardian-Melamed</surname></string-name>, <string-name><given-names>C. C. S.</given-names>
+<surname>Pedroso</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Kim</surname></string-name>, <string-name><given-names>S. D.</given-names>
+<surname>Pritzl</surname></string-name>, <string-name><given-names>S. H.</given-names>
+<surname>Nam</surname></string-name>, <string-name><given-names>T.</given-names>
+<surname>Lohmueller</surname></string-name>, <string-name><given-names>J. S.</given-names>
+<surname>Owen</surname></string-name>, <string-name><given-names>P.</given-names>
+<surname>Ercius</surname></string-name>, <string-name><given-names>Y. D.</given-names>
+<surname>Suh</surname></string-name>, <string-name><given-names>B. E.</given-names>
+<surname>Cohen</surname></string-name>, <string-name><given-names>E. M.</given-names>
+<surname>Chan</surname></string-name>, <string-name><given-names>P. J.</given-names>
+<surname>Schuck</surname></string-name></person-group>, 
+<article-title>Indefinite and bidirectional near-infrared nanocrystal photoswitching</article-title>. <source>Nature</source>
+<volume>618</volume>, 
+<fpage>951</fpage>&#x02013;<lpage>958</lpage> (<year>2023</year>).<pub-id pub-id-type="pmid">37258675</pub-id>
+</mixed-citation></ref><ref id="R65"><label>65</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>L.</given-names>
+<surname>Li</surname></string-name>, <string-name><given-names>F.</given-names>
+<surname>Qin</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Zhou</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Zheng</surname></string-name>, <string-name><given-names>H.</given-names>
+<surname>Zhao</surname></string-name>, <string-name><given-names>Z.</given-names>
+<surname>Zhang</surname></string-name></person-group>, 
+<article-title>Temperature sensing based on the <sup>4</sup>F<sub>7/2</sub>/<sup>4</sup>S<sub>3/2</sub>&#x02212;<sup>4</sup>I<sub>15/2</sub> upconversion luminescence intensity ratio in NaYF<sub>4</sub>:Er<sup>3+</sup>/Yb<sup>3+</sup> nanocrystals</article-title>. <source>J. Lumin.</source>
+<volume>206</volume>, 
+<fpage>335</fpage>&#x02013;<lpage>341</lpage> (<year>2019</year>).</mixed-citation></ref><ref id="R66"><label>66</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>L. H.</given-names>
+<surname>Fischer</surname></string-name>, <string-name><given-names>G. S.</given-names>
+<surname>Harms</surname></string-name>, <string-name><given-names>O. S.</given-names>
+<surname>Wolfbeis</surname></string-name></person-group>, 
+<article-title>Upconverting nanoparticles for nanoscale thermometry</article-title>. <source>Angew. Chem. Int. Ed.</source>
+<volume>50</volume>, 
+<fpage>4546</fpage>&#x02013;<lpage>4551</lpage> (<year>2011</year>).</mixed-citation></ref><ref id="R67"><label>67</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>L. M.</given-names>
+<surname>Wiesholler</surname></string-name>, <string-name><given-names>F.</given-names>
+<surname>Frenzel</surname></string-name>, <string-name><given-names>B.</given-names>
+<surname>Grauel</surname></string-name>, <string-name><given-names>C.</given-names>
+<surname>W&#x000fc;rth</surname></string-name>, <string-name><given-names>U.</given-names>
+<surname>Resch-Genger</surname></string-name>, <string-name><given-names>T.</given-names>
+<surname>Hirsch</surname></string-name></person-group>, 
+<article-title>Yb,Nd,Er-doped upconversion nanoparticles: 980 nm versus 808 nm excitation</article-title>. <source>Nanoscale</source>
+<volume>11</volume>, 
+<fpage>13440</fpage>&#x02013;<lpage>13449</lpage> (<year>2019</year>).<pub-id pub-id-type="pmid">31287476</pub-id>
+</mixed-citation></ref><ref id="R68"><label>68</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>J. W.</given-names>
+<surname>Pomeroy</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Bernardoni</surname></string-name>, <string-name><given-names>D. C.</given-names>
+<surname>Dumka</surname></string-name>, <string-name><given-names>D. M.</given-names>
+<surname>Fanning</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Kuball</surname></string-name></person-group>, 
+<article-title>Low thermal resistance GaN-on-diamond transistors characterized by three-dimensional Raman thermography mapping</article-title>. <source>Appl. Phys. Lett.</source>
+<volume>104</volume>, 
+<fpage>083513</fpage> (<year>2014</year>).</mixed-citation></ref><ref id="R69"><label>69</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>G.</given-names>
+<surname>Brocero</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Guhel</surname></string-name>, <string-name><given-names>P.</given-names>
+<surname>Eudeline</surname></string-name>, <string-name><given-names>J. P.</given-names>
+<surname>Sipma</surname></string-name>, <string-name><given-names>C.</given-names>
+<surname>Gaqui&#x000e8;re</surname></string-name>, <string-name><given-names>B.</given-names>
+<surname>Boudart</surname></string-name></person-group>, 
+<article-title>Measurement of self-heating temperature in AlGaN/GaN HEMTs by using cerium oxide micro-raman thermometers</article-title>. <source>IEEE Trans. Electron Dev.</source>
+<volume>66</volume>, 
+<fpage>4156</fpage>&#x02013;<lpage>4163</lpage> (<year>2019</year>).</mixed-citation></ref><ref id="R70"><label>70</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>L.</given-names>
+<surname>Zhang</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Zhong</surname></string-name>, <string-name><given-names>X.</given-names>
+<surname>Li</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Park</surname></string-name>, <string-name><given-names>Q.</given-names>
+<surname>Song</surname></string-name>, <string-name><given-names>L.</given-names>
+<surname>Li</surname></string-name>, <string-name><given-names>L.</given-names>
+<surname>Guo</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Kong</surname></string-name>, <string-name><given-names>G.</given-names>
+<surname>Chen</surname></string-name></person-group>, 
+<article-title>Effect of twist angle on interfacial thermal transport in two-dimensional bilayers</article-title>. <source>Nano Lett.</source>
+<volume>23</volume>, 
+<fpage>7790</fpage>&#x02013;<lpage>7796</lpage> (<year>2023</year>).<pub-id pub-id-type="pmid">37638677</pub-id>
+</mixed-citation></ref><ref id="R71"><label>71</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>L.</given-names>
+<surname>Zhang</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Zhu</surname></string-name>, <string-name><given-names>Z.</given-names>
+<surname>Lu</surname></string-name>, <string-name><given-names>L.</given-names>
+<surname>Zhao</surname></string-name>, <string-name><given-names>K. R.</given-names>
+<surname>Bagnall</surname></string-name>, <string-name><given-names>S. R.</given-names>
+<surname>Rao</surname></string-name>, <string-name><given-names>E. N.</given-names>
+<surname>Wang</surname></string-name></person-group>, 
+<article-title>Characterization of thin film evaporation in micropillar wicks using micro-Raman spectroscopy</article-title>. <source>Appl. Phys. Lett.</source>
+<volume>113</volume>, 
+<fpage>163701</fpage> (<year>2018</year>).</mixed-citation></ref><ref id="R72"><label>72</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>A. M.</given-names>
+<surname>Romshin</surname></string-name>, <string-name><given-names>V.</given-names>
+<surname>Zeeb</surname></string-name>, <string-name><given-names>A. K.</given-names>
+<surname>Martyanov</surname></string-name>, <string-name><given-names>O. S.</given-names>
+<surname>Kudryavtsev</surname></string-name>, <string-name><given-names>D. G.</given-names>
+<surname>Pasternak</surname></string-name>, <string-name><given-names>V. S.</given-names>
+<surname>Sedov</surname></string-name>, <string-name><given-names>V. G.</given-names>
+<surname>Ralchenko</surname></string-name>, <string-name><given-names>A. G.</given-names>
+<surname>Sinogeykin</surname></string-name>, <string-name><given-names>I. I.</given-names>
+<surname>Vlasov</surname></string-name></person-group>, 
+<article-title>A new approach to precise mapping of local temperature fields in submicrometer aqueous volumes</article-title>. <source>Sci. Rep.</source>
+<volume>11</volume>, 
+<fpage>14228</fpage> (<year>2021</year>).<pub-id pub-id-type="pmid">34244547</pub-id>
+</mixed-citation></ref><ref id="R73"><label>73</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>J.</given-names>
+<surname>Yang</surname></string-name>, <string-name><given-names>H.</given-names>
+<surname>Yang</surname></string-name>, <string-name><given-names>L.</given-names>
+<surname>Lin</surname></string-name></person-group>, 
+<article-title>Quantum dot nano thermometers reveal heterogeneous local thermogenesis in living cells</article-title>. <source>ACS Nano</source>
+<volume>5</volume>, 
+<fpage>5067</fpage>&#x02013;<lpage>5071</lpage> (<year>2011</year>).<pub-id pub-id-type="pmid">21574616</pub-id>
+</mixed-citation></ref><ref id="R74"><label>74</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>T. S.</given-names>
+<surname>Jacobs</surname></string-name>, <string-name><given-names>T. P.</given-names>
+<surname>van Swieten</surname></string-name>, <string-name><given-names>S. J. W.</given-names>
+<surname>Vonk</surname></string-name>, <string-name><given-names>I. P.</given-names>
+<surname>Bosman</surname></string-name>, <string-name><given-names>A. E. M.</given-names>
+<surname>Melcherts</surname></string-name>, <string-name><given-names>B. C.</given-names>
+<surname>Janssen</surname></string-name>, <string-name><given-names>J. C. L.</given-names>
+<surname>Janssens</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Monai</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Meijerink</surname></string-name>, <string-name><given-names>F. T.</given-names>
+<surname>Rabouw</surname></string-name>, <string-name><given-names>W.</given-names>
+<surname>van der Stam</surname></string-name>, <string-name><given-names>B. M.</given-names>
+<surname>Weckhuysen</surname></string-name></person-group>, 
+<article-title>Mapping temperature heterogeneities during catalytic CO<sub>2</sub> methanation with operando luminescence thermometry</article-title>. <source>ACS Nano</source>
+<volume>17</volume>, 
+<fpage>20053</fpage>&#x02013;<lpage>20061</lpage> (<year>2023</year>).<pub-id pub-id-type="pmid">37797269</pub-id>
+</mixed-citation></ref><ref id="R75"><label>75</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>L. M.</given-names>
+<surname>Maestro</surname></string-name>, <string-name><given-names>P.</given-names>
+<surname>Haro-Gonz&#x000e1;lez</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>S&#x000e1;nchez-Iglesias</surname></string-name>, <string-name><given-names>L. M.</given-names>
+<surname>Liz-Marz&#x000e1;n</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Garc&#x000ed;a Sol&#x000e9;</surname></string-name>, <string-name><given-names>D.</given-names>
+<surname>Jaque</surname></string-name></person-group>, 
+<article-title>Quantum dot thermometry evaluation of geometry dependent heating efficiency in gold nanoparticles</article-title>. <source>Langmuir</source>
+<volume>30</volume>, 
+<fpage>1650</fpage>&#x02013;<lpage>1658</lpage> (<year>2014</year>).<pub-id pub-id-type="pmid">24495155</pub-id>
+</mixed-citation></ref><ref id="R76"><label>76</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>K.</given-names>
+<surname>Okabe</surname></string-name>, <string-name><given-names>N.</given-names>
+<surname>Inada</surname></string-name>, <string-name><given-names>C.</given-names>
+<surname>Gota</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Harada</surname></string-name>, <string-name><given-names>T.</given-names>
+<surname>Funatsu</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Uchiyama</surname></string-name></person-group>, 
+<article-title>Intracellular temperature mapping with a fluorescent polymeric thermometer and fluorescence lifetime imaging microscopy</article-title>. <source>Nat. Commun.</source>
+<volume>3</volume>, 
+<fpage>705</fpage> (<year>2012</year>).<pub-id pub-id-type="pmid">22426226</pub-id>
+</mixed-citation></ref><ref id="R77"><label>77</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>J. S.</given-names>
+<surname>Donner</surname></string-name>, <string-name><given-names>S. A.</given-names>
+<surname>Thompson</surname></string-name>, <string-name><given-names>M. P.</given-names>
+<surname>Kreuzer</surname></string-name>, <string-name><given-names>G.</given-names>
+<surname>Baffou</surname></string-name>, <string-name><given-names>R.</given-names>
+<surname>Quidant</surname></string-name></person-group>, 
+<article-title>Mapping intracellular temperature using green fluorescent protein</article-title>. <source>Nano Lett.</source>
+<volume>12</volume>, 
+<fpage>2107</fpage>&#x02013;<lpage>2111</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">22394124</pub-id>
+</mixed-citation></ref><ref id="R78"><label>78</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>R.</given-names>
+<surname>Pi&#x000f1;ol</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Zeler</surname></string-name>, <string-name><given-names>C. D. S.</given-names>
+<surname>Brites</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Gu</surname></string-name>, <string-name><given-names>P.</given-names>
+<surname>T&#x000e9;llez</surname></string-name>, <string-name><given-names>A. N.</given-names>
+<surname>Carneiro Neto</surname></string-name>, <string-name><given-names>T. E.</given-names>
+<surname>da Silva</surname></string-name>, <string-name><given-names>R.</given-names>
+<surname>Moreno-Loshuertos</surname></string-name>, <string-name><given-names>P.</given-names>
+<surname>Fernandez-Silva</surname></string-name>, <string-name><given-names>A. I.</given-names>
+<surname>Gallego</surname></string-name>, <string-name><given-names>L.</given-names>
+<surname>Martinez-Lostao</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Mart&#x000ed;nez</surname></string-name>, <string-name><given-names>L. D.</given-names>
+<surname>Carlos</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Mill&#x000e1;n</surname></string-name></person-group>, 
+<article-title>Real-time intracellular temperature imaging using lanthanide-bearing polymeric micelles</article-title>. <source>Nano Lett.</source>
+<volume>20</volume>, 
+<fpage>6466</fpage>&#x02013;<lpage>6472</lpage> (<year>2020</year>).<pub-id pub-id-type="pmid">32787172</pub-id>
+</mixed-citation></ref><ref id="R79"><label>79</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>R. G.</given-names>
+<surname>Geitenbeek</surname></string-name>, <string-name><given-names>P. T.</given-names>
+<surname>Prins</surname></string-name>, <string-name><given-names>W.</given-names>
+<surname>Albrecht</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>van Blaaderen</surname></string-name>, <string-name><given-names>B. M.</given-names>
+<surname>Weckhuysen</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Meijerink</surname></string-name></person-group>, 
+<article-title>NaYF4:Er<sup>3+</sup>,Yb<sup>3+</sup>/SiO<sub>2</sub> core/shell upconverting nanocrystals for luminescence thermometry up to 900 K</article-title>. <source>J. Phys. Chem. C</source>
+<volume>121</volume>, 
+<fpage>3503</fpage>&#x02013;<lpage>3510</lpage> (<year>2017</year>).</mixed-citation></ref><ref id="R80"><label>80</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>A. M.</given-names>
+<surname>Kaczmarek</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Suta</surname></string-name>, <string-name><given-names>H.</given-names>
+<surname>Rijckaert</surname></string-name>, <string-name><given-names>T. P.</given-names>
+<surname>van Swieten</surname></string-name>, <string-name><given-names>I.</given-names>
+<surname>Van Driessche</surname></string-name>, <string-name><given-names>M. K.</given-names>
+<surname>Kaczmarek</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Meijerink</surname></string-name></person-group>, 
+<article-title>High temperature (nano)thermometers based on LiLuF<sub>4</sub>:Er<sup>3+</sup>,Yb<sup>3+</sup> nano- and microcrystals. Confounded results for core&#x02013;shell nanocrystals</article-title>. <source>J. Mater. Chem. C</source>
+<volume>9</volume>, 
+<fpage>3589</fpage>&#x02013;<lpage>3600</lpage> (<year>2021</year>).</mixed-citation></ref><ref id="R81"><label>81</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>M.</given-names>
+<surname>Runowski</surname></string-name>, <string-name><given-names>P.</given-names>
+<surname>Wo&#x0017a;ny</surname></string-name>, <string-name><given-names>N.</given-names>
+<surname>Stopikowska</surname></string-name>, <string-name><given-names>I. R.</given-names>
+<surname>Mart&#x000ed;n</surname></string-name>, <string-name><given-names>V.</given-names>
+<surname>Lav&#x000ed;n</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Lis</surname></string-name></person-group>, 
+<article-title>Luminescent nanothermometer operating at very high temperature&#x02014;sensing up to 1000 K with upconverting nanoparticles (Yb<sup>3+</sup>/Tm<sup>3+</sup>)</article-title>. <source>ACS Appl. Mater. Interfaces</source>
+<volume>12</volume>, 
+<fpage>43933</fpage>&#x02013;<lpage>43941</lpage> (<year>2020</year>).<pub-id pub-id-type="pmid">32869638</pub-id>
+</mixed-citation></ref><ref id="R82"><label>82</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>C.</given-names>
+<surname>Monachon</surname></string-name>, <string-name><given-names>L.</given-names>
+<surname>Weber</surname></string-name>, <string-name><given-names>C.</given-names>
+<surname>Dames</surname></string-name></person-group>, 
+<article-title>Thermal boundary conductance: A materials science perspective</article-title>. <source>Annu. Rev. Mat. Res.</source>
+<volume>46</volume>, 
+<fpage>433</fpage>&#x02013;<lpage>463</lpage> (<year>2016</year>).</mixed-citation></ref></ref-list></back></article>

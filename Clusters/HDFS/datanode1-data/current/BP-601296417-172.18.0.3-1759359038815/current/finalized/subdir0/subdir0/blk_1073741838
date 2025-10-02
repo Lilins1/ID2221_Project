@@ -1,0 +1,806 @@
+<!DOCTYPE article
+PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.3 20210610//EN" "JATS-archivearticle1-3-mathml3.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="research-article"><?properties open_access?><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Sci Adv</journal-id><journal-id journal-id-type="iso-abbrev">Sci Adv</journal-id><journal-id journal-id-type="publisher-id">sciadv</journal-id><journal-id journal-id-type="hwp">advances</journal-id><journal-title-group><journal-title>Science Advances</journal-title></journal-title-group><issn pub-type="epub">2375-2548</issn><publisher><publisher-name>American Association for the Advancement of Science</publisher-name></publisher></journal-meta>
+<article-meta><article-id pub-id-type="pmid">39018407</article-id><article-id pub-id-type="pmc">PMC466959</article-id><article-id pub-id-type="publisher-id">ado2957</article-id><article-id pub-id-type="doi">10.1126/sciadv.ado2957</article-id><article-categories><subj-group subj-group-type="article-type"><subject>Research Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Physical and Materials Sciences</subject></subj-group><subj-group subj-group-type="legacy-article-type"><subject>SciAdv r-articles</subject></subj-group><subj-group subj-group-type="field"><subject>Biochemistry</subject></subj-group><subj-group subj-group-type="overline"><subject>Biochemistry</subject></subj-group></article-categories><title-group><article-title>Electron bifurcation and fluoride efflux systems implicated in defluorination of perfluorinated unsaturated carboxylic acids by <italic toggle="yes">Acetobacterium</italic> spp</article-title><alt-title alt-title-type="short">Molecular basis of enzymatic reductive defluorination of PFAS</alt-title></title-group><contrib-group><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0001-9231-6026</contrib-id><name><surname>Yu</surname><given-names>Yaochun</given-names></name><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Conceptualization" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-conceptualization/">Conceptualization</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Data curation" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-data-curation/">Data curation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Formal analysis" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-formal-analysis/">Formal analysis</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-investigation/">Investigation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Methodology" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-methodology/">Methodology</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Resources" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-resources/">Resources</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Visualization" vocab-term-identifier="https://web.archive.org/web/20180313224017/http://dictionary.credit.niso.org/Contributor_Roles/Visualization">Visualization</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Writing - original draft" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-writing-original-draft/">Writing - original draft</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Writing - review &#x00026; editing" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-writing-review-editing/">Writing - review &#x00026; editing</role><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="afn1" ref-type="author-notes">&#x02020;</xref><xref rid="award1546115" ref-type="award"/></contrib><contrib contrib-type="author"><name><surname>Xu</surname><given-names>Fengjun</given-names></name><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-investigation/">Investigation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Methodology" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-methodology/">Methodology</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Validation" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-validation/">Validation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Writing - review &#x00026; editing" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-writing-review-editing/">Writing - review &#x00026; editing</role><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Zhao</surname><given-names>Weiyang</given-names></name><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-investigation/">Investigation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Writing - review &#x00026; editing" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-writing-review-editing/">Writing - review &#x00026; editing</role><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="award1546116" ref-type="award"/></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-8788-2792</contrib-id><name><surname>Thoma</surname><given-names>Calvin</given-names></name><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Data curation" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-data-curation/">Data curation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Formal analysis" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-formal-analysis/">Formal analysis</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-investigation/">Investigation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Methodology" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-methodology/">Methodology</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Software" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-software/">Software</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Visualization" vocab-term-identifier="https://web.archive.org/web/20180313224017/http://dictionary.credit.niso.org/Contributor_Roles/Visualization">Visualization</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Writing - review &#x00026; editing" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-writing-review-editing/">Writing - review &#x00026; editing</role><xref rid="aff2" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Che</surname><given-names>Shun</given-names></name><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-investigation/">Investigation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Writing - review &#x00026; editing" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-writing-review-editing/">Writing - review &#x00026; editing</role><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="afn2" ref-type="author-notes">&#x02021;</xref><xref rid="award1546111" ref-type="award"/><xref rid="award1546112" ref-type="award"/></contrib><contrib contrib-type="author"><name><surname>Richman</surname><given-names>Jack E.</given-names></name><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-investigation/">Investigation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Methodology" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-methodology/">Methodology</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Visualization" vocab-term-identifier="https://web.archive.org/web/20180313224017/http://dictionary.credit.niso.org/Contributor_Roles/Visualization">Visualization</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Writing - review &#x00026; editing" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-writing-review-editing/">Writing - review &#x00026; editing</role><xref rid="aff2" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0001-7659-3437</contrib-id><name><surname>Jin</surname><given-names>Bosen</given-names></name><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-investigation/">Investigation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Resources" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-resources/">Resources</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Validation" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-validation/">Validation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Writing - review &#x00026; editing" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-writing-review-editing/">Writing - review &#x00026; editing</role><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="award1546117" ref-type="award"/></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0009-0005-1410-3662</contrib-id><name><surname>Zhu</surname><given-names>Yiwen</given-names></name><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-investigation/">Investigation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Resources" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-resources/">Resources</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Writing - review &#x00026; editing" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-writing-review-editing/">Writing - review &#x00026; editing</role><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-0665-2857</contrib-id><name><surname>Xing</surname><given-names>Yue</given-names></name><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Methodology" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-methodology/">Methodology</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Resources" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-resources/">Resources</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Validation" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-validation/">Validation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Writing - review &#x00026; editing" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-writing-review-editing/">Writing - review &#x00026; editing</role><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-3255-1101</contrib-id><name><surname>Wackett</surname><given-names>Lawrence</given-names></name><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Data curation" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-data-curation/">Data curation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Formal analysis" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-formal-analysis/">Formal analysis</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Funding acquisition" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-funding-acquisition/">Funding acquisition</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Project administration" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-project-administration/">Project administration</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Resources" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-resources/">Resources</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Supervision" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-supervision/">Supervision</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Validation" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-validation/">Validation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Visualization" vocab-term-identifier="https://web.archive.org/web/20180313224017/http://dictionary.credit.niso.org/Contributor_Roles/Visualization">Visualization</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Writing - review &#x00026; editing" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-writing-review-editing/">Writing - review &#x00026; editing</role><xref rid="aff2" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="award1546118" ref-type="award"/></contrib><contrib contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0001-9811-3828</contrib-id><name><surname>Men</surname><given-names>Yujie</given-names></name><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Conceptualization" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-conceptualization/">Conceptualization</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Data curation" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-data-curation/">Data curation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Formal analysis" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-formal-analysis/">Formal analysis</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Funding acquisition" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-funding-acquisition/">Funding acquisition</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Project administration" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-project-administration/">Project administration</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Resources" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-resources/">Resources</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Supervision" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-supervision/">Supervision</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Validation" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-validation/">Validation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Writing - original draft" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-writing-original-draft/">Writing - original draft</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Writing - review &#x00026; editing" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-writing-review-editing/">Writing - review &#x00026; editing</role><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="cor1" ref-type="corresp">*</xref><xref rid="award1546113" ref-type="award"/><xref rid="award1546114" ref-type="award"/></contrib><aff id="aff1"><label><sup>1</sup></label>Department of Chemical and Environmental Engineering, University of California, Riverside, Riverside, CA 92521, USA.</aff><aff id="aff2"><label><sup>2</sup></label>Department of Biochemistry, Molecular Biology and Biophysics and Biotechnology Institute, University of Minnesota, Twin Cities, MN 55108, USA.</aff></contrib-group><author-notes><corresp id="cor1"><label>*</label>Corresponding author. Email: <email xlink:href="ymen@engr.ucr.edu">ymen@engr.ucr.edu</email></corresp><fn id="afn1" fn-type="present-address"><label>&#x02020;</label><p>Present address: Department of Environmental Chemistry, Swiss Federal Institute of Aquatic Science and Technology (Eawag), 8600 D&#x000fc;bendorf, Switzerland.</p></fn><fn id="afn2" fn-type="present-address"><label>&#x02021;</label><p>Present address: SINOPEC Research Institute of Safety Engineering, Qingdao, 266071 Shandong, China.</p></fn></author-notes><pub-date pub-type="collection"><day>19</day><month>7</month><year>2024</year></pub-date><pub-date publication-format="electronic" date-type="pub"><day>17</day><month>7</month><year>2024</year></pub-date><volume>10</volume><issue>29</issue><elocation-id>eado2957</elocation-id><history>
+<date date-type="received"><day>26</day><month>1</month><year>2024</year></date>
+<date date-type="accepted"><day>12</day><month>6</month><year>2024</year></date>
+</history><permissions><copyright-statement>Copyright &#x000a9; 2024 The Authors, some rights reserved; exclusive licensee American Association for the Advancement of Science. No claim to original U.S. Government Works. Distributed under a Creative Commons Attribution NonCommercial License 4.0 (CC BY-NC).</copyright-statement><copyright-year>2024</copyright-year><copyright-holder>The Authors</copyright-holder><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbynclicense" start_date="2024-07-17">https://creativecommons.org/licenses/by-nc/4.0/</ali:license_ref><license-p>This is an open-access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial license</ext-link>, which permits use, distribution, and reproduction in any medium, so long as the resultant use is <bold>not</bold> for commercial advantage and provided the original work is properly cited.</license-p></license></permissions><self-uri content-type="pdf" xlink:href="sciadv.ado2957.pdf"/><abstract><p>Enzymatic cleavage of C&#x02500;F bonds in per- and polyfluoroalkyl substances (PFAS) is largely unknown but avidly sought to promote systems biology for PFAS bioremediation. Here, we report the reductive defluorination of &#x003b1;, &#x003b2;-unsaturated per- and polyfluorocarboxylic acids by <italic toggle="yes">Acetobacterium</italic> spp. The microbial defluorination products were structurally confirmed and showed regiospecificity and stereospecificity, consistent with their formation by enzymatic reactions. A comparison of defluorination activities among several <italic toggle="yes">Acetobacterium</italic> species indicated that a functional fluoride exporter was required for the detoxification of the released fluoride. Results from both in vivo inhibition tests and in silico enzyme modeling suggested the involvement of enzymes of the flavin-based electron-bifurcating caffeate reduction pathway [caffeoyl-CoA reductase (CarABCDE)] in the reductive defluorination. This is a report on specific microorganisms carrying out enzymatic reductive defluorination of PFAS, which could be linked to electron-bifurcating reductases that are environmentally widespread.</p></abstract><abstract abstract-type="teaser"><p>Electron-bifurcating reductases and fluoride exporters are implicated in reductive defluorination by <italic toggle="yes">Acetobacterium</italic> spp.</p></abstract><funding-group><award-group id="award1546111"><funding-source>
+<institution-wrap><institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/100000001</institution-id><institution>National Science Foundation</institution></institution-wrap>
+</funding-source><award-id>1931941</award-id></award-group><award-group id="award1546112"><funding-source>
+<institution-wrap><institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/100000066</institution-id><institution>National Institute of Environmental Health Sciences</institution></institution-wrap>
+</funding-source><award-id>R01ES032668</award-id></award-group><award-group id="award1546113"><funding-source>
+<institution-wrap><institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/100000066</institution-id><institution>National Institute of Environmental Health Sciences</institution></institution-wrap>
+</funding-source><award-id>R01ES032668</award-id></award-group><award-group id="award1546114"><funding-source>
+<institution-wrap><institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/100013316</institution-id><institution>Strategic Environmental Research and Development Program</institution></institution-wrap>
+</funding-source><award-id>ER20-1541</award-id></award-group><award-group id="award1546115"><funding-source>
+<institution-wrap><institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/100013316</institution-id><institution>Strategic Environmental Research and Development Program</institution></institution-wrap>
+</funding-source><award-id>ER20-1541</award-id></award-group><award-group id="award1546116"><funding-source>
+<institution-wrap><institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/100013316</institution-id><institution>Strategic Environmental Research and Development Program</institution></institution-wrap>
+</funding-source><award-id>ER20-1541</award-id></award-group><award-group id="award1546117"><funding-source>
+<institution-wrap><institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/100013316</institution-id><institution>Strategic Environmental Research and Development Program</institution></institution-wrap>
+</funding-source><award-id>ER20-1541</award-id></award-group><award-group id="award1546118"><funding-source>
+<institution-wrap><institution>MnDRIVE Industry and the Environment Program</institution></institution-wrap>
+</funding-source></award-group></funding-group><custom-meta-group><custom-meta><meta-name>Copyeditor</meta-name><meta-value>Abel Bellen</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec sec-type="introduction" disp-level="1"><title>INTRODUCTION</title><p>Anthropogenic organofluorines, particularly per- and polyfluoroalkyl substances (PFAS), are among the most strictly regulated and concerning emerging contaminants (<xref rid="R1" ref-type="bibr"><italic toggle="yes">1</italic></xref>, <xref rid="R2" ref-type="bibr"><italic toggle="yes">2</italic></xref>). The perfluorinated structure makes C&#x02500;F bond dissociation energies high enough to resist oxidative, reductive, and hydrolytic enzymes (<xref rid="R3" ref-type="bibr"><italic toggle="yes">3</italic></xref>, <xref rid="R4" ref-type="bibr"><italic toggle="yes">4</italic></xref>). Although C&#x02500;F bond reduction is thermodynamically favorable overall (<xref rid="R5" ref-type="bibr"><italic toggle="yes">5</italic></xref>), the high energy (i.e., low reduction potential) required, together with fluoride toxicity and the short evolutionary time span of PFAS exposure to microbes, likely constrains PFAS biodefluorination (<xref rid="R4" ref-type="bibr"><italic toggle="yes">4</italic></xref>). Currently, PFAS defluorination has largely been shown to be indirectly triggered when weaker C&#x02013;H or C&#x02013;Cl linkages are present, which are more physiologically feasible for existing enzymes to attack (<xref rid="R5" ref-type="bibr"><italic toggle="yes">5</italic></xref>&#x02013;<xref rid="R12" ref-type="bibr"><italic toggle="yes">12</italic></xref>). Unstable intermediates such as <italic toggle="yes">gem</italic>-fluoroalcohols may be formed, leading to spontaneous C&#x02500;F bond cleavage (<xref rid="R6" ref-type="bibr"><italic toggle="yes">6</italic></xref>, <xref rid="R7" ref-type="bibr"><italic toggle="yes">7</italic></xref>, <xref rid="R13" ref-type="bibr"><italic toggle="yes">13</italic></xref>). In contrast, direct enzymatic cleavage of C&#x02500;F bonds in perfluorinated structures is rare (<xref rid="R5" ref-type="bibr"><italic toggle="yes">5</italic></xref>). The defluorination of perfluorinated acids by <italic toggle="yes">Acidimicrobium</italic> sp. A6 has been reported, but no enzymes responsible for these processes have been identified (<xref rid="R14" ref-type="bibr"><italic toggle="yes">14</italic></xref>&#x02013;<xref rid="R16" ref-type="bibr"><italic toggle="yes">16</italic></xref>). Because bioremediation is considered to be a more cost-effective and environmentally friendly approach for in situ cleanup of PFAS-impacted sites, it is vital to identify defluorinating microorganisms/enzymes and elucidate molecular mechanisms of C&#x02500;F bond cleavage to allow systems biology and enzyme engineering to progress.</p><p>In previous studies, we observed reductive defluorination of an unsaturated perfluorinated compound, <italic toggle="yes">E</italic>-perfluoro-4-methylpent-2-enoic acid [PFMeUPA, (CF<sub>3</sub>)<sub>2</sub>CFCF&#x02550;CFCOOH], by an anaerobic microbial community grown on lactate (<xref rid="R17" ref-type="bibr"><italic toggle="yes">17</italic></xref>). The defluorination was not catalyzed by <italic toggle="yes">Dehalococcoides</italic>, capable of reductive dechlorination, in the community (<xref rid="R17" ref-type="bibr"><italic toggle="yes">17</italic></xref>). This indicated the involvement of yet-to-be-uncovered microbes in the reductive defluorination and led us to further identify them here. Other key members of the community included a variety of heterotrophic fermenters, along with autotrophic methanogens and homoacetogens capable of utilizing H<sub>2</sub> and CO<sub>2</sub> (<xref rid="R18" ref-type="bibr"><italic toggle="yes">18</italic></xref>, <xref rid="R19" ref-type="bibr"><italic toggle="yes">19</italic></xref>). Some acetogens have been reported to be involved in cometabolic dechlorination and debromination (<xref rid="R20" ref-type="bibr"><italic toggle="yes">20</italic></xref>, <xref rid="R21" ref-type="bibr"><italic toggle="yes">21</italic></xref>). Here, we selected the two metabolic distinct microorganisms, methanogens and homoacetogens, and tested the PFMeUPA defluorination activities of representative species. We found that specific <italic toggle="yes">Acetobacterium</italic> species, commonly occurring acetogens, can catalyze reductive defluorination of PFMeUPA.</p><p>Following the identification of species capable of reductive defluorination, we delved into the mechanisms underlying this process. Defluorination occurring intracellularly accumulates toxic F<sup>&#x02212;</sup>, thereby requiring functional F<sup>&#x02212;</sup> transporters. In the defluorinating <italic toggle="yes">Acetobacterium</italic> species, a heterodimeric Fluc F<sup>&#x02212;</sup> channel (CrcB<sub>1</sub> and CrcB<sub>2</sub>) was used for F<sup>&#x02212;</sup> detoxification. Both in vivo experiments and in silico modeling suggested that the electron-bifurcating caffeate reduction complex [caffeoyl-CoA reductase (CarABCDE)] (<xref rid="R22" ref-type="bibr"><italic toggle="yes">22</italic></xref>) was involved in the reductive defluorination. Metagenomic screening of CarC homologs revealed a ubiquitous occurrence of potential defluorinating microorganisms in wastewater environments. Here, the identification of defluorinating pure cultures and the proposed molecular mechanisms of microbial reductive defluorination offer valuable insights into rational design and optimization of biocatalysts, which could be potentially applied for bioremediation of per- and polyfluorinated contaminants.</p></sec><sec sec-type="results" disp-level="1"><title>RESULTS</title><sec disp-level="2"><title>PFMeUPA is reductively defluorinated at the &#x003b1;-C position by <italic toggle="yes">Acetobacterium bakii</italic></title><p>Previous studies on PFMeUPA defluorination by an anaerobic community did not identify the responsible microorganism, possibly due to the challenge in enriching the species carrying out the cometabolic defluorination of PFMeUPA (<xref rid="R13" ref-type="bibr"><italic toggle="yes">13</italic></xref>, <xref rid="R17" ref-type="bibr"><italic toggle="yes">17</italic></xref>). Here, we took an alternative approach and did a screening test using two pure cultures, <italic toggle="yes">Methanosarcina barkeri</italic> and <italic toggle="yes">A. bakii</italic>, a methanogen and homoacetogen, respectively, of the type found in the anaerobic community. While <italic toggle="yes">M. barkeri</italic> exhibited very minor defluorination (5 &#x003bc;M fluoride ion from 55 &#x003bc;M PFMeUPA after 50 days of incubation) (fig. S1), <italic toggle="yes">A. bakii</italic> achieved complete biotransformation of PFMeUPA (~90 &#x003bc;M) within 3 weeks when grown on fructose (<xref rid="F1" ref-type="fig">Fig. 1A</xref>).</p><fig position="float" id="F1" fig-type="image" specific-use="distribute"><label>Fig. 1.</label><caption><title>Defluorination of per- and polyfluorinated unsaturated carboxylic acids by <italic toggle="yes">A. bakii</italic>.</title><p>(<bold>A</bold>) PFMeUPA removal and the formation of fluoride and defluorination intermediate (TP256) and stable end products (TP276 and TP259). (<bold>B</bold>) <sup>19</sup>F-NMR spectra identification and quantification of products by assignment of resonances, integrations (in red numbers), and atom coupling. The additional NMR data on biological and chemical reduction products is included in the Supplementary Materials (for confirmatory LC-HRMS/MS data, see figs. S2 to S4). (<bold>C</bold>) Confirmed biotransformation pathways of PFMeUPA. (<bold>D</bold>) Substrate specificity of <italic toggle="yes">A. bakii</italic> for reductive defluorination.</p></caption><graphic xlink:href="sciadv.ado2957-f1" position="float"/></fig><p>The defluorination was substantially faster than that reported previously (~120 days) in the anaerobic community (<xref rid="R17" ref-type="bibr"><italic toggle="yes">17</italic></xref>). Despite the different rates, <italic toggle="yes">A. bakii</italic> transformed PFMeUPA into the same intermediates and end products as the community with the same stoichiometry of fluoride release at a near 1:1 molar ratio to the transformed PFMeUPA (<xref rid="F1" ref-type="fig">Fig. 1A</xref>). By comparing MS<sup>2</sup> and <sup>19</sup>F-NMR spectra of biological samples and isomeric products of chemical catalytic reduction of PFMeUPA, we confirmed the regio-specific single isomer structure of the two microbial reductive defluorination transformation products (TPs): (i) the unsaturated form, (CF<sub>3</sub>)<sub>2</sub>CFCF&#x02550;CHCOO<sup>&#x02212;</sup>, with a theoretical mass/charge ratio (<italic toggle="yes">m</italic>/<italic toggle="yes">z</italic>) of 256.9849 and designated &#x0201c;TP256&#x0201d; (the same nomenclature hereafter for other TPs), and (ii) its secondary hydrogenation product [TP259, (CF<sub>3</sub>)<sub>2</sub>CFCHFCH<sub>2</sub>COO<sup>&#x02212;</sup>] (<xref rid="F1" ref-type="fig">Fig. 1, A and B</xref>, and figs. S2 and S3). This demonstrated an &#x003b1;-C defluorination in the microbial system. Unlike the parallel chemically catalytic reduction of PFMeUPA that we conducted here (Supplementary Text), only one of the separable diastereomers from chemical synthesis was detected as a biohydrogenation product [TP276, (CF<sub>3</sub>)<sub>2</sub>CF(CHF)<sub>2</sub>COO<sup>&#x02212;</sup>] during PFMeUPA biotransformation by <italic toggle="yes">A. bakii</italic> (<xref rid="F1" ref-type="fig">Fig. 1, A and B</xref>, and fig. S4). The regiospecificity and stereospecificity of the TPs demonstrate that those reactions carried out by <italic toggle="yes">A. bakii</italic> were enzyme mediated. Quantifying the two end TPs (TP259 and TP276) in the mixture by <sup>19</sup>F-NMR spectra (Supplementary Text) indicated that the majority (~82%) of PFMeUPA was transformed via reductive defluorination (<xref rid="F1" ref-type="fig">Fig. 1, B and C</xref>).</p><p><italic toggle="yes">A. bakii</italic> also transformed two other unsaturated PFAS with structures similar to PFMeUPA, PFUPA (CF<sub>3</sub>CF<sub>2</sub>CF&#x02550;CFCOOH) and 6:2 FTUCA (CF<sub>3</sub>(CF<sub>2</sub>)<sub>4</sub>CF&#x02550;CHCOOH) (<xref rid="F1" ref-type="fig">Fig. 1D</xref>), via reductive defluorination and hydrogenation (fig. S5, A to D). The total defluorination was similar to what we previously observed in an anaerobic microbial community (<xref rid="R13" ref-type="bibr"><italic toggle="yes">13</italic></xref>). While the community slightly defluorinated FTMeUPA [(CF<sub>3</sub>)<sub>2</sub>CFCH&#x02550;CHCOOH] (<xref rid="R17" ref-type="bibr"><italic toggle="yes">17</italic></xref>), <italic toggle="yes">A. bakii</italic> only hydrogenated this structure without any F<sup>&#x02212;</sup> formation (<xref rid="F1" ref-type="fig">Fig. 1D</xref> and fig. S5, E and F). This indicated that while <italic toggle="yes">A. bakii</italic> carried out the reduction of a number of &#x003b1;, &#x003b2;-unsaturated per- and polyfluorinated carboxylic acids, it only specifically cleaved C&#x02500;F bonds on the unsaturated carbons. Thus, the previously reported defluorination of FTMeUPA at the tertiary C&#x02500;F by the anaerobic community (<xref rid="R17" ref-type="bibr"><italic toggle="yes">17</italic></xref>) should be attributed to other pathways with different mechanisms.</p></sec><sec disp-level="2"><title>A functional F<sup>&#x02212;</sup> transporter is a prerequisite for intracellular defluorination</title><p>We did not observe defluorination activity in the cell-free spent medium (fig. S6), suggesting that the defluorination occurred within the outer membrane of the bacterium. Whether this process takes place in the periplasm, inner membrane, or cytoplasm, fluoride would become concentrated within the cellular environment. If formed in the periplasm, fluoride is known to spontaneously enter cells as hydrogen fluoride (HF). If formed in the cytoplasm, fluoride would be directly toxic, inhibiting critical enzymes at concentrations as low as 70 &#x003bc;M (<xref rid="R23" ref-type="bibr"><italic toggle="yes">23</italic></xref>, <xref rid="R24" ref-type="bibr"><italic toggle="yes">24</italic></xref>). Bacteria catalyzing defluorination have been shown to be rendered nonviable due to fluoride release (<xref rid="R25" ref-type="bibr"><italic toggle="yes">25</italic></xref>). Thus, for defluorination occurring in the cellular environment such as PFMeUPA defluorination by <italic toggle="yes">A. bakii</italic>, a functional F<sup>&#x02212;</sup> transporter would be required for the detoxification of fluoride (<xref rid="R26" ref-type="bibr"><italic toggle="yes">26</italic></xref>). <italic toggle="yes">A. bakii</italic> has a Fluc family F<sup>&#x02212;</sup> channel, which is a heterodimer composed of two distinct proteins encoded by <italic toggle="yes">crcB1 and crcB2</italic> genes (<xref rid="R26" ref-type="bibr"><italic toggle="yes">26</italic></xref>, <xref rid="R27" ref-type="bibr"><italic toggle="yes">27</italic></xref>). Both genes were significantly (multivariate <italic toggle="yes">t</italic> test, adjusted <italic toggle="yes">P</italic> &#x0003c; 0.05) up-regulated in the presence of PFMeUPA compared to the nonspiked control (~2-fold change) (fig. S7D and table S1). The expression of the Fluc channel in <italic toggle="yes">A. bakii</italic> is controlled by a transcriptional F<sup>&#x02212;</sup> riboswitch located upstream of <italic toggle="yes">crcB1</italic> (fig. S8A) (<xref rid="R24" ref-type="bibr"><italic toggle="yes">24</italic></xref>, <xref rid="R26" ref-type="bibr"><italic toggle="yes">26</italic></xref>). The up-regulation of <italic toggle="yes">crcB</italic> genes indicated the activation of fluoride detoxification by <italic toggle="yes">A. bakii</italic> in response to PFMeUPA defluorination, which is consistent with the response to NaF (fig. S8B). Thus, a functional fluoride exporter is an important component for sustaining defluorination.</p><p>We then expanded the screening to four more <italic toggle="yes">Acetobacterium</italic> species (<italic toggle="yes">A. woodii</italic>, <italic toggle="yes">A. paludosum</italic>, <italic toggle="yes">A. malicum</italic>, and <italic toggle="yes">A. fimetarium</italic>) (<xref rid="F2" ref-type="fig">Fig. 2A</xref>). Except for <italic toggle="yes">A. fimetarium</italic>, all the other strains exhibited defluorination activity (<xref rid="F2" ref-type="fig">Fig. 2, A and B</xref>). In the genome of <italic toggle="yes">A. fimetarium</italic>, while <italic toggle="yes">crcB1</italic> is intact and homologous to that of <italic toggle="yes">A. bakii</italic>, <italic toggle="yes">crcB2</italic> was found to be truncated by 64 bp from the 3&#x02032; tail (<xref rid="F2" ref-type="fig">Fig. 2A</xref>). Given that both subunits must be present for a functional heterodimer Fluc F<sup>&#x02212;</sup> channel (<xref rid="R27" ref-type="bibr"><italic toggle="yes">27</italic></xref>), we attributed <italic toggle="yes">A. fimetarium</italic>&#x02019;s incapability of defluorination to its nonfunctional Fluc operon. To test this hypothesis, we introduced into a plasmid the <italic toggle="yes">crcB1</italic> and <italic toggle="yes">crcB2</italic> genes from five <italic toggle="yes">Acetobacterium</italic> species and transformed the plasmid into an <italic toggle="yes">Escherichia coli</italic> K-12 MG1655 &#x00394;<italic toggle="yes">crcB</italic> mutant strain. That strain is sensitive to F<sup>&#x02212;</sup> and exhibited limited growth in the presence of 250 &#x003bc;M F<sup>&#x02212;</sup>. Except for <italic toggle="yes">E. coli &#x00394;crcB</italic> with <italic toggle="yes">crcB1</italic> and truncated <italic toggle="yes">crcB2</italic> from <italic toggle="yes">A. fimetarium</italic>, all other strains were rescued from F<sup>&#x02212;</sup> toxicity (<xref rid="F2" ref-type="fig">Fig. 2C</xref>). This supports the idea that a functional F<sup>&#x02212;</sup> exporter is essential for microorganisms to be capable of intracellular defluorination.</p><fig position="float" id="F2" fig-type="image" specific-use="distribute"><label>Fig. 2.</label><caption><title>Comparison in PFMeUPA defluorination capability and fluoride resistance among <italic toggle="yes">Acetobacterium</italic> species.</title><p>(<bold>A</bold>) Amino acid sequence similarities of the CrcB fluoride ion transporter and Car operon, CarABCDE among five <italic toggle="yes">Acetobacterium</italic> species, and the corresponding total fluoride formation from ~80 &#x003bc;M PFMeUPA; (<bold>B</bold>) Temporal fluoride formation from ~80 &#x003bc;M PFMeUPA; (<bold>C</bold>) Growth restoration of <italic toggle="yes">E. coli crcB</italic>-knockout mutant (i.e., MG1655 &#x00394;<italic toggle="yes">crcB</italic>) supplemented by <italic toggle="yes">crcB</italic> from different origins, including the native <italic toggle="yes">crcB</italic> from <italic toggle="yes">E. coli</italic>, those from the five <italic toggle="yes">Acetobacterium</italic> species, and individual subunit genes, <italic toggle="yes">crcB1</italic> and <italic toggle="yes">crcB2</italic> from <italic toggle="yes">A. woodii</italic>. The cells were cultivated in LB medium containing 250 &#x003bc;M NaF. The color legend is arranged from top to bottom, corresponding to the order of the lines at the final time point shown in the figure.</p></caption><graphic xlink:href="sciadv.ado2957-f2" position="float"/></fig></sec><sec disp-level="2"><title>Flavin-based electron-bifurcating caffeate reduction complex as a proposed enzymatic system involved in the PFMeUPA defluorination</title><p>Besides the need for an active F<sup>&#x02212;</sup> exporter for cell detoxification, we also explored potential enzymes involved in reductive defluorination. We demonstrated that the reductive defluorination occurred to &#x003b1;, &#x003b2;-unsaturated fluorinated carboxylic acids (<xref rid="F1" ref-type="fig">Fig. 1D</xref>). Given that <italic toggle="yes">Acetobacterium</italic> spp. were able to reduce caffeate, which is also an &#x003b1;, &#x003b2;-unsaturated carboxylic acid (<xref rid="R22" ref-type="bibr"><italic toggle="yes">22</italic></xref>), we hypothesized that enzymes for caffeate reduction, encoded by the <italic toggle="yes">car</italic> operon (<italic toggle="yes">carABCDE</italic>) (<xref rid="R28" ref-type="bibr"><italic toggle="yes">28</italic></xref>&#x02013;<xref rid="R30" ref-type="bibr"><italic toggle="yes">30</italic></xref>), could also be involved in the reductive defluorination of PFMeUPA.</p><p>Here, we obtained both in vivo and in silico results suggesting the involvement of the <italic toggle="yes">car</italic> operon in the reductive defluorination of PFMeUPA: (i) PFMeUPA defluorination was inhibited by caffeate and restored after caffeate was depleted; (ii) defluorination was observed with multiple <italic toggle="yes">Acetobacterium</italic> species possessing CarABCDE-dependent caffeate reduction pathways; (iii) the consistency between the biochemical reactions observed for PFMeUPA and the pathways was inferred based on the function of each gene in the <italic toggle="yes">car</italic> operon; (iv) computational modeling of the CarC active site showed that the coenzyme A (CoA) thioesters of PFMeUPA and caffeate align their carbon-carbon double bonds identically with respect to the CarC flavin cofactor known to catalyze substrate (<xref rid="R28" ref-type="bibr"><italic toggle="yes">28</italic></xref>).</p><p>First, the addition of 5 mM caffeate in <italic toggle="yes">A. bakii</italic> completely inhibited the defluorination of PFMeUPA during the first week (<xref rid="F3" ref-type="fig">Fig. 3A</xref>) without substantial inhibition on cell growth (fig. S9A). Defluorination activity was revived after caffeate was depleted after 12 days (<xref rid="F3" ref-type="fig">Fig. 3A</xref> and fig. S9B). One possible reason for the inhibition was that caffeate competed with PFMeUPA for the binding site of the enzyme catalyzing the reductive defluorination. The enzyme system that caffeate reacts with is the caffeate reduction complex. This suggests that enzymes in the caffeate reduction pathway were involved in the reductive defluorination. We were not able to observe differential expression of <italic toggle="yes">carABCDE</italic> in <italic toggle="yes">A. bakii</italic> by PFMeUPA (fig. S7 and tables S1 to S3). This was probably due to the maximum level of PFMeUPA that could be added without causing toxicity, which was about 10-fold lower than the caffeate concentration typically used (<xref rid="R31" ref-type="bibr"><italic toggle="yes">31</italic></xref>). The low concentration of PFMeUPA could result in low levels of transcripts and proteins, which would make them difficult to detect and compare by RNA sequencing or proteomics.</p><fig position="float" id="F3" fig-type="image" specific-use="distribute"><label>Fig. 3.</label><caption><title>Reductive defluorination of PFMeUPA by enzymes involved in the caffeate reduction pathway.</title><p>(<bold>A</bold>) Caffeate inhibition of PFMeUPA defluorination; orange, PFMeUPA; green, fluoride; blue, caffeate; solid line, with 5 mM caffeate; dashed line, without caffeate. (<bold>B</bold>) Docking of CoA thioesters of hydrocaffeic acid (orange) and PFMeUPA (purple) into CarC active site (pink) with the relative position of FAD shown (green). (<bold>C</bold>) Proposed reaction pathway showing reduction of fluorinated substrate by FAD (bottom) and elimination of fluoride with glutamate362 serving as both the active site acid in the reduction step and, after deprotonation, as the base during the defluorination step. (<bold>D</bold>) The close contact between the docked CoA thioester of PFMeUPA and Glu<sup>362</sup> as proposed participating in the defluorination reaction.</p></caption><graphic xlink:href="sciadv.ado2957-f3" position="float"/></fig><p>We then compared PFMeUPA defluorination activities of the four <italic toggle="yes">Acetobacterium</italic> species (i.e., <italic toggle="yes">A. bakii</italic>, <italic toggle="yes">A. woodii</italic>, <italic toggle="yes">A. paludosum</italic>, and <italic toggle="yes">A. malicum</italic>) with a functional Fluc F<sup>&#x02212;</sup> channel and similar caffeate reduction operons (<xref rid="F2" ref-type="fig">Fig. 2A</xref>). Similar defluorination activities were observed for <italic toggle="yes">A. bakii</italic>, <italic toggle="yes">A. woodii</italic>, and <italic toggle="yes">A. paludosum</italic>, while <italic toggle="yes">A. malicum</italic> exhibited partial defluorination and parent compound biotransformation (<xref rid="F2" ref-type="fig">Fig. 2B</xref> and fig. S10A). The lower defluorination of PFMeUPA by <italic toggle="yes">A. malicum</italic> might be due to its slower kinetics of caffeate reduction. Although <italic toggle="yes">A. malicum</italic> has a complete caffeate reduction operon, its caffeate reduction activity was significantly lower than the other <italic toggle="yes">Acetobacterium</italic> species (<italic toggle="yes">t</italic> test, <italic toggle="yes">P</italic> &#x0003c; 0.05, fig. S10, B and C).</p><p>Using the x-ray structure coordinates of the CarCDE enzyme complex (<xref rid="R28" ref-type="bibr"><italic toggle="yes">28</italic></xref>), we modeled the caffeoyl-CoA binding site of CarC to determine whether caffeoyl-CoA and an analogous perfluorinated acyl-CoA could compete for binding and position the 2,3-enoyl double bond near the CarC flavin for reduction. <xref rid="F3" ref-type="fig">Figure 3B</xref> shows the docking model of each CoA thioester in the surface cavity proposed for the x-ray structure of CarC to harbor caffeoyl-CoA (<xref rid="R28" ref-type="bibr"><italic toggle="yes">28</italic></xref>), consistent with the structure of other enoyl-CoA reductases from <italic toggle="yes">Clostridium</italic> spp. (<xref rid="R32" ref-type="bibr"><italic toggle="yes">32</italic></xref>). The modeling showed sufficient space in the binding site to accommodate the branched -CF(CF<sub>3</sub>)<sub>2</sub> moiety in the same region as the catecholic aromatic ring of caffeoyl-CoA (<xref rid="F3" ref-type="fig">Fig. 3B</xref>). The double bond of each substrate is nearly superimposable with respect to the flavin cofactor previously identified to carry out the reduction reaction (<xref rid="R28" ref-type="bibr"><italic toggle="yes">28</italic></xref>). The modeling also identified a residue that is conserved across many enoyl-CoA reductases, Glu<sup>362</sup>, that was poised to within 2.2 &#x000c5; of C-3 on caffeoyl-CoA or, as shown, C-3 of the analogous perfluorinated acyl thioester (<xref rid="F3" ref-type="fig">Fig. 3, C and D</xref>). This immediately suggested a mechanism for defluorination in which Glu<sup>362</sup> serves as a general acid to deliver a proton to the opposite face of the double bond as the hydride equivalent is delivered by the flavin cofactor to reduce the double bond (<xref rid="F3" ref-type="fig">Fig. 3C</xref>). After reduction, the deprotonated acid can then serve as a general base to stabilize removal of the proton from C-3 and facilitate the &#x003b2;-elimination of a fluoride anion from C-2, forming TP256. This enzyme-assisted defluorination explains the regiospecific fluoride elimination observed for the microbiological defluorination, whereas we see the elimination of fluorine from either C-3 or C-2, or both, in chemical reductions (figs. S2 and S4). This is consistent with the identification of TP259 as the sole product from an additional reduction of the double bond in TP256. On the basis of our modeling, no further defluorination is possible for TP256 because there is no fluorine at C-2 to undergo defluorination. The minor TP, TP276, would derive from the exit of the hydrogenation intermediate from the CarC active site before deprotonation occurred. This enzyme-assisted defluorination pathway (fig. S11) is also supported by the TP formation trend (<xref rid="F1" ref-type="fig">Fig. 1A</xref>), with TP256 first increasing then decreasing while both TP276 and TP259 increase over time. This argues against a precursor-product relationship between TP276 and TP256/TP259 that would be observed if defluorination were occurring freely in solution.</p></sec><sec disp-level="2"><title>Chain-length specificity and prevalence of microorganisms possessing car operon (CarC) in nature</title><p>There are several microbial groups, including some <italic toggle="yes">Clostridium</italic> species, known to have electron-bifurcating enoyl-CoA reductases. We further tested <italic toggle="yes">Clostridium homopropionicum</italic> (DSM5847), a species that utilizes electron bifurcation in a fermentation pathway yielding propionic acid (<xref rid="R33" ref-type="bibr"><italic toggle="yes">33</italic></xref>). This pathway involves &#x003b1;, &#x003b2;-enoyl&#x02013;CoA reduction reactions with substrates notably shorter than caffeoyl-CoA. Analysis of the published genome sequence (<xref rid="R34" ref-type="bibr"><italic toggle="yes">34</italic></xref>) reveals gene constellations analogous to those in <italic toggle="yes">Acetobacterium</italic> spp., including homologs of CarCDE and fluoride ion export genes. Thus, <italic toggle="yes">C. homopropionicum</italic> is potentially capable of reductive defluorination, akin to <italic toggle="yes">Acetobacterium</italic> spp., albeit with shorter-chain substrates. As expected, <italic toggle="yes">C. homopropionicum</italic> did not exhibit any transformation activity against PFMeUPA (fig. S12). However, it did achieve slow defluorination (20 &#x003bc;M of F<sup>&#x02212;</sup> formation from 100 &#x003bc;M of parent compound over 15 days) for PFUPA (CF<sub>3</sub>CF<sub>2</sub>CF&#x02550;CFCOOH) that is one carbon shorter than PFMeUPA (fig. S12). Considering that many other <italic toggle="yes">Clostridium</italic> spp. are known to catalyze the reduction of short-chain acyl-CoA substrates using genomically identifiable CarCDE homologs (<xref rid="R35" ref-type="bibr"><italic toggle="yes">35</italic></xref>, <xref rid="R36" ref-type="bibr"><italic toggle="yes">36</italic></xref>), we think it is reasonable to suggest that other <italic toggle="yes">Clostridia</italic> could also react with short-chain unsaturated perfluorinated acids. In light of the above, we collected sequences with &#x0003e;55% identity to <italic toggle="yes">A. woodii</italic> and <italic toggle="yes">C. homopropionicum</italic> from the nonredundant protein sequence database using the BLAST algorithm, created multiple sequence alignments, and used the multiple sequence alignments to generate hidden Markov models (HMMs) and sequence logos, shown in their entirety in fig. S13. The sequence logos were then searched for critical regions in CarC linked to electron bifurcation and defluorination. <xref rid="F4" ref-type="fig">Figure 4A</xref> depicts sequence logos around F155, shown by Demmer <italic toggle="yes">et al.</italic> (<xref rid="R28" ref-type="bibr"><italic toggle="yes">28</italic></xref>) to be important in electron bifurcation electron transfer and the highly conserved region surrounding E362, that we have proposed as a key residue in defluorination (<xref rid="F3" ref-type="fig">Fig. 3, C and D</xref>). The conservation surrounding F155 is consistent with an important role in catalysis, following its proposed role in facilitating electron transfer from the electron-bifurcating flavin in CarC to a flavin electron acceptor in CarE (<xref rid="R32" ref-type="bibr"><italic toggle="yes">32</italic></xref>). The region around E362 shows complete conservation in <italic toggle="yes">Acetobacterium</italic> spp. and high conservation with <italic toggle="yes">Clostridium</italic>.</p><fig position="float" id="F4" fig-type="image" specific-use="distribute"><label>Fig. 4.</label><caption><title>Sequence signatures of CarC and the presence of CarC homologs in global wastewater treatment plant (WWTP) metagenomes.</title><p>(<bold>A</bold>) Key regions of sequence LOGOs and their significance in electron bifurcation and defluorination found <italic toggle="yes">Acetobacterium</italic> and <italic toggle="yes">Clostridium</italic> derived from BLAST search as described in Materials and Methods. The left side shows sequence patterns containing phenylalanine (F) 155 that is reported to bridge the electron-bifurcating flavin in CarC to its flavin electron acceptor in CarE (<xref rid="R28" ref-type="bibr"><italic toggle="yes">28</italic></xref>). The right side shows the sequence patterns containing glutamate (E) 362 that is implicated in this study as facilitating defluorination following double-bond reduction. (<bold>B</bold>) A search of the MGnify database retrieved 723 WWTP metagenomes of which 499 had sufficient location metadata. The multiple sequence alignments in part A were used to create HMMs to search 499 metagenome sites containing genes with sequence signatures encoding putative electron-bifurcating reductases having the potential to catalyze defluorination. In most instances, multiple metagenomic sequences were identified at a given site and the number is represented by the size of circles. Sites were identified as having <italic toggle="yes">Acetobacterium</italic>-like patterns, <italic toggle="yes">Clostridium</italic>-like patterns, or both, represented as red, blue, or green circles, respectively. Specific details of bioinformatic methods for building the searchable database and creating the HMMs are in Materials and Methods. Finally, proteins retrieved in the search were used to create new sequence logos, highlighted here as universal logos from WWTPs.</p></caption><graphic xlink:href="sciadv.ado2957-f4" position="float"/></fig><p>Building on that, we used the HMMs to search global wastewater treatment plant (WWTP) metagenomic sequences obtained from the MGnify Database (<xref rid="F4" ref-type="fig">Fig. 4B</xref>). We searched WWTP metagenomes because many anaerobic bacteria found to contain Car operon gene homologs had originally been isolated from WWTPs on different continents (<xref rid="R37" ref-type="bibr"><italic toggle="yes">37</italic></xref>&#x02013;<xref rid="R41" ref-type="bibr"><italic toggle="yes">41</italic></xref>). Sequences with sample-origin metadata were used to create a map showing WWTPs containing CarC sequence patterns strongly linking their functionality to those found in <italic toggle="yes">Acetobacterium</italic>, <italic toggle="yes">Clostridium</italic>, or both. In total, 723 metagenomes were identified with homologs; a breakdown by continent is shown in table S4.</p><p>The focus here was on WWTPs, which are known to be enriched in <italic toggle="yes">Acetobacterium</italic> and <italic toggle="yes">Clostridium</italic> sequences, but the HMMs (fig. S13) can be used to search many additional environments. We have detected PFMeUPA defluorination activity in aqueous film forming foam-impacted soil and groundwater communities (fig. S14), suggesting that other environments may contain electron-bifurcating, defluorinating reductases of the type characterized in this study.</p></sec></sec><sec sec-type="discussion" disp-level="1"><title>DISCUSSION</title><p>The vast majority of organofluorines like PFAS are industrial chemicals, new to the biosphere, and among the most pervasive are perfluorinated acids (<xref rid="R1" ref-type="bibr"><italic toggle="yes">1</italic></xref>, <xref rid="R42" ref-type="bibr"><italic toggle="yes">42</italic></xref>&#x02013;<xref rid="R45" ref-type="bibr"><italic toggle="yes">45</italic></xref>). Some consider these chemicals to be nonbiodegradable given the high bond dissociation energy and low reduction potential of C&#x02500;F bonds. Moreover, cytoplasmic defluorination, if occurring, would result in fluoride formation, which is highly toxic to cells. Here, we identified specific bacterial species capable of reductive defluorination of certain PFAS structures. This is pivotal to guide the screening of more defluorinating microorganisms, further understand the defluorination mechanism, and biochemically pinpoint the responsible enzymes. Our findings also suggest that combining a unique noncentral metabolic trait (flavin-based electron bifurcation) and a co-opted detoxification trait (fluoride export) could allow <italic toggle="yes">Acetobacterium</italic> and <italic toggle="yes">Clostridium</italic> species to defluorinate unsaturated perfluorinated acids with different chain lengths.</p><p>Intracellular fluoride release from obligately cytoplasmic defluorinating enzymes will immediately lead to fluoride binding to sensitive magnesium and calcium centers of enzymes, preventing cell growth (<xref rid="R46" ref-type="bibr"><italic toggle="yes">46</italic></xref>). It is necessary to couple C&#x02500;F cleavage enzymes with rapid fluoride expulsion. Fluoride is abundant in Earth&#x02019;s crust (<xref rid="R47" ref-type="bibr"><italic toggle="yes">47</italic></xref>, <xref rid="R48" ref-type="bibr"><italic toggle="yes">48</italic></xref>). Thus, nature has evolved effective proteins to protect against fluoride leaking into cells from mineral fluoride (<xref rid="R24" ref-type="bibr"><italic toggle="yes">24</italic></xref>, <xref rid="R49" ref-type="bibr"><italic toggle="yes">49</italic></xref>). Under fluoride stress, many native microorganisms express one of two families of membrane proteins to export F<sup>&#x02212;</sup>, i.e., the CLC<sup>F</sup> family of F<sup>&#x02212;</sup>/H<sup>+</sup> antiporters and the Fluc (CrcB) family of F<sup>&#x02212;</sup> exporting channels. CLC<sup>F</sup> family proteins are homodimers, while Fluc family proteins include homodimers and heterodimers. Although the two types of F<sup>&#x02212;</sup> exporters differ in sequence, structure, and mechanism, they share the same physiological role in F<sup>&#x02212;</sup> detoxification. <italic toggle="yes">A. fimetarium</italic>, which has an intact Car operon (<xref rid="F2" ref-type="fig">Fig. 2A</xref> and fig. S10) but a nonfunctional CrcB (<xref rid="F2" ref-type="fig">Fig. 2C</xref> and fig. S8), was able to reduce caffeate (fig. S10A) but not able to defluorinate PFMeUPA at all (<xref rid="F2" ref-type="fig">Fig. 2B</xref>). Such an incapability underscores the essential role F<sup>&#x02212;</sup> exporters play in enabling cytoplasmic defluorination. This will be one critical design criterion for efforts to bioengineer efficient PFAS-degrading microorganisms.</p><p>Previous studies have demonstrated reductive defluorination of &#x003b1;, &#x003b2;-unsaturated perfluorocarboxylic acids by anaerobic microbial communities (<xref rid="R17" ref-type="bibr"><italic toggle="yes">17</italic></xref>), but common reductive dechlorinating bacteria and purified reductive dehalogenases did not react with fluorinated substrates (<xref rid="R50" ref-type="bibr"><italic toggle="yes">50</italic></xref>), suggesting different reduction systems. Some biological reductions with the lowest reduction potential (&#x0003c;&#x02212;500 mV) are carried out by flavin-based electron-bifurcating complexes (<xref rid="R51" ref-type="bibr"><italic toggle="yes">51</italic></xref>, <xref rid="R52" ref-type="bibr"><italic toggle="yes">52</italic></xref>). These enzyme complexes are widespread in anaerobic Bacteria and Archaea where they couple adenosine triphosphate (ATP) formation or utilization with the transformation of aryl/alkyl/alkenyl-CoA substrates, aldehydes, ketones, acids, hydrogen/protons, and carbon monoxide (<xref rid="R53" ref-type="bibr"><italic toggle="yes">53</italic></xref>). The shared feature is the separation, or bifurcation, of electron pair energies such that one is boosted to a higher energy (lower potential) and the other to a lower energy (higher potential) (<xref rid="R51" ref-type="bibr"><italic toggle="yes">51</italic></xref>). Here, we implicate one such system, CarCDE, in reductive defluorination. CarCDE is naturally evolved to reduce plant aromatic enoic acids such as caffeic acid, coupled with formation of reducing power for autotrophic growth or sodium transport to generate incremental ATP in energy-marginalized environments (<xref rid="R30" ref-type="bibr"><italic toggle="yes">30</italic></xref>). While the similarity of caffeic acid and PFMeUPA is not immediately apparent, modeling the respective CoA esters showed an ideal fit in the active site of CarC. This is also consistent with caffeate competition experiments implicating PFMeUPA as a possible electron acceptor alternative to caffeate and undergoing enzyme-assisted &#x003b1;-defluorination within the electron-bifurcating enzyme complex. The CarCDE complex was purified from <italic toggle="yes">A. woodii</italic> under strict anaerobic conditions by Demmer <italic toggle="yes">et al.</italic> (<xref rid="R28" ref-type="bibr"><italic toggle="yes">28</italic></xref>). A clean in-frame gene knockout system in <italic toggle="yes">A. woodii</italic> was recently reported by Baker <italic toggle="yes">et al.</italic> in 2022 (<xref rid="R54" ref-type="bibr"><italic toggle="yes">54</italic></xref>). As the sophisticated molecular methods are further established and applied, a full demonstration could be done in the future using <italic toggle="yes">carC</italic>-knockout mutants in vivo and purified CarCDE complex in vitro under appropriate conditions. Although such an electron-bifurcating system we proposed here was specific to unsaturated PFAS structures, given the occurrence of unsaturated PFAS in the environment, the findings could help with a better understanding of their environmental fate. It also suggests potential for the rational design and optimization of other electron-bifurcating systems with diverse substrate specificities in catalyzing reductive defluorination reactions.</p><p>In different prokaryotes utilizing electron bifurcation, the high-energy electron reduces ferredoxins or flavodoxins that, in turn, reduce protons, dinitrogen gas, carboxylates to alcohols, and benzenoid rings, and activate 2-hydroxyacyl-CoA dehydratases (<xref rid="R51" ref-type="bibr"><italic toggle="yes">51</italic></xref>). The benzoyl-CoA reductase in <italic toggle="yes">Thauera aromatica</italic> has been shown to reductively defluorinate 4-fluoro-benzoyl-CoA via HF elimination and further reduction, a reaction analogous to that observed here with perfluoroalkenoic acids (<xref rid="R55" ref-type="bibr"><italic toggle="yes">55</italic></xref>). While this class I system uses ATP to drive the formation of high-energy electrons, a class II benzoyl-CoA reductase uses two flavin-based electron bifurcation steps consecutively to catalyze benzene ring reduction (<xref rid="R56" ref-type="bibr"><italic toggle="yes">56</italic></xref>). This 1-MDa enzyme complex uses flavin, tungsten, selenium, and more than 50 iron-sulfur clusters to achieve the Eo&#x02032; potential required for benzene ring reduction. These studies highlight an as-yet-unrealized prospect for endergonic reduction of a broader range of PFAS compounds by serving as the low-potential electron acceptor in the electron-bifurcating system. It warrants future discovery or engineering of those enzyme complexes, overcoming the mechanistic/thermodynamic barriers, thus substantially shortening the time it could have taken by natural evolution.</p></sec><sec sec-type="materials|methods" disp-level="1"><title>MATERIALS AND METHODS</title><sec disp-level="2"><title>Fluorinated compounds</title><p>Four fluorinated carboxylic acids were investigated based on their previously reported biodefluorination feasibilities in an anaerobic enrichment community (<xref rid="R13" ref-type="bibr"><italic toggle="yes">13</italic></xref>). The chemicals were purchased from SynQuest Laboratories (Alachua, FL) and used without further purification. For all authentic standards, 10 mM stock solutions were prepared anaerobically in autoclaved Milli-Q water (160 ml) sealed serum bottles and stored at room temperature until use. The limit of quantification for each standard compound was determined as the lowest concentration of calibration standards with a detection variation within &#x000b1;20%. The detailed compound information is provided in table S5.</p><p>The hydrogenation product of PFMeUPA was synthesized in-house using chemical catalysis. The catalyst, 39 mg of 5% Pd/C, and stir bar were charged to a Pyrex 6-ml 14/20 RB flask, which was, in turn, positioned in the bottom of a 50-ml Parr pressure reactor. The sealed reactor was evacuated (1.3 &#x000d7; 10<sup>&#x02212;4</sup> atm) and then filled with H<sub>2</sub> gas. The reactor was maintained under a slow purge of H<sub>2</sub> while 116 mg of PFMeUPA, followed by 2&#x000d7; washes totaling 2 ml of methyl-t-butyl ether, was charged and magnetically stirred. The reactor was sealed and pressured to 3.74 atm with H<sub>2</sub> and maintained for 4 hours. The reactor was stirred overnight while the pressure was slowly released. Anhydrous HF was produced. After settling, the clear colorless supernatant was sampled (0.3 ml) and diluted to 0.7 ml with CDCl<sub>3</sub> for the acquisition of <sup>19</sup>F-NMR spectra using a Varian Unity Inova 400-MHz NMR Spectrometer for standard 5-mm outside diameter tubes. The products were also analyzed for structure confirmation by liquid chromatography coupled to high-resolution tandem mass spectrometry (LC-HRMS/MS; as described below), and the LC chromatograph and MS<sup>2</sup> fragmentation profiles (figs. S2 to S4) were used to compare with those of the products from biological reductive defluorination. Details of palladium-catalyzed hydrogenation of PFMeUPA are included in the Supplementary Text.</p></sec><sec disp-level="2"><title>Cultures and growth conditions</title><p>Five <italic toggle="yes">Acetobacterium</italic>, one <italic toggle="yes">Clostridium</italic>, and one <italic toggle="yes">Methanosarcina</italic> species were used to study the defluorination activities of the selected fluorinated compounds. <italic toggle="yes">A. bakii</italic> (DSM 8239) and <italic toggle="yes">M. barkeri</italic> (DSM 800) were purchased from the American Type Culture Collection (ATCC); <italic toggle="yes">A. m woodii</italic> (DSM 1030), <italic toggle="yes">A. paludosum</italic> (DSM 8237), <italic toggle="yes">A. malicum</italic> (DSM 4132), <italic toggle="yes">A. fimetarium</italic> (DSM 8238), and <italic toggle="yes">C. homopropionicum</italic> (DSM 5847) were purchased from Deutsche Sammlung von Mikroorganismen und Zellkulturen (DSMZ). To test the biotransformation capabilities of individual species, we cultivated all cultures under their optimal growing conditions as instructed by DSMZ. Specifically, <italic toggle="yes">A. bakii</italic> was grown in DSMZ Medium 900 (pH 7.0), supplemented with yeast extract (1 g/liter) and fructose (5 g/liter), and cultures were maintained at 20&#x000b0;C. <italic toggle="yes">A. woodii</italic> was cultivated at 30&#x000b0;C in DSMZ Medium 135 (pH 8.0) containing yeast extract (2 g/liter) and fructose (10 g/liter) as the primary substrate. <italic toggle="yes">A. malicum</italic> was also grown at 30&#x000b0;C in DSMZ Medium 135 but with fructose (1 g/liter) as the primary substrate. <italic toggle="yes">A. paludosum</italic> was kept at 20&#x000b0;C and grown in DSMZ Medium 614 (pH 7.0), which contains yeast extract (0.5 g/liter) and fructose (10 g/liter). <italic toggle="yes">A. fimetarium</italic> was cultivated at 30&#x000b0;C in DSMZ Medium 900 with lactate (4 g/liter) as the primary substrate. <italic toggle="yes">C. homopropionicum</italic> was incubated at 35&#x000b0;C with DSMZ Medium 503 (pH 7.2), containing fructose (2 g/liter) as the primary substrate. Last, <italic toggle="yes">M. barkeri</italic> was grown in DSMZ Medium 120 (pH 7.0) at 35&#x000b0;C with methanol (15.5 g/liter) as primary substrate. The comprehensive list of Media for Microorganisms can be found in Media<italic toggle="yes">Dive</italic> (<ext-link xlink:href="https://mediadive.dsmz.de/" ext-link-type="uri">https://mediadive.dsmz.de/</ext-link>).</p></sec><sec disp-level="2"><title>Biotransformation of fluorinated compounds by <italic toggle="yes">Acetobacterium</italic> spp. and <italic toggle="yes">C. homopropionicum</italic></title><p>After the full growth of individual species, each culture was transferred (5%, v/v) into six serum bottles with 95 ml of fresh culture medium containing optimal primary substrates as suggested by DSMZ (i.e., fructose for <italic toggle="yes">A. woodii</italic>, <italic toggle="yes">A. paludosum</italic>, <italic toggle="yes">A. bakii</italic>, <italic toggle="yes">A. malicum</italic>, <italic toggle="yes">C. homopropionicum</italic>; lactate for <italic toggle="yes">A. fimetarium</italic>; and methanol for <italic toggle="yes">M. barkeri</italic>; see details in the &#x0201c;Cultures and growth conditions&#x0201d; section). Two conditions were set up with triplicates: (i) growth positive control with no fluorinated compounds addition and (ii) biotransformation group spiked with 50 to 90 &#x003bc;M of individual fluorinated compounds (i.e., one compound was spiked for each test). A triplicated heat-inactivated biomass adsorption control was also set up by inoculating 5 ml of autoclaved (at 121&#x000b0;C for 20 min for two cycles) culture into the same culture medium spiked with the same concentration of individual fluorinated compounds. Samples were taken subsequently during the incubation period for the measurement of the parent compound, TPs, and F<sup>&#x02212;</sup>. Briefly, at each sampling time, 3 ml of aqueous suspension was centrifuged at 16,000<italic toggle="yes">g</italic> for 30 min (4&#x000b0;C). Two milliliters of supernatant was used for F<sup>&#x02212;</sup> measurement. The remainder (~1 ml) was stored at 4&#x000b0;C in the dark for subsequent LC-HRMS/MS measurement. The cell pellets from the biotransformation experiments were stored at &#x02212;20&#x000b0;C for DNA extraction. The DNA extraction was done using a DNeasy PowerSoil Kit (QIAGEN, Germantown, MD) according to the manufacturer&#x02019;s instructions. Cell growth was measured using quantitative PCR (qPCR), and the detailed procedure was provided in the Supplementary Text.</p></sec><sec disp-level="2"><title>Differential gene expression by transcriptomic and proteomic analyses</title><p>Gene regulation at the transcriptional and translational level in <italic toggle="yes">A. bakii</italic> grown on <sc>d</sc>-fructose (5 g/liter) with and without the addition of PFMeUPA (300 &#x003bc;M) was examined using RNA and protein sequencing. Details are included in the Supplementary Text.</p></sec><sec disp-level="2"><title>Functional validation of the fluoride ion transporter genes in <italic toggle="yes">Acetobacterium</italic> spp.</title><p>The mutant strain <italic toggle="yes">E. coli</italic> K-12 MG1655 &#x00394;<italic toggle="yes">crcB</italic> was constructed using the &#x003bb;-red homologous recombination system and is sensitive to high fluoride concentration. The gene <italic toggle="yes">crcB</italic> from different <italic toggle="yes">Acetobacterium</italic> spp. was obtained using PCR. Purified PCR products were ligated to the linearized pBAD24 backbone. Recombinant plasmids were introduced into the mutant strain for rescue tests. Each strain was tested with LB medium supplemented with 250 &#x003bc;M of NaF. Cell growth was tracked via OD<sub>600</sub> measurement. A detailed description of strain construction and rescue tests can be found in the Supplementary Text.</p></sec><sec disp-level="2"><title>Substrate competition between caffeate and PFMeUPA in <italic toggle="yes">A. bakii</italic></title><p>Caffeate (5 mM) was added into six 160-ml serum bottles containing 95 ml of culture medium and incubated overnight until caffeate was completely dissolved. Pregrown <italic toggle="yes">A. bakii</italic> was then transferred (5%, v/v) into the above caffeate-containing medium bottles. Three of the six bottles were randomly picked as caffeate-only control and the remaining three were amended with ~90 &#x003bc;M PFMeUPA. In addition, <italic toggle="yes">A. bakii</italic> (5%, v/v) was also inoculated into another bottle with growth medium only (without any addition of caffeate or PFMeUPA), serving as the positive control to confirm the normal growth activity. Samples were taken subsequently during the incubation period for the measurement of the parent compounds (i.e., PFMeUPA and caffeate), TPs, and F<sup>&#x02212;</sup> as described below. Cells were collected and stored at &#x02212;20&#x000b0;C for subsequent DNA extractions and biomass growth measurements.</p></sec><sec disp-level="2"><title>UHPLC-HRMS/MS analysis</title><p>For ultra-high performance liquid chromatography (UHPLC) analysis, 2 &#x003bc;l of sample was loaded onto an Hypersil GOLD column (particle size 1.9 &#x003bc;m, 100 &#x000d7; 2.1 mm, Thermo Fisher Scientific) connected to a Hypersil GOLD guard column (particle size 3.0 &#x003bc;m, 10 &#x000d7; 2.1 mm, Thermo Fisher Scientific) and eluted with Milli-Q water (A) and methanol (B) (both with 10 mM ammonium acetate) at a flow rate of 280 &#x003bc;l/min, with a gradient as follows: 95% A: 0 to 1 min, 95%-5% A: 1 to 6 min, 5% A: 6 to 8 min, and 95% A: 8 to 10 min. For HRMS/MS, mass full scan was performed in the negative mode of electrospray ionization at a resolution of 70,000 at <italic toggle="yes">m</italic>/<italic toggle="yes">z</italic> 200 and a scan range of <italic toggle="yes">m</italic>/<italic toggle="yes">z</italic> 50 to 750, and MS<sup>2</sup> spectra were acquired in the same negative mode at a resolution of 14,000 at <italic toggle="yes">m</italic>/<italic toggle="yes">z</italic> 200 with a normalized collision energy of 25. Xcalibur 4.0 (Thermo Fisher Scientific) was used for data acquisition and analysis. TP screening was conducted using Compound Discoverer 3.1 (Thermo Fisher Scientific) as previously described (<xref rid="R6" ref-type="bibr"><italic toggle="yes">6</italic></xref>). ChemDraw Professional 20.0 was used for drawing, displaying, and characterizing chemical structures.</p></sec><sec disp-level="2"><title><sup>19</sup>F NMR</title><p><sup>19</sup>F-NMR spectra on the biotransformation product of PFMeUPA by <italic toggle="yes">A. bakii</italic> (fig. S15) were acquired on a Bruker Avance NEO 600-MHz NMR spectrometer with a 5-mm H&#x00026;F-C/N-D cryoprobe and adapter to a 3-mm milli-tube. All <sup>19</sup>F spectra on products of PFMeUPA from abiotic catalytic hydrogenation were acquired on a Varian Unity Inova 400-Hz NMR spectrometer with a standard 5-mm four-nuclei (<sup>1</sup>H, <sup>31</sup>P, <sup>13</sup>C, and <sup>19</sup>F) probe.</p></sec><sec disp-level="2"><title>Fluoride ion measurement</title><p>The concentration of fluoride ion (F<sup>&#x02212;</sup>) in the culture supernatant was measured by an ion-selective electrode (ISE, HACH, Loveland, CO) connected to an HQ30D Portable Multi Meter (HACH). The accuracy of the fluoride measurement by ISE was cross-validated using ion chromatography as described in our previous study (<xref rid="R17" ref-type="bibr"><italic toggle="yes">17</italic></xref>). For the ISE measurement, a 100-&#x003bc;g fluoride ionic strength adjustment powder (HACH) was added into 2 ml of culture supernatant; the F<sup>&#x02212;</sup> concentration was then measured by the ISE-Multi Meter system.</p></sec><sec disp-level="2"><title>Enzyme modeling</title><p>Models of the CarC active site were created by docking C<sub>5</sub>F<sub>9</sub>CO-CoA and caffeoyl-CoA. The published crystal structure of <italic toggle="yes">A. woodii</italic> CarC [Protein Data Bank (PDB) 6FAH] does not include caffeoyl-CoA in complex with the enzyme. Therefore, a highly similar CarC homolog from a Rat protein complexed with acetoacetyl-CoA (PDB 1JQI) was aligned to the <italic toggle="yes">A. woodii</italic> structure. After alignment, caffeoyl-CoA and C<sub>5</sub>F<sub>9</sub>CO-CoA were fitted to the electron density of the acetoacetyl-CoA using Coot (<xref rid="R57" ref-type="bibr"><italic toggle="yes">57</italic></xref>). Restraint dictionaries for ligands were created on the Grade web Server (<xref rid="R58" ref-type="bibr"><italic toggle="yes">58</italic></xref>). The protein-ligand complex structures were then subjected to geometric refinement using the Refmac5 tool within Collaborative Computational Project Number 4 (CCP4) with default parameters (except the number of refinement cycles was set to 5 and the matrix weighting term was set to 0.0000001) (<xref rid="R59" ref-type="bibr"><italic toggle="yes">59</italic></xref>). Visualization was done in PyMOL (The PyMOL Molecular Graphics System).</p></sec><sec disp-level="2"><title>Bioinformatics of CarC homologs in WWTP metagenomes</title><p>HMMs were created to search a wastewater metagenome database for CarC homologs. These HMMs originated from two different seed sequences: caffeoyl-CoA reductase CarC (<italic toggle="yes">A. woodii</italic> DSM 1030, NCBI AFA48354) and acyl-CoA dehydrogenase family protein (<italic toggle="yes">C. homopropionicum</italic>, NCBI WP_052222365.1). For each seed, sequence databases with varying confidence levels were created using BLAST by gathering sequences at different percent identity thresholds from the nonredundant database. Proteins with 50% identity and higher have been reported to have less than 1-&#x000c5; difference between their backbones (<xref rid="R60" ref-type="bibr"><italic toggle="yes">60</italic></xref>). Therefore, the lowest cutoff score was 55% identity for building a sequence library and constructing HMMs. In addition, 74% identity was selected as the other cutoff, because that was the minimum similarity score identified in this study for other <italic toggle="yes">Acetobacterium</italic> CarC proteins capable of defluorination. These sequence databases were used for multiple alignments created with Clustal Omega (<xref rid="R61" ref-type="bibr"><italic toggle="yes">61</italic></xref>). Sequence logos for multiple alignments were created using WebLogo3 using the online web server and full versions are available in the Supplementary Materials (<xref rid="R62" ref-type="bibr"><italic toggle="yes">62</italic></xref>). HMMs were generated from multiple alignments using hmmbuild version 3.1b2 (<ext-link xlink:href="http://hmmer.org" ext-link-type="uri">hmmer.org</ext-link>).</p><p>The newly created HMMs were used to identify CarC homologs in wastewater metagenomes, and their locations were placed on the globalmap (<xref rid="F4" ref-type="fig">Fig. 4</xref>). A protein sequence database containing full-length cluster-representative proteins from wastewater was provided by MGnify from the May 2022 Protein database release (<xref rid="R63" ref-type="bibr"><italic toggle="yes">63</italic></xref>). MGnify database was searched using hmmsearch version 3.1b2. A sequence was considered a CarC homolog if the HMM score was higher than the lowest scoring sequence from which the database was built. Metadata for each sample were fetched using MgnifyR, and samples without longitude and latitudes were removed (<xref rid="R63" ref-type="bibr"><italic toggle="yes">63</italic></xref>). Maps were built using ggplot2 in R (<xref rid="R64" ref-type="bibr"><italic toggle="yes">64</italic></xref>).</p></sec></sec></body><back><ack><title>Acknowledgments</title><p><bold>Funding:</bold> This study is supported by the Strategic Environmental Research and Development Program (ER20-1541 for Y.Y., B.J., W.Z., and Y.M.), the National Science Foundation (award no. 1931941 for S.C.), and the National Institute of Environmental Health Sciences (award no. R01ES032668 for S.C. and Y.M.), and partly by a grant from MnDRIVE Industry and the Environment Program (to L.W.).</p><sec><p><bold>Author contributions:</bold> Conceptualization: Y.Y. and Y.M. Methodology: Y.Y., F.X., C.T., J.E.R., and Y.X. Software: C.T. Formal analysis: Y.Y., C.T., L.W., and Y.M. Investigation: Y.Y., F.X., W.Z., C.T., S.C., J.E.R., B.J., and Y.Z. Data curation: Y.Y., C.T., L.W., and Y.M. Writing&#x02014;original draft: Y.Y. and Y.M. Writing&#x02014;review and editing: Y.Y., F.X., W.Z., C.T., S.C., J.E.R., B.J., Y.Z., Y.X., L.W., and Y.M. Visualization: Y.Y., C.T., J.E.R., Y.X., L.W., and Y.M. Supervision: L.W. and Y.M. Funding acquisition: L.W. and Y.M.</p></sec><sec><p><bold>Competing interests:</bold> The authors declare that they have no competing interests.</p></sec><sec><p><bold>Data and materials availability:</bold> All other data needed to evaluate the conclusions in the paper are present in the paper and/or the Supplementary Materials. The sequencing raw reads of transcriptomes at two time points were deposited to the National Center for Biotechnology Information (NCBI) SRA database under accession no. PRJNA1029002 (20 days) and PRJNA1029168 (90 min).</p></sec></ack><sec sec-type="supplementary-material"><title>Supplementary Materials</title><sec><title>This PDF file includes:</title><supplementary-material position="float" content-type="local-data"><caption><p>Supplementary Text</p><p>Figs. S1 to S16</p><p>Legends for data S1 to S4</p><p>References</p></caption><media xlink:href="sciadv.ado2957_sm.pdf"/></supplementary-material></sec><sec><title>Other Supplementary Material for this manuscript includes the following:</title><supplementary-material position="float" content-type="local-data"><caption><p>Data S1 to S4</p></caption><media xlink:href="sciadv.ado2957_data_s1_to_s4.zip"/></supplementary-material></sec></sec><ref-list><title>REFERENCES AND NOTES</title><ref id="R1"><label>1</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>M. G.</given-names>
+<surname>Evich</surname></string-name>, <string-name><given-names>M. J. B.</given-names>
+<surname>Davis</surname></string-name>, <string-name><given-names>J. P.</given-names>
+<surname>McCord</surname></string-name>, <string-name><given-names>B.</given-names>
+<surname>Acrey</surname></string-name>, <string-name><given-names>J. A.</given-names>
+<surname>Awkerman</surname></string-name>, <string-name><given-names>D. R. U.</given-names>
+<surname>Knappe</surname></string-name>, <string-name><given-names>A. B.</given-names>
+<surname>Lindstrom</surname></string-name>, <string-name><given-names>T. F.</given-names>
+<surname>Speth</surname></string-name>, <string-name><given-names>C.</given-names>
+<surname>Tebes-Stevens</surname></string-name>, <string-name><given-names>M. J.</given-names>
+<surname>Strynar</surname></string-name>, <string-name><given-names>Z.</given-names>
+<surname>Wang</surname></string-name>, <string-name><given-names>E. J.</given-names>
+<surname>Weber</surname></string-name>, <string-name><given-names>W. M.</given-names>
+<surname>Henderson</surname></string-name>, <string-name><given-names>J. W.</given-names>
+<surname>Washington</surname></string-name></person-group>, 
+<article-title>Per- and polyfluoroalkyl substances in the environment</article-title>. <source>Science</source>
+<volume>375</volume>, 
+<fpage>eabg9065</fpage> (<year>2022</year>).<pub-id pub-id-type="pmid">35113710</pub-id>
+</mixed-citation></ref><ref id="R2"><label>2</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>Z.</given-names>
+<surname>Wang</surname></string-name>, <string-name><given-names>A. M.</given-names>
+<surname>Buser</surname></string-name>, <string-name><given-names>I. T.</given-names>
+<surname>Cousins</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Demattio</surname></string-name>, <string-name><given-names>W.</given-names>
+<surname>Drost</surname></string-name>, <string-name><given-names>O.</given-names>
+<surname>Johansson</surname></string-name>, <string-name><given-names>K.</given-names>
+<surname>Ohno</surname></string-name>, <string-name><given-names>G.</given-names>
+<surname>Patlewicz</surname></string-name>, <string-name><given-names>A. M.</given-names>
+<surname>Richard</surname></string-name>, <string-name><given-names>G. W.</given-names>
+<surname>Walker</surname></string-name>, <string-name><given-names>G. S.</given-names>
+<surname>White</surname></string-name>, <string-name><given-names>E.</given-names>
+<surname>Leinala</surname></string-name></person-group>, 
+<article-title>A new OECD definition for per- and polyfluoroalkyl substances</article-title>. <source>Environ. Sci. Technol.</source>
+<volume>55</volume>, 
+<fpage>15575</fpage>&#x02013;<lpage>15578</lpage> (<year>2021</year>).<pub-id pub-id-type="pmid">34751569</pub-id>
+</mixed-citation></ref><ref id="R3"><label>3</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>L. P.</given-names>
+<surname>Wackett</surname></string-name></person-group>, 
+<article-title>Why is the biodegradation of polyfluorinated compounds so rare?</article-title>
+<source>mSphere</source>
+<volume>6</volume>, 
+<fpage>e0072121</fpage> (<year>2021</year>).<pub-id pub-id-type="pmid">34643420</pub-id>
+</mixed-citation></ref><ref id="R4"><label>4</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>L. P.</given-names>
+<surname>Wackett</surname></string-name></person-group>, 
+<article-title>Nothing lasts forever: Understanding microbial biodegradation of polyfluorinated compounds and perfluorinated alkyl substances</article-title>. <source>Microb. Biotechnol.</source>
+<volume>15</volume>, 
+<fpage>773</fpage>&#x02013;<lpage>792</lpage> (<year>2022</year>).<pub-id pub-id-type="pmid">34570953</pub-id>
+</mixed-citation></ref><ref id="R5"><label>5</label><mixed-citation publication-type="book">J. R. Parsons, M. S&#x000e1;ez, J. Dolfing, P. de Voogt, in <italic toggle="yes">Rev. Environ. Contam. Toxicol.</italic>, D. M. Whitacre, Ed. (Springer US, New York, NY, 2008), vol. 196, pp. 53&#x02013;71.</mixed-citation></ref><ref id="R6"><label>6</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>S.</given-names>
+<surname>Che</surname></string-name>, <string-name><given-names>B.</given-names>
+<surname>Jin</surname></string-name>, <string-name><given-names>Z.</given-names>
+<surname>Liu</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Yu</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Liu</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Men</surname></string-name></person-group>, 
+<article-title>Structure-specific aerobic defluorination of short-chain fluorinated carboxylic acids by activated sludge communities</article-title>. <source>Environ. Sci. Technol. Lett.</source>
+<volume>8</volume>, 
+<fpage>668</fpage>&#x02013;<lpage>674</lpage> (<year>2021</year>).<pub-id pub-id-type="pmid">35316934</pub-id>
+</mixed-citation></ref><ref id="R7"><label>7</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>B.</given-names>
+<surname>Jin</surname></string-name>, <string-name><given-names>H.</given-names>
+<surname>Liu</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Che</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Gao</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Yu</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Liu</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Men</surname></string-name></person-group>, 
+<article-title>Substantial defluorination of polychlorofluorocarboxylic acids triggered by anaerobic microbial hydrolytic dechlorination</article-title>. <source>Nat. Water</source>
+<volume>1</volume>, 
+<fpage>451</fpage>&#x02013;<lpage>461</lpage> (<year>2023</year>).<pub-id pub-id-type="pmid">38405335</pub-id>
+</mixed-citation></ref><ref id="R8"><label>8</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>J.</given-names>
+<surname>Liu</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Mejia Avendano</surname></string-name></person-group>, 
+<article-title>Microbial degradation of polyfluoroalkyl chemicals in the environment: A review</article-title>. <source>Environ. Int.</source>
+<volume>61</volume>, 
+<fpage>98</fpage>&#x02013;<lpage>114</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">24126208</pub-id>
+</mixed-citation></ref><ref id="R9"><label>9</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>C. M.</given-names>
+<surname>Butt</surname></string-name>, <string-name><given-names>D. C.</given-names>
+<surname>Muir</surname></string-name>, <string-name><given-names>S. A.</given-names>
+<surname>Mabury</surname></string-name></person-group>, 
+<article-title>Biotransformation pathways of fluorotelomer-based polyfluoroalkyl substances: A review</article-title>. <source>Environ. Toxicol. Chem.</source>
+<volume>33</volume>, 
+<fpage>243</fpage>&#x02013;<lpage>267</lpage> (<year>2014</year>).<pub-id pub-id-type="pmid">24114778</pub-id>
+</mixed-citation></ref><ref id="R10"><label>10</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>S.</given-names>
+<surname>Joudan</surname></string-name>, <string-name><given-names>S. A.</given-names>
+<surname>Mabury</surname></string-name></person-group>, 
+<article-title>Aerobic biotransformation of a novel highly functionalized polyfluoroether-based surfactant using activated sludge from a wastewater treatment plant</article-title>. <source>Environ. Sci. Process. Impacts</source>
+<volume>24</volume>, 
+<fpage>62</fpage>&#x02013;<lpage>71</lpage> (<year>2022</year>).<pub-id pub-id-type="pmid">34935819</pub-id>
+</mixed-citation></ref><ref id="R11"><label>11</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>S.-H.</given-names>
+<surname>Yang</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Shi</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Strynar</surname></string-name>, <string-name><given-names>K.-H.</given-names>
+<surname>Chu</surname></string-name></person-group>, 
+<article-title>Desulfonation and defluorination of 6:2 fluorotelomer sulfonic acid (6:2 FTSA) by <italic toggle="yes">Rhodococcus jostii</italic> RHA1: Carbon and sulfur sources, enzymes, and pathways</article-title>. <source>J. Hazard. Mater.</source>
+<volume>423</volume>, 
+<fpage>127052</fpage> (<year>2022</year>).<pub-id pub-id-type="pmid">34523492</pub-id>
+</mixed-citation></ref><ref id="R12"><label>12</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>J. D.</given-names>
+<surname>Van Hamme</surname></string-name>, <string-name><given-names>E. M.</given-names>
+<surname>Bottos</surname></string-name>, <string-name><given-names>N. J.</given-names>
+<surname>Bilbey</surname></string-name>, <string-name><given-names>S. E.</given-names>
+<surname>Brewer</surname></string-name></person-group>, 
+<article-title>Genomic and proteomic characterization of <italic toggle="yes">Gordonia</italic> sp. NB4-1Y in relation to 6&#x0200a;:&#x0200a;2 fluorotelomer sulfonate biodegradation</article-title>. <source>Microbiology</source>
+<volume>159</volume>, 
+<fpage>1618</fpage>&#x02013;<lpage>1628</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23744905</pub-id>
+</mixed-citation></ref><ref id="R13"><label>13</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>Y.</given-names>
+<surname>Yu</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Che</surname></string-name>, <string-name><given-names>C.</given-names>
+<surname>Ren</surname></string-name>, <string-name><given-names>B.</given-names>
+<surname>Jin</surname></string-name>, <string-name><given-names>Z.</given-names>
+<surname>Tian</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Liu</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Men</surname></string-name></person-group>, 
+<article-title>Microbial defluorination of unsaturated per- and polyfluorinated carboxylic acids under anaerobic and aerobic conditions: A structure specificity study</article-title>. <source>Environ. Sci. Technol.</source>
+<volume>56</volume>, 
+<fpage>4894</fpage>&#x02013;<lpage>4904</lpage> (<year>2022</year>).<pub-id pub-id-type="pmid">35373561</pub-id>
+</mixed-citation></ref><ref id="R14"><label>14</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>S.</given-names>
+<surname>Huang</surname></string-name>, <string-name><given-names>P. R.</given-names>
+<surname>Jaff&#x000e9;</surname></string-name></person-group>, 
+<article-title>Defluorination of perfluorooctanoic acid (PFOA) and perfluorooctane sulfonate (PFOS) by <italic toggle="yes">Acidimicrobium sp</italic>. strain A6</article-title>. <source>Environ. Sci. Technol.</source>
+<volume>53</volume>, 
+<fpage>11410</fpage>&#x02013;<lpage>11419</lpage> (<year>2019</year>).<pub-id pub-id-type="pmid">31529965</pub-id>
+</mixed-citation></ref><ref id="R15"><label>15</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>J.</given-names>
+<surname>Liu</surname></string-name>, <string-name><given-names>E.</given-names>
+<surname>Edwards</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Van Hamme</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Manefield</surname></string-name>, <string-name><given-names>C. P.</given-names>
+<surname>Higgins</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Blotevogel</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Liu</surname></string-name>, <string-name><given-names>L. S.</given-names>
+<surname>Lee</surname></string-name></person-group>, 
+<article-title>Correspondence on &#x0201c;Defluorination of perfluorooctanoic acid (PFOA) and perfluorooctane sulfonate (PFOS) by <italic toggle="yes">Acidimicrobium</italic> sp. strain A6&#x0201d;</article-title>. <source>Environ. Sci. Technol.</source>
+<volume>57</volume>, 
+<fpage>20440</fpage>&#x02013;<lpage>20442</lpage> (<year>2023</year>).<pub-id pub-id-type="pmid">37948637</pub-id>
+</mixed-citation></ref><ref id="R16"><label>16</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>P. R.</given-names>
+<surname>Jaff&#x000e9;</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Huang</surname></string-name></person-group>, 
+<article-title>Rebuttal to correspondence on &#x0201c;Defluorination of perfluorooctanoic acid (PFOA) and perfluorooctane sulfonate (PFOS) by <italic toggle="yes">Acidimicrobium</italic> sp. strain A6&#x0201d;</article-title>. <source>Environ. Sci. Technol.</source>
+<volume>57</volume>, 
+<fpage>20443</fpage>&#x02013;<lpage>20447</lpage> (<year>2023</year>).<pub-id pub-id-type="pmid">37913821</pub-id>
+</mixed-citation></ref><ref id="R17"><label>17</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>Y.</given-names>
+<surname>Yu</surname></string-name>, <string-name><given-names>K.</given-names>
+<surname>Zhang</surname></string-name>, <string-name><given-names>Z.</given-names>
+<surname>Li</surname></string-name>, <string-name><given-names>C.</given-names>
+<surname>Ren</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Chen</surname></string-name>, <string-name><given-names>Y. H.</given-names>
+<surname>Lin</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Liu</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Men</surname></string-name></person-group>, 
+<article-title>Microbial cleavage of C-F bonds in two C<sub>6</sub> per- and polyfluorinated compounds via reductive defluorination</article-title>. <source>Environ. Sci. Technol.</source>
+<volume>54</volume>, 
+<fpage>14393</fpage>&#x02013;<lpage>14402</lpage> (<year>2020</year>).<pub-id pub-id-type="pmid">33121241</pub-id>
+</mixed-citation></ref><ref id="R18"><label>18</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>L. A.</given-names>
+<surname>Hug</surname></string-name>, <string-name><given-names>R. G.</given-names>
+<surname>Beiko</surname></string-name>, <string-name><given-names>A. R.</given-names>
+<surname>Rowe</surname></string-name>, <string-name><given-names>R. E.</given-names>
+<surname>Richardson</surname></string-name>, <string-name><given-names>E. A.</given-names>
+<surname>Edwards</surname></string-name></person-group>, 
+<article-title>Comparative metagenomics of three <italic toggle="yes">Dehalococcoides</italic>-containing enrichment cultures: The role of the non-dechlorinating community</article-title>. <source>BMC Genomics</source>
+<volume>13</volume>, 
+<fpage>327</fpage> (<year>2012</year>).<pub-id pub-id-type="pmid">22823523</pub-id>
+</mixed-citation></ref><ref id="R19"><label>19</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>M.</given-names>
+<surname>Duhamel</surname></string-name>, <string-name><given-names>E. A.</given-names>
+<surname>Edwards</surname></string-name></person-group>, 
+<article-title>Growth and yields of dechlorinators, acetogens, and methanogens during reductive dechlorination of chlorinated ethenes and dihaloelimination of 1,2-dichloroethane</article-title>. <source>Environ. Sci. Technol.</source>
+<volume>41</volume>, 
+<fpage>2303</fpage>&#x02013;<lpage>2310</lpage> (<year>2007</year>).<pub-id pub-id-type="pmid">17438779</pub-id>
+</mixed-citation></ref><ref id="R20"><label>20</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>D. P.</given-names>
+<surname>Terzenbach</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Blaut</surname></string-name></person-group>, 
+<article-title>Transformation of tetrachloroethylene to trichloroethylene by homoacetogenic bacteria</article-title>. <source>FEMS Microbiol. Lett.</source>
+<volume>123</volume>, 
+<fpage>213</fpage>&#x02013;<lpage>218</lpage> (<year>1994</year>).<pub-id pub-id-type="pmid">7988892</pub-id>
+</mixed-citation></ref><ref id="R21"><label>21</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>C.</given-names>
+<surname>Ding</surname></string-name>, <string-name><given-names>W. L.</given-names>
+<surname>Chow</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>He</surname></string-name></person-group>, 
+<article-title>Isolation of <italic toggle="yes">Acetobacterium</italic> sp. strain AG, which reductively debrominates octa- and pentabrominated diphenyl ether technical mixtures</article-title>. <source>Appl. Environ. Microbiol.</source>
+<volume>79</volume>, 
+<fpage>1110</fpage>&#x02013;<lpage>1117</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23204415</pub-id>
+</mixed-citation></ref><ref id="R22"><label>22</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>J.</given-names>
+<surname>Bertsch</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Parthasarathy</surname></string-name>, <string-name><given-names>W.</given-names>
+<surname>Buckel</surname></string-name>, <string-name><given-names>V.</given-names>
+<surname>M&#x000fc;ller</surname></string-name></person-group>, 
+<article-title>An electron-bifurcating caffeyl-CoA reductase</article-title>. <source>J. Biol. Chem.</source>
+<volume>288</volume>, 
+<fpage>11304</fpage>&#x02013;<lpage>11311</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23479729</pub-id>
+</mixed-citation></ref><ref id="R23"><label>23</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>R. E.</given-names>
+<surname>Marquis</surname></string-name>, <string-name><given-names>S. A.</given-names>
+<surname>Clock</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Mota-Meira</surname></string-name></person-group>, 
+<article-title>Fluoride and organic weak acids as modulators of microbial physiology</article-title>. <source>FEMS Microbiol. Rev.</source>
+<volume>26</volume>, 
+<fpage>493</fpage>&#x02013;<lpage>510</lpage> (<year>2003</year>).<pub-id pub-id-type="pmid">12586392</pub-id>
+</mixed-citation></ref><ref id="R24"><label>24</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>J. L.</given-names>
+<surname>Baker</surname></string-name>, <string-name><given-names>N.</given-names>
+<surname>Sudarsan</surname></string-name>, <string-name><given-names>Z.</given-names>
+<surname>Weinberg</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Roth</surname></string-name>, <string-name><given-names>R. B.</given-names>
+<surname>Stockbridge</surname></string-name>, <string-name><given-names>R. R.</given-names>
+<surname>Breaker</surname></string-name></person-group>, 
+<article-title>Widespread genetic switches and toxicity resistance proteins for fluoride</article-title>. <source>Science</source>
+<volume>335</volume>, 
+<fpage>233</fpage>&#x02013;<lpage>235</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">22194412</pub-id>
+</mixed-citation></ref><ref id="R25"><label>25</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>A. G.</given-names>
+<surname>Dodge</surname></string-name>, <string-name><given-names>C. J.</given-names>
+<surname>Thoma</surname></string-name>, <string-name><given-names>M. R.</given-names>
+<surname>O&#x02019;Connor</surname></string-name>, <string-name><given-names>L. P.</given-names>
+<surname>Wackett</surname></string-name></person-group>, 
+<article-title>Recombinant <italic toggle="yes">Pseudomonas</italic> growing on non-natural fluorinated substrates shows stress but overall tolerance to cytoplasmically released fluoride anion</article-title>. <source>mBio</source>
+<volume>15</volume>, 
+<fpage>e0278523</fpage> (<year>2024</year>).<pub-id pub-id-type="pmid">38063407</pub-id>
+</mixed-citation></ref><ref id="R26"><label>26</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>B. C.</given-names>
+<surname>McIlwain</surname></string-name>, <string-name><given-names>M. T.</given-names>
+<surname>Ruprecht</surname></string-name>, <string-name><given-names>R. B.</given-names>
+<surname>Stockbridge</surname></string-name></person-group>, 
+<article-title>Membrane exporters of fluoride ion</article-title>. <source>Annu. Rev. Biochem.</source>
+<volume>90</volume>, 
+<fpage>559</fpage>&#x02013;<lpage>579</lpage> (<year>2021</year>).<pub-id pub-id-type="pmid">33492991</pub-id>
+</mixed-citation></ref><ref id="R27"><label>27</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>R. B.</given-names>
+<surname>Stockbridge</surname></string-name>, <string-name><given-names>J. L.</given-names>
+<surname>Robertson</surname></string-name>, <string-name><given-names>L.</given-names>
+<surname>Kolmakova-Partensky</surname></string-name>, <string-name><given-names>C.</given-names>
+<surname>Miller</surname></string-name></person-group>, 
+<article-title>A family of fluoride-specific ion channels with dual-topology architecture</article-title>. <source>eLife</source>
+<volume>2</volume>, 
+<fpage>e01084</fpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23991286</pub-id>
+</mixed-citation></ref><ref id="R28"><label>28</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>J. K.</given-names>
+<surname>Demmer</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Bertsch</surname></string-name>, <string-name><given-names>C.</given-names>
+<surname>&#x000d6;ppinger</surname></string-name>, <string-name><given-names>H.</given-names>
+<surname>Wohlers</surname></string-name>, <string-name><given-names>K.</given-names>
+<surname>Kayastha</surname></string-name>, <string-name><given-names>U.</given-names>
+<surname>Demmer</surname></string-name>, <string-name><given-names>U.</given-names>
+<surname>Ermler</surname></string-name>, <string-name><given-names>V.</given-names>
+<surname>M&#x000fc;ller</surname></string-name></person-group>, 
+<article-title>Molecular basis of the flavin-based electron-bifurcating caffeyl-CoA reductase reaction</article-title>. <source>FEBS Lett.</source>
+<volume>592</volume>, 
+<fpage>332</fpage>&#x02013;<lpage>342</lpage> (<year>2018</year>).<pub-id pub-id-type="pmid">29325219</pub-id>
+</mixed-citation></ref><ref id="R29"><label>29</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>V.</given-names>
+<surname>Hess</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Vitt</surname></string-name>, <string-name><given-names>V.</given-names>
+<surname>M&#x000fc;ller</surname></string-name></person-group>, 
+<article-title>A caffeyl-coenzyme A synthetase initiates caffeate activation prior to caffeate reduction in the acetogenic bacterium <italic toggle="yes">Acetobacterium woodii</italic></article-title>. <source>J. Bacteriol.</source>
+<volume>193</volume>, 
+<fpage>971</fpage>&#x02013;<lpage>978</lpage> (<year>2011</year>).<pub-id pub-id-type="pmid">21131487</pub-id>
+</mixed-citation></ref><ref id="R30"><label>30</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>V.</given-names>
+<surname>Hess</surname></string-name>, <string-name><given-names>J. M.</given-names>
+<surname>Gonz&#x000e1;lez</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Parthasarathy</surname></string-name>, <string-name><given-names>W.</given-names>
+<surname>Buckel</surname></string-name>, <string-name><given-names>V.</given-names>
+<surname>M&#x000fc;ller</surname></string-name></person-group>, 
+<article-title>Caffeate respiration in the acetogenic bacterium <italic toggle="yes">Acetobacterium woodii</italic>: A coenzyme A loop saves energy for caffeate activation</article-title>. <source>Appl. Environ. Microbiol.</source>
+<volume>79</volume>, 
+<fpage>1942</fpage>&#x02013;<lpage>1947</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23315745</pub-id>
+</mixed-citation></ref><ref id="R31"><label>31</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>S.</given-names>
+<surname>Dilling</surname></string-name>, <string-name><given-names>F.</given-names>
+<surname>Imkamp</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Schmidt</surname></string-name>, <string-name><given-names>V.</given-names>
+<surname>M&#x000fc;ller</surname></string-name></person-group>, 
+<article-title>Regulation of caffeate respiration in the acetogenic bacterium <italic toggle="yes">Acetobacterium woodii</italic></article-title>. <source>Appl. Environ. Microbiol.</source>
+<volume>73</volume>, 
+<fpage>3630</fpage>&#x02013;<lpage>3636</lpage> (<year>2007</year>).<pub-id pub-id-type="pmid">17416687</pub-id>
+</mixed-citation></ref><ref id="R32"><label>32</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>J. K.</given-names>
+<surname>Demmer</surname></string-name>, <string-name><given-names>N.</given-names>
+<surname>Pal Chowdhury</surname></string-name>, <string-name><given-names>T.</given-names>
+<surname>Selmer</surname></string-name>, <string-name><given-names>U.</given-names>
+<surname>Ermler</surname></string-name>, <string-name><given-names>W.</given-names>
+<surname>Buckel</surname></string-name></person-group>, 
+<article-title>The semiquinone swing in the bifurcating electron transferring flavoprotein/butyryl-CoA dehydrogenase complex from <italic toggle="yes">Clostridium difficile</italic></article-title>. <source>Nat. Commun.</source>
+<volume>8</volume>, 
+<fpage>1577</fpage> (<year>2017</year>).<pub-id pub-id-type="pmid">29146947</pub-id>
+</mixed-citation></ref><ref id="R33"><label>33</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>W.</given-names>
+<surname>Buckel</surname></string-name>, <string-name><given-names>R. K.</given-names>
+<surname>Thauer</surname></string-name></person-group>, 
+<article-title>Flavin-based electron bifurcation, a new mechanism of biological energy coupling</article-title>. <source>Chem. Rev.</source>
+<volume>118</volume>, 
+<fpage>3862</fpage>&#x02013;<lpage>3886</lpage> (<year>2018</year>).<pub-id pub-id-type="pmid">29561602</pub-id>
+</mixed-citation></ref><ref id="R34"><label>34</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>M. H.</given-names>
+<surname>Beck</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Poehlein</surname></string-name>, <string-name><given-names>F. R.</given-names>
+<surname>Bengelsdorf</surname></string-name>, <string-name><given-names>B.</given-names>
+<surname>Schiel-Bengelsdorf</surname></string-name>, <string-name><given-names>R.</given-names>
+<surname>Daniel</surname></string-name>, <string-name><given-names>P.</given-names>
+<surname>Durre</surname></string-name></person-group>, 
+<article-title>Draft genome sequence of the strict anaerobe <italic toggle="yes">Clostridium homopropionicum</italic> LuHBu1 (DSM 5847)</article-title>. <source>Genome Announc.</source>
+<volume>3</volume>, 
+<fpage>e01112</fpage>&#x02013;<lpage>e01115</lpage> (<year>2015</year>).<pub-id pub-id-type="pmid">26430034</pub-id>
+</mixed-citation></ref><ref id="R35"><label>35</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>M.</given-names>
+<surname>Hetzel</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Brock</surname></string-name>, <string-name><given-names>T.</given-names>
+<surname>Selmer</surname></string-name>, <string-name><given-names>A. J.</given-names>
+<surname>Pierik</surname></string-name>, <string-name><given-names>B. T.</given-names>
+<surname>Golding</surname></string-name>, <string-name><given-names>W.</given-names>
+<surname>Buckel</surname></string-name></person-group>, 
+<article-title>Acryloyl-CoA reductase from <italic toggle="yes">Clostridium propionicum</italic>. An enzyme complex of propionyl-CoA dehydrogenase and electron-transferring flavoprotein</article-title>. <source>Eur. J. Biochem.</source>
+<volume>270</volume>, 
+<fpage>902</fpage>&#x02013;<lpage>910</lpage> (<year>2003</year>).<pub-id pub-id-type="pmid">12603323</pub-id>
+</mixed-citation></ref><ref id="R36"><label>36</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>E.</given-names>
+<surname>Munier</surname></string-name>, <string-name><given-names>H.</given-names>
+<surname>Licandro</surname></string-name>, <string-name><given-names>E.</given-names>
+<surname>Beuvier</surname></string-name>, <string-name><given-names>R.</given-names>
+<surname>Cachon</surname></string-name></person-group>, 
+<article-title>Bioinformatics and metabolic flux analysis highlight a new mechanism involved in lactate oxidation in <italic toggle="yes">Clostridium tyrobutyricum</italic></article-title>. <source>Int. Microbiol.</source>
+<volume>26</volume>, 
+<fpage>501</fpage>&#x02013;<lpage>511</lpage> (<year>2023</year>).<pub-id pub-id-type="pmid">36609955</pub-id>
+</mixed-citation></ref><ref id="R37"><label>37</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>N. R.</given-names>
+<surname>Adrian</surname></string-name>, <string-name><given-names>C. M.</given-names>
+<surname>Arnett</surname></string-name></person-group>, 
+<article-title>Anaerobic biodegradation of hexahydro-1,3,5-trinitro-1,3,5-triazine (RDX) by Acetobacterium malicum strain HAAP-1 isolated from a methanogenic mixed culture</article-title>. <source>Curr. Microbiol.</source>
+<volume>48</volume>, 
+<fpage>332</fpage>&#x02013;<lpage>340</lpage> (<year>2004</year>).<pub-id pub-id-type="pmid">15060728</pub-id>
+</mixed-citation></ref><ref id="R38"><label>38</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>R.</given-names>
+<surname>Bache</surname></string-name>, <string-name><given-names>N.</given-names>
+<surname>Pfennig</surname></string-name></person-group>, 
+<article-title>Selective isolation of <italic toggle="yes">Acetobacterium woodii</italic> on methoxylated aromatic acids and determination of growth yields</article-title>. <source>Arch. Microbiol.</source>
+<volume>130</volume>, 
+<fpage>255</fpage>&#x02013;<lpage>261</lpage> (<year>1981</year>).</mixed-citation></ref><ref id="R39"><label>39</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>W.-M.</given-names>
+<surname>Chen</surname></string-name>, <string-name><given-names>Z.-J.</given-names>
+<surname>Tseng</surname></string-name>, <string-name><given-names>K.-S.</given-names>
+<surname>Lee</surname></string-name>, <string-name><given-names>J.-S.</given-names>
+<surname>Chang</surname></string-name></person-group>, 
+<article-title>Fermentative hydrogen production with <italic toggle="yes">Clostridium butyricum</italic> CGS5 isolated from anaerobic sewage sludge</article-title>. <source>Int. J. Hydrogen Energy.</source>
+<volume>30</volume>, 
+<fpage>1063</fpage>&#x02013;<lpage>1070</lpage> (<year>2005</year>).</mixed-citation></ref><ref id="R40"><label>40</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>T.</given-names>
+<surname>Mechichi</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Labat</surname></string-name>, <string-name><given-names>T. H.</given-names>
+<surname>Woo</surname></string-name>, <string-name><given-names>P.</given-names>
+<surname>Thomas</surname></string-name>, <string-name><given-names>J. L.</given-names>
+<surname>Garcia</surname></string-name>, <string-name><given-names>B. K.</given-names>
+<surname>Patel</surname></string-name></person-group>, 
+<article-title><italic toggle="yes">Eubacterium aggregans</italic> sp. nov., a new homoacetogenic bacterium from olive mill wastewater treatment digestor</article-title>. <source>Anaerobe</source>
+<volume>4</volume>, 
+<fpage>283</fpage>&#x02013;<lpage>291</lpage> (<year>1998</year>).<pub-id pub-id-type="pmid">16887654</pub-id>
+</mixed-citation></ref><ref id="R41"><label>41</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>C. C.</given-names>
+<surname>Wang</surname></string-name>, <string-name><given-names>C. W.</given-names>
+<surname>Chang</surname></string-name>, <string-name><given-names>C. P.</given-names>
+<surname>Chu</surname></string-name>, <string-name><given-names>D. J.</given-names>
+<surname>Lee</surname></string-name>, <string-name><given-names>B. V.</given-names>
+<surname>Chang</surname></string-name>, <string-name><given-names>C. S.</given-names>
+<surname>Liao</surname></string-name></person-group>, 
+<article-title>Producing hydrogen from wastewater sludge by <italic toggle="yes">Clostridium bifermentans</italic></article-title>. <source>J. Biotechnol.</source>
+<volume>102</volume>, 
+<fpage>83</fpage>&#x02013;<lpage>92</lpage> (<year>2003</year>).<pub-id pub-id-type="pmid">12668317</pub-id>
+</mixed-citation></ref><ref id="R42"><label>42</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>B. D.</given-names>
+<surname>Key</surname></string-name>, <string-name><given-names>R. D.</given-names>
+<surname>Howell</surname></string-name>, <string-name><given-names>C. S.</given-names>
+<surname>Criddle</surname></string-name></person-group>, 
+<article-title>Fluorinated organics in the biosphere</article-title>. <source>Environ. Sci. Technol.</source>
+<volume>31</volume>, 
+<fpage>2445</fpage>&#x02013;<lpage>2454</lpage> (<year>1997</year>).</mixed-citation></ref><ref id="R43"><label>43</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>C. F.</given-names>
+<surname>Kwiatkowski</surname></string-name>, <string-name><given-names>D. Q.</given-names>
+<surname>Andrews</surname></string-name>, <string-name><given-names>L. S.</given-names>
+<surname>Birnbaum</surname></string-name>, <string-name><given-names>T. A.</given-names>
+<surname>Bruton</surname></string-name>, <string-name><given-names>J. C.</given-names>
+<surname>DeWitt</surname></string-name>, <string-name><given-names>D. R. U.</given-names>
+<surname>Knappe</surname></string-name>, <string-name><given-names>M. V.</given-names>
+<surname>Maffini</surname></string-name>, <string-name><given-names>M. F.</given-names>
+<surname>Miller</surname></string-name>, <string-name><given-names>K. E.</given-names>
+<surname>Pelch</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Reade</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Soehl</surname></string-name>, <string-name><given-names>X.</given-names>
+<surname>Trier</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Venier</surname></string-name>, <string-name><given-names>C. C.</given-names>
+<surname>Wagner</surname></string-name>, <string-name><given-names>Z.</given-names>
+<surname>Wang</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Blum</surname></string-name></person-group>, 
+<article-title>Scientific basis for managing PFAS as a chemical class</article-title>. <source>Environ. Sci. Technol. Lett.</source>
+<volume>7</volume>, 
+<fpage>532</fpage>&#x02013;<lpage>543</lpage> (<year>2020</year>).<pub-id pub-id-type="pmid">34307722</pub-id>
+</mixed-citation></ref><ref id="R44"><label>44</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>Z.</given-names>
+<surname>Wang</surname></string-name>, <string-name><given-names>J. C.</given-names>
+<surname>DeWitt</surname></string-name>, <string-name><given-names>C. P.</given-names>
+<surname>Higgins</surname></string-name>, <string-name><given-names>I. T.</given-names>
+<surname>Cousins</surname></string-name></person-group>, 
+<article-title>A never-ending story of per- and polyfluoroalkyl substances (PFASs)?</article-title>
+<source>Environ. Sci. Technol.</source>
+<volume>51</volume>, 
+<fpage>2508</fpage>&#x02013;<lpage>2518</lpage> (<year>2017</year>).<pub-id pub-id-type="pmid">28224793</pub-id>
+</mixed-citation></ref><ref id="R45"><label>45</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>J.</given-names>
+<surname>Gl&#x000fc;ge</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Scheringer</surname></string-name>, <string-name><given-names>I. T.</given-names>
+<surname>Cousins</surname></string-name>, <string-name><given-names>J. C.</given-names>
+<surname>DeWitt</surname></string-name>, <string-name><given-names>G.</given-names>
+<surname>Goldenman</surname></string-name>, <string-name><given-names>D.</given-names>
+<surname>Herzke</surname></string-name>, <string-name><given-names>R.</given-names>
+<surname>Lohmann</surname></string-name>, <string-name><given-names>C. A.</given-names>
+<surname>Ng</surname></string-name>, <string-name><given-names>X.</given-names>
+<surname>Trier</surname></string-name>, <string-name><given-names>Z.</given-names>
+<surname>Wang</surname></string-name></person-group>, 
+<article-title>An overview of the uses of per- and polyfluoroalkyl substances (PFAS)</article-title>. <source>Environ. Sci. Process. Impacts</source>
+<volume>22</volume>, 
+<fpage>2345</fpage>&#x02013;<lpage>2373</lpage> (<year>2020</year>).<pub-id pub-id-type="pmid">33125022</pub-id>
+</mixed-citation></ref><ref id="R46"><label>46</label><mixed-citation publication-type="book">A. Wiseman, in <italic toggle="yes">Pharmacology of Fluorides: Part 2</italic>, F. A. Smith, Ed. (Springer Berlin Heidelberg, 1970), pp. 48&#x02013;97.</mixed-citation></ref><ref id="R47"><label>47</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>C. J.</given-names>
+<surname>All&#x000e8;gre</surname></string-name>, <string-name><given-names>J.-P.</given-names>
+<surname>Poirier</surname></string-name>, <string-name><given-names>E.</given-names>
+<surname>Humler</surname></string-name>, <string-name><given-names>A. W.</given-names>
+<surname>Hofmann</surname></string-name></person-group>, 
+<article-title>The chemical composition of the Earth</article-title>. <source>Earth Planet. Sci. Lett.</source>
+<volume>134</volume>, 
+<fpage>515</fpage>&#x02013;<lpage>526</lpage> (<year>1995</year>).</mixed-citation></ref><ref id="R48"><label>48</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>M.</given-names>
+<surname>Amini</surname></string-name>, <string-name><given-names>K.</given-names>
+<surname>Mueller</surname></string-name>, <string-name><given-names>K. C.</given-names>
+<surname>Abbaspour</surname></string-name>, <string-name><given-names>T.</given-names>
+<surname>Rosenberg</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Afyuni</surname></string-name>, <string-name><given-names>K. N.</given-names>
+<surname>M&#x000f8;ller</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Sarr</surname></string-name>, <string-name><given-names>C. A.</given-names>
+<surname>Johnson</surname></string-name></person-group>, 
+<article-title>Statistical modeling of global geogenic fluoride contamination in groundwaters</article-title>. <source>Environ. Sci. Technol.</source>
+<volume>42</volume>, 
+<fpage>3662</fpage>&#x02013;<lpage>3668</lpage> (<year>2008</year>).<pub-id pub-id-type="pmid">18546705</pub-id>
+</mixed-citation></ref><ref id="R49"><label>49</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>R. B.</given-names>
+<surname>Stockbridge</surname></string-name>, <string-name><given-names>H. H.</given-names>
+<surname>Lim</surname></string-name>, <string-name><given-names>R.</given-names>
+<surname>Otten</surname></string-name>, <string-name><given-names>C.</given-names>
+<surname>Williams</surname></string-name>, <string-name><given-names>T.</given-names>
+<surname>Shane</surname></string-name>, <string-name><given-names>Z.</given-names>
+<surname>Weinberg</surname></string-name>, <string-name><given-names>C.</given-names>
+<surname>Miller</surname></string-name></person-group>, 
+<article-title>Fluoride resistance and transport by riboswitch-controlled CLC antiporters</article-title>. <source>Proc. Natl. Acad. Sci. U.S.A.</source>
+<volume>109</volume>, 
+<fpage>15289</fpage>&#x02013;<lpage>15294</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">22949689</pub-id>
+</mixed-citation></ref><ref id="R50"><label>50</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>K. A.</given-names>
+<surname>Payne</surname></string-name>, <string-name><given-names>C. P.</given-names>
+<surname>Quezada</surname></string-name>, <string-name><given-names>K.</given-names>
+<surname>Fisher</surname></string-name>, <string-name><given-names>M. S.</given-names>
+<surname>Dunstan</surname></string-name>, <string-name><given-names>F. A.</given-names>
+<surname>Collins</surname></string-name>, <string-name><given-names>H.</given-names>
+<surname>Sjuts</surname></string-name>, <string-name><given-names>C.</given-names>
+<surname>Levy</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Hay</surname></string-name>, <string-name><given-names>S. E.</given-names>
+<surname>Rigby</surname></string-name>, <string-name><given-names>D.</given-names>
+<surname>Leys</surname></string-name></person-group>, 
+<article-title>Reductive dehalogenase structure suggests a mechanism for B12-dependent dehalogenation</article-title>. <source>Nature</source>
+<volume>517</volume>, 
+<fpage>513</fpage>&#x02013;<lpage>516</lpage> (<year>2015</year>).<pub-id pub-id-type="pmid">25327251</pub-id>
+</mixed-citation></ref><ref id="R51"><label>51</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>W.</given-names>
+<surname>Buckel</surname></string-name>, <string-name><given-names>R. K.</given-names>
+<surname>Thauer</surname></string-name></person-group>, 
+<article-title>Flavin-based electron bifurcation, ferredoxin, flavodoxin, and anaerobic respiration with protons (Ech) or NAD<sup>+</sup> (Rnf) as electron acceptors: A historical review</article-title>. <source>Front. Microbiol.</source>
+<volume>9</volume>, 
+<fpage>401</fpage> (<year>2018</year>).<pub-id pub-id-type="pmid">29593673</pub-id>
+</mixed-citation></ref><ref id="R52"><label>52</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>R.</given-names>
+<surname>Rabus</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Boll</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Heider</surname></string-name>, <string-name><given-names>R. U.</given-names>
+<surname>Meckenstock</surname></string-name>, <string-name><given-names>W.</given-names>
+<surname>Buckel</surname></string-name>, <string-name><given-names>O.</given-names>
+<surname>Einsle</surname></string-name>, <string-name><given-names>U.</given-names>
+<surname>Ermler</surname></string-name>, <string-name><given-names>B. T.</given-names>
+<surname>Golding</surname></string-name>, <string-name><given-names>R. P.</given-names>
+<surname>Gunsalus</surname></string-name>, <string-name><given-names>P. M. H.</given-names>
+<surname>Kroneck</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Kr&#x000fc;ger</surname></string-name>, <string-name><given-names>T.</given-names>
+<surname>Lueders</surname></string-name>, <string-name><given-names>B. M.</given-names>
+<surname>Martins</surname></string-name>, <string-name><given-names>F.</given-names>
+<surname>Musat</surname></string-name>, <string-name><given-names>H. H.</given-names>
+<surname>Richnow</surname></string-name>, <string-name><given-names>B.</given-names>
+<surname>Schink</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Seifert</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Szaleniec</surname></string-name>, <string-name><given-names>T.</given-names>
+<surname>Treude</surname></string-name>, <string-name><given-names>G. M.</given-names>
+<surname>Ullmann</surname></string-name>, <string-name><given-names>C.</given-names>
+<surname>Vogt</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>von Bergen</surname></string-name>, <string-name><given-names>H.</given-names>
+<surname>Wilkes</surname></string-name></person-group>, 
+<article-title>Anaerobic microbial degradation of hydrocarbons: From enzymatic reactions to the environment</article-title>. <source>J. Mol. Microbiol. Biotechnol.</source>
+<volume>26</volume>, 
+<fpage>5</fpage>&#x02013;<lpage>28</lpage> (<year>2016</year>).<pub-id pub-id-type="pmid">26960061</pub-id>
+</mixed-citation></ref><ref id="R53"><label>53</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>G. J.</given-names>
+<surname>Schut</surname></string-name>, <string-name><given-names>D. K.</given-names>
+<surname>Haja</surname></string-name>, <string-name><given-names>X.</given-names>
+<surname>Feng</surname></string-name>, <string-name><given-names>F. L.</given-names>
+<surname>Poole</surname></string-name>, <string-name><given-names>H.</given-names>
+<surname>Li</surname></string-name>, <string-name><given-names>M. W. W.</given-names>
+<surname>Adams</surname></string-name></person-group>, 
+<article-title>An abundant and diverse new family of electron bifurcating enzymes with a non-canonical catalytic mechanism</article-title>. <source>Front. Microbiol.</source>
+<volume>13</volume>, 
+<fpage>946711</fpage> (<year>2022</year>).<pub-id pub-id-type="pmid">35875533</pub-id>
+</mixed-citation></ref><ref id="R54"><label>54</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>J. P.</given-names>
+<surname>Baker</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Saez-Saez</surname></string-name>, <string-name><given-names>S. I.</given-names>
+<surname>Jensen</surname></string-name>, <string-name><given-names>A. T.</given-names>
+<surname>Nielsen</surname></string-name>, <string-name><given-names>N. P.</given-names>
+<surname>Minton</surname></string-name></person-group>, 
+<article-title>A clean in-frame knockout system for gene deletion in <italic toggle="yes">Acetobacterium woodii</italic></article-title>. <source>J. Biotechnol.</source>
+<volume>353</volume>, 
+<fpage>9</fpage>&#x02013;<lpage>18</lpage> (<year>2022</year>).<pub-id pub-id-type="pmid">35659892</pub-id>
+</mixed-citation></ref><ref id="R55"><label>55</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>O.</given-names>
+<surname>Tiedt</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Mergelsberg</surname></string-name>, <string-name><given-names>K.</given-names>
+<surname>Boll</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>M&#x000fc;ller</surname></string-name>, <string-name><given-names>L.</given-names>
+<surname>Adrian</surname></string-name>, <string-name><given-names>N.</given-names>
+<surname>Jehmlich</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>von Bergen</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Boll</surname></string-name></person-group>, 
+<article-title>ATP-dependent C&#x02013;F bond cleavage allows the complete degradation of 4-fluoroaromatics without oxygen</article-title>. <source>mBio</source>
+<volume>7</volume>, 
+<fpage>e00990-16</fpage> (<year>2016</year>).<pub-id pub-id-type="pmid">27507824</pub-id>
+</mixed-citation></ref><ref id="R56"><label>56</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>S. E. L.</given-names>
+<surname>Anselmann</surname></string-name>, <string-name><given-names>C.</given-names>
+<surname>L&#x000f6;ffler</surname></string-name>, <string-name><given-names>H.-J.</given-names>
+<surname>St&#x000e4;rk</surname></string-name>, <string-name><given-names>N.</given-names>
+<surname>Jehmlich</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>von Bergen</surname></string-name>, <string-name><given-names>T.</given-names>
+<surname>Br&#x000fc;ls</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Boll</surname></string-name></person-group>, 
+<article-title>The class II benzoyl-coenzyme A reductase complex from the sulfate-reducing <italic toggle="yes">Desulfosarcina cetonica</italic></article-title>. <source>Environ. Microbiol.</source>
+<volume>21</volume>, 
+<fpage>4241</fpage>&#x02013;<lpage>4252</lpage> (<year>2019</year>).<pub-id pub-id-type="pmid">31430028</pub-id>
+</mixed-citation></ref><ref id="R57"><label>57</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>P.</given-names>
+<surname>Emsley</surname></string-name>, <string-name><given-names>B.</given-names>
+<surname>Lohkamp</surname></string-name>, <string-name><given-names>W. G.</given-names>
+<surname>Scott</surname></string-name>, <string-name><given-names>K.</given-names>
+<surname>Cowtan</surname></string-name></person-group>, 
+<article-title>Features and development of Coot</article-title>. <source>Acta Crystallogr. D Biol. Crystallogr.</source>
+<volume>66</volume>, 
+<fpage>486</fpage>&#x02013;<lpage>501</lpage> (<year>2010</year>).<pub-id pub-id-type="pmid">20383002</pub-id>
+</mixed-citation></ref><ref id="R58"><label>58</label><mixed-citation publication-type="other">O. S. Smart, A. Sharff, J. Holstein, T. O. Womack, C. Flensburg, P. Keller, W. Paciorek,C. Vonrhein, G. Bricogne, <italic toggle="yes">Grade2 version 1.4.0</italic>. (Global Phasing Ltd., 2021).</mixed-citation></ref><ref id="R59"><label>59</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>A. A.</given-names>
+<surname>Vagin</surname></string-name>, <string-name><given-names>R. A.</given-names>
+<surname>Steiner</surname></string-name>, <string-name><given-names>A. A.</given-names>
+<surname>Lebedev</surname></string-name>, <string-name><given-names>L.</given-names>
+<surname>Potterton</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>McNicholas</surname></string-name>, <string-name><given-names>F.</given-names>
+<surname>Long</surname></string-name>, <string-name><given-names>G. N.</given-names>
+<surname>Murshudov</surname></string-name></person-group>, 
+<article-title>REFMAC5 dictionary: Organization of prior chemical knowledge and guidelines for its use</article-title>. <source>Acta Crystallogr. D Biol. Crystallogr.</source>
+<volume>60</volume>, 
+<fpage>2184</fpage>&#x02013;<lpage>2195</lpage> (<year>2004</year>).<pub-id pub-id-type="pmid">15572771</pub-id>
+</mixed-citation></ref><ref id="R60"><label>60</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>P.</given-names>
+<surname>Koehl</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Levitt</surname></string-name></person-group>, 
+<article-title>Sequence variations within protein families are linearly related to structural variations</article-title>. <source>J. Mol. Biol.</source>
+<volume>323</volume>, 
+<fpage>551</fpage>&#x02013;<lpage>562</lpage> (<year>2002</year>).<pub-id pub-id-type="pmid">12381308</pub-id>
+</mixed-citation></ref><ref id="R61"><label>61</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>F.</given-names>
+<surname>Sievers</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Wilm</surname></string-name>, <string-name><given-names>D.</given-names>
+<surname>Dineen</surname></string-name>, <string-name><given-names>T. J.</given-names>
+<surname>Gibson</surname></string-name>, <string-name><given-names>K.</given-names>
+<surname>Karplus</surname></string-name>, <string-name><given-names>W.</given-names>
+<surname>Li</surname></string-name>, <string-name><given-names>R.</given-names>
+<surname>Lopez</surname></string-name>, <string-name><given-names>H.</given-names>
+<surname>McWilliam</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Remmert</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Soding</surname></string-name>, <string-name><given-names>J. D.</given-names>
+<surname>Thompson</surname></string-name>, <string-name><given-names>D. G.</given-names>
+<surname>Higgins</surname></string-name></person-group>, 
+<article-title>Fast, scalable generation of high-quality protein multiple sequence alignments using Clustal Omega</article-title>. <source>Mol. Syst. Biol.</source>
+<volume>7</volume>, 
+<fpage>539</fpage> (<year>2011</year>).<pub-id pub-id-type="pmid">21988835</pub-id>
+</mixed-citation></ref><ref id="R62"><label>62</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>G. E.</given-names>
+<surname>Crooks</surname></string-name>, <string-name><given-names>G.</given-names>
+<surname>Hon</surname></string-name>, <string-name><given-names>J. M.</given-names>
+<surname>Chandonia</surname></string-name>, <string-name><given-names>S. E.</given-names>
+<surname>Brenner</surname></string-name></person-group>, 
+<article-title>WebLogo: A sequence logo generator</article-title>. <source>Genome Res.</source>
+<volume>14</volume>, 
+<fpage>1188</fpage>&#x02013;<lpage>1190</lpage> (<year>2004</year>).<pub-id pub-id-type="pmid">15173120</pub-id>
+</mixed-citation></ref><ref id="R63"><label>63</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>L.</given-names>
+<surname>Richardson</surname></string-name>, <string-name><given-names>B.</given-names>
+<surname>Allen</surname></string-name>, <string-name><given-names>G.</given-names>
+<surname>Baldi</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Beracochea</surname></string-name>, <string-name><given-names>M. L.</given-names>
+<surname>Bileschi</surname></string-name>, <string-name><given-names>T.</given-names>
+<surname>Burdett</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Burgin</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Caballero-Perez</surname></string-name>, <string-name><given-names>G.</given-names>
+<surname>Cochrane</surname></string-name>, <string-name><given-names>L. J.</given-names>
+<surname>Colwell</surname></string-name>, <string-name><given-names>T.</given-names>
+<surname>Curtis</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Escobar-Zepeda</surname></string-name>, <string-name><given-names>T. A.</given-names>
+<surname>Gurbich</surname></string-name>, <string-name><given-names>V.</given-names>
+<surname>Kale</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Korobeynikov</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Raj</surname></string-name>, <string-name><given-names>A. B.</given-names>
+<surname>Rogers</surname></string-name>, <string-name><given-names>E.</given-names>
+<surname>Sakharova</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Sanchez</surname></string-name>, <string-name><given-names>D. J.</given-names>
+<surname>Wilkinson</surname></string-name>, <string-name><given-names>R. D.</given-names>
+<surname>Finn</surname></string-name></person-group>, 
+<article-title>MGnify: The microbiome sequence data analysis resource in 2023</article-title>. <source>Nucleic Acids Res.</source>
+<volume>51</volume>, 
+<fpage>D753</fpage>&#x02013;<lpage>D759</lpage> (<year>2023</year>).<pub-id pub-id-type="pmid">36477304</pub-id>
+</mixed-citation></ref><ref id="R64"><label>64</label><mixed-citation publication-type="book">H. Wickham, <italic toggle="yes">ggplot2: Elegant Graphics for Data Analysis</italic> (Springer-Verlag, 2016).</mixed-citation></ref><ref id="R65"><label>65</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>F. R.</given-names>
+<surname>Blattner</surname></string-name>, <string-name><given-names>G.</given-names>
+<surname>Plunkett</surname>
+<suffix>III</suffix></string-name>, <string-name><given-names>C. A.</given-names>
+<surname>Bloch</surname></string-name>, <string-name><given-names>N. T.</given-names>
+<surname>Perna</surname></string-name>, <string-name><given-names>V.</given-names>
+<surname>Burland</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Riley</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Collado-Vides</surname></string-name>, <string-name><given-names>J. D.</given-names>
+<surname>Glasner</surname></string-name>, <string-name><given-names>C. K.</given-names>
+<surname>Rode</surname></string-name>, <string-name><given-names>G. F.</given-names>
+<surname>Mayhew</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Gregor</surname></string-name>, <string-name><given-names>N. W.</given-names>
+<surname>Davis</surname></string-name>, <string-name><given-names>H. A.</given-names>
+<surname>Kirkpatrick</surname></string-name>, <string-name><given-names>M. A.</given-names>
+<surname>Goeden</surname></string-name>, <string-name><given-names>D. J.</given-names>
+<surname>Rose</surname></string-name>, <string-name><given-names>B.</given-names>
+<surname>Mau</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Shao</surname></string-name></person-group>, 
+<article-title>The complete genome sequence of <italic toggle="yes">Escherichia coli K-12</italic></article-title>. <source>Science</source>
+<volume>277</volume>, 
+<fpage>1453</fpage>&#x02013;<lpage>1462</lpage> (<year>1997</year>).<pub-id pub-id-type="pmid">9278503</pub-id>
+</mixed-citation></ref><ref id="R66"><label>66</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>K. A.</given-names>
+<surname>Datsenko</surname></string-name>, <string-name><given-names>B. L.</given-names>
+<surname>Wanner</surname></string-name></person-group>, 
+<article-title>One-step inactivation of chromosomal genes in <italic toggle="yes">Escherichia coli K-12</italic> using PCR products</article-title>. <source>Proc. Natl. Acad. Sci. U. S. A.</source>
+<volume>97</volume>, 
+<fpage>6640</fpage>&#x02013;<lpage>6645</lpage> (<year>2000</year>).<pub-id pub-id-type="pmid">10829079</pub-id>
+</mixed-citation></ref><ref id="R67"><label>67</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>K. C.</given-names>
+<surname>Murphy</surname></string-name>, <string-name><given-names>K. G.</given-names>
+<surname>Campellone</surname></string-name></person-group>, 
+<article-title>Lambda Red-mediated recombinogenic engineering of enterohemorrhagic and enteropathogenic <italic toggle="yes">E. coli</italic></article-title>. <source>BMC Mol. Biol.</source>
+<volume>4</volume>, 
+<fpage>11</fpage> (<year>2003</year>).<pub-id pub-id-type="pmid">14672541</pub-id>
+</mixed-citation></ref><ref id="R68"><label>68</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>F.</given-names>
+<surname>Malagon</surname></string-name></person-group>, 
+<article-title>RNase III is required for localization to the nucleoid of the 5' pre-rRNA leader and for optimal induction of rRNA synthesis in E. coli</article-title>. <source>RNA</source>
+<volume>19</volume>, 
+<fpage>1200</fpage>&#x02013;<lpage>1207</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23893733</pub-id>
+</mixed-citation></ref><ref id="R69"><label>69</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>Y.</given-names>
+<surname>Men</surname></string-name>, <string-name><given-names>E. C.</given-names>
+<surname>Seth</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Yi</surname></string-name>, <string-name><given-names>R. H.</given-names>
+<surname>Allen</surname></string-name>, <string-name><given-names>M. E.</given-names>
+<surname>Taga</surname></string-name>, <string-name><given-names>L.</given-names>
+<surname>Alvarez-Cohen</surname></string-name></person-group>, 
+<article-title>Sustainable growth of <italic toggle="yes">Dehalococcoides mccartyi</italic> 195 by corrinoid salvaging and remodeling in defined lactate-fermenting consortia</article-title>. <source>Appl. Environ. Microbiol.</source>
+<volume>80</volume>, 
+<fpage>2133</fpage>&#x02013;<lpage>2141</lpage> (<year>2014</year>).<pub-id pub-id-type="pmid">24463969</pub-id>
+</mixed-citation></ref><ref id="R70"><label>70</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>A. P.</given-names>
+<surname>Arkin</surname></string-name>, <string-name><given-names>R. W.</given-names>
+<surname>Cottingham</surname></string-name>, <string-name><given-names>C. S.</given-names>
+<surname>Henry</surname></string-name>, <string-name><given-names>N. L.</given-names>
+<surname>Harris</surname></string-name>, <string-name><given-names>R. L.</given-names>
+<surname>Stevens</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Maslov</surname></string-name>, <string-name><given-names>P.</given-names>
+<surname>Dehal</surname></string-name>, <string-name><given-names>D.</given-names>
+<surname>Ware</surname></string-name>, <string-name><given-names>F.</given-names>
+<surname>Perez</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Canon</surname></string-name>, <string-name><given-names>M. W.</given-names>
+<surname>Sneddon</surname></string-name>, <string-name><given-names>M. L.</given-names>
+<surname>Henderson</surname></string-name>, <string-name><given-names>W. J.</given-names>
+<surname>Riehl</surname></string-name>, <string-name><given-names>D.</given-names>
+<surname>Murphy-Olson</surname></string-name>, <string-name><given-names>S. Y.</given-names>
+<surname>Chan</surname></string-name>, <string-name><given-names>R. T.</given-names>
+<surname>Kamimura</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Kumari</surname></string-name>, <string-name><given-names>M. M.</given-names>
+<surname>Drake</surname></string-name>, <string-name><given-names>T. S.</given-names>
+<surname>Brettin</surname></string-name>, <string-name><given-names>E. M.</given-names>
+<surname>Glass</surname></string-name>, <string-name><given-names>D.</given-names>
+<surname>Chivian</surname></string-name>, <string-name><given-names>D.</given-names>
+<surname>Gunter</surname></string-name>, <string-name><given-names>D. J.</given-names>
+<surname>Weston</surname></string-name>, <string-name><given-names>B. H.</given-names>
+<surname>Allen</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Baumohl</surname></string-name>, <string-name><given-names>A. A.</given-names>
+<surname>Best</surname></string-name>, <string-name><given-names>B.</given-names>
+<surname>Bowen</surname></string-name>, <string-name><given-names>S. E.</given-names>
+<surname>Brenner</surname></string-name>, <string-name><given-names>C. C.</given-names>
+<surname>Bun</surname></string-name>, <string-name><given-names>J. M.</given-names>
+<surname>Chandonia</surname></string-name>, <string-name><given-names>J. M.</given-names>
+<surname>Chia</surname></string-name>, <string-name><given-names>R.</given-names>
+<surname>Colasanti</surname></string-name>, <string-name><given-names>N.</given-names>
+<surname>Conrad</surname></string-name>, <string-name><given-names>J. J.</given-names>
+<surname>Davis</surname></string-name>, <string-name><given-names>B. H.</given-names>
+<surname>Davison</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>DeJongh</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Devoid</surname></string-name>, <string-name><given-names>E.</given-names>
+<surname>Dietrich</surname></string-name>, <string-name><given-names>I.</given-names>
+<surname>Dubchak</surname></string-name>, <string-name><given-names>J. N.</given-names>
+<surname>Edirisinghe</surname></string-name>, <string-name><given-names>G.</given-names>
+<surname>Fang</surname></string-name>, <string-name><given-names>J. P.</given-names>
+<surname>Faria</surname></string-name>, <string-name><given-names>P. M.</given-names>
+<surname>Frybarger</surname></string-name>, <string-name><given-names>W.</given-names>
+<surname>Gerlach</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Gerstein</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Greiner</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Gurtowski</surname></string-name>, <string-name><given-names>H. L.</given-names>
+<surname>Haun</surname></string-name>, <string-name><given-names>F.</given-names>
+<surname>He</surname></string-name>, <string-name><given-names>R.</given-names>
+<surname>Jain</surname></string-name>, <string-name><given-names>M. P.</given-names>
+<surname>Joachimiak</surname></string-name>, <string-name><given-names>K. P.</given-names>
+<surname>Keegan</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Kondo</surname></string-name>, <string-name><given-names>V.</given-names>
+<surname>Kumar</surname></string-name>, <string-name><given-names>M. L.</given-names>
+<surname>Land</surname></string-name>, <string-name><given-names>F.</given-names>
+<surname>Meyer</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Mills</surname></string-name>, <string-name><given-names>P. S.</given-names>
+<surname>Novichkov</surname></string-name>, <string-name><given-names>T.</given-names>
+<surname>Oh</surname></string-name>, <string-name><given-names>G. J.</given-names>
+<surname>Olsen</surname></string-name>, <string-name><given-names>R.</given-names>
+<surname>Olson</surname></string-name>, <string-name><given-names>B.</given-names>
+<surname>Parrello</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Pasternak</surname></string-name>, <string-name><given-names>E.</given-names>
+<surname>Pearson</surname></string-name>, <string-name><given-names>S. S.</given-names>
+<surname>Poon</surname></string-name>, <string-name><given-names>G. A.</given-names>
+<surname>Price</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Ramakrishnan</surname></string-name>, <string-name><given-names>P.</given-names>
+<surname>Ranjan</surname></string-name>, <string-name><given-names>P. C.</given-names>
+<surname>Ronald</surname></string-name>, <string-name><given-names>M. C.</given-names>
+<surname>Schatz</surname></string-name>, <string-name><given-names>S. M. D.</given-names>
+<surname>Seaver</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Shukla</surname></string-name>, <string-name><given-names>R. A.</given-names>
+<surname>Sutormin</surname></string-name>, <string-name><given-names>M. H.</given-names>
+<surname>Syed</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Thomason</surname></string-name>, <string-name><given-names>N. L.</given-names>
+<surname>Tintle</surname></string-name>, <string-name><given-names>D.</given-names>
+<surname>Wang</surname></string-name>, <string-name><given-names>F.</given-names>
+<surname>Xia</surname></string-name>, <string-name><given-names>H.</given-names>
+<surname>Yoo</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Yoo</surname></string-name>, <string-name><given-names>D.</given-names>
+<surname>Yu</surname></string-name></person-group>, 
+<article-title>KBase: The United States Department of Energy Systems Biology Knowledgebase</article-title>. <source>Nat. Biotechnol.</source>
+<volume>36</volume>, 
+<fpage>566</fpage>&#x02013;<lpage>569</lpage> (<year>2018</year>).<pub-id pub-id-type="pmid">29979655</pub-id>
+</mixed-citation></ref><ref id="R71"><label>71</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>D.</given-names>
+<surname>Kim</surname></string-name>, <string-name><given-names>J. M.</given-names>
+<surname>Paggi</surname></string-name>, <string-name><given-names>C.</given-names>
+<surname>Park</surname></string-name>, <string-name><given-names>C.</given-names>
+<surname>Bennett</surname></string-name>, <string-name><given-names>S. L.</given-names>
+<surname>Salzberg</surname></string-name></person-group>, 
+<article-title>Graph-based genome alignment and genotyping with HISAT2 and HISAT-genotype</article-title>. <source>Nat. Biotechnol.</source>
+<volume>37</volume>, 
+<fpage>907</fpage>&#x02013;<lpage>915</lpage> (<year>2019</year>).<pub-id pub-id-type="pmid">31375807</pub-id>
+</mixed-citation></ref><ref id="R72"><label>72</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>M.</given-names>
+<surname>Pertea</surname></string-name>, <string-name><given-names>G. M.</given-names>
+<surname>Pertea</surname></string-name>, <string-name><given-names>C. M.</given-names>
+<surname>Antonescu</surname></string-name>, <string-name><given-names>T. C.</given-names>
+<surname>Chang</surname></string-name>, <string-name><given-names>J. T.</given-names>
+<surname>Mendell</surname></string-name>, <string-name><given-names>S. L.</given-names>
+<surname>Salzberg</surname></string-name></person-group>, 
+<article-title>StringTie enables improved reconstruction of a transcriptome from RNA-seq reads</article-title>. <source>Nat. Biotechnol.</source>
+<volume>33</volume>, 
+<fpage>290</fpage>&#x02013;<lpage>295</lpage> (<year>2015</year>).<pub-id pub-id-type="pmid">25690850</pub-id>
+</mixed-citation></ref><ref id="R73"><label>73</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>M.</given-names>
+<surname>Pertea</surname></string-name>, <string-name><given-names>D.</given-names>
+<surname>Kim</surname></string-name>, <string-name><given-names>G. M.</given-names>
+<surname>Pertea</surname></string-name>, <string-name><given-names>J. T.</given-names>
+<surname>Leek</surname></string-name>, <string-name><given-names>S. L.</given-names>
+<surname>Salzberg</surname></string-name></person-group>, 
+<article-title>Transcript-level expression analysis of RNA-seq experiments with HISAT, StringTie and Ballgown</article-title>. <source>Nat. Protoc.</source>
+<volume>11</volume>, 
+<fpage>1650</fpage>&#x02013;<lpage>1667</lpage> (<year>2016</year>).<pub-id pub-id-type="pmid">27560171</pub-id>
+</mixed-citation></ref><ref id="R74"><label>74</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>M. I.</given-names>
+<surname>Love</surname></string-name>, <string-name><given-names>W.</given-names>
+<surname>Huber</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Anders</surname></string-name></person-group>, 
+<article-title>Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2</article-title>. <source>Genome Biol.</source>
+<volume>15</volume>, 
+<fpage>550</fpage> (<year>2014</year>).<pub-id pub-id-type="pmid">25516281</pub-id>
+</mixed-citation></ref><ref id="R75"><label>75</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><given-names>A.</given-names>
+<surname>Wiechmann</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Ciurus</surname></string-name>, <string-name><given-names>F.</given-names>
+<surname>Oswald</surname></string-name>, <string-name><given-names>V. N.</given-names>
+<surname>Seiler</surname></string-name>, <string-name><given-names>V.</given-names>
+<surname>M&#x000fc;ller</surname></string-name></person-group>, 
+<article-title>It does not always take two to tango: &#x0201c;Syntrophy&#x0201d; via hydrogen cycling in one bacterial cell</article-title>. <source>ISME J.</source>
+<volume>14</volume>, 
+<fpage>1561</fpage>&#x02013;<lpage>1570</lpage> (<year>2020</year>).<pub-id pub-id-type="pmid">32203116</pub-id>
+</mixed-citation></ref></ref-list></back></article>
