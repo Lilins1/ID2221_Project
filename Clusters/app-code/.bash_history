@@ -28,3 +28,4 @@ spark-submit  --packages com.databricks:spark-xml_2.13:0.17.0  /opt/spark/app/pr
 git add .
 git commit -m "success process"
 exit
+exit

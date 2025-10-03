@@ -70,13 +70,37 @@ services:
       interval: 10s
       timeout: 5s
       retries: 5
+  # =====================
+  # 3. Chroma Vector Database
+  # =====================
+  chroma:
+    image: chromadb/chroma:latest
+    container_name: chroma-server
+    hostname: chroma
+    environment:
+      - IS_PERSISTENT=TRUE  # 启用持久化存储
+      - PERSIST_DIRECTORY=/chroma/db  # 容器内数据存储路径
+      - ANONYMIZED_TELEMETRY=FALSE  # 关闭匿名统计
+    volumes:
+      - ./chroma-data:/chroma/db  # 映射到本地目录，持久化向量数据
+    ports:
+      - "8000:8000"  # Chroma API端口（默认8000）
+    networks:
+      - hadoop
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]  # 检查服务健康状态
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
 
   # =====================
-  # 3. Spark Compute Layer
+  # 4. Spark Compute Layer
   # =====================
   spark:
     image: bitnami/spark:4.0.0-debian-12-r12
     container_name: spark-cluster
+    user: root
     # user: "1001:1001"
     environment:
       - SPARK_MODE=master
@@ -85,6 +109,9 @@ services:
       # Note: Your Spark application now needs to connect to Redis at 'redis:6379'
       - CORE_CONF_fs_defaultFS=hdfs://namenode:9000
       - HOME=/opt/spark/app
+      # 新增：Chroma服务地址（容器内通过服务名访问）
+      - CHROMA_HOST=chroma
+      - CHROMA_PORT=8000
     ports:
       - "8080:8080" # Spark Master UI
       - "4040:4040" # Spark Job UI
@@ -101,6 +128,8 @@ services:
       datanode1:
         condition: service_started # Datanodes don't have healthchecks, so wait for start
       datanode2:
+        condition: service_started
+      chroma: 
         condition: service_started
 
 # =====================

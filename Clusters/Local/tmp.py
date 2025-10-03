@@ -1,0 +1,6 @@
+# CHROMA_COLLECTION = "test_set_medical_qa_rag"
+# HDFS_OUTPUT_PATH = "hdfs://namenode:9000/id2221/MedevalProcessed/test_set_with_embedding"
+# HDFS_INPUT_PATH = "hdfs://namenode:9000/id2221/MedevalRaw/test_set.json"
+CHROMA_COLLECTION = "ori_pqau_medical_qa_rag"
+HDFS_OUTPUT_PATH = "hdfs://namenode:9000/id2221/MedevalProcessed/ori_pqau_with_embedding"
+HDFS_INPUT_PATH = "hdfs://namenode:9000/id2221/MedevalRaw/ori_pqau.json"
