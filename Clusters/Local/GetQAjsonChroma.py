@@ -2,29 +2,29 @@ from chromadb import HttpClient
 import urllib.request
 import json
 import os
-import re # 导入 re 模块用于生成安全文件名
+import re  # For safe filename generation
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
 
 # ===============================
-# 配置 Chroma 和 Ollama
+# Configuration: Chroma & Ollama
 # ===============================
 CHROMA_HOST = "localhost"
 CHROMA_PORT = 8000
-# 确保这里的集合名称与你写入数据时使用的名称一致
+# Ensure this matches the collection name used during data insertion
 COLLECTION_NAME = "ori_pqau_medical_qa_rag"
 
 OLLAMA_URL = "http://localhost:11434/api/embeddings"
 MODEL_NAME = "embeddinggemma:latest"
 
-TOP_K = 3000     # 每条查询返回前 K 个最相似文档
-MAX_WORKERS = 5  # 并行嵌入线程数
+TOP_K = 3000     # Number of most similar documents to retrieve per query
+MAX_WORKERS = 5  # Number of parallel embedding threads
 
 # ===============================
-# 生成嵌入向量 (无变化)
+# Generate Embeddings
 # ===============================
 def get_embedding(text: str) -> list:
-    """调用 Ollama API 生成文本嵌入"""
+    """Generate a text embedding using the Ollama API."""
     payload = {"model": MODEL_NAME, "prompt": text}
     data = json.dumps(payload).encode("utf-8")
     req = urllib.request.Request(
@@ -38,65 +38,60 @@ def get_embedding(text: str) -> list:
     return result["embedding"]
 
 # ===============================
-# 辅助函数 (核心修改)
+# Helper Functions
 # ===============================
 def parse_list_field(value, field_name=None):
     """
-    解析元数据字段的更新策略：
-     - 如果已经是 list，直接返回。
-     - 如果是 str，优先尝试将其作为 JSON 列表解析。
-     - 如果 JSON 解析失败，则回退到旧的分割逻辑（为了兼容）。
+    Parse metadata fields with flexible strategies:
+     - If already a list, return it directly.
+     - If a string, first try to parse it as a JSON list.
+     - If JSON parsing fails, fall back to legacy split-based parsing.
     """
     if isinstance(value, list):
         return [v.strip() if isinstance(v, str) else v for v in value]
 
     if isinstance(value, str):
-        # === 核心修改：优先尝试将字符串作为JSON解析 ===
-        # 因为我们新的存储脚本将列表保存为JSON字符串
+        # === Preferred: try parsing as JSON string ===
+        # New data stores lists as serialized JSON strings
         try:
             parsed = json.loads(value)
             if isinstance(parsed, list):
-                # 解析成功，且结果是列表，直接返回
                 return [p.strip() if isinstance(p, str) else p for p in parsed]
         except json.JSONDecodeError:
-            # 如果不是一个有效的JSON字符串，则忽略错误，继续执行下面的旧逻辑
+            # Not a valid JSON string — fall back to legacy logic
             pass
 
-        # === 以下为旧逻辑/回退逻辑，用于兼容老数据 ===
-        # 如果JSON解析失败，它可能是一个普通的、未格式化的字符串
+        # === Legacy / compatibility fallback ===
         if field_name == "contexts" and '\n' in value:
             return [item.strip() for item in value.split('\n') if item.strip()]
 
         if field_name == "meshes" and "," in value:
             return [item.strip() for item in value.split(",") if item.strip()]
 
-        # 如果以上都不适用，则将整个字符串作为一个元素返回
+        # If none of the above, return as single-element list
         return [value.strip()]
 
-    # 其他类型（如None）返回空列表
+    # For None or unexpected types, return an empty list
     return []
 
 def sanitize_filename(text: str, max_length: int = 100) -> str:
-    """根据输入文本创建一个安全的文件名"""
-    # 移除非法字符
-    text = re.sub(r'[\\/*?:"<>|]', "", text)
-    # 用下划线替换空格
-    text = text.replace(" ", "_")
-    # 截断到最大长度
-    return text[:max_length]
+    """Create a filesystem-safe filename from text."""
+    text = re.sub(r'[\\/*?:"<>|]', "", text)  # Remove illegal characters
+    text = text.replace(" ", "_")             # Replace spaces with underscores
+    return text[:max_length]                  # Truncate if too long
 
 # ===============================
-# 查询 Chroma 并导出 (逻辑无变化, 但现在会调用更新后的解析函数)
+# Query Chroma and Export Results
 # ===============================
 def query_and_export(queries, output_base_dir):
     client = HttpClient(host=CHROMA_HOST, port=CHROMA_PORT)
-    collection = client.get_collection(name=COLLECTION_NAME) # 使用 get_collection 更安全
+    collection = client.get_collection(name=COLLECTION_NAME)  # safer than create/get hybrid
 
-    # 创建时间子文件夹
+    # Create timestamped output folder
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     folder_path = os.path.join(output_base_dir, timestamp)
     os.makedirs(folder_path, exist_ok=True)
-    print(f"结果将保存到目录: {folder_path}")
+    print(f"Results will be saved to: {folder_path}")
 
     with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
         future_to_query = {executor.submit(get_embedding, q): q for q in queries}
@@ -106,20 +101,20 @@ def query_and_export(queries, output_base_dir):
             try:
                 embedding = future.result()
             except Exception as e:
-                print(f"生成嵌入失败: {query_text[:50]}..., 错误: {e}")
+                print(f"Embedding generation failed for: {query_text[:50]}..., Error: {e}")
                 continue
 
-            # 查询 Chroma
+            # Query Chroma for the most similar entries
             results = collection.query(
                 query_embeddings=[embedding],
                 n_results=TOP_K,
-                include=["metadatas", "distances"] # documents 字段通常和 rag_text 重复，可以不取
+                include=["metadatas", "distances"]
             )
 
             query_specific_results = {}
             metas = results.get("metadatas", [[]])[0]
             if not metas:
-                print(f"查询 '{query_text[:50]}...' 没有返回结果。")
+                print(f"No results for query: '{query_text[:50]}...'")
                 continue
 
             for idx, meta in enumerate(metas, start=1):
@@ -130,7 +125,7 @@ def query_and_export(queries, output_base_dir):
                     doc_id = f"{base_id}_{suffix}"
                     suffix += 1
 
-                # 这里的 parse_list_field 现在会正确处理JSON字符串
+                # Use updated parser for all metadata fields
                 query_specific_results[doc_id] = {
                     "QUESTION": meta.get("question", ""),
                     "CONTEXTS": parse_list_field(meta.get("contexts"), field_name="contexts"),
@@ -143,10 +138,8 @@ def query_and_export(queries, output_base_dir):
                     "LONG_ANSWER": meta.get("long_answer", ""),
                 }
 
-            # === 修改：为当前查询生成并写入独立文件 ===
-            # 新的文件命名规则：query的第一个单词 + "pubmedqaSet.json"
+            # === Save one output file per query ===
             first_word = query_text.split()[0] if query_text else "default_query"
-            # 仍然使用 sanitize_filename 来确保第一个单词不含非法字符
             safe_first_word = sanitize_filename(first_word)
             new_filename = f"{safe_first_word}_PubmedqaSet.json"
             output_file = os.path.join(folder_path, new_filename)
@@ -154,10 +147,10 @@ def query_and_export(queries, output_base_dir):
             with open(output_file, "w", encoding="utf-8") as f:
                 json.dump(query_specific_results, f, ensure_ascii=False, indent=4)
 
-            print(f"  -> 已导出查询结果到 {output_file}")
+            print(f"  -> Exported query results to {output_file}")
 
 # ===============================
-# 主程序
+# Main Script
 # ===============================
 if __name__ == "__main__":
 
@@ -170,4 +163,3 @@ if __name__ == "__main__":
 
     output_base_dir = "Selecteddata"
     query_and_export(queries, output_base_dir)
-

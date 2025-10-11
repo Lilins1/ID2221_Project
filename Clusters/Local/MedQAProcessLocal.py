@@ -7,7 +7,7 @@ from tqdm import tqdm
 import chromadb
 
 # ----------------------
-# 配置参数
+# Configuration
 # ----------------------
 OLLAMA_HOST = "localhost"
 OLLAMA_PORT = 11434
@@ -16,28 +16,24 @@ MODEL_NAME = "embeddinggemma:latest"
 
 CHROMA_HOST = "localhost"
 CHROMA_PORT = 8000
-# CHROMA_COLLECTION = "test_set_medical_qa_rag"
-
-# INPUT_JSON = "../../Data/pubmedqa/test_set.json"
-# OUTPUT_JSON = "embeddedData/test_set_with_embedding.json"
 CHROMA_COLLECTION = "ori_pqau_medical_qa_rag"
 
 INPUT_JSON = "../../Data/pubmedqa/ori_pqau.json"
 OUTPUT_JSON = "embeddedData/ori_pqau_with_embedding.json"
 
 INPUT_JSON_ABS = os.path.abspath(INPUT_JSON)
-print(f"输入文件绝对路径: {INPUT_JSON_ABS}")
+print(f"Input file absolute path: {INPUT_JSON_ABS}")
 
-BATCH_SIZE = 100  # 每处理多少条写一次数据库
+BATCH_SIZE = 100  # Number of documents per batch to write into ChromaDB
 
 # ----------------------
-# 嵌入向量生成函数
+# Embedding Generation
 # ----------------------
 @retry(stop=stop_after_attempt(3), wait=wait_fixed(2))
 def call_ollama_embedding(text: str) -> list:
-    """调用Ollama API生成嵌入向量，带有重试机制"""
+    """Call the Ollama API to generate embeddings, with retry mechanism."""
     if not text or len(text.strip()) < 5:
-        # 如果文本太短或为空，返回空列表，避免不必要的API调用
+        # Skip very short or empty texts to avoid unnecessary API calls
         return []
     try:
         payload = {"model": MODEL_NAME, "prompt": text.strip()}
@@ -52,34 +48,32 @@ def call_ollama_embedding(text: str) -> list:
             result = json.loads(response.read().decode("utf-8"))
         if "embedding" in result:
             return result["embedding"]
-        raise ValueError("Ollama返回结果中无embedding字段")
+        raise ValueError("No 'embedding' field in Ollama response.")
     except Exception as e:
-        # 抛出更具体的异常，便于重试逻辑捕获
-        raise ConnectionError(f"Ollama调用失败: {str(e)}")
+        # Raise explicit error for retry logic
+        raise ConnectionError(f"Ollama call failed: {str(e)}")
 
 # ----------------------
-# 元数据安全处理 (核心修改)
+# Metadata Handling
 # ----------------------
 def safe_metadata_value(value):
     """
-    确保元数据值是ChromaDB支持的类型。
-    对于列表，将其序列化为JSON字符串以保留结构。
+    Ensure that metadata values are compatible with ChromaDB.
+    Lists are serialized as JSON strings to preserve structure.
     """
     if value is None:
-        return ""  # 空值返回空字符串
+        return ""  # Replace None with empty string
     if isinstance(value, list):
-        # === 修改核心 ===
-        # 将列表转换为JSON字符串，而不是用逗号连接
-        # 这样在读取时可以轻松地恢复为列表
+        # Serialize lists into JSON instead of joining with commas
+        # This allows easy reconstruction later
         return json.dumps(value, ensure_ascii=False) if value else "[]"
-    # 其他类型直接转为字符串
     return str(value).strip()
 
 # ----------------------
-# 批量写入ChromaDB的辅助函数
+# Write Batch to ChromaDB
 # ----------------------
 def _write_batch_to_chroma(collection, batch):
-    """将一个批次的数据写入ChromaDB"""
+    """Write a batch of documents into ChromaDB."""
     try:
         metadatas = [{
             "id": doc["doc_id"],
@@ -100,29 +94,29 @@ def _write_batch_to_chroma(collection, batch):
             embeddings=[doc["embedding"] for doc in batch],
             metadatas=metadatas
         )
-        tqdm.write(f"成功写入批次 {batch[0]['doc_id']} - {batch[-1]['doc_id']}，共 {len(batch)} 条")
+        tqdm.write(f"Successfully wrote batch {batch[0]['doc_id']} - {batch[-1]['doc_id']} ({len(batch)} items)")
     except Exception as e:
-        tqdm.write(f"错误：写入批次 {batch[0]['doc_id']} - {batch[-1]['doc_id']} 失败: {e}")
+        tqdm.write(f"Error writing batch {batch[0]['doc_id']} - {batch[-1]['doc_id']}: {e}")
         traceback.print_exc()
 
 # ----------------------
-# 主处理流程
+# Main Processing Function
 # ----------------------
 def process_and_write_to_chroma():
-    """主函数，处理数据并写入ChromaDB"""
+    """Main function to process data and write embeddings into ChromaDB."""
     if not os.path.exists(INPUT_JSON_ABS):
-        raise FileNotFoundError(f"输入文件不存在：{INPUT_JSON_ABS}")
+        raise FileNotFoundError(f"Input file not found: {INPUT_JSON_ABS}")
 
     with open(INPUT_JSON_ABS, 'r', encoding='utf-8') as f:
         raw_data = json.load(f)
 
     total_docs = len(raw_data)
-    print(f"成功读取 {total_docs} 个文档")
+    print(f"Successfully loaded {total_docs} documents")
 
-    # 连接Chroma
+    # Connect to Chroma
     chroma_client = chromadb.HttpClient(host=CHROMA_HOST, port=CHROMA_PORT)
     chroma_client.heartbeat()
-    print("成功连接到Chroma服务")
+    print("Connected to Chroma service successfully")
 
     collection = chroma_client.get_or_create_collection(
         name=CHROMA_COLLECTION,
@@ -133,8 +127,8 @@ def process_and_write_to_chroma():
     success_count = 0
     processed_docs_for_json = []
 
-    # 使用tqdm创建进度条
-    for doc_id, doc_content in tqdm(raw_data.items(), total=total_docs, desc="处理并写入文档"):
+    # Use tqdm progress bar for better visibility
+    for doc_id, doc_content in tqdm(raw_data.items(), total=total_docs, desc="Processing and writing documents"):
         doc = {
             "QUESTION": doc_content.get("QUESTION", ""),
             "CONTEXTS": doc_content.get("CONTEXTS", []),
@@ -147,16 +141,16 @@ def process_and_write_to_chroma():
             "final_decision": doc_content.get("final_decision", "")
         }
 
-        # 准备用于RAG的文本
+        # Construct text for RAG embedding
         rag_text = "\n".join([doc["QUESTION"]] + doc.get("CONTEXTS", []) + [doc["LONG_ANSWER"]]).strip()
 
         try:
             embedding = call_ollama_embedding(rag_text)
             if not embedding:
-                tqdm.write(f"警告：文档 {doc_id} 的文本过短或无效，无法生成嵌入向量，已跳过。")
+                tqdm.write(f"Warning: Document {doc_id} is too short or invalid, skipped.")
                 continue
         except Exception as e:
-            tqdm.write(f"错误：文档 {doc_id} 嵌入生成失败 - {str(e)}，已跳过。")
+            tqdm.write(f"Error: Failed to generate embedding for document {doc_id} - {str(e)}. Skipped.")
             continue
 
         processed_doc = {
@@ -167,36 +161,34 @@ def process_and_write_to_chroma():
         }
 
         batch_docs.append(processed_doc)
-        # 只有成功处理的文档才会被添加到最终的JSON文件中
-        processed_docs_for_json.append(processed_doc)
+        processed_docs_for_json.append(processed_doc)  # Only add successfully processed docs
 
-        # 批量写入
+        # Write in batches
         if len(batch_docs) >= BATCH_SIZE:
             _write_batch_to_chroma(collection, batch_docs)
             success_count += len(batch_docs)
             batch_docs = []
 
-    # 写入最后不足一个批次的文档
+    # Write remaining documents
     if batch_docs:
         _write_batch_to_chroma(collection, batch_docs)
         success_count += len(batch_docs)
 
-    print(f"\n全部写入完成，共成功写入 {success_count}/{total_docs} 条数据到ChromaDB")
+    print(f"\nAll data written. Successfully inserted {success_count}/{total_docs} documents into ChromaDB.")
 
-    # 保存包含嵌入向量的JSON文件
+    # Save processed data with embeddings to JSON
     os.makedirs(os.path.dirname(OUTPUT_JSON), exist_ok=True)
     with open(OUTPUT_JSON, 'w', encoding='utf-8') as f:
-        # 为了方便阅读，将结果保存为一个字典，key是doc_id
         final_json_output = {item['doc_id']: item for item in processed_docs_for_json}
         json.dump(final_json_output, f, ensure_ascii=False, indent=2)
-    print(f"已保存处理结果到：{OUTPUT_JSON}")
+    print(f"Saved processed results to: {OUTPUT_JSON}")
 
 # ----------------------
-# 程序入口
+# Entry Point
 # ----------------------
 if __name__ == "__main__":
     try:
         process_and_write_to_chroma()
     except Exception as e:
-        print(f"主流程发生严重错误：{str(e)}")
+        print(f"Critical error in main process: {str(e)}")
         traceback.print_exc()

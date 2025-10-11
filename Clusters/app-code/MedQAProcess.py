@@ -7,7 +7,7 @@ import asyncio
 import aiohttp
 
 # ----------------------
-# 配置参数
+# config
 # ----------------------
 OLLAMA_HOST = "host.docker.internal"
 OLLAMA_PORT = 11434
@@ -21,10 +21,10 @@ HDFS_INPUT_PATH = "hdfs://namenode:9000/id2221/MedevalRaw/test_set.json"
 # CHROMA_COLLECTION = "ori_pqau_medical_qa_rag"
 # HDFS_OUTPUT_PATH = "hdfs://namenode:9000/id2221/MedevalProcessed/ori_pqau_with_embedding"
 # HDFS_INPUT_PATH = "hdfs://namenode:9000/id2221/MedevalRaw/ori_pqau.json"
-PARTITION_NUM = 2500  # 大文件可以适当增加分区数
+PARTITION_NUM = 2500  
 
 # ----------------------
-# 初始化 Spark
+# init Spark
 # ----------------------
 spark = SparkSession.builder \
     .appName("Async-Embedding-Chroma-HDFS") \
@@ -36,7 +36,7 @@ spark = SparkSession.builder \
     .getOrCreate()
 
 # ----------------------
-# 异步 Ollama API
+# asysnic Ollama API
 # ----------------------
 async def fetch_embedding(session, text):
     if not text or len(text.strip()) < 5:
@@ -52,7 +52,7 @@ async def fetch_embeddings_batch(texts):
         return await asyncio.gather(*tasks)
 
 # ----------------------
-# 数据读取与解析
+# data reading and parsing
 # ----------------------
 def read_large_json():
     raw_df = spark.read.option("multiLine", "true").option("inferSchema", "false").json(HDFS_INPUT_PATH)
@@ -100,7 +100,7 @@ def read_large_json():
     return spark.createDataFrame(doc_rdd, schema=target_schema).repartition(PARTITION_NUM)
 
 # ----------------------
-# 安全元数据处理
+# data processing helpers
 # ----------------------
 def safe_metadata_value(value):
     if value is None:
@@ -110,7 +110,7 @@ def safe_metadata_value(value):
     return str(value)
 
 # ----------------------
-# 分批处理函数
+# function to process each batch
 # ----------------------
 def process_batch(batch, add_with_retry):
     texts = [row.rag_text for row in batch]
@@ -140,13 +140,13 @@ def process_batch(batch, add_with_retry):
         )
     except Exception:
         import traceback
-        print(f"Chroma写入失败: {traceback.format_exc()}")
+        print(f"Chroma fail: {traceback.format_exc()}")
 
     for row_obj, embed in zip(batch, embeddings):
         yield Row(**row_obj.asDict(), embedding=embed)
 
 # ----------------------
-# 逐条处理 partition
+#  partition
 # ----------------------
 def process_partition(partition):
     import chromadb
@@ -172,7 +172,7 @@ def process_partition(partition):
         yield from process_batch(batch, add_with_retry)
 
 # ----------------------
-# 主流程
+# main process
 # ----------------------
 try:
     parsed_df = read_large_json()
@@ -191,9 +191,9 @@ try:
 
     # 写 HDFS
     df_with_embedding.write.mode("overwrite").option("maxRecordsPerFile", 1000).json(HDFS_OUTPUT_PATH)
-    print(f"已保存到 HDFS: {HDFS_OUTPUT_PATH}")
+    print(f"saved HDFS: {HDFS_OUTPUT_PATH}")
 
 except Exception as e:
-    print(f"处理失败: {str(e)}")
+    print(f"fail: {str(e)}")
 finally:
     spark.stop()

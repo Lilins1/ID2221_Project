@@ -1,48 +1,98 @@
+#  MedPubQA Distributed RAG Platform
 
+##  Overview
 
-第 2 步：准备最终的 Spark 脚本
-我们已经将所有修正和增强功能整合到了 Canvas 中的 process_xml_to_json.py 脚本中。
+This project builds a **distributed storage and computation platform** for creating a **medical question-answering RAG (Retrieval-Augmented Generation)** dataset based on the **MedPubQA** database.
 
-脚本位置: 确保该脚本位于您本地的 ./app-code 文件夹中。
+The distributed cluster integrates:
 
-关键功能:
+- **HDFS** → Distributed medical QA data storage  
+- **Apache Spark** → Distributed computation and preprocessing  
+- **Ollama (Docker)** → Medical content embedding generation  
+- **Redis + Chroma** → RAG embedding index and similarity search  
 
-健壮的字段提取: 能正确处理包含特殊字符（如 -）的字段名。
+This system is designed to support **data filtering and selection** for **Mixture-of-Experts (MoE) LLM models**, especially during **progressive pruning** and evaluation stages.
 
-智能的正文处理: 能够处理复杂的段落标签，避免因数据类型不一致导致的错误。
+---
 
-优化的分类逻辑: 能处理类别名称中可能出现的 [] 字符，并将其正确转换为目录名。
+## System Architecture
 
-第 3 步：执行完整、正确的 spark-submit 命令
-有了正确的环境和脚本，现在我们可以使用最终的命令来提交任务。
+```plaintext
++-------------------+
+|     Ollama API    |  ← Embedding generation
++-------------------+
+          ↓
++-------------------+
+|      Spark        |  ← Distributed computation
++-------------------+
+          ↓
++-------------------+
+|       HDFS        |  ← Distributed storage
++-------------------+
+          ↓
++-------------------+
+| Redis / Chroma DB |  ← Vector index + retrieval
++-------------------+
 
-在您的本地电脑终端（PowerShell 或 Bash），运行以下命令：
+## Setup and Usage
 
-docker exec spark-cluster spark-submit \
-  --packages com.databricks:spark-xml_2.12:0.17.0 \
-  --conf "spark.ivy.home=/tmp" \
-  /opt/spark/app/process_xml_to_json.py
+### **Step 1 — Start the Cluster**
 
-命令解释:
+Use the following Docker Compose file to build and start all components (except **Ollama**):
 
---packages ...: 加载 Spark 解析 XML 所需的外部依赖包。
+```bash
+docker-compose -f Clusters/docker-compose.yml up -d
+This starts:
 
---conf "spark.ivy.home=/tmp": 这是一个重要的安全措施。它强制 Spark 将下载的依赖包缓存到容器内的 /tmp 目录，彻底杜绝了任何可能因主目录不明确而引发的路径错误。
+🗄️ HDFS (NameNode + DataNodes)
 
-/opt/spark/app/process_xml_to_json.py: 指定要执行的、功能完备的脚本。
+⚡ Redis
 
-第 4 步：验证结果
-任务成功完成后，您可以按照以下步骤验证输出的 JSON 文件。
+🧩 Chroma vector database
 
-进入 Spark 容器：
+🔥 Spark master node
 
-docker exec -it spark-cluster bash
+All ports are already pre-configured in docker-compose.yml.
 
-查看 HDFS 上按类别生成的目录：
+Step 2 — Upload Medical QA Data
+Upload your medical QA dataset to HDFS using the NameNode Web UI or command line:
 
-hdfs dfs -ls /id2221/processed_json
+hdfs dfs -put ./data/test_set.json /id2221/MedevalRaw/
+Step 3 — Preprocess Raw Data
+Run the following script on Spark to parse and convert the raw data (e.g., XML → JSON):
 
-查看其中一个 JSON 文件的内容来验证其结构和数据：
+spark-submit Clusters/app-code/process_xml_to_json.py
+This creates a structured JSON dataset stored in HDFS.
 
-# 注意：路径和文件名需要替换成您实际看到的
-hdfs dfs -cat /id2221/processed_json/category_partition=editorial/part-....json
+Step 4 — Generate RAG Embeddings
+Run the main processing script to compute and store embeddings:
+
+spark-submit Clusters/app-code/MedQAProcess.py
+This step:
+
+Calls the Ollama API to generate embeddings
+
+Stores embeddings and metadata in Chroma
+
+Saves the processed data back into HDFS
+
+Step 5 — Query RAG Data
+Ensure Chroma is running properly, then query stored RAG data using:
+
+python Clusters/Local/chromaSearchContext.py
+This script searches the RAG index and returns the most relevant medical QA entries.
+
+Step 6 — Batch Query and Export Results
+To perform batch queries and export the complete QA content as JSON:
+
+python Clusters/Local/GetQAjsonChroma.py
+The resulting file will include both the questions and full answers retrieved from Chroma.
+
+Maintenance and Utilities
+Delete a Chroma Collection
+If you need to delete an existing RAG vector database:
+
+python Clusters/Local/deletecollection.py
+Local Processing Script
+Clusters/Local/MedQAProcessLocal.py
+is a local utility for interacting with HDFS, Chroma, Redis, and Spark directly — useful for debugging or standalone testing.
