@@ -2,7 +2,7 @@
 
 ##  Overview
 
-This project builds a **distributed storage and computation platform** for creating a **medical question-answering RAG (Retrieval-Augmented Generation)** dataset based on the **MedPubQA** database.
+This project builds a **distributed storage and computation platform** for creating a **medical question-answering RAG (Retrieval-Augmented Generation)** dataset based on the **PubMedQA** database, link: https://pubmedqa.github.io/.
 
 The distributed cluster integrates:
 
