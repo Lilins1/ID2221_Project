@@ -33,6 +33,7 @@ This system is designed to support **data filtering and selection** for **Mixtur
 +-------------------+
 | Redis / Chroma DB |  ← Vector index + retrieval
 +-------------------+
+```
 
 ## Setup and Usage
 
